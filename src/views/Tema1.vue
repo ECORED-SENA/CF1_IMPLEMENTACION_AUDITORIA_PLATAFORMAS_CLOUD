@@ -1,0 +1,1032 @@
+<template lang="pug">
+.curso-main-container.pb-3
+  BannerInterno
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero
+        span 1
+      h1  Fundamentos de los servicios de TI en la Nube
+
+    .row.align-items-center.fondo-18.mb-5
+      .col-12.col-md-8.col-lg-4.col-xl-4
+        img.my-2(src="@/assets/curso/images/tema1/img_1.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem -5rem;")
+      .col-12.col-md-4.col-lg-8.col-xl-8.mb-3
+         p.text-white La nube o cloud computing, es una de las soluciones tecnológicas de servicio más completa, pues, ofrece una alternativa informática basada en internet por medio de un intercambio de servicios. Este servicio en la nube se ha extendido a todos los sectores, tanto en empresas como en usuarios individuales.
+    
+    Separador 
+
+    #t_1_1.titulo-segundo
+      .h4 1.1 Relación de aspecto (Aspect ratio)
+
+    .col-lg-10.mx-auto.mb-5
+      .tarjeta.fcs
+        .row.p-2
+          .col-lg-2 
+           img.my-5(src='@/assets/curso/images/tema1/ico_1.svg' alt='' , style="width:100px; display:block; margin:0 auto;")
+          .col-lg-10
+            img(src='@/assets/curso/images/tema1/comillasCAC.svg' alt='Cita' style='width:65px;margin-top:0').ms-3.mb-4
+            p <i>“La computación en la nube es el modelo que permite el acceso a una red bajo demanda de un conjunto de servicios informáticos configurables tales como infraestructura, aplicaciones y almacenamiento.”</i>
+            .floatRight
+              h6  Del Vecchio, J. F., Paternina, F. J., & Henriquez Miranda, C. (2015) 
+                i.fas.fa-square.cac
+            .p-3
+    
+    p.mb-3 Este tipo de tecnología durante los últimos años ha permitido que las empresas logren tener presencia corporativa en la web y, la adquisición de recursos tecnológicos informáticos en una inversión económica muy cómoda o razonable a manera de pago por servicios, sin la necesidad de adquirir físicamente equipos o infraestructura como antes era requerido por parte de las organizaciones, administración y mantenimiento, como se detalla a continuación:
+
+    .row.justify-content-center.align-items-center.fondo-2
+      .col-lg-12 
+        ImagenInfografica.color-secundario
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/images/tema1/infogra.svg' alt='' , style="width:800px; display:block; margin:0 auto;")
+
+          .tarjeta.color-primario.p-3(x="13%" y="50%" numero="")
+            img(src='@/assets/curso/images/tema1/img_info_1.svg' alt='' , style="width:400px; display:block; margin:0 auto;")
+
+          .tarjeta.color-acento-botones.p-3(x="32%" y="50%" numero="")
+            img(src='@/assets/curso/images/tema1/img_info_2.svg' alt='' , style="width:400px; display:block; margin:0 auto;")
+
+          .tarjeta.color-primario.p-3(x="52%" y="50%" numero="")
+            img(src='@/assets/curso/images/tema1/img_info_3.svg' alt='' , style="width:400px; display:block; margin:0 auto;")
+
+          .tarjeta.color-acento-botones.p-3(x="71%" y="50%" numero="")
+            img(src='@/assets/curso/images/tema1/img_info_4.svg' alt='' , style="width:400px; display:block; margin:0 auto;")
+  
+      .col-lg-12 
+        img(src='@/assets/curso/images/tema1/img_2.png' alt='' , style="width:1000px; display:block; margin:0 auto;")
+
+
+    #menu1.row.g-0.justify-content-center.mb-5
+      .col-auto.mb-4
+        a(href="#1", title="title") 
+          figure
+            img(src='@/assets/curso/images/tema1/ico_6.svg' alt='1')
+          .indicador--click(v-if="mostrarIndicador")
+      .col-auto.mb-4
+        a(href="#2", title="title") 
+          figure
+            img(src='@/assets/curso/images/tema1/ico_7.svg' alt='1')
+          .indicador--click(v-if="mostrarIndicador")      
+      .col-auto.mb-4
+        a(href="#3", title="title") 
+          figure
+            img(src='@/assets/curso/images/tema1/ico_8.svg' alt='1')
+          .indicador--click(v-if="mostrarIndicador")  
+      .col-auto.mb-4
+        a(href="#4", title="title") 
+          figure
+            img(src='@/assets/curso/images/tema1/ico_9.svg' alt='1')
+          .indicador--click(v-if="mostrarIndicador")  
+      .col-auto.mb-4
+        a(href="#5", title="title") 
+          figure
+            img(src='@/assets/curso/images/tema1/ico_10.svg' alt='1')
+          .indicador--click(v-if="mostrarIndicador")  
+      .col-auto.mb-4
+        a(href="#6", title="title") 
+          figure
+            img(src='@/assets/curso/images/tema1/ico_11.svg' alt='1')
+          .indicador--click(v-if="mostrarIndicador")  
+      .col-auto.mb-4
+        a(href="#7", title="title") 
+          figure
+            img(src='@/assets/curso/images/tema1/ico_12.svg' alt='1')
+          .indicador--click(v-if="mostrarIndicador")  
+
+      .pRelative
+        .backtoTop
+          a(href="#menu1", title="title") 
+            img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
+    
+      #1.row.mb-5.ps-2
+        .col-8.col-lg-2.bg-color
+          h3.mb-0.text-white Redes de datos
+        
+    br
+    .row.justify-content-center.align-items-center.fondo-3
+      .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
+        img.my-3(src="@/assets/curso/images/tema1/img_3.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem 3rem;")
+      .col-12.col-md-4.col-lg-6.col-xl-7.mb-3
+        p Las redes de datos tienen por función potenciar e incrementar la productividad de las organizaciones al permitir que todos los dispositivos que se encuentran conectados puedan acceder a los recursos que se encuentran compartidos, en los últimos años la tecnología ha entrado a jugar un papel preponderante en el desarrollo y evolución de las organizaciones cada vez está más inmersa en todos los procesos y actividades empresariales, personales y cotidianas.
+        .cajon.color-custom.p-4.mt-5
+            p.mb-0 En este componente se abordarán los temas de conceptualización y clasificación de unidades productivas, la legislación comercial vigente y los tipos de sociedades según la normativa, como elementos conceptuales importantes para la formalización empresarial de unidades productivas. 
+    .row.justify-content-center
+      .col-lg-2.col-md-4.mb-4
+        img(src='@/assets/curso/images/tema1/ico_13.svg' alt='')
+      .col-lg-2.col-md-4.mb-4
+        img(src='@/assets/curso/images/tema1/ico_14.svg' alt='')
+      .col-lg-2.col-md-4.mb-4
+        img(src='@/assets/curso/images/tema1/ico_15.svg' alt='')
+      .col-lg-2.col-md-4.mb-4
+        img(src='@/assets/curso/images/tema1/ico_16.svg' alt='')
+      .col-lg-2.col-md-4.mb-4
+        img(src='@/assets/curso/images/tema1/ico_17.svg' alt='')
+    hr
+
+    .pRelative
+      .backtoTop
+        a(href="#menu1", title="title") 
+          img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
+      
+
+      #2.row.mb-5.ps-2
+          .col-8.col-lg-2.bg-color
+            h3.mb-0.text-white Redes de datos
+
+      p Al inicio del desarrollo de la tecnología y más propiamente de la computación, los diferentes fabricantes construían sus equipos y dispositivos para que fueran compatibles con dispositivos de sus propias marcas lo que no facilitaba la interconexión de equipos y dispositivos de fabricantes distintos.
+    .row.justify-content-center.align-items-center
+      .col-12.col-md-8.col-lg-8.col-xl-8.mb-4 
+        LineaTiempoD.color-acento-contenido
+            p.text-small.color.line(numero="1" titulo="ISO (Organización Internacional de Normas)") ISO definió un modelo de referencia como estándar para posibilitar las comunicaciones electrónicas a nivel global, conocido como el modelo OSI (Interconexión de Sistemas Abiertos).
+
+            p.text-small(numero="2" titulo="IEEE (Instituto de ingenieros electrónicos y eléctricos)") Este organismo es encargado de fijar los estándares para los elementos físicos de una red, cables, conectores e interfaces.servicios. 
+            
+            p.text-small(numero="3" titulo="ANSI (Instituto Nacional Americano de Normalización)") Es una organización sin fines de lucro que supervisa el desarrollo de estándares para productos, servicios, procesos y sistemas en los Estados Unidos.
+
+            p.text-small(numero="4" titulo="EIA (Asociación de Industrias Electrónicas)") Es una organización formada por la asociación de las compañías electrónicas y de alta tecnología de los Estados Unidos, cuya misión es promover el desarrollo de mercado y la competitividad de la industria de alta tecnología de los Estados Unidos con esfuerzos locales e internacionales de la política. 
+
+            p.text-small(numero="5" titulo="TIA (Asociación de Industrias Telecomunicaciones)") Es una asociación comercial acreditada por el Instituto Nacional Estadounidense de Estándares (ANSI), con el fin de desarrollar normas industriales, tanto voluntarias como basadas en el consenso, sobre una amplia variedad de productos de las tecnologías de la información y la comunicación (TIC), y actualmente representa a casi 400 empresas. El Departamento de Estándares y Tecnología de TIA opera doce comités de ingeniería, que desarrollan pautas para equipos de radio privados, antenas celulares, terminales de datos, satélites, equipos de terminales telefónicos, accesibilidad, dispositivos VoIP, cableado estructurado, centros de procesamiento de datos, comunicaciones de dispositivos móviles, multidifusión multimedia, telemática vehicular, TIC utilizadas en el cuidado de la salud, comunicaciones M2M y redes de servicios inteligentes.
+            
+            p.text-small(numero="6" titulo="ANSI (Instituto Nacional Americano de Normalización)") La Unión Internacional de Telecomunicaciones es el organismo especializado en telecomunicaciones de la Organización de las Naciones Unidas, encargado de regular las telecomunicaciones a nivel internacional entre las distintas administraciones y empresas operadoras. Su sede se encuentra en la ciudad de Ginebra.
+        
+      .col-12.col-md-4.col-lg-4.col-xl-4.mb-5
+        img(src="@/assets/curso/images/tema1/img_4.png" alt="AvatarTop", style="width:300px; display:block; margin:auto 0;")
+   
+    .col-lg-12.mx-auto.mb-5
+      .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+        .row.m-0.align-items-center.justify-content-between
+          .col-lg-4.mb-4.mb-lg-0
+            figure
+              img(src='@/assets/curso/images/tema1/img_5.png' alt='')
+          .col-lg-8
+            .bloque-texto-a__texto.p-4
+              p.mb-0 Los modelos de referencia se basan en la definición de una serie de capas las cuales tienen cada una sus propias funciones y características que se encargan de resolver un problema diferente en la comunicación, tienen como propósito asistir en la comprensión más clara y sencilla de las funciones y los procesos involucrados en la interconexión de los diferentes dispositivos de red, para ello se establecen una serie de capas con un orden específico y cada una se sustenta en la capa anterior, y más que entrar en los detalles de las especificaciones técnicas requeridas en cada una de ellas, el modelo de referencia ayuda en la comprensión de lo que sucede, ayudándonos a lograr un mejor entendimiento de las funciones y procesos involucrados.
+
+    p El modelo de referencia para las redes de comunicaciones es el modelo OSI -Interconexión de Sistemas Abiertos, el cual se explica a continuación, veamos:
+
+    .row.justify-content-center.align-items-center.fondo-2.mb-3
+      .col-12.col-md-8.col-lg-8.col-xl-8.mb-4 
+        ImagenInfografica.color-secundario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/images/tema1/img_6.svg' alt='' , style="width:400px; display:block; margin:0 auto;")
+
+          .tarjeta(x="50%" y="12%" numero="")
+            img(src='@/assets/curso/images/tema1/img_info_6_1.svg' alt='' , style="width:400px; display:block; margin:0 auto;")
+
+          .tarjeta(x="50%" y="25%" numero="")
+            img(src='@/assets/curso/images/tema1/img_info_7_1.svg' alt='' , style="width:800px; display:block; margin:0 auto;")
+
+          .tarjeta(x="50%" y="37%" numero="")
+            img(src='@/assets/curso/images/tema1/img_info_8_1.svg' alt='' , style="width:400px; display:block; margin:0 auto;")
+
+          .tarjeta(x="50%" y="48%" numero="")
+            img(src='@/assets/curso/images/tema1/img_info_9_1.svg' alt='' , style="width:400px; display:block; margin:0 auto;")
+
+          .tarjeta(x="50%" y="60%" numero="")
+            img(src='@/assets/curso/images/tema1/img_info_10_1.svg' alt='' , style="width:500px; display:block; margin:0 auto;")
+
+          .tarjeta(x="50%" y="75%" numero="")
+            img(src='@/assets/curso/images/tema1/img_info_11_1.svg' alt='' , style="width:400px; display:block; margin:0 auto;")
+
+          .tarjeta(x="50%" y="91%" numero="")
+            img(src='@/assets/curso/images/tema1/img_info_12_1.svg' alt='' , style="width:400px; display:block; margin:0 auto;")
+        
+      .col-12.col-md-4.col-lg-4.col-xl-4.mb-5
+        img(src="@/assets/curso/images/tema1/img_7.svg" alt="AvatarTop", style="width:200px; display:block; margin:auto 0;")
+
+    p Para que los paquetes de datos puedan viajar desde el origen hasta su destino, cada capa del modelo OSI en el origen debe comunicarse con su capa igual en el lugar destino. Esta forma de comunicación se conoce como comunicaciones de par-a-par en cada uno de estas capas la información cambia de nombre es decir usa un PDU (Protocol Data Unit).
+
+    .row.justify-content-center
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 1 
+          span Unidades de datos de protocolo por capa
+
+        .tabla-a.color-acento-botones.mb-5 
+          table(style="min-width:600px;")
+            thead
+              tr
+                th.text-center <b>apa Número</b>
+                th.text-center <b>Nombre de Capa</b>
+                th.text-center <b>PDU</b>
+            tbody
+              tr
+                td.text-center 7
+                td.text-center Aplicación
+                td.text-center Bits
+              tr
+                td.text-center.tp 6
+                td.text-center.tp Presentación
+                td.text-center.tp Tramas
+              tr
+                td.text-center  5
+                td.text-center Sesión
+                td.text-center Paquetes
+              tr
+                td.text-center.tp 4
+                td.text-center.tp Transporte
+                td.text-center.tp Segmentos
+              tr
+                td.text-center 3
+                td.text-center Red
+                td.text-center Datos
+              tr
+                td.text-center.tp 2
+                td.text-center.tp Enlace de Datos
+                td.text-center.tp Datos
+              tr
+                td.text-center 1
+                td.text-center Física
+                td.text-center Datos
+
+    .row.justify-content-center.align-items-center
+      .col-lg-10.mb-4
+        .cajon.color-custom.p-4
+          p.mb-0 El modelo OSI es el modelo de referencia de internetwork más conocido. Es utilizado para el diseño de redes de datos, especificaciones de funcionamiento y la resolución de problemas ya que permite ir descartando en cada capa el posible problema. 
+              
+    hr
+
+    .pRelative
+      .backtoTop
+        a(href="#menu1", title="title") 
+          img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
+      
+      #3.row.mb-5.ps-2
+          .col-8.col-lg-4.bg-color
+            h3.mb-0.text-white Modelo de referencia TCP /IP
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
+          img.my-3(src="@/assets/curso/images/tema1/img_8.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem 3rem;")
+        .col-12.col-md-4.col-lg-6.col-xl-7.my-3
+          p Fue el primer modelo de protocolo en capas para comunicaciones de red. Fue desarrollado a principios de la década de los 70 por el departamento de defensa de los EEUU, y se conoce con el nombre de modelo de Internet, su objetivo fue el de crear una red de comunicaciones que funcionara incluso en condiciones de guerra.
+          .cajon.color-custom.p-4.mt-5
+            p.mb-3 Aunque el modelo OSI es universalmente reconocido, el estándar histórica y técnicamente reconocido para Internet es el modelo TCP/IP (Protocolo de Control de Transferencia / Protocolo de Internet).
+
+            p Define cuatro categorías de funciones que deben existir para que las comunicaciones sean exitosas. La arquitectura de la suite de protocolos TCP/IP sigue la estructura de este modelo. Por esto, es común que al modelo de Internet se le conozca como modelo TCP/IP.
+    
+    p.mb-5 El modelo consta de cuatro capas como se observa en la figura a continuación:
+    
+    .row.justify-content-center
+      .col-lg-6
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 1 
+          span  Modelo de referencia TCP/IP
+    .row.justify-content-center
+      .col-lg-6.mb-4
+          img(src="@/assets/curso/images/tema1/fig_1.svg" alt="AvatarTop", style="width:600px; display:block; margin:auto 0;")
+
+    hr 
+
+    .pRelative
+      .backtoTop
+        a(href="#menu1", title="title") 
+          img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
+
+    #4.row.mb-5.ps-2
+      .col-8.col-lg-4.bg-color
+        h3.mb-0.text-white Protocolos de comunicación
+
+      p Las comunicaciones en general requieren de una serie de elementos y actores que intervienen dentro de los cuales podemos encontrar:
+
+    .row.justify-content-center.align-items-center.fondo-2
+        .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
+          img(src="@/assets/curso/images/tema1/img_9.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem 3rem;")
+        .col-12.col-md-4.col-lg-6.col-xl-7.my-3
+          SlyderF(columnas="col-12")
+            .tarjeta.tarjeta--blanca.boxShadow.p-5
+              .row.justify-content-center.mb-3
+                .col
+                  img(src='@/assets/curso/images/tema1/ico_18.svg' alt='imagen relacionada' style='width:105px').mx-auto
+              h3.text-center.mb-3  Emisor
+              p.text-center Origen del mensaje (personas y/o dispositivos).
+            .tarjeta.tarjeta--blanca.boxShadow.p-5
+              .row.justify-content-center.mb-3
+                .col
+                  img(src='@/assets/curso/images/tema1/ico_19.svg' alt='imagen relacionada' style='width:105px').mx-auto
+              h3.text-center.mb-3  Destino
+              p.text-center Receptor del mensaje (personas y/o dispositivos).
+            .tarjeta.tarjeta--blanca.boxShadow.p-5
+              .row.justify-content-center.mb-3
+                .col
+                  img(src='@/assets/curso/images/tema1/ico_20.svg' alt='imagen relacionada' style='width:105px').mx-auto
+              h3.text-center.mb-3  Canal
+              p.text-center Medios por los que el mensaje viaja.
+            .tarjeta.tarjeta--blanca.boxShadow.p-5
+              .row.justify-content-center.mb-3
+                .col
+                  img(src='@/assets/curso/images/tema1/ico_21.svg' alt='imagen relacionada' style='width:105px').mx-auto
+              h3.text-center.mb-3  Código
+              p.text-center Lenguaje utilizado para formar el mensaje.
+            .tarjeta.tarjeta--blanca.boxShadow.p-5
+              .row.justify-content-center.mb-3
+                .col
+                  img(src='@/assets/curso/images/tema1/ico_22.svg' alt='imagen relacionada' style='width:105px').mx-auto
+              h3.mb-3.text-center Mensaje
+              p.text-center Elemento a transmitir.
+
+          .cajon.color-custom.p-4.mt-5
+            p.mb-3 Como se evidencia en la figura, toda comunicación requiere contar con un emisor un mensaje a enviar y un código que permite que el mensaje viaje por un canal, para que ambos actores puedan interactuar requieren contar con un código o lenguaje común, que permita que puedan entenderse, ese estándar o lenguaje común es lo que conocemos como un protocolo de comunicaciones, el cual es un conjunto de normas que están obligadas a cumplir todos los dispositivos, hardware y software que intervienen en una comunicación de datos entre computadoras y demás dispositivos, sin estas reglas o estándares la comunicación resultaría caótica y por tanto imposible.
+
+    .col-lg-12.mx-auto.mb-5
+      .bloque-texto-a.color-custom-1.p-4.p-md-5.mb-5 
+        .row.m-0.align-items-center.justify-content-between
+          .col-lg-8
+            .bloque-texto-a__texto.p-4
+              p.mb-0 Dependiendo de los servicios a los cuales accedemos a través de las redes de computadores será el protocolo de comunicación que se deberá emplear en la comunicación entre el usuario que solicita y accede al servicio y el dispositivo quien se lo entrega, en general en la transmisión y recepción de los datos podemos encontrar dos grandes familias de protocolos que se resumen en:
+          .col-lg-4.mb-4.mb-lg-0
+            figure
+              img(src='@/assets/curso/images/tema1/img_10.png' alt='')
+    
+    .row.justify-content-center
+      .col-lg-12.d-none.d-lg-block.mb-4
+        #carouselExampleIndicators.carousel.slide(data-bs-ride='carousel')
+          .carousel-indicators
+            button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
+            button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
+          .carousel-inner
+            .carousel-item.active
+              figure
+                img(src='@/assets/curso/images/tema1/img_slyder_pro_1.png', alt='Texto que describa la imagen')
+              
+            .carousel-item
+              figure
+                img(src='@/assets/curso/images/tema1/img_slyder_pro_2.png', alt='Texto que describa la imagen')
+          button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
+            span.carousel-control-prev-icon(aria-hidden='true')
+            span.visually-hidden Previous
+          button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
+            span.carousel-control-next-icon(aria-hidden='true')
+            span.visually-hidden Next
+
+    .row.justify-content-center
+      .col-lg-12.d-block.d-lg-none.mb-4
+        img(src="@/assets/curso/images/tema1/protocolos_movil_1.png" alt="AvatarTop")
+
+    p.mb-3 En la figura que se encuentra a continuación, se evidencian algunos ejemplos de los protocolos que son usados en los servicios que normalmente utilizamos en la comunicación entre las redes de datos.
+
+    .row.justify-content-center
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 2.
+          span Ejemplo de protocolos
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-8.col-lg-6.col-xl-6
+        img(src="@/assets/curso/images/tema1/fig_2.svg" alt="AvatarTop", style="width:470px; display:block; margin:auto 0;")
+      .col-12.col-md-4.col-lg-6.col-xl-6
+        p.mb-3 Suite de protocolos según el modelo de referencia.
+        img(src="@/assets/curso/images/tema1/fig_2_1.svg" alt="AvatarTop", style="width:470px; display:block; margin:auto 0;")
+
+    hr 
+
+    .pRelative
+      .backtoTop
+        a(href="#menu1", title="title") 
+          img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
+      
+    #5.row.mb-5.ps-2
+        .col-8.col-lg-3.bg-color
+          h3.mb-0.text-white Puertos de comunicación
+
+    p Un puerto de comunicaciones es una interfaz a través de la cual los diferentes dispositivos que intervienen en una comunicación de red pueden enviar y recibir diferentes tipos de datos, los puertos pueden ser de tipo físico (hardware) o lógicos (software), a continuación, se ofrece una breve explicación al respecto:
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-10.col-xl-10.mb-5
+         ImagenInfografica.color-secundario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src="@/assets/curso/images/tema1/img_12.svg" alt="AvatarTop", style="width:800px; display:block; margin:auto 0;")
+
+          .tarjeta(x="50%" y="68%" numero="")
+            img(src='@/assets/curso/images/tema1/img_13.svg' alt='' , style="width:500px; display:block; margin:0 auto;")
+
+          .tarjeta(x="80%" y="68%" numero="")
+            img(src='@/assets/curso/images/tema1/img_14.svg' alt='' , style="width:500px; display:block; margin:0 auto;")
+          
+
+    .row.justify-content-center.align-items-center
+      .col-lg-10.mb-4
+        .cajon.color-custom.p-4
+          p.mb-0 Para que se establezca una comunicación entre un origen y un destino se requiere entonces que tanto el emisor como el receptor utilicen el mismo protocolo de comunicaciones, pero además se requiere de un puerto de comunicación que facilite que los datos enviados desde el origen vayan por un canal exclusivo.
+
+    hr 
+    .pRelative
+      .backtoTop
+        a(href="#menu1", title="title") 
+          img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
+      
+    #6.row.mb-5.ps-2
+        .col-8.col-lg-3.bg-color
+          h3.mb-0.text-white Medios de transmisión
+  
+    .row.justify-content-center.align-items-center.mb-5.fondo-3
+      .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
+        img.my-3(src="@/assets/curso/images/tema1/img_15.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem 3rem;")
+      .col-12.col-md-4.col-lg-6.col-xl-7.my-3
+        p Para que la comunicación entre un emisor y un receptor se realice se requiere de un medio que facilite la conexión entre ambos extremos el cual es conocido como el medio de transmisión, este constituye el soporte físico a través del cual emisor y receptor pueden comunicarse en un sistema de transmisión de datos. Los medios de transmisión se pueden categorizar en dos grandes tipos que son los medios guiados y no guiados.
+        .cajon.color-custom.p-4.mt-5
+          p.mb-3 Los medios guiados conducen (guían) las señales a través de un camino físico, tal como se muestra en la figura 3, dentro de los cuales podemos encontrar:
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-12.col-md-8.col-lg-7.col-xl-7.mb-4
+        img(src="@/assets/curso/images/tema1/img_16.svg" alt="AvatarTop")
+      .col-12.col-md-4.col-lg-5.col-xl-5.my-3
+        .row.justify-content-center.align-items-center.mb-3
+          .col-12.col-lg-8.mb-5.mb-lg-0
+            .cajon-b.color-primario.p-3.mb-5
+              p.mb-0  Los medios de transmisión no guiados son aquellos sin cable, transportan ondas electromagnéticas sin usar un conductor físico, sino que se radian a través del aire, por lo que están disponibles para cualquiera que tenga un dispositivo capaz de aceptarlas.
+
+    .row.justify-content-center
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 3.
+          span Medios de transmisión guiados
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-8.col-lg-10.col-xl-10.mb-4
+        img.my-3(src="@/assets/curso/images/tema1/img_17.svg" alt="AvatarTop")
+
+    p.mb-3 Normalmente utilizan el aire como el medio a través del cual viajan las señales en frecuencias electromagnéticas, por lo que generalmente requieren de una antena que permita transmitir y recibir datos de diferentes tipos.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
+        .cajon.color-custom.p-4.mt-5
+          p.mb-3 Dentro de los medios de transmisión no guiados, como se observa en la figura 4, podemos encontrar:
+        img.my-5(src="@/assets/curso/images/tema1/img_18.svg" alt="AvatarTop")
+      .col-12.col-md-4.col-lg-6.col-xl-6.my-3
+        img(src="@/assets/curso/images/tema1/img_19.svg" alt="AvatarTop",style="width:400px; display:block; margin:0 auto;")
+    
+    hr
+
+    .pRelative
+      .backtoTop
+        a(href="#menu1", title="title") 
+          img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
+    
+    #7.row.mb-5
+        .col-8.col-lg-3.bg-color
+          h3.mb-0.text-white Recursos compartidos
+    
+    .row.justify-content-center.align-items-center.fondo-3.mb-5
+      .col-12.col-md-4.col-lg-9.col-xl-9.my-3
+        p.mb-3 Como ya hemos mencionado, las redes de datos facilitan y potencian el trabajo en red entre los diferentes usuarios y dispositivos, de tal manera que se pueda acceder a dispositivos y recursos compartidos, cuando indicamos los recursos, nos referimos a todos esos elementos tanto hardware como software que pueden compartidos y utilizados por los diferentes dispositivos conectados, estos recursos pueden ser desde el punto de vista del hardware:
+        .row.justify-content-center.align-items-center
+          .col.lg-3
+            .tarjeta.tarjeta--blanca.boxShadow.p-5
+              .row.justify-content-center.mb-3
+                .col
+                  img(src='@/assets/curso/images/tema1/img_20.svg' alt='imagen relacionada' style='width:80px').mx-auto
+              h3.text-center.mb-3 Impresora
+          .col.lg-3
+            .tarjeta.tarjeta--blanca.boxShadow.p-5
+              .row.justify-content-center.mb-3
+                .col
+                  img(src='@/assets/curso/images/tema1/img_21.svg' alt='imagen relacionada' style='width:80px').mx-auto
+              h3.text-center.mb-3  Escaner
+          .col.lg-3
+            .tarjeta.tarjeta--blanca.boxShadow.p-5
+              .row.justify-content-center.mb-3
+                .col
+                  img(src='@/assets/curso/images/tema1/img_22.svg' alt='imagen relacionada' style='width:80px').mx-auto
+              h3.text-center.mb-3  Almacenamiento
+      .col-12.col-md-8.col-lg-3.col-xl-3.mb-4
+          img(src="@/assets/curso/images/tema1/img_23.png" alt="AvatarTop" style='width:350px').mx-auto
+      
+      p.mb-5  Desde el punto de vista lógico podemos compartir recursos como:
+      
+      .row.justify-content-center.align-items-center
+        .col.lg-3
+          img(src="@/assets/curso/images/tema1/ico_23.svg" alt="AvatarTop" style='width:350px').mx-auto
+        .col.lg-3
+          img(src="@/assets/curso/images/tema1/ico_24.svg" alt="AvatarTop" style='width:350px').mx-auto
+        .col.lg-3
+          img(src="@/assets/curso/images/tema1/ico_25.svg" alt="AvatarTop" style='width:350px').mx-auto
+        .col.lg-3
+          img(src="@/assets/curso/images/tema1/ico_26.svg" alt="AvatarTop" style='width:350px').mx-auto
+
+    Separador
+
+    #t_1_2.titulo-segundo
+      .h4 1.2 Servicios propietarios
+    
+    .row.align-items-center.fondo-18.mb-5
+      .col-12.col-md-8.col-lg-4.col-xl-4
+        img.my-2(src="@/assets/curso/images/tema1/img_pc.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem -5rem;")
+      .col-12.col-md-4.col-lg-8.col-xl-8.mb-3
+         p.text-white Antes de la llegada de la computación en la nube, los servicios, infraestructura, plataformas y en general los recursos de TI debían ser instalados, configurados y administrados en su totalidad por la empresa lo que conlleva varios inconvenientes entre los cuales se pueden mencionar los siguientes:
+    
+    
+    .row.justify-content-center.align-items-center.fondo-5
+      .col-12.col-md-8.col-lg-8.col-xl-8.mb-4 
+        LineaTiempoD.color-acento-contenido
+            p.text-small.color.line(numero="1" titulo="Paso 1") El almacenamiento de los datos se hace de manera local en dispositivos como discos duros y servidores locales, este trae consigo el problema de que si llegase a fallar el servidor se corre el riesgo de la pérdida de información o perdida de acceso a los servicios.
+
+            p.text-small(numero="2" titulo="Paso 2") La administración de los recursos, que se relaciona con: el suministro de energía, aire acondicionado, sistemas de protección UPS y el mantenimiento preventivo y/o correctivo de los dispositivos, sin mencionar el hecho de que la tecnología en cuanto a infraestructura, va perdiendo su valor y se va devaluando rápidamente debido al constante desarrollo y evolución.
+
+            p.text-small(numero="3" titulo="Paso 3") A nivel de aplicaciones se tiene el inconveniente de tener que administrarse no solo la aplicación si no la plataforma de desarrollo, adicionalmente si se cuenta con aplicaciones no web sino tipo escritorio se obliga a tener que estar actualizando el servidor y los clientes que acceden a estas, una razón más para disponer de aplicaciones como servicio ofrecidas a través de la nube.
+
+            p.text-small(numero="4" titulo="EIA (Asociación de Industrias Electrónicas)") Es una organización formada por la asociación de las compañías electrónicas y de alta tecnología de los Estados Unidos, cuya misión es promover el desarrollo de mercado y la competitividad de la industria de alta tecnología de los Estados Unidos con esfuerzos locales e internacionales de la política. 
+
+            p.text-small(numero="5" titulo="Paso 4") A nivel de conectividad en la mayoría de las ocasiones el acceso a los servicios, aplicaciones y recursos normalmente está restringido a un acceso local, puesto que disponer de estrategias de conexión remotas requiere tener adicionalmente dispositivos de protección perimetral como firewalls y requerirá un nivel adicional de protección y administración desde el punto de vista de la ciberseguridad.
+        
+      .col-12.col-md-4.col-lg-4.col-xl-4.mb-5
+        img(src="@/assets/curso/images/tema1/img_25.png" alt="AvatarTop", style="width:300px; display:block; margin:auto 0;")
+
+    Separador
+
+    #t_1_3.titulo-segundo
+      .h4 1.3 La evolución de la informática en la nube
+
+    .row.justify-content-center.align-items-center.mb-5.fondo-3
+      .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
+        img.my-3(src="@/assets/curso/images/tema1/img_26.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem 3rem;")
+      .col-12.col-md-4.col-lg-6.col-xl-7.my-3
+        p Si bien la computación en la nube es un término que se popularizó como un nuevo paradigma en el acceso a servicios e infraestructura en los años 2008 y 2009, desde la década del 60 ya se hablaba de este paradigma y, es a John McCarthy a quien se le atribuye la definición y el concepto tanto de computo en la nube como el de inteligencia artificial.
+        .cajon.color-custom.p-4.mt-5
+          p.mb-3 Posteriormente surgen nuevos autores como Joseph Carl Robnett Licklider, quien en sus conceptos siempre hablo de contar con una tecnología que permitiera que todo el mundo estuviera interconectado y que de esta manera  pudiera acceder a la información desde cualquier lugar sin límites de distancias ni fronteras, este sueño dio origen a la computación en la nube, la cual se crea con el propósito de poder descentralizar los recursos de cómputo y almacenamiento para distribuirlos alrededor del mundo y facilitar el acceso a la información cada vez a más personas.
+
+    .col-lg-12.mx-auto.mb-5
+      .bloque-texto-a.color-custom-1.p-4.p-md-5.mb-5 
+        .row.m-0.align-items-center.justify-content-between
+          .col-lg-8
+            .bloque-texto-a__texto.p-4
+              p.mb-0 Los orígenes del término “nube”, comúnmente se asocian al término que se derivó de una metáfora que tomaba como base al dibujo de nubes que se utilizaban en el pasado para representar a la red telefónica, y que posteriormente algunos comenzaron a representar al Internet.
+
+              p Podemos resumir la evolución en las siguientes fases:
+
+          .col-lg-4.mb-4.mb-lg-0
+            figure
+              img(src='@/assets/curso/images/tema1/img_10.png' alt='')
+
+    .row.justify-content-center.align-items-center.mb-3.fondo-6
+      .col-12.col-md-8.col-lg-2.col-xl-2.mb-4
+        img(src="@/assets/curso/images/tema1/ico_27.svg" alt="AvatarTop", style="width:100px")
+      .col-12.col-md-8.col-lg-4.col-xl-4.mb-4
+        p.mb-3 Primera Etapa- Década de los 60
+        img(src="@/assets/curso/images/tema1/img_28.png" alt="AvatarTop", style="width:200px")
+      .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
+        p Joseph Carl Robnett Licklider informático estadunidense, conceptualiza por primera vez la idea y concepto de la computación en la nube.
+
+    .row.justify-content-center.align-items-center.mb-3.fondo-7
+      .col-12.col-md-8.col-lg-12.col-xl-2.mb-4
+        img(src="@/assets/curso/images/tema1/ico_28.svg" alt="AvatarTop", style="width:100px")
+      .col-12.col-md-8.col-lg-7.col-xl-7.mb-4
+        p.mb-3 Segunda Etapa- Inicia sobre los 90 y va hasta 2006
+        .cajon.color-custom.p-4.mt-5
+          p.mb-0 Empieza y se desarrolla el proceso de masificación del acceso a internet, pasando a ser una tecnología exclusiva, costosa y de acceso limitado para pocos, posteriormente se popularizó, facilitando el acceso cada vez, a más empresas, este mecanismo permitió que a través de internet se originara lo que hoy conocemos con el término de aplicaciones como servicio.
+      .col-12.col-md-8.col-lg-3.col-xl-3.mb-4
+        img(src="@/assets/curso/images/tema1/img_29.png" alt="AvatarTop", style="width:200px")
+      p Si bien en esta etapa no se había consolidado la computación en la nube, la infraestructura, tecnologías y desarrollo tecnológico propio del internet fue fundamental para el crecimiento y evolución a lo que hoy conocemos como computación en la nube.
+
+    .row.justify-content-center.mb-5.fondo-8
+      .col-12.col-md-8.col-lg-2.col-xl-2.mb-4
+        img(src="@/assets/curso/images/tema1/ico_29.svg" alt="AvatarTop", style="width:100px")
+      .col-12.col-md-8.col-lg-10.col-xl-10.mb-0
+        p.mb-3 Tercera Etapa – Reconocida históricamente en el 2007
+        p.mb-3 Se desarrolla la tecnología de poner “línea” (internet) en toda la plataforma e infraestructura tecnológica requerida por una empresa, incluyendo hardware, software e internetworking.
+        .row  
+          .col-12.col-md-4.col-lg-3.col-xl-3.mb-4
+            img(src="@/assets/curso/images/tema1/img_30.png" alt="AvatarTop", style="width:300px").mx-3
+          .col-12.col-md-8.col-lg-8.col-xl-8.mb-4
+            .cajon.color-custom.p-4.mb-2
+              p Nacen las grandes empresas como Google,  Amazon AWS, Apple Cloud, Microsoft Azure, Alibaba Cloud, que trabajan a partir del uso de internet y de servidores centralizados, con facilidades de acceso a servicios e infraestructura de manera remota, descentralizada y por demanda.
+            p.mb-3 La computación en la nube en la última década pasó de ser el servicio que grandes empresas de tecnologías ofrecían como una alternativa tecnológica a sus clientes, para convertirse en un factor preponderante en la transformación digital y adopción de buenas prácticas que toda empresa necesita, la cuarta revolución industrial, la popularización y cada vez más necesaria adopción de tecnologías como IoT, IA, Big Data, Machine Learning entre otros hace necesario que se migre y se adopten estos servicios en la nube, ya no solo desde los servicios tradicionales si no que a medida que se van adoptando estas tecnologías irán surgiendo y desarrollando una nueva oferta de servicios que transforman y mejoran los procesos de negocio.
+
+    Separador
+
+    #t_1_4.titulo-segundo
+      .h4 1.4 Bloques de creación en la nube
+      
+    .row.justify-content-center.align-items-center.fondo-9.mb-3
+      .col-12.col-md-4.col-lg-8.col-xl-8.my-3
+        p.mb-3 La computación en la nube permite el uso de recursos y servicios tecnológicos a través de la Red en este caso internet, la nube da la posibilidad de que cada empresa pueda acceder a los servicios requeridos es decir no todos necesitaran o utilizaran los mismos servicios, las tecnologías de la información, y las comunicaciones se han convertido en un factor potenciador y necesario para que las empresas sin importar el tipo, sino que funcionen de una manera eficaz y efectiva de acuerdo a su core de negocio, aunque en general los recursos de TI los podemos clasificar en tres componentes, como se ve en la figura 5.
+        .cajon.color-custom.p-4.mb-3
+          p Estos componentes de igual manera requieren una serie de tareas asociadas, estas son:
+        .row.justify-content-center.mb-3
+          .col
+            img(src='@/assets/curso/images/tema1/img_icon.svg' alt='imagen relacionada' style='width:800px').mx-auto
+      .col-12.col-md-8.col-lg-4.col-xl-4.mb-4
+          img(src="@/assets/curso/images/tema1/img_31.png" alt="AvatarTop" style='width:350px').mx-auto
+
+    p.mb-3 Toda organización que requiera implementar cualquier solución de TI requerirá desarrollar las anteriores tareas, si la organización tiene además sus propios desarrollos o procesos de desarrollo in house, se debe agregar las tareas anteriormente mencionadas las plataformas de desarrollo.
+
+    p.mb-5 En general los bloques de creación en la nube los podemos catalogar en 4 niveles que son:
+    
+    .row.justify-content-center.align-items-center.fondo-10.mb-5
+      SlyderA(tipo="b")
+        .row.justify-content-center.align-items-center.p-3
+          .col-11.col-md-5.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/images/tema1/img_32.svg', alt='Texto que describa la imagen')
+          .col-10.col-md-5
+            h4.mb-4 Nivel de infraestructura
+            p.mb-5 Son los recursos utilizados por la empresa en un servicio en la nube, estos recursos pueden ser: 
+            ul.lista-ul--color
+              li 
+                i.fas.fa-caret-right(style="color: #FF2C9C")
+                | Se requiere por una NIIF
+              li
+                i.fas.fa-caret-right(style="color: #FF2C9C")
+                | Almacenamiento, 
+              li 
+                i.fas.fa-caret-right(style="color: #FF2C9C")
+                | Almacenamiento, 
+              li 
+                i.fas.fa-caret-right(style="color: #FF2C9C")
+                | Procesamiento, 
+              li 
+                i.fas.fa-caret-right(style="color: #FF2C9C")
+                | Networking, 
+              li 
+                i.fas.fa-caret-right(style="color: #FF2C9C")
+                | Software de administración de la infraestructura.
+
+        .row.justify-content-center.align-items-center
+          .col-11.col-md-5.mb-4.mb-md-0
+            h4.mb-4 Uso compartido de recursos
+            p.mb-5 Normalmente asociados a la consolidación y uso de tecnologías como la virtualización que permite un entorno compartido donde se pueden ejecutar varias máquinas virtuales o contenedores en un mismo servidor, se proporcionan servicios como:
+            ul.lista-ul--color
+              li 
+                i.fas.fa-caret-right(style="color: #FF2C9C")
+                | Software
+              li 
+                i.fas.fa-caret-right(style="color: #FF2C9C")
+                | Red  
+              li 
+                i.fas.fa-caret-right(style="color: #FF2C9C")
+                | Almacenamiento
+          .col-10.col-md-5
+            figure
+              img(src='@/assets/curso/images/tema1/img_33.svg', alt='imagen ambiental', style='width: 408px;').m-auto
+          
+        
+        .row.justify-content-center.align-items-center
+          .col-11.col-md-5.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/images/tema1/img_34.svg', alt='Texto que describa la imagen')
+          .col-10.col-md-5
+            h4.mb-4 Plataformas de desarrollo
+            p.mb-5 Esta capa permite a los desarrolladores de software construir aplicaciones a través de las interfaces de programación de aplicaciones (API), esto suministrado por el proveedor de servicios en la nube, a través de las API, el desarrollador puede acceder a servicios de:
+          
+            ol.lista-ol--fa-solid-fa-caret-right
+              li 
+                i.fas.fa-caret-right(style="color: #FF2C9C")
+                | Autenticación
+              li 
+                i.fas.fa-caret-right(style="color: #FF2C9C")
+                | Bases de datos 
+              li 
+                i.fas.fa-caret-right(style="color: #FF2C9C")
+                | Almacenamiento y  
+              li 
+                i.fas.fa-caret-right(style="color: #FF2C9C")
+                | Otros módulos o servicios disponibles.
+
+              
+        .row.justify-content-center.align-items-center
+            .col-11.col-md-5.mb-4.mb-md-0
+              h4.mb-4 Software de aplicaciones
+              p.mb-0 Son todas aquellas aplicaciones desarrolladas in house o adquiridas. Utilizadas por las organizaciones para el cumplimiento de sus procesos misionales, son las aplicaciones que utiliza el usuario final. 
+            
+            .col-10.col-md-5
+              figure
+                img(src='@/assets/curso/images/tema1/img_35.svg', alt='Texto que describa la imagen')
+   
+    p.mb-5 A continuación, se ilustra el modelo de Bloques y sus diferentes niveles.
+
+    .row.justify-content-center.align-items-center.fondo-2
+      .col-10.col-md-5
+        figure
+          img(src='@/assets/curso/images/tema1/img_36.svg', alt='Texto que describa la imagen')
+
+      Separador
+
+      #t_1_5.titulo-segundo
+        .h4 1.5 Tipos de nubes
+      
+      p.mb-3 Para acceder a los servicios de computación en la nube existen varios modelos de entrega o despliegue de la nube los cuales pueden ser, veamos:
+
+      .row.justify-content-center.align-items-center
+        .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
+          img(src="@/assets/curso/images/tema1/img_38.svg" alt="AvatarTop", style="width:370px; display:block; margin:0 auto")
+        .col-12.col-md-4.col-lg-6.col-xl-7.my-3
+          SlyderF(columnas="col-12")
+            .tarjeta.tarjeta--blanca.boxShadow.p-5
+              .row.justify-content-center.mb-3
+                .col
+                  img(src='@/assets/curso/images/tema1/ico_35.svg' alt='imagen relacionada' style='width:105px').mx-auto
+              h3.text-center.mb-3  Nube pública
+              p.text-center Los servicios e infraestructura son gestionados por un proveedor de tecnológico el cual ofrece estos servicios al público en general. 
+            .tarjeta.tarjeta--blanca.boxShadow.p-5
+              .row.justify-content-center.mb-3
+                .col
+                  img(src='@/assets/curso/images/tema1/ico_36.svg' alt='imagen relacionada' style='width:105px').mx-auto
+              h3.text-center.mb-3  Nube privada
+              p.text-center En este tipo de nube los servicios y la infraestructura es gestionada específicamente por una organización y no se ofrecen estos servicios al público en general.
+            .tarjeta.tarjeta--blanca.boxShadow.p-5
+              .row.justify-content-center.mb-3
+                .col
+                  img(src='@/assets/curso/images/tema1/ico_37.svg' alt='imagen relacionada' style='width:105px').mx-auto
+              h3.text-center.mb-3  Nube híbrida
+              p.text-center Son nubes que combinan las características de dos nubes privadas, las nubes públicas o compartidas, se caracterizan por que permiten el poder compartir servicios e infraestructura entre ambas nubes.
+            .tarjeta.tarjeta--blanca.boxShadow.p-5
+              .row.justify-content-center.mb-3
+                .col
+                  img(src='@/assets/curso/images/tema1/ico_38.svg' alt='imagen relacionada' style='width:105px').mx-auto
+              h3.text-center.mb-3  Nube comunitaria
+              p.text-center Este es un tipo de nube que es creada para un propósito o fin específico donde se accede y comparte servicios e infraestructura entre los integrantes de la nube, normalmente son administradas por alguno de los miembros de la comunidad organizada en la nube.
+
+      Separador
+
+      #t_1_6.titulo-segundo
+        .h4 1.6 Principales proveedores de servicios en la nube  
+
+      .contenedor-total
+        figure
+          img.mx-auto(src='@/assets/curso/images/tema1/img_39.png' alt='Imagen ambiental' style='')
+        .contenedor-text
+          .row.justify-content-center.p-4
+            .col-auto
+              p.mb-3 Debido a la masificación y cada vez mayor adopción de tecnologías de cloud computing, han sido muchos los nuevos proveedores que han ido surgiendo y posicionando sus ofertas de servicios, sin embargo, en el mundo occidental podemos mencionar los siguientes como los más grandes y más importantes proveedores de servicios en la nube.
+
+    
+
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+      .row(titulo="Amazon Web Services (AWS)")
+        .col-md-6
+          figure
+            img(src='@/assets/curso/images/tema1/img_amazon.png', alt='',style="width:370px; display:block; margin:0 auto")
+        .col-md-6.mb-4.mb-md-0
+          figure
+            img(src='@/assets/curso/images/tema1/img_amazon_1.svg', alt='',style="width:270px; display:block; margin:0 0.1rem")
+          hr 
+          p <b>Amazon Web Services (AWS), </b> es quizá el líder en la oferta de varios servicios a través de la nube en este caso pública, esta empresa empezó ofreciendo servicios como el conocido S3, servicio dedicado al almacenamiento de objetos y posteriormente agregó a su oferta los servicios de EC2, la nube de proceso elástico o por demanda donde se puede acceder a máquinas virtuales, contenedores y virtualización en general. 
+        .cajon.color-custom-3.p-4.mb-3
+          p AWS es quizá la nube más grande con datacenter de alta disponibilidad distribuidos alrededor del mundo proporcionando redundancia y disponibilidad en más de 22 regiones distintas, (figura 7) cada zona de disponibilidad constituye una partición totalmente aislada de la infraestructura de AWS que consta de centros de datos discretos con alimentación, redes y conectividad redundantes.
+        .row.justify-content-center
+            .col-lg-12
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 7 
+                span  Regiones con Centros de Datos AWS
+        .row.justify-content-center
+          .col-lg-12.mb-4
+              img(src="@/assets/curso/images/tema1/img_40.svg" alt="AvatarTop")
+        
+        .row.justify-content-center.align-items-center.fondo-15
+            .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
+            .col-12.col-md-4.col-lg-6.col-xl-7.my-3
+              SlyderF(columnas="col-12")
+                .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .row.justify-content-center.mb-3
+                  h3.text-center.mb-3.bg-color-1.text-white Servicios de procesamiento
+                  p Procesamiento a través de máquinas virtuales, contenedores o instancias de diferentes configuraciones las cuales pueden ser alquiladas por horas, días o por un largo tiempo, este servicio es conocido como Ec2.
+
+                .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .row.justify-content-center.mb-3
+                  h3.text-center.mb-3.bg-color-1.text-white  Servicios de almacenamiento
+                  p Es el servicio de almacenamiento que puede ser elástico (EBS) o servicios de almacenamiento simple (S3), incluye almacenamiento de objetos, bases de datos, almacenamiento y recuperación de objetos binarios (BLOB), entre múltiples servicios adicionales relacionados con el almacenamiento de información.
+
+                .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .row.justify-content-center.mb-3
+                  h3.text-center.mb-3.bg-color-1.text-white  Servicios de redes
+                  p En este servicio es muy popular la Ruta 53 de Amazon, la cual ofrece el servicio de interconexión y conectividad entre las diferentes instancias o con otras redes externas, incluye además servicios como Nube privada virtual(VPC), Elastic Load Balancer (EBL).
+              
+        .row.justify-content-center.d-block.d-lg-none.mb-4
+          .col-lg-12
+            img(src="@/assets/curso/images/tema1/back.png" alt="AvatarTop")
+          .col-lg-6
+            SlyderF(columnas="col-12")
+              .tarjeta.tarjeta--blanca.boxShadow.p-5
+                .row.justify-content-center.mb-3
+                h3.text-center.mb-3.bg-color-1.text-white Servicios de procesamiento
+                p Procesamiento a través de máquinas virtuales, contenedores o instancias de diferentes configuraciones las cuales pueden ser alquiladas por horas, días o por un largo tiempo, este servicio es conocido como Ec2.
+
+              .tarjeta.tarjeta--blanca.boxShadow.p-5
+                .row.justify-content-center.mb-3
+                h3.text-center.mb-3.bg-color-1.text-white  Servicios de almacenamiento
+                p Es el servicio de almacenamiento que puede ser elástico (EBS) o servicios de almacenamiento simple (S3), incluye almacenamiento de objetos, bases de datos, almacenamiento y recuperación de objetos binarios (BLOB), entre múltiples servicios adicionales relacionados con el almacenamiento de información.
+
+              .tarjeta.tarjeta--blanca.boxShadow.p-5
+                .row.justify-content-center.mb-3
+                h3.text-center.mb-3.bg-color-1.text-white  Servicios de redes
+                p En este servicio es muy popular la Ruta 53 de Amazon, la cual ofrece el servicio de interconexión y conectividad entre las diferentes instancias o con otras redes externas, incluye además servicios como Nube privada virtual(VPC), Elastic Load Balancer (EBL).
+
+      div(titulo="Microsoft Azure")
+        .col-lg-12.mx-auto.mb-5
+          .bloque-texto-a.color-custom-4.p-4.p-md-5.mb-5 
+            .row.m-0.align-items-center.justify-content-between
+              .col-lg-4.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/images/tema1/img_42.png' alt='')
+              .col-lg-8
+                .bloque-texto-a__texto.p-4
+                  p.mb-0 <b>Es la nube de la empresa Microsoft, Azure </b> es quizá la plataforma con crecimiento más rápido en el mercado de Cloud, tiene más de 50 centros de datos distribuidos alrededor de más de 140 países (figura 8) a través de servicios como Azure Stack permite que una organización pueda crear su nube privada y posteriormente integrar a la nube pública de Azure y de esta manera poder interactuar con todas las bondades, características y servicios de Azure.
+        .row.justify-content-center
+            .col-lg-12
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 8
+                span  Regiones con Centros de Datos Microsoft Azure
+        .row.justify-content-center
+          .col-lg-12.mb-4
+              img(src="@/assets/curso/images/tema1/map_azure.svg" alt="AvatarTop")
+
+          .row.justify-content-center.align-items-center.fondo-16
+            .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
+            .col-12.col-md-4.col-lg-6.col-xl-7
+              SlyderF(columnas="col-12")
+                .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .row.justify-content-center.mb-3
+                  h3.text-center.mb-3.bg-color-1.text-white Servicios de procesamiento
+                  p En este servicio Azure ofrece: 
+                    ol.lista-ol--fa-solid-fa-caret-right
+                      li 
+                        i.fas.fa-caret-right(style="color: #FF2C9C")
+                        | Azure Virtual Machines con instancias de distintos tipos, soportando Windows y algunas versiones o distribuciones de Linux
+                      li 
+                        i.fas.fa-caret-right(style="color: #FF2C9C")
+                        | Azure Storage
+
+                .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .row.justify-content-center.mb-3
+                  h3.text-center.mb-3.bg-color-1.text-white  Servicios de almacenamiento
+                  p El servicio es conocido como Azure Storage este servicio incluye:
+                    ol.lista-ol--fa-solid-fa-caret-right
+                      li 
+                        i.fas.fa-caret-right(style="color: #FF2C9C")
+                        | Azure blobs para el almacenamiento de objetos binarios grandes (BLOBS).
+                      li 
+                        i.fas.fa-caret-right(style="color: #FF2C9C")
+                        | Azure Tables para el almacenamiento de bases de datos No SQL.
+                      li 
+                        i.fas.fa-caret-right(style="color: #FF2C9C")
+                        | Azure Files que son servicios de almacenamiento compatibles con Windows (SMB), al igual que ofrece todos los servicios de almacenamiento de bases de datos relacionales a través de Azure SQL Database.
+
+                .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .row.justify-content-center.mb-3
+                  h3.text-center.mb-3.bg-color-1.text-white  Servicios de redes
+                  p.text-center A través del servicio de Azure virtual network ofrece redes privadas virtuales, ofrece el servicio de Azure Traffic Manager para enrutar y administrar la conectividad y acceso a sus instancias y redes externas.
+        
+        .row.justify-content-center.d-block.d-lg-none.mb-4 
+          .col-lg-12
+            img(src="@/assets/curso/images/tema1/back_17.png" alt="AvatarTop")
+          .col-lg-6
+            SlyderF(columnas="col-12")
+                .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .row.justify-content-center.mb-3
+                  h3.text-center.mb-3.bg-color-1.text-white Servicios de procesamiento
+                  p En este servicio Azure ofrece: 
+                    ol.lista-ol--fa-solid-fa-caret-right
+                      li 
+                        i.fas.fa-caret-right(style="color: #FF2C9C")
+                        | Azure Virtual Machines con instancias de distintos tipos, soportando Windows y algunas versiones o distribuciones de Linux
+                      li 
+                        i.fas.fa-caret-right(style="color: #FF2C9C")
+                        | Azure Storage
+
+                .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .row.justify-content-center.mb-3
+                  h3.text-center.mb-3.bg-color-1.text-white  Servicios de almacenamiento
+                  p El servicio es conocido como Azure Storage este servicio incluye:
+                    ol.lista-ol--fa-solid-fa-caret-right
+                      li 
+                        i.fas.fa-caret-right(style="color: #FF2C9C")
+                        | Azure blobs para el almacenamiento de objetos binarios grandes (BLOBS).
+                      li 
+                        i.fas.fa-caret-right(style="color: #FF2C9C")
+                        | Azure Tables para el almacenamiento de bases de datos No SQL.
+                      li 
+                        i.fas.fa-caret-right(style="color: #FF2C9C")
+                        | Azure Files que son servicios de almacenamiento compatibles con Windows (SMB), al igual que ofrece todos los servicios de almacenamiento de bases de datos relacionales a través de Azure SQL Database.
+
+                .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .row.justify-content-center.mb-3
+                  h3.text-center.mb-3.bg-color-1.text-white  Servicios de redes
+                  p.text-center A través del servicio de Azure virtual network ofrece redes privadas virtuales, ofrece el servicio de Azure Traffic Manager para enrutar y administrar la conectividad y acceso a sus instancias y redes externas.
+        
+      
+      div(titulo="Amazon Web Services (AWS)")
+        .col-lg-12.mx-auto.mb-5
+          .bloque-texto-a.color-custom-4.p-4.p-md-5.mb-5 
+            .row.m-0.align-items-center.justify-content-between
+              .col-lg-4.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/images/tema1/img_google_pla.png' alt='')
+              .col-lg-8
+                .bloque-texto-a__texto.p-4
+                  p.mb-0 <b>Es la nube de la empresa Microsoft, Azure </b> es quizá la plataforma con crecimiento más rápido en el mercado de Cloud, tiene más de 50 centros de datos distribuidos alrededor de más de 140 países (figura 8) a través de servicios como Azure Stack permite que una organización pueda crear su nube privada y posteriormente integrar a la nube pública de Azure y de esta manera poder interactuar con todas las bondades, características y servicios de Azure.
+        .row.justify-content-center
+            .col-lg-12
+              .titulo-sexto.color-acento-contenido
+                h5 Figura 9
+                span  Regiones de Google Cloud
+        .row.justify-content-center
+          .col-lg-12.mb-4
+              img(src="@/assets/curso/images/tema1/img_43.svg" alt="AvatarTop")
+        
+        .row.justify-content-center.align-items-center.fondo-17
+            .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
+            .col-12.col-md-4.col-lg-6.col-xl-7.d-none.d-lg-block
+              SlyderF(columnas="col-12")
+                .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .row.justify-content-center.mb-3
+                  h3.text-center.mb-3.bg-color-1.text-white Servicios de procesamiento
+                  p A través de su servicio Google Compute Engine (GCE), ofrece máquinas virtuales e instancias de diferentes tipos con sistema operativo Linux.
+
+                .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .row.justify-content-center.mb-3
+                  h3.text-center.mb-3.bg-color-1.text-white  Servicios de almacenamiento
+                  p Google Cloud cuenta con tres servicios de almacenamiento principales: 
+
+                    ol.lista-ol--fa-solid-fa-caret-right
+                      li 
+                        i.fas.fa-caret-right(style="color: #FF2C9C")
+                        | Google Cloud Storage, un servicio de almacenamiento de objetos similar a AWS S3 y Azure Blobs. 
+                      li 
+                        i.fas.fa-caret-right(style="color: #FF2C9C")
+                        | Google Cloud Datastore es un servicio administrado de almacén de datos NoSQL. 
+                      li 
+                        i.fas.fa-caret-right(style="color: #FF2C9C")
+                        | Cloud SQL servicio que proporciona el almacenamiento de bases de datos tradicionales SQL.
+
+                .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .row.justify-content-center.mb-3
+                  h3.text-center.mb-3.bg-color-1.text-white  Servicios de redes
+                  p Google ofrece varios productos de red para administrar las conexiones entre los servicios en la nube de Google y el mundo exterior, es decir, el equilibrio de carga, la interconexión y los servicios DNS. Toda la infraestructura de Google es neutral en carbono y sus centros de datos consumen un 50% menos de energía que los centros de datos habituales.
+        
+        .row.justify-content-center.d-block.d-lg-none.mb-4 
+          .col-lg-12
+            img(src="@/assets/curso/images/tema1/back_16.png" alt="AvatarTop")
+          .col-lg-6
+            SlyderF(columnas="col-12")
+                .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .row.justify-content-center.mb-3
+                  h3.text-center.mb-3.bg-color-1.text-white Servicios de procesamiento
+                  p A través de su servicio Google Compute Engine (GCE), ofrece máquinas virtuales e instancias de diferentes tipos con sistema operativo Linux.
+
+                .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .row.justify-content-center.mb-3
+                  h3.text-center.mb-3.bg-color-1.text-white  Servicios de almacenamiento
+                  p Google Cloud cuenta con tres servicios de almacenamiento principales: 
+
+                    ol.lista-ol--fa-solid-fa-caret-right
+                      li 
+                        i.fas.fa-caret-right(style="color: #FF2C9C")
+                        | Google Cloud Storage, un servicio de almacenamiento de objetos similar a AWS S3 y Azure Blobs. 
+                      li 
+                        i.fas.fa-caret-right(style="color: #FF2C9C")
+                        | Google Cloud Datastore es un servicio administrado de almacén de datos NoSQL. 
+                      li 
+                        i.fas.fa-caret-right(style="color: #FF2C9C")
+                        | Cloud SQL servicio que proporciona el almacenamiento de bases de datos tradicionales SQL.
+
+                .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .row.justify-content-center.mb-3
+                  h3.text-center.mb-3.bg-color-1.text-white  Servicios de redes
+                  p Google ofrece varios productos de red para administrar las conexiones entre los servicios en la nube de Google y el mundo exterior, es decir, el equilibrio de carga, la interconexión y los servicios DNS. Toda la infraestructura de Google es neutral en carbono y sus centros de datos consumen un 50% menos de energía que los centros de datos habituales.
+        
+
+    p.mb-3 A continuación, se muestra una tabla resumen con los principales servicios ofrecidos por cada uno de los proveedores antes mencionados.
+
+    .row.justify-content-center
+      .col-lg-10.mb-4
+          img(src="@/assets/curso/images/tema1/img_48.svg" alt="AvatarTop")
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+</template>
+
+<script>
+import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
+export default {
+  name: 'Tema1',
+  components: {
+    Muestras, // borrar una vez el componente "Muestras" no se necesite
+  },
+  data: () => ({
+    // variables de vue
+  }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
+}
+</script>
+
+<style lang="sass"></style>
