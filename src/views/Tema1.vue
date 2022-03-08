@@ -56,7 +56,7 @@
         img(src='@/assets/curso/images/tema1/img_2.png' alt='' , style="width:1000px; display:block; margin:0 auto;")
 
 
-    #menu1.row.g-0.justify-content-center.mb-5
+    #menu1.row.justify-content-center.mb-5
       .col-auto.mb-4
         a(href="#1", title="title") 
           figure
