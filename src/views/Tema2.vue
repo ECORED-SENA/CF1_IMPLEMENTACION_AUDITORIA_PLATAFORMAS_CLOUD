@@ -76,17 +76,30 @@
             figure
               img(src='@/assets/curso/images/tema2/img_3.svg' alt='' , style="width:900px; display:block; margin:0 auto;")
 
-          .tarjeta(x="17%" y="18%" numero="")
-            img(src='@/assets/curso/images/tema2/img_info_1.svg' alt='' , style="width:400px; display:block; margin:0 auto;")
+          .tarjeta.p-3.tarjeta-blanca-1(x="8%" y="45%" numero="")
+            figure
+                img.mb-3(src='@/assets/curso/images/tema2/line.svg' alt='' , style="width:600px; display:block; margin:-1rem 0;")
+            h3.mb-3 Riesgos #[BR]#[span.highlight-1 de seguridad]
+            p.text-alinear Los grandes proveedores de servicios de computación en la nube ofrecen nubes públicas y son de propiedad exclusiva de las empresas que ofrecen el servicio, esto puede llevar a que en determinado momento al adquirir un servicio, un cliente quede de alguna manera “amarrado” a ese proveedor ya que, puede desarrollar aplicaciones o almacenar sus datos en estas nubes, hay muy poca normalización frente a los servicios que se entregan por parte de los proveedores, lo que puede llevar a que si un cliente quisiera migrar sus servicios a otro proveedor se vuelva una tarea demasiado engorrosa y, que en algunas ocasiones acarree gastos innecesarios al tener que recurrir a expertos en hacer migraciones de una plataforma a otra.
 
-          .tarjeta(x="8%" y="45%" numero="")
-            img(src='@/assets/curso/images/tema2/img_info_2.svg' alt='' , style="width:800px; display:block; margin:0 auto;")
+          .tarjeta.p-3.tarjeta-blanca-1(x="17%" y="18%" numero="")
+            figure
+                img.mb-3(src='@/assets/curso/images/tema2/line.svg' alt='' , style="width:600px; display:block; margin:-1rem 0;")
+            h3.mb-3 Bloqueo del #[BR]#[span.highlight-1 proveedor]
+            p.text-alinear Los grandes proveedores de servicios de computación en la nube ofrecen nubes públicas y son de propiedad exclusiva de las empresas que ofrecen el servicio, esto puede llevar a que en determinado momento al adquirir un servicio, un cliente quede de alguna manera “amarrado” a ese proveedor ya que, puede desarrollar aplicaciones o almacenar sus datos en estas nubes, hay muy poca normalización frente a los servicios que se entregan por parte de los proveedores, lo que puede llevar a que si un cliente quisiera migrar sus servicios a otro proveedor se vuelva una tarea demasiado engorrosa y, que en algunas ocasiones acarree gastos innecesarios al tener que recurrir a expertos en hacer migraciones de una plataforma a otra.
 
-          .tarjeta(x="86%" y="20%" numero="")
-            img(src='@/assets/curso/images/tema2/img_info_3.svg' alt='' , style="width:400px; display:block; margin:0 auto;")
+          .tarjeta.p-3.tarjeta-blanca-1(x="86%" y="20%" numero="")
+            figure
+                img.mb-3(src='@/assets/curso/images/tema2/line.svg' alt='' , style="width:600px; display:block; margin:-1rem 0;")
+            h3.mb-3 Riesgos de  #[BR]#[span.highlight-1 privacidad]
+            p.text-alinear El uso de la nube también plantea muchos problemas relacionados con la privacidad. En función de las leyes con las cuales “funcione” un proveedor de servicios en la nube, los gobiernos pueden tener la capacidad de buscar y asumir datos del proveedor sin el consentimiento explícito o notificación del cliente. Además, los clientes no pueden estar totalmente seguros de la confidencialidad de los datos al usar nubes públicas. 
 
-          .tarjeta(x="93%" y="45%" numero="")
-            img(src='@/assets/curso/images/tema2/img_info_4.svg' alt='' , style="width:400px; display:block; margin:0 auto;")
+          .tarjeta.p-3.tarjeta-blanca-1(x="93%" y="45%" numero="")
+            figure
+                img.mb-3(src='@/assets/curso/images/tema2/line.svg' alt='' , style="width:600px; display:block; margin:-1rem 0;")
+            h3.mb-3 Riesgos de  #[BR]#[span.highlight-1 confiabilidad]
+            p.text-alinear Si bien la informática en la nube obliga a que los proveedores de estos servicios tomen todas las medidas necesarias para garantizar el correcto funcionamiento y la entrega oportuna y con calidad a sus clientes, no están exentos de presentar problemas de confiabilidad que ocasionaron fallas e indisponibilidades que cuando se tienen en la nube nos pueden afectar y dejar sin acceso a los servicios, en la computación tradicional se puede implementar infraestructuras redundantes y con tolerancia a fallos, pero esto implica mayor costos e inversión, en la computación en la nube este tipo de problemas buscan solucionarse a través de acuerdos de nivel de servicio ofrecidos por el proveedor.
+
 
     p.mb-3 Si bien la computación en la nube es un término que se popularizó como un nuevo paradigma en el acceso a servicios e infraestructura en los años 2008 y 2009, desde la década del 60 ya se hablaba de este paradigma y, es a John McCarthy a quien se le atribuye la definición y el concepto tanto de computo en la nube como el de inteligencia artificial.
 
@@ -187,14 +200,18 @@
       .h4 2.5 Amenazas de seguridad en la nube
     
     .row.justify-content-center.align-items-center.fondo-13
-      .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
+      .col-12.col-md-8.col-lg-4.col-xl-4.mb-4
         img(src="@/assets/curso/images/tema2/img_7.svg" alt="AvatarTop",)
-      .col-12.col-md-4.col-lg-6.col-xl-7.mb-3
+      .col-12.col-md-4.col-lg-8.col-xl-8.mb-3
           p.text-white.mb-3 Las organizaciones en el desarrollo de su actividad o core de negocio reciben, generan, procesan o conservan información considerada como activos de la organización y tienen una afectación desde el plano económico o de negocio, de conocimiento o de propiedad intelectual en el momento de estar expuesta a posibles amenazas que puedan afectar lo antes mencionado.
 
           p.text-white.mb-3 Las amenazas a la seguridad en la computación en la nube van a depender de varios factores:
-
-          img(src="@/assets/curso/images/tema2/img_8.svg" alt="AvatarTop",)
+          .tarjeta.p-3.tarjeta-blanca-2
+            figure
+              img.mb-3(src='@/assets/curso/images/tema2/line.svg' alt='' , style="width:900px; display:block; margin:-1rem 0;")
+            h3.mb-4 Amenaza #[BR]#[span.highlight-1 de la seguridad]
+            p.text-alinear El tipo de servicio contratado según los SLA previamente establecidos entre proveedor y cliente donde se determinan las responsabilidades de cada parte. El tipo de despliegue o puesta en producción de los servicios contratados.
+        
 
     .row.justify-content-center.align-items-center.fondo-10.mb-5
       SlyderA(tipo="b")
