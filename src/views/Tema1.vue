@@ -10,7 +10,7 @@
     .row.align-items-center.fondo-18.mb-5
       .col-12.col-md-8.col-lg-4.col-xl-4
         img.my-0(src="@/assets/curso/images/tema1/img_1.svg" alt="AvatarTop", style="width:370px; display:block; margin:-2rem -4rem;")
-      .col-12.col-md-4.col-lg-8.col-xl-8.mb-3
+      .col-12.col-md-4.col-lg-8.col-xl-7.mb-3
          p.text-white La nube o cloud computing, es una de las soluciones tecnológicas de servicio más completa, pues, ofrece una alternativa informática basada en internet por medio de un intercambio de servicios. Este servicio en la nube se ha extendido a todos los sectores, tanto en empresas como en usuarios individuales.
     
     Separador 
@@ -20,7 +20,7 @@
 
     .col-lg-10.mx-auto.mb-5
       .tarjeta.fcs
-        .row.p-2
+        .row
           .col-lg-2 
            img.my-5(src='@/assets/curso/images/tema1/ico_1.svg' alt='' , style="width:100px; display:block; margin:0 auto;")
           .col-lg-10
@@ -75,52 +75,52 @@
                     img(src='@/assets/curso/images/tema1/numero4.svg' alt='' , style="width:100px; display:block; margin:0.7rem -0.9rem;")
             p.text-alinear Los LaaS están pensados para ingenieros de sistemas, PaaS para desarrolladores web y SaaS para los consumidores directos.
 
-
-        .col-lg-12 
-          .contenedor-total
-            figure
-              img.mx-auto(src='@/assets/curso/images/tema1/img_2.png' alt='', style="width:1000px; display:block; margin:0 auto;")
-            .contenedor-text
-              .row.justify-content-center.p-4
-                .col-auto
-                  p.mb-0 Si bien en la mayoría de las ocasiones no es fácil identificar todas las opciones posibles, cuantas más alternativas se generen es más probable obtener una que resulte significativamente satisfactoria.
+        .row.justify-content-center.mb-3
+          .col-lg-11
+            .contenedor-total
+              figure
+                img.mx-auto(src='@/assets/curso/images/tema1/img_2.png' alt='', style="width:1000px; display:block; margin:0 auto;")
+              .contenedor-text
+                .row.justify-content-center.p-4
+                  .col-auto
+                    p.mb-4 Si bien en la mayoría de las ocasiones no es fácil identificar todas las opciones posibles, cuantas más alternativas se generen es más probable obtener una que resulte significativamente satisfactoria.
 
       
-      #menu1.row.justify-content-center.mb-3
-        .col-auto.mb-4
-          a(href="#1", title="Redes de datos") 
-            figure
-              img(src='@/assets/curso/images/tema1/ico_6.svg' alt='1')
-            .indicador--click(v-if="mostrarIndicador")
-        .col-auto.mb-4
-          a(href="#2", title="Modelos de referencia ") 
-            figure
-              img(src='@/assets/curso/images/tema1/ico_7.svg' alt='1')
-            .indicador--click(v-if="mostrarIndicador")      
-        .col-auto.mb-4
-          a(href="#3", title="Protocolos de comunicación") 
-            figure
-              img(src='@/assets/curso/images/tema1/ico_8.svg' alt='1')
-            .indicador--click(v-if="mostrarIndicador")  
-        .col-auto.mb-4
-          a(href="#4", title="Puertos de comunicación") 
-            figure
-              img(src='@/assets/curso/images/tema1/ico_9.svg' alt='1')
-            .indicador--click(v-if="mostrarIndicador")  
-        .col-auto.mb-4
-          a(href="#5", title="Puertos de comunicación") 
-            figure
-              img(src='@/assets/curso/images/tema1/ico_10.svg' alt='1')
-            .indicador--click(v-if="mostrarIndicador")  
-        .col-auto.mb-4
-          a(href="#6", title="Medios de transmisión") 
-            figure
-              img(src='@/assets/curso/images/tema1/ico_11.svg' alt='1')
-        .col-auto.mb-4
-          a(href="#7", title="Recursos compartidos") 
-            figure
-              img(src='@/assets/curso/images/tema1/ico_12.svg' alt='1')
-            .indicador--click(v-if="mostrarIndicador")  
+            #menu1.row.justify-content-center.mb-3
+              .col-sm-6.col-lg-3.mb-4.mb-lg-0.btn.mb-5
+                a(href="#1", title="Redes de datos") 
+                  figure
+                    img(src='@/assets/curso/images/tema1/ico_6.svg' alt='1')
+                  .indicador--click(v-if="mostrarIndicador")
+              .col-sm-6.col-lg-3.mb-4.mb-lg-0.btn.mb-5
+                a(href="#2", title="Modelos de referencia ") 
+                  figure
+                    img(src='@/assets/curso/images/tema1/ico_7.svg' alt='1')
+                  .indicador--click(v-if="mostrarIndicador")      
+              .col-sm-6.col-lg-3.mb-4.mb-lg-0.btn.mb-5
+                a(href="#3", title="Protocolos de comunicación") 
+                  figure
+                    img(src='@/assets/curso/images/tema1/ico_8.svg' alt='1')
+                  .indicador--click(v-if="mostrarIndicador")  
+              .col-sm-6.col-lg-3.mb-4.mb-lg-0.btn.mb-5
+                a(href="#4", title="Puertos de comunicación") 
+                  figure
+                    img(src='@/assets/curso/images/tema1/ico_9.svg' alt='1')
+                  .indicador--click(v-if="mostrarIndicador")  
+              .col-sm-6.col-xl-3.mb-4.mb-xl-0
+                a(href="#5", title="Puertos de comunicación") 
+                  figure
+                    img(src='@/assets/curso/images/tema1/ico_10.svg' alt='1')
+                  .indicador--click(v-if="mostrarIndicador")  
+              .col-sm-6.col-xl-3.mb-4.mb-xl-0
+                a(href="#6", title="Medios de transmisión") 
+                  figure
+                    img(src='@/assets/curso/images/tema1/ico_11.svg' alt='1')
+              .col-sm-6.col-xl-3.mb-4.mb-xl-0
+                a(href="#7", title="Recursos compartidos") 
+                  figure
+                    img(src='@/assets/curso/images/tema1/ico_12.svg' alt='1')
+                  .indicador--click(v-if="mostrarIndicador")  
     br
     .pRelative
       .backtoTop
