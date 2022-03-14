@@ -1,14 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1328" height="713" viewBox="0 0 1328 713">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1074" height="330" viewBox="0 0 1074 330">
   <defs>
-    <linearGradient id="linear-gradient" x1="0.5" y1="0.5" x2="0.488" y2="0.944" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#afafaf" stop-opacity="0.502"/>
-      <stop offset="1" stop-color="#e8e8e8" stop-opacity="0"/>
+    <linearGradient id="linear-gradient" x1="0.351" x2="0.812" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f6f6f6" stop-opacity="0"/>
+      <stop offset="1" stop-color="#efeded"/>
     </linearGradient>
   </defs>
-  <g id="Grupo_152053" data-name="Grupo 152053" transform="translate(1276.294 -11036.5)">
-    <g id="Grupo_142757" data-name="Grupo 142757" transform="translate(-1412.294 9683.5)">
-      <rect id="Rectángulo_37011" data-name="Rectángulo 37011" width="1328" height="357" transform="translate(1464 1710) rotate(180)" opacity="0.25" fill="url(#linear-gradient)"/>
-      <rect id="Rectángulo_37012" data-name="Rectángulo 37012" width="1328" height="356" transform="translate(136 1710)" opacity="0.25" fill="url(#linear-gradient)"/>
-    </g>
+  <g id="Grupo_152639" data-name="Grupo 152639" transform="translate(10091 8958)">
+    <rect id="Rectángulo_37336" data-name="Rectángulo 37336" width="1074" height="330" transform="translate(-10091 -8958)" fill="url(#linear-gradient)"/>
   </g>
 </svg>

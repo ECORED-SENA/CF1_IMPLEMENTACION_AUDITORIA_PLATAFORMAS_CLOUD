@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Generalidades de la computación en la Nube',
+    componenteFormativo: 'Generalidades de la computación en la nube',
     descripcionCurso:
       'La computación en la nube es una tecnología cada vez con mayor uso e impacto en el despliegue y acceso a servicios toda vez que facilita el acceso remoto desde cualquier parte del mundo a través  de tecnologías de internet a procesamiento y almacenamiento de datos, en el presente componente formativo hablaremos de sus características, generalidades y conceptos más importantes.',
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.svg'),
@@ -23,7 +23,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Fundamentos de los servicios de TI en la Nube',
+        titulo: 'Fundamentos de los servicios de TI en la nube',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -74,7 +74,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Ventajas y desventajas de la Informática en la Nube',
+            titulo: 'Ventajas y desventajas de la informática en la nube',
             hash: 't_2_1',
           },
           {
@@ -110,15 +110,13 @@ export default {
           },
         ],
       },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Síntesis',
-        desarrolloContenidos: true,
-      },
     ],
     subMenu: [
+      {
+        icono: 'fas fa-sitemap',
+        titulo: 'Sintesis',
+        nombreRuta: 'sintesis',
+      },
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
