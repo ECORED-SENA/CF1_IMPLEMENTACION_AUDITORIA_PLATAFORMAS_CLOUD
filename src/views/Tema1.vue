@@ -653,19 +653,21 @@
       .row.justify-content-center.align-items-center.mb-3.fondo-6
         .col-12.col-md-8.col-lg-2.col-xl-2.mb-4
           img(src="@/assets/curso/images/tema1/ico_27.svg" alt="AvatarTop", style="width:100px")
-        .col-12.col-md-8.col-lg-3.col-xl-3.mb-4
-          p.mb-3 Primera Etapa- Década de los 60
+        .col-12.col-md-8.col-lg-4.col-xl-4.mb-4
+          h3.mb-3 Primera Etapa- Década de los 60
           img(src="@/assets/curso/images/tema1/img_28.png" alt="AvatarTop", style="width:250px")
-        .col-12.col-md-8.col-lg-7.col-xl-7.mb-4
+        .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
           p Joseph Carl Robnett Licklider informático estadunidense, conceptualiza por primera vez la idea y concepto de la computación en la nube.
 
       .row.justify-content-center.align-items-center.mb-3.fondo-7
         .col-12.col-md-8.col-lg-2.col-xl-2.mb-4
           img(src="@/assets/curso/images/tema1/ico_28.svg" alt="AvatarTop", style="width:100px")
         .col-12.col-md-8.col-lg-7.col-xl-7.mb-4
-          p.mb-3 Segunda Etapa- Inicia sobre los 90 y va hasta 2006
+          h3.mb-2 Segunda Etapa- Inicia sobre los 90 y va hasta 2006
+          p Empieza y se desarrolla el proceso de masificación del acceso a internet, pasando a ser una tecnología exclusiva, costosa y de acceso limitado para pocos, posteriormente se popularizó, facilitando el acceso cada vez, a más empresas, este mecanismo permitió que a través de internet se originara lo que hoy conocemos con el término de aplicaciones como servicio.
           .cajon.color-custom.p-4.mt-5
-            p.mb-0 Empieza y se desarrolla el proceso de masificación del acceso a internet, pasando a ser una tecnología exclusiva, costosa y de acceso limitado para pocos, posteriormente se popularizó, facilitando el acceso cada vez, a más empresas, este mecanismo permitió que a través de internet se originara lo que hoy conocemos con el término de aplicaciones como servicio.
+            p.mb-0 Dentro de esta etapa podemos destacar como uno de los mayores avances computacionales cuando se afianzó el concepto de virtualización a finales de esa década, nace Salesforce empresa que desarrolla la primera ola de nube cuando propone ofrecer aplicaciones empresariales a través de un acceso web sencillo y simple.
+
         .col-12.col-md-8.col-lg-3.col-xl-3.mb-4
           img.mt-5(src="@/assets/curso/images/tema1/img_29.png" alt="AvatarTop", style="width:200px")
         p Si bien en esta etapa no se había consolidado la computación en la nube, la infraestructura, tecnologías y desarrollo tecnológico propio del internet fue fundamental para el crecimiento y evolución a lo que hoy conocemos como computación en la nube.
@@ -674,7 +676,7 @@
         .col-12.col-md-8.col-lg-2.col-xl-2.mb-4
           img(src="@/assets/curso/images/tema1/ico_29.svg" alt="AvatarTop", style="width:100px")
         .col-12.col-md-8.col-lg-10.col-xl-10.mb-0
-          p.mb-3 Tercera Etapa – Reconocida históricamente en el 2007
+          h3.mb-3 Tercera Etapa – Reconocida históricamente en el 2007
           p.mb-3 Se desarrolla la tecnología de poner “línea” (internet) en toda la plataforma e infraestructura tecnológica requerida por una empresa, incluyendo <i>hardware</i>, <i>software</i>e <i>internetworking.</i>
           .row  
             .col-12.col-md-4.col-lg-3.col-xl-3.mb-4
