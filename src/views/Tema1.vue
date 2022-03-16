@@ -76,7 +76,7 @@
                     img(src='@/assets/curso/images/tema1/numero4.svg' alt='' , style="width:100px; display:block; margin:0.7rem -0.9rem;")
             p.text-alinear Los LaaS están pensados para ingenieros de sistemas, PaaS para desarrolladores web y SaaS para los consumidores directos.
 
-        .row.justify-content-center
+        #menu1.row.justify-content-center
           .col-lg-12
             .contenedor-total
               figure
@@ -87,7 +87,7 @@
                     p.mb-4 Cuando hablamos de computación en la nube se mencionan una serie de componentes que hacen parte del conjunto dentro de los cuales se destacan:
 
       
-            #menu1.row.justify-content-center-cols-7
+            .row.justify-content-center-cols-7
               .col.btn.mb-5
                 a(href="#1", title="Redes de datos") 
                   figure
