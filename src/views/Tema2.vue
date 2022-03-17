@@ -10,7 +10,7 @@
     .contenedor-total
       figure
         img.mx-auto(src='@/assets/curso/images/tema2/img_1.png' alt='Imagen ambiental' style='')
-      .contenedor-text
+      .contenedor-text-2
         .row.justify-content-center.p-4
           .col-auto
             p.mb-2 El entorno Cloud, brinda grandes oportunidades para el crecimiento del negocio. Una vez se migra la empresa a este, se debe asegurar que su arquitectura se base en pilares bien definidos, además este entorno, ofrece herramientas que permiten determinar el coste de cualquier recurso desplegado con base a su uso real.
