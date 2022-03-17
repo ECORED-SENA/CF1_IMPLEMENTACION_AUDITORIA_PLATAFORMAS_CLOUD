@@ -29,7 +29,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Relación de aspecto (Aspect ratio)',
+            titulo: 'Conceptos, términos y definiciones',
             hash: 't_1_1',
           },
           {
