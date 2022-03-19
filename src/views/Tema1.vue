@@ -34,7 +34,7 @@
     
     p.mb-3 Este tipo de tecnología durante los últimos años ha permitido que las empresas logren tener presencia corporativa en la web y, la adquisición de recursos tecnológicos informáticos en una inversión económica muy cómoda o razonable a manera de pago por servicios, sin la necesidad de adquirir físicamente equipos o infraestructura como antes era requerido por parte de las organizaciones, administración y mantenimiento, como se detalla a continuación:
     
-    .row.justify-content-center
+    .row.justify-content-center.fondo-2
       .col-lg-12
         ImagenInfografica.color-secundario
           template(v-slot:imagen)
@@ -42,7 +42,7 @@
               img(src='@/assets/curso/images/tema1/infogra.svg' alt='' , style="width:800px; display:block; margin:0 auto;")
 
           .tarjeta.color-primario.p-3.tarjeta--azul(x="15%" y="50%" numero="")
-            h3.mb-1 Servicios de infraestructura
+            h3.mb-5 Servicios de infraestructura
               .pRelative_1
                 .backtoTop_1
                   figure
@@ -51,7 +51,7 @@
 
 
           .tarjeta.color-primario.p-3.tarjeta-violeta-1(x="33%" y="50%" numero="")
-            h3.mb-1 Plataformas en la nube
+            h3.mb-5 Plataformas en la nube
               .pRelative_1
                 .backtoTop_1
                   figure
@@ -60,7 +60,7 @@
 
             
           .tarjeta.color-primario.p-3.tarjeta--azul(x="52%" y="50%" numero="")
-            h3.mb-1 <i>Software</i> como servicio
+            h3.mb-5 <i>Software</i> como servicio
               .pRelative_1
                 .backtoTop_1
                   figure
@@ -68,8 +68,8 @@
             p.text-alinear Los Servicios de Aplicaciones en la Nube, o mejor conocidos como <i>Software</i> como Servicio(SaaS) se enfocan en el uso de la web para entregar aplicaciones para todo y todos. Esta es la razón por la cual los SaaS representan el mayor mercado de servicios y sistemas en la Nube.
             
 
-          .tarjeta.color-primario.p-3.tarjeta-violeta(x="70%" y="50%" numero="")
-            h3.mb-3  ¿Para quienes?
+          .tarjeta.color-primario.p-3.tarjeta-violeta(x="69%" y="50%" numero="")
+            h3.mb-5  ¿Para quienes?
               .pRelative_1
                 .backtoTop_1
                   figure
@@ -129,17 +129,18 @@
         a(href="#menu1", title="Redes de datos") 
           img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
   
-    .row.mb-5.ps-2
+    .row.mb-4.ps-2
       .col-8.col-lg-2.bg-color
         #1.h3.mb-0.text-white Redes de datos
 
     .row.justify-content-center.align-items-center.fondo-25
       .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
-        img.my-3(src="@/assets/curso/images/tema1/img_3.svg" alt="AvatarTop", style="width:390px; display:block; margin:-6rem 3rem;")
+        img.my-3(src="@/assets/curso/images/tema1/img_3.svg")
       .col-12.col-md-4.col-lg-7.col-xl-7.mb-5
         p Las redes de datos tienen por función potenciar e incrementar la productividad de las organizaciones al permitir que todos los dispositivos que se encuentran conectados puedan acceder a los recursos que se encuentran compartidos, en los últimos años la tecnología ha entrado a jugar un papel preponderante en el desarrollo y evolución de las organizaciones cada vez está más inmersa en todos los procesos y actividades empresariales, personales y cotidianas.
         .cajon.color-custom.p-3
             p.mb-0 Las redes han permitido que los servicios y el acceso a estos recursos sea cada vez más necesario ya que se requiere tener en todo momento trabajo en equipo, colaborativo y la integración entre los diferentes recursos tecnológicos, esto es lo que conocemos como el <i>Networking,</i> . Para que dichas redes pueden interconectarse y trabajar en red se requiere de una serie de componentes desde el punto de vista físico y lógico dentro de los cuales destacamos los siguientes:
+    br
     .row.justify-content-center-cols-5.mt-5.mx-0
       .col
           img(src='@/assets/curso/images/tema1/ico_13.svg'  alt='')
@@ -152,13 +153,13 @@
       .col
           img(src='@/assets/curso/images/tema1/ico_17.svg' alt='')
     hr
-
+    br
     .pRelative
       .backtoTop
         a(href="#menu1", title="Modelos de referencia") 
           img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
         
-
+    
       .row.mb-5.ps-2
           .col-8.col-lg-3.bg-color
             #2.h3.mb-0.text-white Modelos de referencia 
@@ -186,7 +187,7 @@
             p(numero="6" titulo="ANSI (UIT Unión Internacional de Comunicaciones)") La Unión Internacional de Telecomunicaciones es el organismo especializado en telecomunicaciones de la Organización de las Naciones Unidas, encargado de regular las telecomunicaciones a nivel internacional entre las distintas administraciones y empresas operadoras. Su sede se encuentra en la ciudad de Ginebra.
         
       .col-12.col-md-4.col-lg-5.col-xl-5.mb-5
-        img.mx-5(src="@/assets/curso/images/tema1/img_4.png" alt="AvatarTop", style="width:300px; display:block; margin:auto 0;")
+        img(src="@/assets/curso/images/tema1/img_4.png")
     
       .col-lg-12.mx-auto.mb-5
         .tema1-1 
@@ -208,71 +209,71 @@
               figure
                 img.m-3(src='@/assets/curso/images/tema1/img_6.svg' alt='' , style="width:400px; display:block; margin:0 auto;")
             
-            .tarjeta.p-3.tarjeta-blanca(x="46%" y="12%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="43%" y="12%" numero="")
               h3.bg-color-2.text-white Física - Señalización y transmisión binaria
               h3.mb-5 Transmisión binaria: cables, conectores, voltajes, velocidades de datos
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-3 Los protocolos de capa física describen los medios mecánicos, eléctricos,  funcionales y de procedimiento para activar, mantener y desactivar conexiones físicas para la transmisión de <i>bits</i> hacia un dispositivo de red y desde el.
+                p.mt-5 Los protocolos de capa física describen los medios mecánicos, eléctricos,  funcionales y de procedimiento para activar, mantener y desactivar conexiones físicas para la transmisión de <i>bits</i> hacia un dispositivo de red y desde el.
 
-            .tarjeta.p-3.tarjeta-blanca(x="46%" y="25%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="43%" y="25%" numero="")
               h3.bg-color-2.text-white Enlace de datos - Direccionamiento físico
               h3.mb-5 Acceso a los medios
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-3 Los productos de capa de enlace de datos describen los métodos para intercambiar tramas de datos entre dispositivos en un medio común.
+                p.mt-5 Los productos de capa de enlace de datos describen los métodos para intercambiar tramas de datos entre dispositivos en un medio común.
 
               
-            .tarjeta.p-3.tarjeta-blanca(x="46%" y="37%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="43%" y="37%" numero="")
               h3.bg-color-2.text-white Red - Determinación de ruta y direccionamiento lógico
               h3.mb-5 Direccionamiento y mejor ruta
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-3 La capa de red, proporciona servicios para intercambiar los datos individuales en la red entre dispositivos finales identificados.
+                p.mt-5 La capa de red, proporciona servicios para intercambiar los datos individuales en la red entre dispositivos finales identificados.
               
 
-            .tarjeta.p-3.tarjeta-blanca(x="46%" y="48%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="43%" y="48%" numero="")
               h3.bg-color-2.text-white Transporte - Conexión de extremo a extremo y confiabiidad
               h3.mb-5  Conexiones de extremo a extremo
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-3 La capa de transporte, define los servicios para segmentar, transferir y rearmar los datos para las comunicaciones individuales entre dispositivos finales.
+                p.mt-5 La capa de transporte, define los servicios para segmentar, transferir y rearmar los datos para las comunicaciones individuales entre dispositivos finales.
 
-            .tarjeta.p-3.tarjeta-blanca(x="46%" y="60%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="43%" y="60%" numero="")
               h3.bg-color-2.text-white Sesión - Comunicación entre dispositivos de red
               h3.mb-5 Comunicación entre <i>hosts</i>
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-3 La capa de sesión, proporciona servicios a la capa de presentación para organizar su diálogo y administrar el intercambio de datos.
+                p.mt-5 La capa de sesión, proporciona servicios a la capa de presentación para organizar su diálogo y administrar el intercambio de datos.
 
               
-            .tarjeta.p-3.tarjeta-blanca(x="46%" y="75%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="43%" y="75%" numero="")
               h3.bg-color-2.text-white Presentación - Representación de datos y encriptación
               h3.mb-5 Representación de datos
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-3 La capa de red, proporciona una representación común de los datos transferidos entre los servicios de la capa de aplicación.
+                p.mt-5 La capa de red, proporciona una representación común de los datos transferidos entre los servicios de la capa de aplicación.
 
-            .tarjeta.p-3.tarjeta-blanca(x="46%" y="91%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="43%" y="91%" numero="")
               h3.bg-color-2.text-white Aplicación - Servicios de red a aplicaciones
               h3.mb-5  Procesos de red a aplicaciones
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-3 La capa de red, proporciona los medios para la conectividad de extremo a extremo entre individuos de la red humana mediante redes de datos.
+                p.mt-5 La capa de red, proporciona los medios para la conectividad de extremo a extremo entre individuos de la red humana mediante redes de datos.
 
           
         .col-12.col-md-4.col-lg-6.col-xl-6.mb-5
@@ -368,7 +369,7 @@
           a(href="#menu1", title="Protocolos de comunicación") 
             img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
 
-      .row.mb-5.ps-2.fondo-2
+      .row.mb-5.ps-2.fondo-27
         .col-8.col-lg-4.bg-color-3
           #4.h3.mb-0.text-white Protocolos de comunicación
 
@@ -499,6 +500,7 @@
             p.mb-0 Para que se establezca una comunicación entre un origen y un destino se requiere entonces que tanto el emisor como el receptor utilicen el mismo protocolo de comunicaciones, pero además se requiere de un puerto de comunicación que facilite que los datos enviados desde el origen vayan por un canal exclusivo.
 
       hr 
+      
       .pRelative
         .backtoTop
           a(href="#menu1", title="Medios de transmisión") 
@@ -512,7 +514,7 @@
         .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
           img.m-3(src="@/assets/curso/images/tema1/img_15.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem 3rem;")
         .col-12.col-md-4.col-lg-7.col-xl-7.my-3
-          p Para que la comunicación entre un emisor y un receptor se realice se requiere de un medio que facilite la conexión entre ambos extremos el cual es conocido como el medio de transmisión, este constituye el soporte físico a través del cual emisor y receptor pueden comunicarse en un sistema de transmisión de datos. Los medios de transmisión se pueden categorizar en dos grandes tipos que son los medios guiados y no guiados.
+          p.aling-2 Para que la comunicación entre un emisor y un receptor se realice se requiere de un medio que facilite la conexión entre ambos extremos el cual es conocido como el medio de transmisión, este constituye el soporte físico a través del cual emisor y receptor pueden comunicarse en un sistema de transmisión de datos. Los medios de transmisión se pueden categorizar en dos grandes tipos que son los medios guiados y no guiados.
           .cajon.color-custom.p-4.mt-5
             p.mb-3 Los medios guiados conducen (guían) las señales a través de un camino físico, tal como se muestra en la figura 3, dentro de los cuales podemos encontrar:
       
@@ -554,13 +556,13 @@
             img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
       
       .row.mb-5
-        .col-8.col-lg-3.bg-color
+        .col-8.col-lg-3.bg-color-5
           #7.h3.mb-0.text-white Recursos compartidos
       
       .row.justify-content-center.align-items-center.fondo-21.mb-5
         .col-12.col-md-4.col-lg-8.col-xl-8.my-3
           p.mb-3 Como ya hemos mencionado, las redes de datos facilitan y potencian el trabajo en red entre los diferentes usuarios y dispositivos, de tal manera que se pueda acceder a dispositivos y recursos compartidos, cuando indicamos los recursos, nos referimos a todos esos elementos tanto <i>hardware</i> como <i>software</i> que pueden compartidos y utilizados por los diferentes dispositivos conectados, estos recursos pueden ser desde el punto de vista del <i>hardware</i>:
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center.align-items-center.mb-4
             .col.lg-2
               .tarjeta.tarjeta--blanca.boxShadow.p-5
                 .row.justify-content-center.mb-3
@@ -580,9 +582,9 @@
                     img(src='@/assets/curso/images/tema1/img_22.svg' alt='imagen relacionada' style='width:80px').mx-auto
                 h5.text-center.mb-3  Almacenamiento
         .col-12.col-md-8.col-lg-4.col-xl-4.mb-5
-            img(src="@/assets/curso/images/tema1/img_23.png" alt="AvatarTop" style='width:350px').mx-auto
+            img(src="@/assets/curso/images/tema1/img_23.png" alt="AvatarTop")
         
-        p.my-4  Desde el punto de vista lógico podemos compartir recursos como:
+        p.mb-4  Desde el punto de vista lógico podemos compartir recursos como:
         
         .row.justify-content-center.align-items-center
           .col.lg-3
@@ -608,7 +610,7 @@
 
       .row.justify-content-center.align-items-center.fondo-5
         .col-12.col-md-8.col-lg-7.col-xl-7.mb-4 
-          LineaTiempoD.color-acento-contenido
+          LineaTiempoD.color-acento-contenido.mt-5
               p(numero="1" titulo="Paso 1") El almacenamiento de los datos se hace de manera local en dispositivos como discos duros y servidores locales, este trae consigo el problema de que si llegase a fallar el servidor se corre el riesgo de la pérdida de información o pérdida de acceso a los servicios.
 
               p(numero="2" titulo="Paso 2") La administración de los recursos, que se relaciona con: el suministro de energía, aire acondicionado, sistemas de protección UPS y el mantenimiento preventivo y/o correctivo de los dispositivos, sin mencionar el hecho de que la tecnología en cuanto a infraestructura, va perdiendo su valor y se va devaluando rápidamente debido al constante desarrollo y evolución.
@@ -689,14 +691,14 @@
         
       .row.justify-content-center.align-items-center.fondo-9.mb-3
         .col-12.col-md-4.col-lg-7.col-xl-7.my-3
-          p.mb-3.text-small La computación en la nube permite el uso de recursos y servicios tecnológicos a través de la Red en este caso internet, la nube da la posibilidad de que cada empresa pueda acceder a los servicios requeridos es decir no todos necesitaran o utilizaran los mismos servicios, las tecnologías de la información, y las comunicaciones se han convertido en un factor potenciador y necesario para que las empresas sin importar el tipo, sino que funcionen de una manera eficaz y efectiva de acuerdo a su <i>core</i> de negocio, aunque en general los recursos de TI los podemos clasificar en tres componentes, como se ve en la figura 5.
+          p.mb-3 La computación en la nube permite el uso de recursos y servicios tecnológicos a través de la Red en este caso internet, la nube da la posibilidad de que cada empresa pueda acceder a los servicios requeridos es decir no todos necesitaran o utilizaran los mismos servicios, las tecnologías de la información, y las comunicaciones se han convertido en un factor potenciador y necesario para que las empresas sin importar el tipo, sino que funcionen de una manera eficaz y efectiva de acuerdo a su <i>core</i> de negocio, aunque en general los recursos de TI los podemos clasificar en tres componentes, como se ve en la figura 5.
           .cajon.color-custom.p-4.mb-2
             p.text-small Estos componentes de igual manera requieren una serie de tareas asociadas, estas son:
           .row.justify-content-center.mb-3
             .col
-              img(src='@/assets/curso/images/tema1/img_icon.svg' alt='imagen relacionada' style='width:800px').mx-auto
+              img(src='@/assets/curso/images/tema1/img_icon.svg' alt='imagen relacionada')
         .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
-            img(src="@/assets/curso/images/tema1/img_31.png" alt="AvatarTop" style='width:450px').mx-auto
+            img(src="@/assets/curso/images/tema1/img_31.png" alt="AvatarTop")
 
       p.mb-3 Toda organización que requiera implementar cualquier solución de TI requerirá desarrollar las anteriores tareas, si la organización tiene además sus propios desarrollos o procesos de desarrollo <i>in house</i>, se debe agregar las tareas anteriormente mencionadas las plataformas de desarrollo.
 

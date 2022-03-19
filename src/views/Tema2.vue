@@ -7,7 +7,7 @@
         span 2
       h1  Rentabilidad de la nube
 
-    .contenedor-total
+    .contenedor-total.mb-4
       figure
         img.mx-auto(src='@/assets/curso/images/tema2/img_1.png' alt='Imagen ambiental' style='')
       .contenedor-text-2
@@ -115,10 +115,10 @@
       .h4 2.3 Rentabilidad para los proveedores de servicios en la nube
     
     .row.justify-content-center.align-items-center.fondo-12
-      .col-12.col-md-8.col-lg-4.col-xl-4.mb-4
-        img.mx-1(src="@/assets/curso/images/tema2/img_4.svg" alt="AvatarTop", style="width:300px; display:block; margin:auto 0;")
+      .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
+        img(src="@/assets/curso/images/tema2/img_4.svg" alt="AvatarTop")
       .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
-        p En el caso de los proveedores de servicios de cloud sucede lo contrario que con el cliente, ellos requieren más CapEx toda vez que deben de hacer grandes inversiones en infraestructura creando y dotando más Centros de Datos con tecnologías confiables, de alta disponibilidad y a unos costos que puedan ser amortizados o administrados a partir de tener más usuarios utilizando su infraestructura.
+        p.aling-2 En el caso de los proveedores de servicios de cloud sucede lo contrario que con el cliente, ellos requieren más CapEx toda vez que deben de hacer grandes inversiones en infraestructura creando y dotando más Centros de Datos con tecnologías confiables, de alta disponibilidad y a unos costos que puedan ser amortizados o administrados a partir de tener más usuarios utilizando su infraestructura.
         .cajon.color-custom.p-4.mt-5
             p.mb-0 Para el proveedor el camino es crear grandes centros de datos dotados con todas las características y bondades de la computación en la nube a fin de poder entregar y ofrecer un gran volumen de clientes nuevos que hagan rentable la inversión.
     
@@ -138,26 +138,25 @@
               figure
                 img(src='@/assets/curso/images/tema2/img_5.png' alt='Volver arriba' style="width:300px; display:block; margin:0 auto;")
 
-      .row.justify-content-center.align-items-center.ma-1
-        .col-4.mb-4
-          .tarjeta--sencilla.p-4
+      .row.justify-content-center.ma-1
+        .col-lg-4.mb-4.d-flex
+          .tarjeta--sencilla.p-3
             .row.justify-content-center.mb-3
               .col-7
-                figure
                   img.my-0(src='@/assets/curso/images/tema2/ico_1.svg', alt='icono-avatar')
             h3.text-center.mb-5 Interrogante 1
               p.mb-2 ¿Cuáles y en qué cantidad son los servicios a contratar?
                 
-        .col-4.mb-4
-          .tarjeta--sencilla.p-4
+        .col-lg-4.mb-4.d-flex
+          .tarjeta--sencilla.p-3
             .row.justify-content-center.mb-3
               .col-7
                 figure
                   img.my-0(src='@/assets/curso/images/tema2/ico_2.svg', alt='icono-avatar')
             h3.text-center Interrogante 2
               p.mb-0 ¿Qué nivel de soporte y respuesta a incidentes esperan por parte del proveedor?
-        .col-4.mb-4
-          .tarjeta--sencilla.p-4
+        .col-lg-4.mb-4.d-flex
+          .tarjeta--sencilla.p-3
             .row.justify-content-center.mb-3
               .col-7
                 figure
@@ -166,9 +165,9 @@
               p.mb-0 ¿Cómo la organización puede validar la calidad en el servicio ofrecido por el proveedor?
 
     .row.justify-content-center.align-items-center.fondo-5
-      .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
+      .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
         img(src="@/assets/curso/images/tema2/img_6.png" alt="AvatarTop",)
-      .col-12.col-md-4.col-lg-6.col-xl-7.mb-3
+      .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
         .cajon.color-custom.p-4.mb-5
           p.mb-0 La respuesta a estas preguntas es lo que permite determinar los objetivos del acuerdo de nivel de servicios o SLA donde se establece un contrato entre el proveedor (externo o interno) y el cliente donde se establecen los servicios y las características de los mismos que el cliente espera de su proveedor.
         p.mb-3 Un acuerdo de nivel de servicio puede contar entre otras con las siguientes características:
