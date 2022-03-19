@@ -216,7 +216,7 @@
             p.text-alinear El tipo de servicio contratado según los SLA previamente establecidos entre proveedor y cliente donde se determinan las responsabilidades de cada parte. El tipo de despliegue o puesta en producción de los servicios contratados.
     
 
-    .row.justify-content-center.align-items-center.fondo-10.mb-5
+    .row.justify-content-center.align-items-center.fondo-10.mb-5.p-4
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center.p-3
           .col-11.col-lg-7.col-md-5.mb-4.mb-md-0
@@ -246,7 +246,7 @@
         .row.justify-content-center.align-items-center
           .col-11.col-lg-5.col-md-5.mb-4.mb-md-0
             figure
-              img.mb-3(src='@/assets/curso/images/tema2/img_12.svg', alt='', style="width:280px; display:block; margin:0 1rem;")
+              img.mb-5(src='@/assets/curso/images/tema2/img_12.svg', alt='', style="width:280px; display:block; margin:0 1rem;")
           .col-10.col-lg-5.col-md-5
             h4.mb-4 Problemas generados por el uso de tecnologías compartidas
             p.mb-0 Como ya mencionamos los proveedores de servicio hacen grandes inversiones de tipo CapEx a fin de lograr contar con una arquitectura que permita atraer y cada vez lograr prestar los servicios a más usuarios, ahora todos los usuarios comparten los mismos recursos tecnológicos lo que facilita el hecho de que si se tiene una falla de seguridad o una mala configuración en algún cliente pueda ocasionar que clientes de otras empresas puedan acceder a los recursos donde se presente la falla.
