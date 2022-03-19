@@ -6,14 +6,19 @@
       .titulo-principal__numero
         span 1
       h1  Fundamentos de los servicios de TI en la nube
-
-    .row.align-items-center.fondo-18.mb-5
-      .col-12.col-md-8.col-lg-4.col-xl-4
-        img(src="@/assets/curso/images/tema1/img_1.svg" alt="AvatarTop", style="width:470px; display:block; margin:-2rem -5rem;")
-      .col-12.col-md-4.col-lg-8.col-xl-8.mb-3
-        img(src="@/assets/curso/images/tema1/text.svg" alt="AvatarTop", style="width:850px; display:block; margin:-2rem -3rem;")
-        p.text-white.aling.text-small La nube o <i>cloud computing</i>, es una de las soluciones tecnológicas de servicio más  completa, pues, ofrece una #[br] alternativa informática basada en internet por medio de un intercambio de servicios. Este servicio en la nube se ha extendido #[br] a todos  los sectores, tanto en empresas como en usuarios individuales.
     
+    .row.align-items-center.mb-4.fondo-18.mb-5
+      .col-12.col-md-8.col-lg-4.col-xl-4
+        img(src="@/assets/curso/images/tema1/img_1.svg" alt="AvatarTop", style="width:370px; display:block; margin:-2rem -2rem;")
+      .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
+        img(src="@/assets/curso/images/tema1/text.svg" alt="AvatarTop", style="width:600px; display:block; margin:-2rem 5rem;")
+        p.text-white.aling-4 La nube o <i>cloud computing</i>, es una de las soluciones tecnológicas de servicio más  completa, pues, ofrece una alternativa informática basada en internet por medio de un intercambio de servicios. Este servicio en la nube se ha extendido a todos  los sectores, tanto en empresas como en usuarios individuales.
+
+    .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-28.mb-5.mb-4
+      .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
+        img.my-3(src="@/assets/curso/images/tema1/img_1.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem -1rem;")
+      .col-12.col-md-4.col-lg-6.col-xl-7.mb-3
+         p.text-white La nube o <i>cloud computing</i>, es una de las soluciones tecnológicas de servicio más  completa, pues, ofrece una alternativa informática basada en internet por medio de un intercambio de servicios. Este servicio en la nube se ha extendido a todos  los sectores, tanto en empresas como en usuarios individuales.
     Separador 
 
     #t_1_1.titulo-segundo
@@ -33,58 +38,58 @@
 
     
     p.mb-3 Este tipo de tecnología durante los últimos años ha permitido que las empresas logren tener presencia corporativa en la web y, la adquisición de recursos tecnológicos informáticos en una inversión económica muy cómoda o razonable a manera de pago por servicios, sin la necesidad de adquirir físicamente equipos o infraestructura como antes era requerido por parte de las organizaciones, administración y mantenimiento, como se detalla a continuación:
-    
-    .row.justify-content-center.fondo-2
-      .col-lg-12
-        ImagenInfografica.color-secundario
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/images/tema1/infogra.svg' alt='' , style="width:800px; display:block; margin:0 auto;")
-
-          .tarjeta.color-primario.p-3.tarjeta--azul(x="15%" y="50%" numero="")
-            h3.mb-5 Servicios de infraestructura
-              .pRelative_1
-                .backtoTop_1
-                  figure
-                    img(src='@/assets/curso/images/tema1/numero1.svg' alt='' , style="width:100px; display:block; margin:1rem 1rem;")
-            p.text-alinear Los servicios de infraestructura en la Nube, conocido como LaaS por sus siglas en inglés; se presentan como aplicaciones de autoservicio creadas para el acceso, control y gestión de infraestructuras remotas.
-
-
-          .tarjeta.color-primario.p-3.tarjeta-violeta-1(x="33%" y="50%" numero="")
-            h3.mb-5 Plataformas en la nube
-              .pRelative_1
-                .backtoTop_1
-                  figure
-                    img(src='@/assets/curso/images/tema1/numero2.svg' alt='' , style="width:100px; display:block; margin:1rem 0.5rem;")
-            p.text-alinear Las Plataformas en la Nube son tan flexibles y versátiles que se usan para desarrollar aplicaciones y sistemas complejos para impulsar los entornos virtuales. De hecho; los sistemas PaaS proporcionan marcos virtuales donde los especialistas desarrollan y personalizan sus sistemas los propietario y las aplicaciones.
-
-            
-          .tarjeta.color-primario.p-3.tarjeta--azul(x="52%" y="50%" numero="")
-            h3.mb-5 <i>Software</i> como servicio
-              .pRelative_1
-                .backtoTop_1
-                  figure
-                    img(src='@/assets/curso/images/tema1/numero3.svg' alt='' , style="width:100px; display:block; margin:1rem 0.5rem;")
-            p.text-alinear Los Servicios de Aplicaciones en la Nube, o mejor conocidos como <i>Software</i> como Servicio(SaaS) se enfocan en el uso de la web para entregar aplicaciones para todo y todos. Esta es la razón por la cual los SaaS representan el mayor mercado de servicios y sistemas en la Nube.
-            
-
-          .tarjeta.color-primario.p-3.tarjeta-violeta(x="69%" y="50%" numero="")
-            h3.mb-5  ¿Para quienes?
-              .pRelative_1
-                .backtoTop_1
-                  figure
-                    img(src='@/assets/curso/images/tema1/numero4.svg' alt='' , style="width:100px; display:block; margin:0.7rem 0;")
-            p.text-alinear Los LaaS están pensados para ingenieros de sistemas, PaaS para desarrolladores web y SaaS para los consumidores directos.
-
-        #menu1.row.justify-content-center
-          .col-lg-12
-            .contenedor-total
+    .row.fondo-2
+      .row.justify-content-center
+        .col-lg-12
+          ImagenInfografica.color-secundario
+            template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/images/tema1/img_2.png' alt='', style="width:1000px; display:block; margin:0 auto;")
-              .contenedor-text-1
-                .row.justify-content-center.p-4
-                  .col-auto
-                    p.mb-4 Cuando hablamos de computación en la nube se mencionan una serie de componentes que hacen parte del conjunto dentro de los cuales se destacan:
+                img(src='@/assets/curso/images/tema1/infogra.svg' alt='' , style="width:800px; display:block; margin:0 auto;")
+
+            .tarjeta.color-primario.p-3.tarjeta--azul(x="15%" y="50%" numero="")
+              h3.mb-5 Servicios de infraestructura
+                .pRelative_1
+                  .backtoTop_1
+                    figure
+                      img(src='@/assets/curso/images/tema1/numero1.svg' alt='' , style="width:100px; display:block; margin:1rem 1rem;")
+              p.text-alinear Los servicios de infraestructura en la Nube, conocido como LaaS por sus siglas en inglés; se presentan como aplicaciones de autoservicio creadas para el acceso, control y gestión de infraestructuras remotas.
+
+
+            .tarjeta.color-primario.p-3.tarjeta-violeta-1(x="33%" y="50%" numero="")
+              h3.mb-5 Plataformas en la nube
+                .pRelative_1
+                  .backtoTop_1
+                    figure
+                      img(src='@/assets/curso/images/tema1/numero2.svg' alt='' , style="width:100px; display:block; margin:1rem 0.5rem;")
+              p.text-alinear Las Plataformas en la Nube son tan flexibles y versátiles que se usan para desarrollar aplicaciones y sistemas complejos para impulsar los entornos virtuales. De hecho; los sistemas PaaS proporcionan marcos virtuales donde los especialistas desarrollan y personalizan sus sistemas los propietario y las aplicaciones.
+
+              
+            .tarjeta.color-primario.p-3.tarjeta--azul(x="52%" y="50%" numero="")
+              h3.mb-5 <i>Software</i> como servicio
+                .pRelative_1
+                  .backtoTop_1
+                    figure
+                      img(src='@/assets/curso/images/tema1/numero3.svg' alt='' , style="width:100px; display:block; margin:1rem 0.5rem;")
+              p.text-alinear Los Servicios de Aplicaciones en la Nube, o mejor conocidos como <i>Software</i> como Servicio(SaaS) se enfocan en el uso de la web para entregar aplicaciones para todo y todos. Esta es la razón por la cual los SaaS representan el mayor mercado de servicios y sistemas en la Nube.
+              
+
+            .tarjeta.color-primario.p-3.tarjeta-violeta(x="69%" y="50%" numero="")
+              h3.mb-5  ¿Para quienes?
+                .pRelative_1
+                  .backtoTop_1
+                    figure
+                      img(src='@/assets/curso/images/tema1/numero4.svg' alt='' , style="width:100px; display:block; margin:0.7rem 0;")
+              p.text-alinear Los LaaS están pensados para ingenieros de sistemas, PaaS para desarrolladores web y SaaS para los consumidores directos.
+          br
+          #menu1.row.justify-content-center
+            .col-lg-12
+              .contenedor-total
+                figure
+                  img(src='@/assets/curso/images/tema1/img_2.png' alt='', style="width:1000px; display:block; margin:0 auto;")
+                .contenedor-text-1
+                  .row.justify-content-center.p-4
+                    .col-auto
+                      p.mb-4 Cuando hablamos de computación en la nube se mencionan una serie de componentes que hacen parte del conjunto dentro de los cuales se destacan:
 
       
     .row.align-items-stretch.justify-content-evenly-cols-7
@@ -117,21 +122,20 @@
         a(href="#6", title="Medios de transmisión") 
           figure
             img(src='@/assets/curso/images/tema1/ico_11.svg' alt='1')
-      .col.btn.mb-5
+      #1.col.btn.mb-5
         a(href="#7", title="Recursos compartidos") 
           figure
             img(src='@/assets/curso/images/tema1/ico_12.svg' alt='1')
           .indicador--click(v-if="mostrarIndicador")  
-          
+      
     br        
     .pRelative
-      .backtoTop
+      .backtoTop-1
         a(href="#menu1", title="Redes de datos") 
           img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
-  
     .row.mb-4.ps-2
       .col-8.col-lg-2.bg-color
-        #1.h3.mb-0.text-white Redes de datos
+        .h3.mb-0.text-white Redes de datos
 
     .row.justify-content-center.align-items-center.fondo-25
       .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
@@ -146,7 +150,7 @@
           img(src='@/assets/curso/images/tema1/ico_13.svg'  alt='')
       .col
           img(src='@/assets/curso/images/tema1/ico_14.svg' alt='')
-      .col
+      #2.col
           img(src='@/assets/curso/images/tema1/ico_15.svg' alt='')
       .col
           img(src='@/assets/curso/images/tema1/ico_16.svg' alt='')
@@ -155,14 +159,14 @@
     hr
     br
     .pRelative
-      .backtoTop
+      .backtoTop-1
         a(href="#menu1", title="Modelos de referencia") 
           img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
         
     
       .row.mb-5.ps-2
           .col-8.col-lg-3.bg-color
-            #2.h3.mb-0.text-white Modelos de referencia 
+            h3.mb-0.text-white Modelos de referencia 
 
     .row.mb-3
       .col-12.col-md-8.col-lg-10.col-xl-10.mb-4 
@@ -201,7 +205,7 @@
                   p.mb-0 Los modelos de referencia se basan en la definición de una serie de capas las cuales tienen cada una sus propias funciones y características que se encargan de resolver un problema diferente en la comunicación, tienen como propósito asistir en la comprensión más clara y sencilla de las funciones y los procesos involucrados en la interconexión de los diferentes dispositivos de red, para ello se establecen una serie de capas con un orden específico y cada una se sustenta en la capa anterior, y más que entrar en los detalles de las especificaciones técnicas requeridas en cada una de ellas, el modelo de referencia ayuda en la comprensión de lo que sucede, ayudándonos a lograr un mejor entendimiento de las funciones y procesos involucrados.
 
       p.mb-0 <b>El modelo de referencia para las redes de comunicaciones es #[span.highlight el modelo OSI -Interconexión de Sistemas Abiertos,] el cual se explica a continuación, veamos:</b>
-
+      
       .row.justify-content-center.align-items-center.fondo-19.mb-3
         .col-12.col-md-8.col-lg-6.col-xl-6.mb-4 
           ImagenInfografica.color-secundario.mb-5
@@ -324,7 +328,7 @@
                   td.text-center Física
                   td.text-center Datos
 
-      .row.justify-content-center.align-items-center
+      #3.row.justify-content-center.align-items-center
         .col-lg-10.mb-4
           .cajon.color-custom.p-4
             p.mb-0 El modelo OSI es el modelo de referencia de <i>internetwork</i> más conocido. Es utilizado para el diseño de redes de datos, especificaciones de funcionamiento y la resolución de problemas ya que permite ir descartando en cada capa el posible problema. 
@@ -332,13 +336,13 @@
       hr
 
       .pRelative
-        .backtoTop
+        .backtoTop-1
           a(href="#menu1", title="title") 
             img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
         
         .row.mb-5.ps-2
           .col-8.col-lg-4.bg-color
-            #3.h3.mb-0.text-white Modelo de referencia TCP /IP
+            h3.mb-0.text-white Modelo de referencia TCP /IP
 
         .row.justify-content-center.align-items-center.mb-5.fondo-26
           .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
@@ -364,16 +368,16 @@
 
       hr 
 
-      .pRelative
+      #4.pRelative
         .backtoTop
           a(href="#menu1", title="Protocolos de comunicación") 
             img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
 
       .row.mb-5.ps-2.fondo-27
         .col-8.col-lg-4.bg-color-3
-          #4.h3.mb-0.text-white Protocolos de comunicación
+          .h3.mb-0.text-white Protocolos de comunicación
 
-        p.mt-3 Las comunicaciones en general requieren de una serie de elementos y actores que intervienen dentro de los cuales podemos encontrar:
+        p.mt-5 Las comunicaciones en general requieren de una serie de elementos y actores que intervienen dentro de los cuales podemos encontrar:
 
         .row.justify-content-center.align-items-center
             .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
@@ -469,14 +473,14 @@
 
       hr 
 
-      .pRelative
+      #5.pRelative
         .backtoTop
           a(href="#menu1", title="Puertos de comunicación") 
             img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
         
       .row.mb-3.ps-2
         .col-8.col-lg-3.bg-color-4
-          #5.h3.mb-0.text-white Puertos de comunicación
+          .h3.mb-0.text-white Puertos de comunicación
 
       p Un puerto de comunicaciones es una interfaz a través de la cual los diferentes dispositivos que intervienen en una comunicación de red pueden enviar y recibir diferentes tipos de datos, los puertos pueden ser de tipo físico (<i>hardware</i>) o lógicos (<i>software</i>), a continuación, se ofrece una breve explicación al respecto:
       
@@ -501,16 +505,16 @@
 
       hr 
       
-      .pRelative
+      #6.pRelative
         .backtoTop
           a(href="#menu1", title="Medios de transmisión") 
             img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
         
       .row.mb-5.ps-2
         .col-8.col-lg-3.bg-color-5
-          #6.h3.mb-0.text-white Medios de transmisión
-    
-      .row.justify-content-center.align-items-center.mb-2.fondo-3
+          .h3.mb-0.text-white Medios de transmisión
+
+      .row.justify-content-center.align-items-center.fondo-3
         .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
           img.m-3(src="@/assets/curso/images/tema1/img_15.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem 3rem;")
         .col-12.col-md-4.col-lg-7.col-xl-7.my-3
@@ -537,7 +541,7 @@
 
         p.mb-3 Normalmente utilizan el aire como el medio a través del cual viajan las señales en frecuencias electromagnéticas, por lo que generalmente requieren de una antena que permita transmitir y recibir datos de diferentes tipos.
 
-        .row.justify-content-center.align-items-center.mb-5
+        .row.justify-content-center.align-items-center
           .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
             .cajon.color-custom.p-3.mb-5
               p.mb-0 Dentro de los medios de transmisión no guiados, como se observa en la figura 4, podemos encontrar:
@@ -550,39 +554,41 @@
         
       hr
 
-      .pRelative
+      #7.pRelative
         .backtoTop
           a(href="#menu1", title="Recursos compartidos") 
             img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
       
       .row.mb-5
         .col-8.col-lg-3.bg-color-5
-          #7.h3.mb-0.text-white Recursos compartidos
-      
-      .row.justify-content-center.align-items-center.fondo-21.mb-5
-        .col-12.col-md-4.col-lg-8.col-xl-8.my-3
-          p.mb-3 Como ya hemos mencionado, las redes de datos facilitan y potencian el trabajo en red entre los diferentes usuarios y dispositivos, de tal manera que se pueda acceder a dispositivos y recursos compartidos, cuando indicamos los recursos, nos referimos a todos esos elementos tanto <i>hardware</i> como <i>software</i> que pueden compartidos y utilizados por los diferentes dispositivos conectados, estos recursos pueden ser desde el punto de vista del <i>hardware</i>:
-          .row.justify-content-center.align-items-center.mb-4
-            .col.lg-2
+          .h3.mb-0.text-white Recursos compartidos
+
+      .row.mb-5.fondo-21
+        .col-lg-7.mb-4.mb-lg-0
+          p.mb-4 Como ya hemos mencionado, las redes de datos facilitan y potencian el trabajo en red entre los diferentes usuarios y dispositivos, de tal manera que se pueda acceder a dispositivos y recursos compartidos, cuando indicamos los recursos, nos referimos a todos esos elementos tanto <i>hardware</i> como <i>software</i> que pueden compartidos y utilizados por los diferentes dispositivos conectados, estos recursos pueden ser desde el punto de vista del <i>hardware</i>:
+          .row.mb-4
+            .col-4
               .tarjeta.tarjeta--blanca.boxShadow.p-5
                 .row.justify-content-center.mb-3
                   .col
                     img(src='@/assets/curso/images/tema1/img_20.svg' alt='imagen relacionada' style='width:80px').mx-auto
                 h4.text-center.mb-3 Impresora
-            .col.lg-2
+            .col-4
               .tarjeta.tarjeta--blanca.boxShadow.p-5
                 .row.justify-content-center.mb-3
                   .col
                     img(src='@/assets/curso/images/tema1/img_21.svg' alt='imagen relacionada' style='width:80px').mx-auto
                 h4.text-center.mb-3  Escáner
-            .col.lg-2
+            .col-4
               .tarjeta.tarjeta--blanca.boxShadow.p-5
                 .row.justify-content-center.mb-3
                   .col
                     img(src='@/assets/curso/images/tema1/img_22.svg' alt='imagen relacionada' style='width:80px').mx-auto
-                h5.text-center.mb-3  Almacenamiento
-        .col-12.col-md-8.col-lg-4.col-xl-4.mb-5
-            img(src="@/assets/curso/images/tema1/img_23.png" alt="AvatarTop")
+                h4.text-center.aling-3  Almacenamiento
+        .col-lg-5
+          figure
+            img(src='@/assets/curso/images/tema1/img_23.png', style="width: 550px").m-auto
+    
         
         p.mb-4  Desde el punto de vista lógico podemos compartir recursos como:
         
@@ -601,12 +607,19 @@
       #t_1_2.titulo-segundo
         .h4 1.2 Servicios propietarios
 
-      .row.align-items-center.fondo-18.mb-5
-        .col-12.col-md-8.col-lg-5.col-xl-5
-          img(src="@/assets/curso/images/tema1/img_pc.svg" alt="AvatarTop", style="width:470px; display:block; margin:-2rem -5rem;")
+      .row.align-items-center.mb-4.fondo-18.mb-5
+        .col-12.col-md-8.col-lg-4.col-xl-4
+          img(src="@/assets/curso/images/tema1/img_pc_2.svg" alt="AvatarTop", style="width:390px; display:block; margin: -2rem -2rem;")
         .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
-          img(src="@/assets/curso/images/tema1/text.svg" alt="AvatarTop", style="width:600px; display:block; margin:-1rem 2rem;")
+          img(src="@/assets/curso/images/tema1/text.svg" alt="AvatarTop", style="width:600px; display:block; margin:-5rem 7rem;")
+          p.text-white.aling-5 Antes de la llegada de la computación en la nube, los servicios, infraestructura, plataformas y en general los recursos de TI debían ser instalados, configurados y administrados en su totalidad por la empresa lo que conlleva varios inconvenientes entre los cuales se pueden mencionar los siguientes:
+
+      .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-28.mb-5.mb-4
+        .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
+          img.my-3(src="@/assets/curso/images/tema1/img_pc_2.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem -1rem;")
+        .col-12.col-md-4.col-lg-6.col-xl-7.mb-3
           p.text-white Antes de la llegada de la computación en la nube, los servicios, infraestructura, plataformas y en general los recursos de TI debían ser instalados, configurados y administrados en su totalidad por la empresa lo que conlleva varios inconvenientes entre los cuales se pueden mencionar los siguientes:
+      
 
       .row.justify-content-center.align-items-center.fondo-5
         .col-12.col-md-8.col-lg-7.col-xl-7.mb-4 

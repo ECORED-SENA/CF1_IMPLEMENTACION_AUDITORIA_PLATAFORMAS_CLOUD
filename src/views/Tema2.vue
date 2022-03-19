@@ -19,14 +19,20 @@
 
     #t_2_1.ma.titulo-segundo
       .h4 2.1 Ventajas y desventajas de la informática en la nube
+    br
+    .row.align-items-center.mb-4.fondo-18.mb-5
+      .col-12.col-md-8.col-lg-4.col-xl-4
+        img(src="@/assets/curso/images/tema2/img_2.svg" alt="AvatarTop", style="width:320px; display:block; margin: -4rem -2rem;")
+      .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
+        img(src="@/assets/curso/images/tema1/text.svg" alt="AvatarTop", style="width:600px; display:block; margin:-5rem 7rem;")
+        p.text-white.aling-5 Son muchas las ventajas que ofrece la computación en la nube de ahí la importancia y popularidad que ha venido logrando, podemos hablar de una mejora económica, la simplificación o disminución de la complejidad en la administración de los recursos de TI, la escalabilidad, la flexibilidad, y el alto impacto en la conservación del planeta por el uso mejorado y la reducción de la huella de carbono, a continuación, se mencionan de manera muy general estas ventajas:
 
-    .row.align-items-center.fondo-18.my-5
-      .col-12.col-md-8.col-lg-3.col-xl-3
-        img(src="@/assets/curso/images/tema2/img_2.svg" alt="AvatarTop", style="width:380px; display:block; margin:-2rem -5rem;")
-      .col-12.col-md-4.col-lg-8.col-xl-8.mb-3
-        img(src="@/assets/curso/images/tema1/text.svg" alt="AvatarTop", style="width:590px; display:block; margin:-2rem 10rem;")
+    .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-28.mb-5
+      .col-12.col-md-8.col-lg-6.col-xl-5
+        img.my-3(src="@/assets/curso/images/tema2/img_2.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem -1rem;")
+      .col-12.col-md-4.col-lg-6.col-xl-7
         p.text-white Son muchas las ventajas que ofrece la computación en la nube de ahí la importancia y popularidad que ha venido logrando, podemos hablar de una mejora económica, la simplificación o disminución de la complejidad en la administración de los recursos de TI, la escalabilidad, la flexibilidad, y el alto impacto en la conservación del planeta por el uso mejorado y la reducción de la huella de carbono, a continuación, se mencionan de manera muy general estas ventajas:
-    
+    br
     .row.justify-content-center.align-items-center.ma-1
       .col-12.col-md-8.col-lg-10.col-xl-10.mb-4 
         LineaTiempoD.color-acento-contenido
@@ -139,28 +145,28 @@
                 img(src='@/assets/curso/images/tema2/img_5.png' alt='Volver arriba' style="width:300px; display:block; margin:0 auto;")
 
       .row.justify-content-center.ma-1
-        .col-lg-4.mb-4.d-flex
+        .col-4.mb-4.d-flex
           .tarjeta--sencilla.p-3
             .row.justify-content-center.mb-3
               .col-7
-                  img.my-0(src='@/assets/curso/images/tema2/ico_1.svg', alt='icono-avatar')
+                  img.my-0(src='@/assets/curso/images/tema2/ico_1.svg', alt="alt", style="width: 85px;").m-auto.mb-2
             h3.text-center.mb-5 Interrogante 1
               p.mb-2 ¿Cuáles y en qué cantidad son los servicios a contratar?
                 
-        .col-lg-4.mb-4.d-flex
+        .col-4.mb-4.d-flex
           .tarjeta--sencilla.p-3
             .row.justify-content-center.mb-3
               .col-7
                 figure
-                  img.my-0(src='@/assets/curso/images/tema2/ico_2.svg', alt='icono-avatar')
+                  img.my-0(src='@/assets/curso/images/tema2/ico_2.svg', alt="alt", style="width: 85px;").m-auto.mb-2
             h3.text-center Interrogante 2
               p.mb-0 ¿Qué nivel de soporte y respuesta a incidentes esperan por parte del proveedor?
-        .col-lg-4.mb-4.d-flex
+        .col-4.mb-4.d-flex
           .tarjeta--sencilla.p-3
             .row.justify-content-center.mb-3
               .col-7
                 figure
-                  img(src='@/assets/curso/images/tema2/ico_3.svg', alt='icono-avatar')
+                  img(src='@/assets/curso/images/tema2/ico_3.svg',alt="alt", style="width: 85px;").m-auto.mb-2
             h3.text-center Interrogante 3
               p.mb-0 ¿Cómo la organización puede validar la calidad en el servicio ofrecido por el proveedor?
 
@@ -216,7 +222,7 @@
             p.text-alinear El tipo de servicio contratado según los SLA previamente establecidos entre proveedor y cliente donde se determinan las responsabilidades de cada parte. El tipo de despliegue o puesta en producción de los servicios contratados.
     
 
-    .row.justify-content-center.align-items-center.fondo-10.mb-5.p-4
+    .row.justify-content-center.align-items-center.fondo-10.mb-5
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center.p-3
           .col-11.col-lg-7.col-md-5.mb-4.mb-md-0
@@ -246,7 +252,7 @@
         .row.justify-content-center.align-items-center
           .col-11.col-lg-5.col-md-5.mb-4.mb-md-0
             figure
-              img.mb-5(src='@/assets/curso/images/tema2/img_12.svg', alt='', style="width:280px; display:block; margin:0 1rem;")
+              img.mb-3(src='@/assets/curso/images/tema2/img_12.svg', alt='', style="width:280px; display:block; margin:0 1rem;")
           .col-10.col-lg-5.col-md-5
             h4.mb-4 Problemas generados por el uso de tecnologías compartidas
             p.mb-0 Como ya mencionamos los proveedores de servicio hacen grandes inversiones de tipo CapEx a fin de lograr contar con una arquitectura que permita atraer y cada vez lograr prestar los servicios a más usuarios, ahora todos los usuarios comparten los mismos recursos tecnológicos lo que facilita el hecho de que si se tiene una falla de seguridad o una mala configuración en algún cliente pueda ocasionar que clientes de otras empresas puedan acceder a los recursos donde se presente la falla.

@@ -15,14 +15,21 @@
       .col-12.col-md-4.col-lg-6.col-xl-6
         img(src="@/assets/curso/images/tema3/img_1.png" alt='AvatarTop', style="width:500px; display:block; margin:-12px 1rem;")
 
-    .row.align-items-center.fondo-18.mb-5
-      .col-12.col-md-8.col-lg-3.col-xl-3
-        img(src="@/assets/curso/images/tema3/img_2.svg" alt="AvatarTop", style="width:370px; display:block; margin:-2rem -5rem;")
+    .row.align-items-center.mb-4.fondo-18.mb-5
+      .col-12.col-md-8.col-lg-4.col-xl-4
+        img(src="@/assets/curso/images/tema3/img_2.svg" alt="AvatarTop", style="width:320px; display:block; margin: -5rem -2rem;")
       .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
-        img(src="@/assets/curso/images/tema3/text.svg" alt="AvatarTop", style="width:800px; display:block; margin:-2rem 9rem;")
-        p.text-white La computación en la nube hace que sea posible que los usuarios accedan a aplicaciones en servidores centralizados que se basan en la infraestructura de la nube, pudiendo así las aplicaciones funcionar en la nube y facilitando su implementación sin costo alguno, manteniendo varias capas de <i>hardware</i> y <i>software</i>. #[br] #[br] El siguiente mapa ofrece una vista rápida de los contenidos de este componente formativo:
+        img(src="@/assets/curso/images/tema1/text.svg" alt="AvatarTop", style="width:600px; display:block; margin:-5rem 7rem;")
+        p.text-white.aling-5 La computación en la nube hace que sea posible que los usuarios accedan a aplicaciones en servidores centralizados que se basan en la infraestructura de la nube, pudiendo así las aplicaciones funcionar en la nube y facilitando su implementación sin costo alguno, manteniendo varias capas de <i>hardware</i> y <i>software</i>. El siguiente mapa ofrece una vista rápida de los contenidos de este componente formativo:
+
+    .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-28.mb-5
+      .col-12.col-md-8.col-lg-6.col-xl-5
+        img.my-3(src="@/assets/curso/images/tema3/img_2.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem -1rem;")
+      .col-12.col-md-4.col-lg-6.col-xl-7
+        p.text-white La computación en la nube hace que sea posible que los usuarios accedan a aplicaciones en servidores centralizados que se basan en la infraestructura de la nube, pudiendo así las aplicaciones funcionar en la nube y facilitando su implementación sin costo alguno, manteniendo varias capas de <i>hardware</i> y <i>software</i>.El siguiente mapa ofrece una vista rápida de los contenidos de este componente formativo:
+    br
         
-    p.mb-5 El siguiente mapa ofrece una vista rápida de los contenidos de este componente formativo:
+    p.my-3 El siguiente mapa ofrece una vista rápida de los contenidos de este componente formativo:
 
     .row.justify-content-center
       .col-lg-12.mb-4
