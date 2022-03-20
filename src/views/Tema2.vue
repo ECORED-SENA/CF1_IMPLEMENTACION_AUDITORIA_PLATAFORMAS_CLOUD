@@ -19,7 +19,7 @@
 
     #t_2_1.ma.titulo-segundo
       .h4 2.1 Ventajas y desventajas de la informática en la nube
-    br
+    
     .row.align-items-center.mb-4.fondo-18.mb-5
       .col-12.col-md-8.col-lg-4.col-xl-4
         img(src="@/assets/curso/images/tema2/img_2.svg" alt="AvatarTop", style="width:320px; display:block; margin: -4rem -2rem;")
@@ -32,7 +32,7 @@
         img.my-3(src="@/assets/curso/images/tema2/img_2.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem -1rem;")
       .col-12.col-md-4.col-lg-6.col-xl-7
         p.text-white Son muchas las ventajas que ofrece la computación en la nube de ahí la importancia y popularidad que ha venido logrando, podemos hablar de una mejora económica, la simplificación o disminución de la complejidad en la administración de los recursos de TI, la escalabilidad, la flexibilidad, y el alto impacto en la conservación del planeta por el uso mejorado y la reducción de la huella de carbono, a continuación, se mencionan de manera muy general estas ventajas:
-    br
+    
     .row.justify-content-center.align-items-center.ma-1
       .col-12.col-md-8.col-lg-10.col-xl-10.mb-4 
         LineaTiempoD.color-acento-contenido
@@ -83,25 +83,25 @@
               figure
                 img(src='@/assets/curso/images/tema2/img_3.svg' alt='' , style="width:900px; display:block; margin:0 auto;")
 
-            .tarjeta.p-3.tarjeta-blanca-1(x="8%" y="45%" numero="")
+            .tarjeta-blanca-3.p-3(x="8%" y="45%" numero="")
               figure
                   img.mb-3(src='@/assets/curso/images/tema2/line.svg' alt='' , style="width:600px; display:block; margin:-1rem 0;")
               h2.mb-3 Riesgos #[BR]#[span.highlight-1 de seguridad]
               p.text-alinear La informática en la nube permite que los datos e información corporativa de una organización salga del espacio físico de la empresa y sea dispuesta en Internet a través de los servicios de cloud, esto es un riesgo muy alto en cuanto a la seguridad de la información y ciberseguridad, algunas empresas o dominios específicos por sus necesidades particulares y por el tipo de información que soportan, deben de recurrir a nubes privadas o híbridas a fin de garantizar la protección de su información.
 
-            .tarjeta.p-3.tarjeta-blanca-1(x="17%" y="18%" numero="")
+            .tarjeta-blanca-3.p-3(x="17%" y="18%" numero="")
               figure
                   img.mb-3(src='@/assets/curso/images/tema2/line.svg' alt='' , style="width:600px; display:block; margin:-1rem 0;")
               h2.mb-3 Bloqueo del #[BR]#[span.highlight-1 proveedor]
               p.text-alinear Los grandes proveedores de servicios de computación en la nube ofrecen nubes públicas y son de propiedad exclusiva de las empresas que ofrecen el servicio, esto puede llevar a que en determinado momento al adquirir un servicio, un cliente quede de alguna manera “amarrado” a ese proveedor ya que, puede desarrollar aplicaciones o almacenar sus datos en estas nubes, hay muy poca normalización frente a los servicios que se entregan por parte de los proveedores, lo que puede llevar a que si un cliente quisiera migrar sus servicios a otro proveedor se vuelva una tarea demasiado engorrosa y, que en algunas ocasiones acarree gastos innecesarios al tener que recurrir a expertos en hacer migraciones de una plataforma a otra.
 
-            .tarjeta.p-3.tarjeta-blanca-1(x="86%" y="20%" numero="")
+            .tarjeta-blanca-3.p-3(x="86%" y="20%" numero="")
               figure
                   img.mb-3(src='@/assets/curso/images/tema2/line.svg' alt='' , style="width:600px; display:block; margin:-1rem 0;")
               h2.mb-3 Riesgos de  #[BR]#[span.highlight-1 privacidad]
               p.text-alinear El uso de la nube también plantea muchos problemas relacionados con la privacidad. En función de las leyes con las cuales “funcione” un proveedor de servicios en la nube, los gobiernos pueden tener la capacidad de buscar y asumir datos del proveedor sin el consentimiento explícito o notificación del cliente. Además, los clientes no pueden estar totalmente seguros de la confidencialidad de los datos al usar nubes públicas. 
 
-            .tarjeta.p-3.tarjeta-blanca-1(x="93%" y="45%" numero="")
+            .tarjeta-blanca-3.p-3(x="93%" y="45%" numero="")
               figure
                   img.mb-3(src='@/assets/curso/images/tema2/line.svg' alt='' , style="width:600px; display:block; margin:-1rem 0;")
               h2.mb-3 Riesgos de  #[BR]#[span.highlight-1 confiabilidad]
@@ -222,7 +222,7 @@
             p.text-alinear El tipo de servicio contratado según los SLA previamente establecidos entre proveedor y cliente donde se determinan las responsabilidades de cada parte. El tipo de despliegue o puesta en producción de los servicios contratados.
     
 
-    .row.justify-content-center.align-items-center.fondo-10.mb-5
+    .row.justify-content-center.align-items-center.fondo-10.mb-5.p-5
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center.p-3
           .col-11.col-lg-7.col-md-5.mb-4.mb-md-0

@@ -46,30 +46,30 @@
               figure
                 img(src='@/assets/curso/images/tema1/infogra.svg' alt='' , style="width:800px; display:block; margin:0 auto;")
 
-            .tarjeta.color-primario.p-3.tarjeta--azul(x="15%" y="50%" numero="")
+            .tarjeta.color-primario.p-3.tarjeta--azul(x="17%" y="50%" numero="")
               h3.mb-5 Servicios de infraestructura
                 .pRelative_1
                   .backtoTop_1
                     figure
-                      img(src='@/assets/curso/images/tema1/numero1.svg' alt='' , style="width:100px; display:block; margin:1rem 1rem;")
+                      img(src='@/assets/curso/images/tema1/numero1.svg' alt='' , style="width:100px; display:block; margin:2.5rem 1rem;")
               p.text-alinear Los servicios de infraestructura en la Nube, conocido como LaaS por sus siglas en inglés; se presentan como aplicaciones de autoservicio creadas para el acceso, control y gestión de infraestructuras remotas.
 
 
-            .tarjeta.color-primario.p-3.tarjeta-violeta-1(x="33%" y="50%" numero="")
+            .tarjeta.color-primario.p-3.tarjeta-violeta-1(x="34%" y="50%" numero="")
               h3.mb-5 Plataformas en la nube
                 .pRelative_1
                   .backtoTop_1
                     figure
-                      img(src='@/assets/curso/images/tema1/numero2.svg' alt='' , style="width:100px; display:block; margin:1rem 0.5rem;")
+                      img(src='@/assets/curso/images/tema1/numero2.svg' alt='' , style="width:100px; display:block; margin:2.5rem 0.5rem;")
               p.text-alinear Las Plataformas en la Nube son tan flexibles y versátiles que se usan para desarrollar aplicaciones y sistemas complejos para impulsar los entornos virtuales. De hecho; los sistemas PaaS proporcionan marcos virtuales donde los especialistas desarrollan y personalizan sus sistemas los propietario y las aplicaciones.
 
               
-            .tarjeta.color-primario.p-3.tarjeta--azul(x="52%" y="50%" numero="")
+            .tarjeta.color-primario.p-3.tarjeta--azul(x="51%" y="50%" numero="")
               h3.mb-5 <i>Software</i> como servicio
                 .pRelative_1
                   .backtoTop_1
                     figure
-                      img(src='@/assets/curso/images/tema1/numero3.svg' alt='' , style="width:100px; display:block; margin:1rem 0.5rem;")
+                      img(src='@/assets/curso/images/tema1/numero3.svg' alt='' , style="width:100px; display:block; margin:2.5rem 0.5rem;")
               p.text-alinear Los Servicios de Aplicaciones en la Nube, o mejor conocidos como <i>Software</i> como Servicio(SaaS) se enfocan en el uso de la web para entregar aplicaciones para todo y todos. Esta es la razón por la cual los SaaS representan el mayor mercado de servicios y sistemas en la Nube.
               
 
@@ -136,6 +136,14 @@
     .row.mb-4.ps-2
       .col-8.col-lg-2.bg-color
         .h3.mb-0.text-white Redes de datos
+
+    .row.justify-content-center.align-items-center.d-block.d-lg-none
+      .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
+        img.my-3(src="@/assets/curso/images/tema1/img_3.svg")
+      .col-12.col-md-4.col-lg-7.col-xl-7.mb-5
+        p Las redes de datos tienen por función potenciar e incrementar la productividad de las organizaciones al permitir que todos los dispositivos que se encuentran conectados puedan acceder a los recursos que se encuentran compartidos, en los últimos años la tecnología ha entrado a jugar un papel preponderante en el desarrollo y evolución de las organizaciones cada vez está más inmersa en todos los procesos y actividades empresariales, personales y cotidianas.
+        .cajon.color-custom.p-3
+            p.mb-0 Las redes han permitido que los servicios y el acceso a estos recursos sea cada vez más necesario ya que se requiere tener en todo momento trabajo en equipo, colaborativo y la integración entre los diferentes recursos tecnológicos, esto es lo que conocemos como el <i>Networking,</i> . Para que dichas redes pueden interconectarse y trabajar en red se requiere de una serie de componentes desde el punto de vista físico y lógico dentro de los cuales destacamos los siguientes:
 
     .row.justify-content-center.align-items-center.fondo-25
       .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
@@ -239,7 +247,7 @@
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-5 La capa de red, proporciona servicios para intercambiar los datos individuales en la red entre dispositivos finales identificados.
+                p.mt-5.aling-6 La capa de red, proporciona servicios para intercambiar los datos individuales en la red entre dispositivos finales identificados.
               
 
             .tarjeta.p-3.tarjeta-blanca(x="43%" y="48%" numero="")
@@ -563,6 +571,32 @@
         .col-8.col-lg-3.bg-color-5
           .h3.mb-0.text-white Recursos compartidos
 
+      .row.mb-5.d-block.d-lg-none
+        .col-lg-7.mb-4.mb-lg-0
+          p.mb-4 Como ya hemos mencionado, las redes de datos facilitan y potencian el trabajo en red entre los diferentes usuarios y dispositivos, de tal manera que se pueda acceder a dispositivos y recursos compartidos, cuando indicamos los recursos, nos referimos a todos esos elementos tanto <i>hardware</i> como <i>software</i> que pueden compartidos y utilizados por los diferentes dispositivos conectados, estos recursos pueden ser desde el punto de vista del <i>hardware</i>:
+          .row.mb-4
+            .col-4
+              .tarjeta-blanca.p-5
+                .row.justify-content-center.mb-3
+                  .col
+                    img(src='@/assets/curso/images/tema1/img_20.svg' alt='imagen relacionada' style='width:80px').mx-auto
+                h4.text-center.mb-3 Impresora
+            .col-4
+              .tarjeta-blanca.p-5
+                .row.justify-content-center.mb-3
+                  .col
+                    img(src='@/assets/curso/images/tema1/img_21.svg' alt='imagen relacionada' style='width:80px').mx-auto
+                h4.text-center.mb-3  Escáner
+            .col-4
+              .tarjeta-blanca.p-5
+                .row.justify-content-center.mb-3
+                  .col
+                    img(src='@/assets/curso/images/tema1/img_22.svg' alt='imagen relacionada' style='width:80px').mx-auto
+                h4.text-center.aling-3  Almacenamiento
+        .col-lg-5
+          figure
+            img(src='@/assets/curso/images/tema1/img_23.png', style="width: 550px").m-auto
+
       .row.mb-5.fondo-21
         .col-lg-7.mb-4.mb-lg-0
           p.mb-4 Como ya hemos mencionado, las redes de datos facilitan y potencian el trabajo en red entre los diferentes usuarios y dispositivos, de tal manera que se pueda acceder a dispositivos y recursos compartidos, cuando indicamos los recursos, nos referimos a todos esos elementos tanto <i>hardware</i> como <i>software</i> que pueden compartidos y utilizados por los diferentes dispositivos conectados, estos recursos pueden ser desde el punto de vista del <i>hardware</i>:
@@ -588,7 +622,6 @@
         .col-lg-5
           figure
             img(src='@/assets/curso/images/tema1/img_23.png', style="width: 550px").m-auto
-    
         
         p.mb-4  Desde el punto de vista lógico podemos compartir recursos como:
         
@@ -639,8 +672,8 @@
 
       #t_1_3.titulo-segundo
         .h4 1.3 La evolución de la informática en la nube
-
-      .row.justify-content-center.align-items-center.mb-5.fondo-3
+      
+      .row.justify-content-center.align-items-center.my-5.fondo-3
         .col-12.col-md-8.col-lg-4.col-xl-4.mb-4
           img(src="@/assets/curso/images/tema1/img_26.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem 0;").mb-3
         .col-12.col-md-4.col-lg-8.col-xl-8.my-3

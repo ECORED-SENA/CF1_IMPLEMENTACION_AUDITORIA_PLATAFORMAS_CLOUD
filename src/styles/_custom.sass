@@ -43,7 +43,7 @@
   bottom: 10%
   left: 50%
   transform: translateX(-50%) translateY(-50%)
-  width: 98%
+  width: 95%
   height: 100px
   background-repeat: no-repeat
   background-size: cover
@@ -64,7 +64,7 @@
   bottom: 6%
   left: 50%
   transform: translateX(-50%) translateY(-50%)
-  width: 91%
+  width: 88%
   height: 100px
   background-repeat: no-repeat
   background-size: cover
@@ -154,6 +154,7 @@
   background-image: url('../assets/curso/images/tema1/back_slyder.svg')
   background-size: cover
   background-repeat: no-repeat
+  padding: 1.5rem
 .fondo-11
   background-image: url('../assets/curso/images/tema1/back_1.svg')
   background-size: cover
@@ -250,6 +251,12 @@
   background-image: url('../assets/curso/images/tema1/back_21.svg')
   background-size: cover
   background-repeat: no-repeat 
+  @media (max-width: 992px)
+    position: absolute
+    padding: 1rem
+    left: 50%
+    height: auto
+    transform: translateX(1000rem) translateY(0%)
 .fondo-22
   background-image: url('../assets/curso/images/tema1/back_2.svg')
   background-size: cover
@@ -279,6 +286,12 @@
   margin-inline-end: -50px !important
   height: 320px
   padding: 1.0rem
+  @media (max-width: 992px)
+    position: absolute
+    padding: 1rem
+    left: 50%
+    height: auto
+    transform: translateX(1000rem) translateY(0%)
 .fondo-26
   background-image: url('../assets/curso/images/tema1/back_5.svg')
   background-size: cover
@@ -397,47 +410,27 @@ i.cac
   border-top-right-radius: 10px
   border-bottom-right-radius: 10px
   border-bottom-left-radius: 10px
-  height: 220px
-  width: 500px
 .tarjeta-violeta
   background-color: #FF2C9C !important
   border-top-left-radius: 10px
   border-top-right-radius: 10px
   border-bottom-right-radius: 10px
   border-bottom-left-radius: 10px
-  height: 210px
-  width: 350px
 .tarjeta-violeta-1
   background-color: #FF2C9C !important
   border-top-left-radius: 10px
   border-top-right-radius: 10px
   border-bottom-right-radius: 10px
   border-bottom-left-radius: 10px
-  height: 320px
-  width: 350px
 .text-alinear
   text-align: left
   padding: 10px
 .tarjeta-blanca
-  position: relative
-  display: flex 
-  flex-direction: column  
-  align-items: center    
   background-color: #FFF !important
   border-top-left-radius: 10px
   border-top-right-radius: 10px
   border-bottom-right-radius: 10px
   border-bottom-left-radius: 10px
-  height: 320px
-  width: 500px
-.tarjeta-blanca-1
-  background-color: #FFF !important
-  border-top-left-radius: 10px
-  border-top-right-radius: 10px
-  border-bottom-right-radius: 10px
-  border-bottom-left-radius: 10px
-  height: 470px
-  width: 470px
 .tarjeta-blanca-2
   background-color: #FFF !important
   border-top-left-radius: 10px
@@ -446,15 +439,12 @@ i.cac
   border-bottom-left-radius: 10px
   height: 235px
   width: 630px
-  display: 
 .tarjeta-blanca-3
-  position: relative
-  display: flex 
-  flex-direction: column  
-  align-items: center    
   background-color: #FFF !important
-  height: 290px
-  width: 500px
+  border-top-left-radius: 10px
+  border-top-right-radius: 10px
+  border-bottom-right-radius: 10px
+  border-bottom-left-radius: 10px
 .highlight
   background-color: $color-acento-contenido
   padding: 3px
@@ -527,3 +517,6 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
   text-align: left  !important
   margin-left: -1.5rem
   margin-bottom: -3rem
+.aling-6
+  text-align: left  !important
+
