@@ -32,7 +32,7 @@
         img.my-3(src="@/assets/curso/images/tema2/img_2.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem -1rem;")
       .col-12.col-md-4.col-lg-6.col-xl-7
         p.text-white Son muchas las ventajas que ofrece la computación en la nube de ahí la importancia y popularidad que ha venido logrando, podemos hablar de una mejora económica, la simplificación o disminución de la complejidad en la administración de los recursos de TI, la escalabilidad, la flexibilidad, y el alto impacto en la conservación del planeta por el uso mejorado y la reducción de la huella de carbono, a continuación, se mencionan de manera muy general estas ventajas:
-    
+      
     .row.justify-content-center.align-items-center.ma-1
       .col-12.col-md-8.col-lg-10.col-xl-10.mb-4 
         LineaTiempoD.color-acento-contenido

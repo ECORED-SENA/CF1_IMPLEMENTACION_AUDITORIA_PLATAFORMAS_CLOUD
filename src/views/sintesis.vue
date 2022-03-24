@@ -15,12 +15,11 @@
       .col-12.col-md-4.col-lg-6.col-xl-6
         img(src="@/assets/curso/images/tema3/img_1.png" alt='AvatarTop', style="width:500px; display:block; margin:-12px 1rem;")
 
-    .row.align-items-center.mb-4.fondo-18.mb-5
-      .col-12.col-md-8.col-lg-4.col-xl-4
-        img(src="@/assets/curso/images/tema3/img_2.svg" alt="AvatarTop", style="width:320px; display:block; margin: -5rem -2rem;")
-      .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
-        img(src="@/assets/curso/images/tema1/text.svg" alt="AvatarTop", style="width:600px; display:block; margin:-5rem 7rem;")
-        p.text-white.aling-5 La computación en la nube hace que sea posible que los usuarios accedan a aplicaciones en servidores centralizados que se basan en la infraestructura de la nube, pudiendo así las aplicaciones funcionar en la nube y facilitando su implementación sin costo alguno, manteniendo varias capas de <i>hardware</i> y <i>software</i>. El siguiente mapa ofrece una vista rápida de los contenidos de este componente formativo:
+    .row.align-items-center.fondo-29.mb-5
+      .col-12.col-md-8.col-lg-3.col-xl-3
+        img(src="@/assets/curso/images/tema3/img_2.svg" alt="AvatarTop", style="width:390px; display:block; margin:-5rem 7rem;").mb-3
+      .col-12.col-md-4.col-lg-9.col-xl-9.mb-3
+        p.aling-7.text-white.mb-3 La computación en la nube hace que sea posible que los usuarios accedan a aplicaciones en #[br] servidores centralizados que se basan en la infraestructura de la nube, pudiendo así #[br] las aplicaciones funcionar en la nube y facilitando su implementación sin costo alguno, #[br] manteniendo varias capas de <i>hardware</i> y <i>software</i>. El siguiente mapa ofrece una vista rápida #[br] de los contenidos de este componente formativo:
 
     .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-28.mb-5
       .col-12.col-md-8.col-lg-6.col-xl-5
@@ -28,7 +27,7 @@
       .col-12.col-md-4.col-lg-6.col-xl-7
         p.text-white La computación en la nube hace que sea posible que los usuarios accedan a aplicaciones en servidores centralizados que se basan en la infraestructura de la nube, pudiendo así las aplicaciones funcionar en la nube y facilitando su implementación sin costo alguno, manteniendo varias capas de <i>hardware</i> y <i>software</i>.El siguiente mapa ofrece una vista rápida de los contenidos de este componente formativo:
     br
-        
+    br    
     p.my-3 El siguiente mapa ofrece una vista rápida de los contenidos de este componente formativo:
 
     .row.justify-content-center
