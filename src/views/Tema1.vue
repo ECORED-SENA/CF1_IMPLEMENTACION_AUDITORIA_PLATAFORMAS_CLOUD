@@ -55,7 +55,7 @@
               p.text-alinear Los servicios de infraestructura en la Nube, conocido como LaaS por sus siglas en inglés; se presentan como aplicaciones de autoservicio creadas para el acceso, control y gestión de infraestructuras remotas.
 
 
-            .tarjeta.color-primario.p-3.tarjeta-violeta-1(x="34%" y="50%" numero="")
+            .tarjeta.color-primario.p-3.tarjeta-violeta(x="34%" y="50%" numero="")
               h3.mb-5 Plataformas en la nube
                 .pRelative_1
                   .backtoTop_1
