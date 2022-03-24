@@ -93,36 +93,36 @@
 
       
     .row.align-items-stretch.justify-content-evenly-cols-7
-      .col.btn.mb-5
+      .col.btn.mb-5.mbtn
         a(href="#1", title="Redes de datos") 
           figure
             img(src='@/assets/curso/images/tema1/ico_6.svg' alt='1')
           .indicador--click(v-if="mostrarIndicador")
-      .col.btn.mb-5
+      .col.btn.mb-5.mbtn-1
         a(href="#2", title="Modelos de referencia ") 
           figure
             img(src='@/assets/curso/images/tema1/ico_7.svg' alt='1')
           .indicador--click(v-if="mostrarIndicador")      
-      .col.btn.mb-5
+      .col.btn.mb-5.mbtn-2
         a(href="#3", title="Protocolos de comunicación") 
           figure
             img(src='@/assets/curso/images/tema1/ico_8.svg' alt='1')
           .indicador--click(v-if="mostrarIndicador")  
-      .col.btn.mb-5
+      .col.btn.mb-5.mbtn-3
         a(href="#4", title="Puertos de comunicación") 
           figure
             img(src='@/assets/curso/images/tema1/ico_9.svg' alt='1')
           .indicador--click(v-if="mostrarIndicador")  
-      .col.btn.mb-5
+      .col.btn.mb-5.mbtn-3
         a(href="#5", title="Puertos de comunicación") 
           figure
             img(src='@/assets/curso/images/tema1/ico_10.svg' alt='1')
           .indicador--click(v-if="mostrarIndicador")  
-      .col.btn.mb-5
+      .col.btn.mb-5.mbtn-3
         a(href="#6", title="Medios de transmisión") 
           figure
             img(src='@/assets/curso/images/tema1/ico_11.svg' alt='1')
-      #1.col.btn.mb-5
+      #1.col.btn.mb-5.mbtn-3
         a(href="#7", title="Recursos compartidos") 
           figure
             img(src='@/assets/curso/images/tema1/ico_12.svg' alt='1')
