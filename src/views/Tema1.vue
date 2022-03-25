@@ -38,14 +38,14 @@
     .row.fondo-2
       p.mb-3.p-4 Este tipo de tecnología durante los últimos años ha permitido que las empresas logren tener presencia corporativa en la web y, la adquisición de recursos tecnológicos informáticos en una inversión económica muy cómoda o razonable a manera de pago por servicios, sin la necesidad de adquirir físicamente equipos o infraestructura como antes era requerido por parte de las organizaciones, administración y mantenimiento, como se detalla a continuación:
       
-      .row.justify-content-center
-        .col-lg-12
+      .row.justify-content-center.mb-3
+        .col-lg-10
           ImagenInfografica.color-secundario
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/images/tema1/infogra.svg' alt='' , style="width:800px; display:block; margin:0 auto;")
+                img(src='@/assets/curso/images/tema1/infogra.svg')
 
-            .tarjeta.color-primario.p-3.tarjeta--azul(x="16.7%" y="50%" numero="")
+            .tarjeta.color-primario.p-3.tarjeta--azul(x="4%" y="50%" numero="")
               h3.mb-5 Servicios de infraestructura
                 .pRelative_1
                   .backtoTop_1
@@ -54,7 +54,7 @@
               p.text-alinear Los servicios de infraestructura en la Nube, conocido como LaaS por sus siglas en inglés; se presentan como aplicaciones de autoservicio creadas para el acceso, control y gestión de infraestructuras remotas.
 
 
-            .tarjeta.color-primario.p-3.tarjeta-violeta(x="34%" y="50%" numero="")
+            .tarjeta.color-primario.p-3.tarjeta-violeta(x="28%" y="50%" numero="")
               h3.mb-5 Plataformas en la nube
                 .pRelative_1
                   .backtoTop_1
@@ -63,7 +63,7 @@
               p.text-alinear Las Plataformas en la Nube son tan flexibles y versátiles que se usan para desarrollar aplicaciones y sistemas complejos para impulsar los entornos virtuales. De hecho; los sistemas PaaS proporcionan marcos virtuales donde los especialistas desarrollan y personalizan sus sistemas los propietario y las aplicaciones.
 
               
-            .tarjeta.color-primario.p-3.tarjeta--azul(x="51.5%" y="50%" numero="")
+            .tarjeta.color-primario.p-3.tarjeta--azul(x="51.7%" y="50%" numero="")
               h3.mb-5 <i>Software</i> como servicio
                 .pRelative_1
                   .backtoTop_1
@@ -72,23 +72,23 @@
               p.text-alinear Los Servicios de Aplicaciones en la Nube, o mejor conocidos como <i>Software</i> como Servicio(SaaS) se enfocan en el uso de la web para entregar aplicaciones para todo y todos. Esta es la razón por la cual los SaaS representan el mayor mercado de servicios y sistemas en la Nube.
               
 
-            .tarjeta.color-primario.p-3.tarjeta-violeta(x="69%" y="50%" numero="")
+            .tarjeta.color-primario.p-3.tarjeta-violeta(x="76%" y="50%" numero="")
               h3.mb-5  ¿Para quienes?
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/numero4.svg' alt='' , style="width:100px; display:block; margin:0.7rem 0;")
               p.text-alinear Los LaaS están pensados para ingenieros de sistemas, PaaS para desarrolladores web y SaaS para los consumidores directos.
-          br
-          #menu1.row.justify-content-center
-            .col-lg-12
-              .contenedor-total
-                figure
-                  img(src='@/assets/curso/images/tema1/img_2.png' alt='', style="width:1000px; display:block; margin:0 auto;")
-                .contenedor-text-1
-                  .row.justify-content-center.p-4
-                    .col-auto
-                      p.aling-8.mb-4 Cuando hablamos de computación en la nube se mencionan una serie de componentes que hacen parte del conjunto dentro de los cuales se destacan:
+      br
+      #menu1.row.justify-content-center
+        .col-lg-12
+          .contenedor-total
+            figure
+              img(src='@/assets/curso/images/tema1/img_2.png' alt='', style="width:1000px; display:block; margin:0 auto;")
+            .contenedor-text-1
+              .row.justify-content-center.p-4
+                .col-auto
+                  p.aling-8.mb-4 Cuando hablamos de computación en la nube se mencionan una serie de componentes que hacen parte del conjunto dentro de los cuales se destacan:
 
     .row.d-none.d-lg-block   
       .row.align-items-stretch.justify-content-evenly-cols-7
@@ -217,9 +217,9 @@
           ImagenInfografica.color-secundario.mb-5
             template(v-slot:imagen)
               figure
-                img.m-3(src='@/assets/curso/images/tema1/img_6.svg' alt='' , style="width:400px; display:block; margin:0 auto;")
+                img.m-3(src='@/assets/curso/images/tema1/img_6.svg')
             
-            .tarjeta.p-3.tarjeta-blanca(x="43%" y="12%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="53.5%" y="12%" numero="")
               h3.bg-color-2.text-white Física - Señalización y transmisión binaria
               h3.mb-5 Transmisión binaria: cables, conectores, voltajes, velocidades de datos
                 .pRelative_1
@@ -228,7 +228,7 @@
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
                 p.mt-5 Los protocolos de capa física describen los medios mecánicos, eléctricos,  funcionales y de procedimiento para activar, mantener y desactivar conexiones físicas para la transmisión de <i>bits</i> hacia un dispositivo de red y desde el.
 
-            .tarjeta.p-3.tarjeta-blanca(x="43%" y="25%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="53.5%" y="25%" numero="")
               h3.bg-color-2.text-white Enlace de datos - Direccionamiento físico
               h3.mb-5 Acceso a los medios
                 .pRelative_1
@@ -238,7 +238,7 @@
                 p.mt-5 Los productos de capa de enlace de datos describen los métodos para intercambiar tramas de datos entre dispositivos en un medio común.
 
               
-            .tarjeta.p-3.tarjeta-blanca(x="43%" y="37%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="53.5%" y="37%" numero="")
               h3.bg-color-2.text-white Red - Determinación de ruta y direccionamiento lógico
               h3.mb-5 Direccionamiento y mejor ruta
                 .pRelative_1
@@ -248,7 +248,7 @@
                 p.mt-5.aling-6 La capa de red, proporciona servicios para intercambiar los datos individuales en la red entre dispositivos finales identificados.
               
 
-            .tarjeta.p-3.tarjeta-blanca(x="43%" y="48%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="53.5%" y="48%" numero="")
               h3.bg-color-2.text-white Transporte - Conexión de extremo a extremo y confiabiidad
               h3.mb-5  Conexiones de extremo a extremo
                 .pRelative_1
@@ -257,7 +257,7 @@
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
                 p.mt-5 La capa de transporte, define los servicios para segmentar, transferir y rearmar los datos para las comunicaciones individuales entre dispositivos finales.
 
-            .tarjeta.p-3.tarjeta-blanca(x="43%" y="60%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="53.5%" y="60%" numero="")
               h3.bg-color-2.text-white Sesión - Comunicación entre dispositivos de red
               h3.mb-5 Comunicación entre <i>hosts</i>
                 .pRelative_1
@@ -267,7 +267,7 @@
                 p.mt-5 La capa de sesión, proporciona servicios a la capa de presentación para organizar su diálogo y administrar el intercambio de datos.
 
               
-            .tarjeta.p-3.tarjeta-blanca(x="43%" y="75%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="53.5%" y="75%" numero="")
               h3.bg-color-2.text-white Presentación - Representación de datos y encriptación
               h3.mb-5 Representación de datos
                 .pRelative_1
@@ -276,7 +276,7 @@
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
                 p.mt-5 La capa de red, proporciona una representación común de los datos transferidos entre los servicios de la capa de aplicación.
 
-            .tarjeta.p-3.tarjeta-blanca(x="43%" y="91%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="53.5%" y="91%" numero="")
               h3.bg-color-2.text-white Aplicación - Servicios de red a aplicaciones
               h3.mb-5  Procesos de red a aplicaciones
                 .pRelative_1
