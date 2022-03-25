@@ -89,43 +89,43 @@
                 .contenedor-text-1
                   .row.justify-content-center.p-4
                     .col-auto
-                      p.mb-4 Cuando hablamos de computación en la nube se mencionan una serie de componentes que hacen parte del conjunto dentro de los cuales se destacan:
+                      p.aling-8.mb-4 Cuando hablamos de computación en la nube se mencionan una serie de componentes que hacen parte del conjunto dentro de los cuales se destacan:
 
       
     .row.align-items-stretch.justify-content-evenly-cols-7
       .col.btn.mb-5.mbtn
         a(href="#1", title="Redes de datos") 
           figure
-            img(src='@/assets/curso/images/tema1/ico_6.svg' alt='1')
+            img(src='@/assets/curso/images/tema1/ico_6.svg' alt='1', style="width:130px; display:block; margin:0 50px;")
           .indicador--click(v-if="mostrarIndicador")
       .col.btn.mb-5.mbtn-1
         a(href="#2", title="Modelos de referencia ") 
           figure
-            img(src='@/assets/curso/images/tema1/ico_7.svg' alt='1')
+            img(src='@/assets/curso/images/tema1/ico_7.svg' alt='1', style="width:130px; display:block; margin:0 55px;")
           .indicador--click(v-if="mostrarIndicador")      
-      .col.btn.mb-5.mbtn-2
+      .col.btn.mb-5.mbtn-4
         a(href="#3", title="Protocolos de comunicación") 
           figure
-            img(src='@/assets/curso/images/tema1/ico_8.svg' alt='1')
+            img(src='@/assets/curso/images/tema1/ico_8.svg' alt='1', style="width:130px; display:block; margin:0 auto;")
           .indicador--click(v-if="mostrarIndicador")  
-      .col.btn.mb-5.mbtn-3
+      .col.btn.mb-5.mbtn-4
         a(href="#4", title="Puertos de comunicación") 
           figure
-            img(src='@/assets/curso/images/tema1/ico_9.svg' alt='1')
+            img(src='@/assets/curso/images/tema1/ico_9.svg' alt='1', style="width:130px; display:block; margin:0 auto;")
           .indicador--click(v-if="mostrarIndicador")  
-      .col.btn.mb-5.mbtn-3
+      .col.btn.mb-5.mbtn-4
         a(href="#5", title="Puertos de comunicación") 
           figure
-            img(src='@/assets/curso/images/tema1/ico_10.svg' alt='1')
+            img(src='@/assets/curso/images/tema1/ico_10.svg' alt='1', style="width:130px; display:block; margin:0 auto;")
           .indicador--click(v-if="mostrarIndicador")  
-      .col.btn.mb-5.mbtn-3
+      .col.btn.mb-5.mbtn-4
         a(href="#6", title="Medios de transmisión") 
           figure
-            img(src='@/assets/curso/images/tema1/ico_11.svg' alt='1')
-      #1.col.btn.mb-5.mbtn-3
+            img(src='@/assets/curso/images/tema1/ico_11.svg' alt='1', style="width:130px; display:block; margin:0 auto;")
+      #1.col.btn.mb-5.mbtn-4
         a(href="#7", title="Recursos compartidos") 
           figure
-            img(src='@/assets/curso/images/tema1/ico_12.svg' alt='1')
+            img(src='@/assets/curso/images/tema1/ico_12.svg' alt='1', style="width:130px; display:block; margin:0 auto;")
           .indicador--click(v-if="mostrarIndicador")  
       
     br        
