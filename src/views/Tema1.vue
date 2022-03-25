@@ -9,7 +9,7 @@
 
     .row.align-items-center.fondo-18.mb-5
       .col-12.col-md-8.col-lg-4.col-xl-4 
-        img(src="@/assets/curso/images/tema1/img_1.svg" alt="AvatarTop", style="width:370px; display:block; margin:-1rem 10rem;").mb-3
+        img(src="@/assets/curso/images/tema1/img_1.svg" alt="AvatarTop", style="width:370px; display:block; margin:-3rem 10rem;").mb-3
       .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
         p.aling-10.text-white La nube o <i>cloud computing</i>, es una de las soluciones tecnológicas de servicio más  completa, pues, ofrece una alternativa informática basada en internet por medio de un intercambio de servicios. Este servicio en la nube se ha extendido a todos  los sectores, tanto en empresas como en usuarios individuales.
 
