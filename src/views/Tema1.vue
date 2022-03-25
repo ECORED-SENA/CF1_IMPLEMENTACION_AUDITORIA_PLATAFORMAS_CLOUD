@@ -35,9 +35,9 @@
               h6   Del Vecchio, J. F., Paternina, F. J., & Henriquez Miranda, C. (2015) 
                 i.fas.fa-square.cac
 
-    
-    p.mb-3 Este tipo de tecnología durante los últimos años ha permitido que las empresas logren tener presencia corporativa en la web y, la adquisición de recursos tecnológicos informáticos en una inversión económica muy cómoda o razonable a manera de pago por servicios, sin la necesidad de adquirir físicamente equipos o infraestructura como antes era requerido por parte de las organizaciones, administración y mantenimiento, como se detalla a continuación:
     .row.fondo-2
+      p.mb-3.p-4 Este tipo de tecnología durante los últimos años ha permitido que las empresas logren tener presencia corporativa en la web y, la adquisición de recursos tecnológicos informáticos en una inversión económica muy cómoda o razonable a manera de pago por servicios, sin la necesidad de adquirir físicamente equipos o infraestructura como antes era requerido por parte de las organizaciones, administración y mantenimiento, como se detalla a continuación:
+      
       .row.justify-content-center
         .col-lg-12
           ImagenInfografica.color-secundario
@@ -45,7 +45,7 @@
               figure
                 img(src='@/assets/curso/images/tema1/infogra.svg' alt='' , style="width:800px; display:block; margin:0 auto;")
 
-            .tarjeta.color-primario.p-3.tarjeta--azul(x="17%" y="50%" numero="")
+            .tarjeta.color-primario.p-3.tarjeta--azul(x="16.7%" y="50%" numero="")
               h3.mb-5 Servicios de infraestructura
                 .pRelative_1
                   .backtoTop_1
@@ -63,7 +63,7 @@
               p.text-alinear Las Plataformas en la Nube son tan flexibles y versátiles que se usan para desarrollar aplicaciones y sistemas complejos para impulsar los entornos virtuales. De hecho; los sistemas PaaS proporcionan marcos virtuales donde los especialistas desarrollan y personalizan sus sistemas los propietario y las aplicaciones.
 
               
-            .tarjeta.color-primario.p-3.tarjeta--azul(x="51%" y="50%" numero="")
+            .tarjeta.color-primario.p-3.tarjeta--azul(x="51.5%" y="50%" numero="")
               h3.mb-5 <i>Software</i> como servicio
                 .pRelative_1
                   .backtoTop_1
