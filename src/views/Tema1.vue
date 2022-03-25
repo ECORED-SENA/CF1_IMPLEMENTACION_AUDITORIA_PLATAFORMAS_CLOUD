@@ -6,13 +6,12 @@
       .titulo-principal__numero
         span 1
       h1  Fundamentos de los servicios de TI en la nube
-    
-    .row.align-items-center.mb-4.fondo-18.mb-5
-      .col-12.col-md-8.col-lg-4.col-xl-4
-        img(src="@/assets/curso/images/tema1/img_1.svg" alt="AvatarTop", style="width:370px; display:block; margin:-2rem -2rem;")
+
+    .row.align-items-center.fondo-18.mb-5
+      .col-12.col-md-8.col-lg-4.col-xl-4 
+        img(src="@/assets/curso/images/tema1/img_1.svg" alt="AvatarTop", style="width:370px; display:block; margin:-1rem 10rem;").mb-3
       .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
-        img(src="@/assets/curso/images/tema1/text.svg" alt="AvatarTop", style="width:600px; display:block; margin:-2rem 5rem;")
-        p.text-white.aling-4 La nube o <i>cloud computing</i>, es una de las soluciones tecnológicas de servicio más  completa, pues, ofrece una alternativa informática basada en internet por medio de un intercambio de servicios. Este servicio en la nube se ha extendido a todos  los sectores, tanto en empresas como en usuarios individuales.
+        p.aling-10.text-white La nube o <i>cloud computing</i>, es una de las soluciones tecnológicas de servicio más  completa, pues, ofrece una alternativa informática basada en internet por medio de un intercambio de servicios. Este servicio en la nube se ha extendido a todos  los sectores, tanto en empresas como en usuarios individuales.
 
     .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-28.mb-5.mb-4
       .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
@@ -640,12 +639,11 @@
       #t_1_2.titulo-segundo
         .h4 1.2 Servicios propietarios
 
-      .row.align-items-center.mb-4.fondo-18.mb-5
-        .col-12.col-md-8.col-lg-4.col-xl-4
-          img(src="@/assets/curso/images/tema1/img_pc_2.svg" alt="AvatarTop", style="width:390px; display:block; margin: -2rem -2rem;")
+      .row.align-items-center.fondo-30.mb-5
+        .col-12.col-md-8.col-lg-4.col-xl-4 
+          img(src="@/assets/curso/images/tema1/img_pc_2.svg" alt="AvatarTop", style="width:400px; display:block; margin:-3rem -2rem;").mb-3
         .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
-          img(src="@/assets/curso/images/tema1/text.svg" alt="AvatarTop", style="width:600px; display:block; margin:-5rem 7rem;")
-          p.text-white.aling-5 Antes de la llegada de la computación en la nube, los servicios, infraestructura, plataformas y en general los recursos de TI debían ser instalados, configurados y administrados en su totalidad por la empresa lo que conlleva varios inconvenientes entre los cuales se pueden mencionar los siguientes:
+          p.aling-9.text-white Antes de la llegada de la computación en la nube, los servicios, infraestructura, plataformas y en general los recursos de TI debían ser instalados, configurados y administrados en su totalidad por la empresa lo que conlleva varios inconvenientes entre los cuales se pueden mencionar los siguientes:
 
       .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-28.mb-5.mb-4
         .col-12.col-md-8.col-lg-6.col-xl-5.mb-4

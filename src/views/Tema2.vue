@@ -19,13 +19,12 @@
 
     #t_2_1.ma.titulo-segundo
       .h4 2.1 Ventajas y desventajas de la informática en la nube
-    
-    .row.align-items-center.mb-4.fondo-18.mb-5
-      .col-12.col-md-8.col-lg-4.col-xl-4
-        img(src="@/assets/curso/images/tema2/img_2.svg" alt="AvatarTop", style="width:320px; display:block; margin: -4rem -2rem;")
+    br
+    .row.align-items-center.fondo-30.mb-5
+      .col-12.col-md-8.col-lg-4.col-xl-4 
+        img(src="@/assets/curso/images/tema2/img_2.svg" alt="AvatarTop", style="width:400px; display:block; margin:-7rem -2rem;").mb-3
       .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
-        img(src="@/assets/curso/images/tema1/text.svg" alt="AvatarTop", style="width:600px; display:block; margin:-5rem 7rem;")
-        p.text-white.aling-5 Son muchas las ventajas que ofrece la computación en la nube de ahí la importancia y popularidad que ha venido logrando, podemos hablar de una mejora económica, la simplificación o disminución de la complejidad en la administración de los recursos de TI, la escalabilidad, la flexibilidad, y el alto impacto en la conservación del planeta por el uso mejorado y la reducción de la huella de carbono, a continuación, se mencionan de manera muy general estas ventajas:
+        p.aling-11.text-white Son muchas las ventajas que ofrece la computación en la nube de ahí la importancia y popularidad que ha venido logrando, podemos hablar de una mejora económica, la simplificación o disminución de la complejidad en la administración de los recursos de TI, la escalabilidad, la flexibilidad, y el alto impacto en la conservación del planeta por el uso mejorado y la reducción de la huella de carbono, a continuación, se mencionan de manera muy general estas ventajas:
 
     .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-28.mb-5
       .col-12.col-md-8.col-lg-6.col-xl-5

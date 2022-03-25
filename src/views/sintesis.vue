@@ -3,8 +3,6 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
-        span 3
       h1  Síntesis
     
     .row.justify-content-center.align-items-center.fondo-14.p-3.mb-5
