@@ -30,7 +30,7 @@
            img.my-5(src='@/assets/curso/images/tema1/ico_1.svg' alt='' , style="width:200px; display:block; margin:0 auto;").mx-3
           .col-lg-9
             img(src='@/assets/curso/images/tema1/comillasCAC.svg' alt='Cita' style='width:65px;margin-top:0').ms-2.mb-4
-            p.aling-1 <i>“La computación en la nube es el modelo que permite el acceso a una red bajo demanda de un conjunto de servicios informáticos configurables tales como infraestructura, aplicaciones y almacenamiento.”</i>
+            p.aling-1 <b><i>“La computación en la nube es el modelo que permite el acceso a una red bajo demanda de un conjunto de servicios informáticos configurables tales como infraestructura, aplicaciones y almacenamiento.”</i></b>
             .floatRight
               h6   Del Vecchio, J. F., Paternina, F. J., & Henriquez Miranda, C. (2015) 
                 i.fas.fa-square.cac
@@ -177,12 +177,11 @@
     .row.mb-3
       .col-12.col-md-8.col-lg-10.col-xl-10.mb-4 
         p.mb-3 Al inicio del desarrollo de la tecnología y más propiamente de la computación, los diferentes fabricantes construían sus equipos y dispositivos para que fueran compatibles con dispositivos de sus propias marcas lo que no facilitaba la interconexión de equipos y dispositivos de fabricantes distintos.
-        p.mb-3 Esto llevó a la necesidad de estandarizar de manera que se permita la interconexión de una amplia gama de dispositivos sin importar fabricante o tipo se software, para que el intercambio de información sea posible se requiere el establecimiento de una serie de estándares.
-        p.mb-3 Estos estándares son construidos por una serie de organizaciones que son las siguientes:
-
-
+        
     .row.justify-content-center.align-items-center
       .col-12.col-md-8.col-lg-7.col-xl-7.mb-4 
+        p.mb-3 Esto llevó a la necesidad de estandarizar de manera que se permita la interconexión de una amplia gama de dispositivos sin importar fabricante o tipo se <i>software</i>, para que el intercambio de información sea posible se requiere el establecimiento de una serie de estándares.
+        p.mb-3 Estos estándares son construidos por una serie de organizaciones que son las siguientes:
         LineaTiempoD.color-acento-contenido
             p(numero="1" titulo="ISO (Organización Internacional de Normas)") ISO definió un modelo de referencia como estándar para posibilitar las comunicaciones electrónicas a nivel global, conocido como el modelo OSI (Interconexión de Sistemas Abiertos).
 
@@ -199,100 +198,97 @@
       .col-12.col-md-4.col-lg-5.col-xl-5.mb-5
         img(src="@/assets/curso/images/tema1/img_4.png")
     
-      .col-lg-12.mx-auto.mb-5
+      .col-lg-12.mx-auto.mb-4
         .tema1-1 
-          .bloque-texto-a.color-custom-4.p-3.p-md-5
+          .bloque-texto-a.color-custom-4.md-5.p-3
             .row.m-0.align-items-center
               .col-lg-4.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/images/tema1/img_5.png' alt='')
+                  img(src='@/assets/curso/images/tema1/img_5.png' alt='Volver arriba' style="width:350px; display:block; margin:0 auto;")
               .col-lg-8
                 .bloque-texto-a__texto.p-3
                   p.mb-0 Los modelos de referencia se basan en la definición de una serie de capas las cuales tienen cada una sus propias funciones y características que se encargan de resolver un problema diferente en la comunicación, tienen como propósito asistir en la comprensión más clara y sencilla de las funciones y los procesos involucrados en la interconexión de los diferentes dispositivos de red, para ello se establecen una serie de capas con un orden específico y cada una se sustenta en la capa anterior, y más que entrar en los detalles de las especificaciones técnicas requeridas en cada una de ellas, el modelo de referencia ayuda en la comprensión de lo que sucede, ayudándonos a lograr un mejor entendimiento de las funciones y procesos involucrados.
 
       p.mb-0 <b>El modelo de referencia para las redes de comunicaciones es #[span.highlight el modelo OSI -Interconexión de Sistemas Abiertos,] el cual se explica a continuación, veamos:</b>
-      
-      .row.justify-content-center.align-items-center.fondo-19.mb-3
-        .col-12.col-md-8.col-lg-6.col-xl-6.mb-4 
-          ImagenInfografica.color-secundario.mb-5
+
+      .row.mb-3
+        .col-lg-12
+          ImagenInfografica.color-secundario
             template(v-slot:imagen)
               figure
-                img.m-3(src='@/assets/curso/images/tema1/img_6.svg')
+                img(src='@/assets/curso/images/tema1/back_piramide.svg')
             
-            .tarjeta.p-3.tarjeta-blanca(x="53.5%" y="12%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="25.3%" y="24.5%" numero="")
               h3.bg-color-2.text-white Física - Señalización y transmisión binaria
               h3.mb-5 Transmisión binaria: cables, conectores, voltajes, velocidades de datos
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-5 Los protocolos de capa física describen los medios mecánicos, eléctricos,  funcionales y de procedimiento para activar, mantener y desactivar conexiones físicas para la transmisión de <i>bits</i> hacia un dispositivo de red y desde el.
+                p.mt-5.text-small Los protocolos de capa física describen los medios mecánicos, eléctricos,  funcionales y de procedimiento para activar, mantener y desactivar conexiones físicas para la transmisión de <i>bits</i> hacia un dispositivo de red y desde el.
 
-            .tarjeta.p-3.tarjeta-blanca(x="53.5%" y="25%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="25.3%" y="32.5%" numero="")
               h3.bg-color-2.text-white Enlace de datos - Direccionamiento físico
               h3.mb-5 Acceso a los medios
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-5 Los productos de capa de enlace de datos describen los métodos para intercambiar tramas de datos entre dispositivos en un medio común.
+                p.mt-5.text-small  Los productos de capa de enlace de datos describen los métodos para intercambiar tramas de datos entre dispositivos en un medio común.
 
               
-            .tarjeta.p-3.tarjeta-blanca(x="53.5%" y="37%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="25.3%" y="39.3%" numero="")
               h3.bg-color-2.text-white Red - Determinación de ruta y direccionamiento lógico
               h3.mb-5 Direccionamiento y mejor ruta
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-5.aling-6 La capa de red, proporciona servicios para intercambiar los datos individuales en la red entre dispositivos finales identificados.
+                p.mt-5.aling-6.text-small  La capa de red, proporciona servicios para intercambiar los datos individuales en la red entre dispositivos finales identificados.
               
 
-            .tarjeta.p-3.tarjeta-blanca(x="53.5%" y="48%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="25.3%" y="46.5%" numero="")
               h3.bg-color-2.text-white Transporte - Conexión de extremo a extremo y confiabiidad
               h3.mb-5  Conexiones de extremo a extremo
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-5 La capa de transporte, define los servicios para segmentar, transferir y rearmar los datos para las comunicaciones individuales entre dispositivos finales.
+                p.mt-5.text-small  La capa de transporte, define los servicios para segmentar, transferir y rearmar los datos para las comunicaciones individuales entre dispositivos finales.
 
-            .tarjeta.p-3.tarjeta-blanca(x="53.5%" y="60%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="25.3%" y="54%" numero="")
               h3.bg-color-2.text-white Sesión - Comunicación entre dispositivos de red
               h3.mb-5 Comunicación entre <i>hosts</i>
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-5 La capa de sesión, proporciona servicios a la capa de presentación para organizar su diálogo y administrar el intercambio de datos.
+                p.mt-5.text-small  La capa de sesión, proporciona servicios a la capa de presentación para organizar su diálogo y administrar el intercambio de datos.
 
               
-            .tarjeta.p-3.tarjeta-blanca(x="53.5%" y="75%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="25.3%" y="62.3%" numero="")
               h3.bg-color-2.text-white Presentación - Representación de datos y encriptación
               h3.mb-5 Representación de datos
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-5 La capa de red, proporciona una representación común de los datos transferidos entre los servicios de la capa de aplicación.
+                p.mt-5.text-small  La capa de red, proporciona una representación común de los datos transferidos entre los servicios de la capa de aplicación.
 
-            .tarjeta.p-3.tarjeta-blanca(x="53.5%" y="91%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="25.3%" y="73%" numero="")
               h3.bg-color-2.text-white Aplicación - Servicios de red a aplicaciones
               h3.mb-5  Procesos de red a aplicaciones
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-5 La capa de red, proporciona los medios para la conectividad de extremo a extremo entre individuos de la red humana mediante redes de datos.
+                p.mt-5.text-small  La capa de red, proporciona los medios para la conectividad de extremo a extremo entre individuos de la red humana mediante redes de datos.
 
-          
-        .col-12.col-md-4.col-lg-6.col-xl-6.mb-5
-          img.mt-5(src="@/assets/curso/images/tema1/img_7.svg" alt="AvatarTop", style="width:150px; display:block; margin:auto 9rem;")
-
+        
       p Para que los paquetes de datos puedan viajar desde el origen hasta su destino, cada capa del modelo OSI en el origen debe comunicarse con su capa igual de el lugar destino. Esta forma de comunicación se conoce como comunicaciones de par-a-par en cada uno de estas capas la información cambia de nombre es decir usa un PDU (<i>Protocol Data Unit</i>).
 
       .row.justify-content-center
-        .col-lg-5
+        .col-lg-6
           .titulo-sexto.color-acento-contenido
             h5 Tabla 1 
             span Unidades de datos de protocolo por capa
@@ -301,9 +297,9 @@
             table(style="min-width:200px;")
               thead
                 tr
-                  th.text-center <b>Capa Número</b>
-                  th.text-center <b>Nombre de Capa</b>
-                  th.text-center <b>PDU</b>
+                  th.text-center.text <b>Capa Número</b>
+                  th.text-center.text <b>Nombre de Capa</b>
+                  th.text-center.text <b>PDU</b>
               tbody
                 tr
                   td.text-center 7
@@ -352,13 +348,23 @@
 
         .row.justify-content-center.align-items-center.mb-5.fondo-26
           .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
-            img.my-3(src="@/assets/curso/images/tema1/img_8.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem 3rem;")
+            img.my-3(src="@/assets/curso/images/tema1/img_8.svg")
           .col-12.col-md-4.col-lg-7.col-xl-7.my-3
             p Fue el primer modelo de protocolo en capas para comunicaciones de red. Fue desarrollado a principios de la década de los 70 por el departamento de defensa de los EEUU, y se conoce con el nombre de modelo de Internet, su objetivo fue el de crear una red de comunicaciones que funcionara incluso en condiciones de guerra.
-            .cajon.color-custom.p-3
-              p.mb-3 Aunque el modelo OSI es universalmente reconocido, el estándar histórica y técnicamente reconocido para Internet es el modelo TCP/IP (Protocolo de Control de Transferencia / Protocolo de Internet).
+              .cajon.color-custom.aling-13.p-3
+                p.mb-3 Aunque el modelo OSI es universalmente reconocido, el estándar histórica y técnicamente reconocido para Internet es el modelo TCP/IP (Protocolo de Control de Transferencia / Protocolo de Internet).
 
-              p Define cuatro categorías de funciones que deben existir para que las comunicaciones sean exitosas. La arquitectura de la suite de protocolos TCP/IP sigue la estructura de este modelo. Por esto, es común que al modelo de Internet se le conozca como modelo TCP/IP.
+                p Define cuatro categorías de funciones que deben existir para que las comunicaciones sean exitosas. La arquitectura de la suite de protocolos TCP/IP sigue la estructura de este modelo. Por esto, es común que al modelo de Internet se le conozca como modelo TCP/IP.
+
+        .row.justify-content-center.align-items-center.mb-5.d-block.d-lg-none
+          .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
+            img.my-3(src="@/assets/curso/images/tema1/img_8.svg")
+          .col-12.col-md-4.col-lg-7.col-xl-7.my-3
+            p Fue el primer modelo de protocolo en capas para comunicaciones de red. Fue desarrollado a principios de la década de los 70 por el departamento de defensa de los EEUU, y se conoce con el nombre de modelo de Internet, su objetivo fue el de crear una red de comunicaciones que funcionara incluso en condiciones de guerra.
+              .cajon.color-custom.aling-13.p-3
+                p.mb-3 Aunque el modelo OSI es universalmente reconocido, el estándar histórica y técnicamente reconocido para Internet es el modelo TCP/IP (Protocolo de Control de Transferencia / Protocolo de Internet).
+
+                p Define cuatro categorías de funciones que deben existir para que las comunicaciones sean exitosas. La arquitectura de la suite de protocolos TCP/IP sigue la estructura de este modelo. Por esto, es común que al modelo de Internet se le conozca como modelo TCP/IP.
       
       p.my-5 El modelo consta de cuatro capas como se observa en la figura a continuación:
       
@@ -379,16 +385,16 @@
           a(href="#menu1", title="Protocolos de comunicación") 
             img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
 
-      .row.mb-5.ps-2.fondo-27
+      .row.mb-5.ps-2.fondo-2
         .col-8.col-lg-4.bg-color-3
           .h3.mb-0.text-white Protocolos de comunicación
 
         p.mt-5 Las comunicaciones en general requieren de una serie de elementos y actores que intervienen dentro de los cuales podemos encontrar:
 
         .row.justify-content-center.align-items-center
-            .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
-              img.m-1(src="@/assets/curso/images/tema1/img_9.svg" alt="AvatarTop", style="width:470px; display:block; margin:-6rem 3rem;").mb-4
-            .col-12.col-md-4.col-lg-6.col-xl-6.my-3
+            .col-12.col-md-8.col-lg-7.col-xl-7.mb-4
+              img.m-1(src="@/assets/curso/images/tema1/img_9.svg").mb-4
+            .col-12.col-md-4.col-lg-5.col-xl-5.my-3
               SlyderA(columnas="col-12")
                 .tarjeta.tarjeta--blanca.boxShadow.p-5
                   .row.justify-content-center.mb-3
@@ -423,17 +429,16 @@
 
               .cajon.color-custom.p-3.mt-5
                 p.mb-3 Como se evidencia en la figura, toda comunicación requiere contar con un emisor un mensaje a enviar y un código que permite que el mensaje viaje por un canal, para que ambos actores puedan interactuar requieren contar con un código o lenguaje común, que permita que puedan entenderse, ese estándar o lenguaje común es lo que conocemos como un protocolo de comunicaciones, el cual es un conjunto de normas que están obligadas a cumplir todos los dispositivos, <i>hardware</i> y <i>software</i> que intervienen en una comunicación de datos entre computadoras y demás dispositivos, sin estas reglas o estándares la comunicación resultaría caótica y por tanto imposible.
-
       .col-lg-12.mx-auto.mb-5
         .tema1-1 
-          .bloque-texto-a.color-custom-1.p-3.p-md-5
-            .row.m-0.align-items-center.justify-content-between
+          .bloque-texto-a.color-custom-1.md-5.p-3
+            .row.m-0.align-items-center
               .col-lg-8
-                .bloque-texto-a__texto.p-5
-                  p.mb-0 Dependiendo de los servicios a los cuales accedemos a través de las redes de computadores será el protocolo de comunicación que se deberá emplear en la comunicación entre el usuario que solicita y accede al servicio y el dispositivo quien se lo entrega, en general en la transmisión y recepción de los datos podemos encontrar dos grandes familias de protocolos que se resumen en:
+                .bloque-texto-a__texto.p-4
+                  p.mb-5.mt-3 Dependiendo de los servicios a los cuales accedemos a través de las redes de computadores será el protocolo de comunicación que se deberá emplear en la comunicación entre el usuario que solicita y accede al servicio y el dispositivo quien se lo entrega, en general en la transmisión y recepción de los datos podemos encontrar dos grandes familias de protocolos que se resumen en:
               .col-lg-4.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/images/tema1/img_10.png' alt='Volver arriba')
+                  img(src='@/assets/curso/images/tema1/img_10.png' alt='Volver arriba' style="width:350px; display:block; margin:0 auto;")
       
       .row.justify-content-center
         .col-lg-12.d-none.d-lg-block.mb-4
@@ -488,20 +493,37 @@
         .col-8.col-lg-3.bg-color-4
           .h3.mb-0.text-white Puertos de comunicación
 
-      p Un puerto de comunicaciones es una interfaz a través de la cual los diferentes dispositivos que intervienen en una comunicación de red pueden enviar y recibir diferentes tipos de datos, los puertos pueden ser de tipo físico (<i>hardware</i>) o lógicos (<i>software</i>), a continuación, se ofrece una breve explicación al respecto:
+      p.mb-5 Un puerto de comunicaciones es una interfaz a través de la cual los diferentes dispositivos que intervienen en una comunicación de red pueden enviar y recibir diferentes tipos de datos, los puertos pueden ser de tipo físico (<i>hardware</i>) o lógicos (<i>software</i>), a continuación, se ofrece una breve explicación al respecto:
       
       .row.justify-content-center.align-items-center.mb-3
-        .col-lg-10.col-xl-10.mb-5
+        .col-lg-11.col-xl-11.mb-5
           ImagenInfografica.color-secundario.mb-5
             template(v-slot:imagen)
               figure
-                img(src="@/assets/curso/images/tema1/img_12.svg" alt="AvatarTop", style="width:800px; display:block; margin:auto 0;")
+                img(src="@/assets/curso/images/tema1/img_12.svg")
+            
+            .tarjeta.p-4.tarjeta-blanca-2(x="90.5%" y="65.5%" numero="")
+              figure
+                img.mb-0(src='@/assets/curso/images/tema2/line_4.svg' alt='' , style="width:700px")
+                h3.m-2  Puertos 
+                  .row.mb-3
+                    .col-8.col-lg-3
+                      h3.bg-color-6.text-white  físicos
+                  p.text-small Los productos de capa de enlace de datos describen los métodos para intercambiar tramas de datos entre dispositivos en un medio común.
+                    figure
+                        img(src='@/assets/curso/images/tema1/p1.svg' alt='' , style="width:350px")
 
-            .tarjeta(x="50%" y="68%" numero="")
-              img(src='@/assets/curso/images/tema1/img_13.svg' alt='' , style="width:500px; display:block; margin:0 auto;")
-
-            .tarjeta(x="80%" y="68%" numero="")
-              img(src='@/assets/curso/images/tema1/img_14.svg' alt='' , style="width:500px; display:block; margin:0 auto;")
+            .tarjeta.p-4.tarjeta-blanca-2(x="59.5%" y="65.5%" numero="")
+              figure
+                img.mb-0(src='@/assets/curso/images/tema2/line_4.svg' alt='' , style="width:700px")
+                h3.m-2  Puertos 
+                  .row.mb-3
+                    .col-8.col-lg-4
+                      h3.bg-color-7.text-white  lógicos
+                  p.text-small Los puertos lógicos son aquellos que utilizan un espacio de la memoria principal del dispositivo (RAM) que se asocia con un puerto físico o un canal de comunicación, y que proporciona un espacio para el almacenamiento temporal de la información que se va a transferir entre la localización de memoria y el canal de comunicación.
+                    figure
+                        img(src='@/assets/curso/images/tema1/p2.svg' alt='' , style="width:350px")
+            
             
 
       .row.justify-content-center.align-items-center
@@ -521,18 +543,26 @@
           .h3.mb-0.text-white Medios de transmisión
 
       .row.justify-content-center.align-items-center.fondo-3
-        .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
+        .col-12.col-md-8.col-lg-5.col-xl-5
           img.m-3(src="@/assets/curso/images/tema1/img_15.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem 3rem;")
-        .col-12.col-md-4.col-lg-7.col-xl-7.my-3
+        .col-12.col-md-4.col-lg-7.col-xl-7
+          p.aling-2 Para que la comunicación entre un emisor y un receptor se realice se requiere de un medio que facilite la conexión entre ambos extremos el cual es conocido como el medio de transmisión, este constituye el soporte físico a través del cual emisor y receptor pueden comunicarse en un sistema de transmisión de datos. Los medios de transmisión se pueden categorizar en dos grandes tipos que son los medios guiados y no guiados.
+          .cajon.color-custom.p-4.mt-5
+            p.mb-3 Los medios guiados conducen (guían) las señales a través de un camino físico, tal como se muestra en la figura 3, dentro de los cuales podemos encontrar:
+
+      .row.justify-content-center.align-items-center.d-block.d-lg-none
+        .col-12.col-md-8.col-lg-5.col-xl-5
+          img.m-3(src="@/assets/curso/images/tema1/img_15.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem 3rem;")
+        .col-12.col-md-4.col-lg-7.col-xl-7
           p.aling-2 Para que la comunicación entre un emisor y un receptor se realice se requiere de un medio que facilite la conexión entre ambos extremos el cual es conocido como el medio de transmisión, este constituye el soporte físico a través del cual emisor y receptor pueden comunicarse en un sistema de transmisión de datos. Los medios de transmisión se pueden categorizar en dos grandes tipos que son los medios guiados y no guiados.
           .cajon.color-custom.p-4.mt-5
             p.mb-3 Los medios guiados conducen (guían) las señales a través de un camino físico, tal como se muestra en la figura 3, dentro de los cuales podemos encontrar:
       
-      .row.justify-content-center.align-items-center.mb-3.fondo-20
-        .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
-          img(src="@/assets/curso/images/tema1/img_16.svg" alt="AvatarTop", style="width:500px; display:block; margin:auto 0;")
-        .col-12.col-md-4.col-lg-6.col-xl-6.my-3
-          .cajon-b.color-primario.p-3.mb-5
+      .row.justify-content-center.align-items-center.mb-5.fondo-20
+        .col-12.col-md-8.col-lg-5.col-xl-5
+          img(src="@/assets/curso/images/tema1/img_16.svg")
+        .col-12.col-md-4.col-lg-7.col-xl-7
+          .cajon-b.color-primario.p-3.mt-5.mb-5
             p.mb-0  Los medios de transmisión no guiados son aquellos sin cable, transportan ondas electromagnéticas sin usar un conductor físico, sino que se radian a través del aire, por lo que están disponibles para cualquiera que tenga un dispositivo capaz de aceptarlas.
 
         .row.justify-content-center
@@ -548,15 +578,15 @@
         p.mb-3 Normalmente utilizan el aire como el medio a través del cual viajan las señales en frecuencias electromagnéticas, por lo que generalmente requieren de una antena que permita transmitir y recibir datos de diferentes tipos.
 
         .row.justify-content-center.align-items-center
-          .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
+          .col-12.col-md-8.col-lg-7.col-xl-7.mb-4
             .cajon.color-custom.p-3.mb-5
               p.mb-0 Dentro de los medios de transmisión no guiados, como se observa en la figura 4, podemos encontrar:
             .titulo-sexto.color-acento-contenido
               h5 Figura 4.
               span Ejemplos de medios de transmisión no guiados 
-            img.my-5(src="@/assets/curso/images/tema1/img_18.svg" alt="AvatarTop")
-          .col-12.col-md-4.col-lg-6.col-xl-6.my-3
-            img(src="@/assets/curso/images/tema1/img_19.svg" alt="AvatarTop",style="width:400px; display:block; margin:0 auto;")
+            img(src="@/assets/curso/images/tema1/img_18.svg" alt="AvatarTop")
+          .col-12.col-md-4.col-lg-5.col-xl-5.my-3
+            img(src="@/assets/curso/images/tema1/img_19.svg" alt="AvatarTop",style="width:400px; display:block; margin:0 2rem;")
         
       hr
 
@@ -565,58 +595,32 @@
           a(href="#menu1", title="Recursos compartidos") 
             img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
       
-      .row.mb-5
+      .row.mb-5.ps-5
         .col-8.col-lg-3.bg-color-5
           .h3.mb-0.text-white Recursos compartidos
 
-      .row.mb-5.d-block.d-lg-none
+      .row.mb-5.fondo-20
         .col-lg-7.mb-4.mb-lg-0
           p.mb-4 Como ya hemos mencionado, las redes de datos facilitan y potencian el trabajo en red entre los diferentes usuarios y dispositivos, de tal manera que se pueda acceder a dispositivos y recursos compartidos, cuando indicamos los recursos, nos referimos a todos esos elementos tanto <i>hardware</i> como <i>software</i> que pueden compartidos y utilizados por los diferentes dispositivos conectados, estos recursos pueden ser desde el punto de vista del <i>hardware</i>:
-          .row.mb-4
-            .col-4
-              .tarjeta-blanca.p-5
-                .row.justify-content-center.mb-3
-                  .col
-                    img(src='@/assets/curso/images/tema1/img_20.svg' alt='imagen relacionada' style='width:80px').mx-auto
-                h4.text-center.mb-3 Impresora
-            .col-4
-              .tarjeta-blanca.p-5
-                .row.justify-content-center.mb-3
-                  .col
-                    img(src='@/assets/curso/images/tema1/img_21.svg' alt='imagen relacionada' style='width:80px').mx-auto
-                h4.text-center.mb-3  Escáner
-            .col-4
-              .tarjeta-blanca.p-5
-                .row.justify-content-center.mb-3
-                  .col
-                    img(src='@/assets/curso/images/tema1/img_22.svg' alt='imagen relacionada' style='width:80px').mx-auto
-                h4.text-center.aling-3  Almacenamiento
+          .row.justify-content-center.align-items-center
+            img(src='@/assets/curso/images/tema1/1.svg' alt='imagen relacionada' style='width:190px')
+        
+            img(src='@/assets/curso/images/tema1/2.svg' alt='imagen relacionada' style='width:190px')
+   
+            img(src='@/assets/curso/images/tema1/3.svg' alt='imagen relacionada' style='width:190px')
         .col-lg-5
           figure
             img(src='@/assets/curso/images/tema1/img_23.png', style="width: 550px").m-auto
 
-      .row.mb-5.fondo-21
+      .row.d-block.d-lg-none
         .col-lg-7.mb-4.mb-lg-0
           p.mb-4 Como ya hemos mencionado, las redes de datos facilitan y potencian el trabajo en red entre los diferentes usuarios y dispositivos, de tal manera que se pueda acceder a dispositivos y recursos compartidos, cuando indicamos los recursos, nos referimos a todos esos elementos tanto <i>hardware</i> como <i>software</i> que pueden compartidos y utilizados por los diferentes dispositivos conectados, estos recursos pueden ser desde el punto de vista del <i>hardware</i>:
-          .row.mb-4
-            .col-4
-              .tarjeta.tarjeta--blanca.boxShadow.p-5
-                .row.justify-content-center.mb-3
-                  .col
-                    img(src='@/assets/curso/images/tema1/img_20.svg' alt='imagen relacionada' style='width:80px').mx-auto
-                h4.text-center.mb-3 Impresora
-            .col-4
-              .tarjeta.tarjeta--blanca.boxShadow.p-5
-                .row.justify-content-center.mb-3
-                  .col
-                    img(src='@/assets/curso/images/tema1/img_21.svg' alt='imagen relacionada' style='width:80px').mx-auto
-                h4.text-center.mb-3  Escáner
-            .col-4
-              .tarjeta.tarjeta--blanca.boxShadow.p-5
-                .row.justify-content-center.mb-3
-                  .col
-                    img(src='@/assets/curso/images/tema1/img_22.svg' alt='imagen relacionada' style='width:80px').mx-auto
-                h4.text-center.aling-3  Almacenamiento
+          .row.justify-content-center.align-items-center
+            img(src='@/assets/curso/images/tema1/1.svg' alt='imagen relacionada' style='width:190px')
+        
+            img(src='@/assets/curso/images/tema1/2.svg' alt='imagen relacionada' style='width:190px')
+   
+            img(src='@/assets/curso/images/tema1/3.svg' alt='imagen relacionada' style='width:190px')
         .col-lg-5
           figure
             img(src='@/assets/curso/images/tema1/img_23.png', style="width: 550px").m-auto

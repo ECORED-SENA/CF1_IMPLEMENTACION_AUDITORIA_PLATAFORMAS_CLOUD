@@ -114,6 +114,13 @@
   background-image: url('../assets/curso/images/tema1/back_5.svg')
   background-size: cover
   background-repeat: no-repeat
+  height: 370px
+  @media (max-width: 992px)
+    position: absolute
+    padding: 1rem
+    left: 50%
+    height: auto
+    transform: translateX(1000rem) translateY(0%)
 .fondo-4
   background-image: url('../assets/curso/images/tema1/back_4.svg')
   background-size: cover
@@ -240,14 +247,21 @@
 .fondo-19
   background-image: url('../assets/curso/images/tema1/back_19.svg')
   background-size: cover
-  background-repeat: no-repeat 
-  margin-inline: -5.9rem !important
+  background-repeat: no-repeat
+  margin-inline: -3.2rem !important
 .fondo-20
   background-image: url('../assets/curso/images/tema1/back_20.svg')
   background-size: cover
   background-repeat: no-repeat 
-  margin-inline-start: -30px !important
+  margin-inline-start: -25px !important
   padding: 2.5rem
+  margin-top: -2.5rem
+  @media (max-width: 992px)
+    position: absolute
+    padding: 1rem
+    left: 50%
+    height: auto
+    transform: translateX(1000rem) translateY(0%)
 .fondo-21
   background-image: url('../assets/curso/images/tema1/back_21.svg')
   background-size: cover
@@ -270,6 +284,7 @@
   background-size: cover
   background-repeat: no-repeat 
   margin-inline-start: -30px !important
+  margin-inline: -3.2rem !important
   padding: 2.5rem
   margin-top: 1rem
 .fondo-24
@@ -300,6 +315,13 @@
   margin-inline-start: -47px !important
   margin-inline-end: -50px !important
   padding: 1.0rem
+  height: 320px
+  @media (max-width: 992px)
+    position: absolute
+    padding: 1rem
+    left: 50%
+    height: auto
+    transform: translateX(1000rem) translateY(0%)
 .fondo-27
   background-image: url('../assets/curso/images/tema1/back_2.svg')
   background-size: cover
@@ -351,7 +373,7 @@ i.cac
   border-left-color: #E2C140
   background-color: #e8e8e8
 .color-custom
-	background-color: #EBDEAC 
+	background: linear-gradient(180deg, rgba(239,221,173,1) 49%, rgba(239,221,173,0.7035013834635417) 100%) !important
 	&::before
 		background-color: #E2C140
 .color-custom-1
@@ -432,6 +454,12 @@ i.cac
   padding: 4px
   background-color: #12263F
   max-width: 220px !important
+.bg-color-6
+  padding: 5px
+  background-color: #039BE5
+.bg-color-7
+  padding: 6px
+  background-color: #039BE5
 .tarjeta--azul
   background-color: #2A81A5
   border-top-left-radius: 10px
@@ -453,6 +481,8 @@ i.cac
 .text-alinear
   text-align: left
   padding: 10px
+.img-infografica__card--selected
+  width: 50%
 .tarjeta-blanca
   background-color: #FFF !important
   border-top-left-radius: 10px
@@ -465,8 +495,6 @@ i.cac
   border-top-right-radius: 10px
   border-bottom-right-radius: 10px
   border-bottom-left-radius: 10px
-  height: 235px
-  width: 630px
 .tarjeta-blanca-3
   background-color: #FFF !important
   border-top-left-radius: 10px
@@ -529,6 +557,7 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
 .aling-1
   text-align: left  !important
   margin-left: 6rem
+  margin-top: -2.5rem
 .aling-2
   text-align: left  !important
   margin-left: 0.5rem
@@ -561,6 +590,13 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
 .aling-11
   text-align: left  !important
   margin-top: -3rem
+.aling-12
+  text-align: left  !important
+  margin-top: 1rem
+  margin-left: 1rem
+.aling-13
+  text-align: left  !important
+  margin-right: 0.5rem
 .mbtn
   margin-right: -95px
 .mbtn-1
@@ -574,3 +610,28 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
 .banner-interno__fondo
   background-image: url("../assets/curso/images/header/interno.svg") !important
   background-repeat: no-repeat  
+.text
+  font-size: 17px
+.lyder-a__btn--sigt:hover, .slyder-a__btn--atrs:hover 
+  opacity: #fff
+  border-color: #fff
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  width: 50
+  height: 50px
+  background-color: #E2C140
+  border-radius: 50%
+  background-repeat: no-repeat
+  background-size: 16px 24px
+  background-position: center
+  border: 1px solid #E2C140
+    border-top-color: #E2C140
+    border-right-color: #E2C140
+    border-bottom-color: #E2C140
+    border-left-color: #E2C140
+  top: 50%
+  z-index: 10000
+  opacity: 0.7
+  box-shadow: #FFF
+  transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+  cursor: pointer
+
