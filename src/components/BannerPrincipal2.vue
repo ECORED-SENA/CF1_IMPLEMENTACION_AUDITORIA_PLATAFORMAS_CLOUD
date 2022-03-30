@@ -17,7 +17,7 @@
 
       
     
-    .imagen_flotante_5: img(src="@/assets/curso/images/header/banner-principal.svg" alt='' , style="width:350px; display:block; margin:-20rem 43rem;")
+    .d-none.d-lg-block.imagen_flotante_5: img(src="@/assets/curso/images/header/banner-principal.svg")
   //-  .imagen_flotante_5.d-none.d-xl-block: img(src="@/assets/curso/float4.png")
     .imagen_flotante_6.d-none.d-xl-block: img(src="@/assets/curso/float5.png")
     .imagen_flotante_7: img(src="@/assets/curso/float2.png")
@@ -50,22 +50,21 @@ export default {
   height: 100%
   width: 100%
 .banner-principal__info
-  padding-left: -10rem  !important
-  margin-top: 1rem !important
+  margin-right: 25rem
   z-index: 3
-  margin-left: -25rem !important
-  z-index: 3
-
-
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
     color: $color-banner-text
 
   .tarjeta
     background-color: $color-banner-fondo
-    background-size: cover
+    background-size: 110%
     background-position: center
-    height: 28rem
+    height: 29rem
+    border-top-right-radius: 2rem
+    border-bottom-right-radius: 2rem
+    border-top-left-radius: 2rem
+    border-bottom-left-radius: 2rem
 
   &__info
     display: flex
@@ -149,6 +148,12 @@ export default {
     top: 3%
     left: 75%
     z-index: 99
+  &_5
+    position: absolute
+    width: 350px
+    height: 290px
+    top: 8%
+    left: 60%
   &_6
     filter: blur(2px)
     animation: float1 2.7s ease-in-out infinite alternate

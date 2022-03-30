@@ -15,11 +15,13 @@
   position: relative
   top: 2rem
   float: right
+  z-index: 1
 .backtoTop-1
   width: 65px
   position: relative
-  top: -1rem
+  top: 3rem
   float: right
+  z-index: 1
 .pRelative_1
   position: relative
   margin-inline-end:  -0.8rem
@@ -30,6 +32,24 @@
   top: -2rem
   float: right
   margin-bottom: 1rem
+.backtoTop-3
+  width: 65px
+  position: relative
+  top: -1rem
+  float: right
+  z-index: 1
+.backtoTop-4
+  width: 65px
+  position: relative
+  top: -1rem
+  float: right
+  z-index: 1
+.backtoTop-5
+  width: 65px
+  position: relative
+  top: -1rem
+  float: right
+  z-index: 1
 .floatRight
   float: right
 .contenedor
@@ -64,7 +84,7 @@
   bottom: -6%
   left: 50%
   transform: translateX(-50%) translateY(-50%)
-  width: 88%
+  width: 91%
   height: 140px
   background-repeat: no-repeat
   background-size: cover
@@ -109,18 +129,10 @@
   background-image: url('../assets/curso/images/tema1/back_2.svg')
   background-size: cover
   background-repeat: no-repeat
-  margin-inline: -3.2rem !important
 .fondo-3
   background-image: url('../assets/curso/images/tema1/back_5.svg')
   background-size: cover
   background-repeat: no-repeat
-  height: 370px
-  @media (max-width: 992px)
-    position: absolute
-    padding: 1rem
-    left: 50%
-    height: auto
-    transform: translateX(1000rem) translateY(0%)
 .fondo-4
   background-image: url('../assets/curso/images/tema1/back_4.svg')
   background-size: cover
@@ -253,7 +265,6 @@
   background-image: url('../assets/curso/images/tema1/back_20.svg')
   background-size: cover
   background-repeat: no-repeat 
-  margin-inline-start: -25px !important
   padding: 2.5rem
   margin-top: -2.5rem
   @media (max-width: 992px)
@@ -276,7 +287,6 @@
   background-image: url('../assets/curso/images/tema1/back_2.svg')
   background-size: cover
   background-repeat: no-repeat 
-  margin-inline-start: -30px !important
   padding: 2.5rem
   margin-top: 1rem
 .fondo-23
@@ -482,7 +492,7 @@ i.cac
   text-align: left
   padding: 10px
 .img-infografica__card--selected
-  width: 50%
+  width: 47%
 .tarjeta-blanca
   background-color: #FFF !important
   border-top-left-radius: 10px
@@ -583,6 +593,7 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
 .aling-8
   text-align: left  !important
   margin-top: -2rem
+  margin-left: 1rem
 .aling-10
   text-align: left  !important
   margin-left: 7.5rem
@@ -597,8 +608,24 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
 .aling-13
   text-align: left  !important
   margin-right: 0.5rem
+.aling-14
+  text-align: left  !important
+  margin-top: -2.5rem
+  margin-left: 5.5rem !important
+  margin-right: -7rem !important
+.aling-15
+  text-align: left  !important
+  margin-left: 0.5rem
+  margin-right: -4rem
+  margin-top: 1rem
+.aling-16
+  text-align: left  !important
+  margin-left: 0.5rem
+  margin-top: 1rem
+.ancho-botones
+  width: 14.28%
 .mbtn
-  margin-right: -95px
+  margin-right: -80px
 .mbtn-1
   margin-left: -45px
 .mbtn-2
@@ -606,7 +633,7 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
 .mbtn-3
   margin-left: -95px
 .mbtn-4
-  margin-left: -140px
+  margin-left: -160px
 .banner-interno__fondo
   background-image: url("../assets/curso/images/header/interno.svg") !important
   background-repeat: no-repeat  
@@ -634,4 +661,31 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
   box-shadow: #FFF
   transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
   cursor: pointer
-
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  width: 50px
+  height: 50px
+  background-color: #E2C140
+  border-radius: 50%
+  background-image: url("../assets/curso/images/tema1/btn.svg")
+  background-repeat: no-repeat
+  background-size: 16px 24px
+  background-position: center
+  border: 1px solid #D8ECFF
+  top: 50%
+  z-index: 10000
+  opacity: 0.7
+  box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.3)
+  transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+  cursor: pointer
+.slyder-a__tipo-a .slyder-a__btn--sigt 
+  transform: translateY(-50%) rotate(-90deg)
+  right: -35px
+.slyder-a__tipo-a .slyder-a__btn--atrs 
+  transform: translateY(-50%) rotate(90deg)
+  left: -35px
+.container-top
+  border-radius: 20px 20px 0 0
+.container-bottom
+  border-radius: 0 0 20px 20px
+.mg-top
+  margin-top: -90px

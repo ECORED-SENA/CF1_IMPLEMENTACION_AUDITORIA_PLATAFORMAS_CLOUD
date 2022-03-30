@@ -81,26 +81,26 @@
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/images/tema2/img_3.svg' alt='' , style="width:900px; display:block; margin:0 auto;")
-
-            .tarjeta-blanca-3.p-3(x="8%" y="45%" numero="")
+            
+            .tarjeta.p-3.tarjeta-blanca(x="8%" y="45%" numero="")
               figure
                   img.mb-3(src='@/assets/curso/images/tema2/line.svg' alt='' , style="width:600px; display:block; margin:-1rem 0;")
               h2.mb-3 Riesgos #[BR]#[span.highlight-1 de seguridad]
               p.text-alinear La informática en la nube permite que los datos e información corporativa de una organización salga del espacio físico de la empresa y sea dispuesta en Internet a través de los servicios de cloud, esto es un riesgo muy alto en cuanto a la seguridad de la información y ciberseguridad, algunas empresas o dominios específicos por sus necesidades particulares y por el tipo de información que soportan, deben de recurrir a nubes privadas o híbridas a fin de garantizar la protección de su información.
 
-            .tarjeta-blanca-3.p-3(x="17%" y="18%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="17%" y="18%" numero="")
               figure
                   img.mb-3(src='@/assets/curso/images/tema2/line.svg' alt='' , style="width:600px; display:block; margin:-1rem 0;")
               h2.mb-3 Bloqueo del #[BR]#[span.highlight-1 proveedor]
               p.text-alinear Los grandes proveedores de servicios de computación en la nube ofrecen nubes públicas y son de propiedad exclusiva de las empresas que ofrecen el servicio, esto puede llevar a que en determinado momento al adquirir un servicio, un cliente quede de alguna manera “amarrado” a ese proveedor ya que, puede desarrollar aplicaciones o almacenar sus datos en estas nubes, hay muy poca normalización frente a los servicios que se entregan por parte de los proveedores, lo que puede llevar a que si un cliente quisiera migrar sus servicios a otro proveedor se vuelva una tarea demasiado engorrosa y, que en algunas ocasiones acarree gastos innecesarios al tener que recurrir a expertos en hacer migraciones de una plataforma a otra.
 
-            .tarjeta-blanca-3.p-3(x="86%" y="20%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="86%" y="20%" numero="")
               figure
                   img.mb-3(src='@/assets/curso/images/tema2/line.svg' alt='' , style="width:600px; display:block; margin:-1rem 0;")
               h2.mb-3 Riesgos de  #[BR]#[span.highlight-1 privacidad]
               p.text-alinear El uso de la nube también plantea muchos problemas relacionados con la privacidad. En función de las leyes con las cuales “funcione” un proveedor de servicios en la nube, los gobiernos pueden tener la capacidad de buscar y asumir datos del proveedor sin el consentimiento explícito o notificación del cliente. Además, los clientes no pueden estar totalmente seguros de la confidencialidad de los datos al usar nubes públicas. 
 
-            .tarjeta-blanca-3.p-3(x="93%" y="45%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="93%" y="45%" numero="")
               figure
                   img.mb-3(src='@/assets/curso/images/tema2/line.svg' alt='' , style="width:600px; display:block; margin:-1rem 0;")
               h2.mb-3 Riesgos de  #[BR]#[span.highlight-1 confiabilidad]
