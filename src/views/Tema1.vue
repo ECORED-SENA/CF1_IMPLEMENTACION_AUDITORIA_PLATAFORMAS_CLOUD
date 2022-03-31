@@ -213,7 +213,9 @@
                   p.mb-0 Los modelos de referencia se basan en la definición de una serie de capas las cuales tienen cada una sus propias funciones y características que se encargan de resolver un problema diferente en la comunicación, tienen como propósito asistir en la comprensión más clara y sencilla de las funciones y los procesos involucrados en la interconexión de los diferentes dispositivos de red, para ello se establecen una serie de capas con un orden específico y cada una se sustenta en la capa anterior, y más que entrar en los detalles de las especificaciones técnicas requeridas en cada una de ellas, el modelo de referencia ayuda en la comprensión de lo que sucede, ayudándonos a lograr un mejor entendimiento de las funciones y procesos involucrados.
 
       p.mb-0 <b>El modelo de referencia para las redes de comunicaciones es #[span.highlight el modelo OSI -Interconexión de Sistemas Abiertos,] el cual se explica a continuación, veamos:</b>
-  .container.bg-white.p-4.p-md-5.fondo-19
+      br
+      br
+  .container.bg-white.p-4.p-md-5.fondo-19.mg-top
       .row.justify-content-center.align-items-center.mb-3.aling-17
         .col-12.col-md-8.col-lg-6.col-xl-6.mb-4 
           ImagenInfografica.color-secundario.mb-5
@@ -362,8 +364,8 @@
 
                 p Define cuatro categorías de funciones que deben existir para que las comunicaciones sean exitosas. La arquitectura de la suite de protocolos TCP/IP sigue la estructura de este modelo. Por esto, es común que al modelo de Internet se le conozca como modelo TCP/IP.
 
-        .row.justify-content-center.align-items-center.mb-5.d-block.d-lg-none
-          .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
+        .row.justify-content-center.align-items-center.mb-5.d-block.d-lg-none.mb-4
+          .col-12.col-md-8.col-lg-5.col-xl-5
             img.my-3(src="@/assets/curso/images/tema1/img_8.svg")
           .col-12.col-md-4.col-lg-7.col-xl-7.my-3
             p Fue el primer modelo de protocolo en capas para comunicaciones de red. Fue desarrollado a principios de la década de los 70 por el departamento de defensa de los EEUU, y se conoce con el nombre de modelo de Internet, su objetivo fue el de crear una red de comunicaciones que funcionara incluso en condiciones de guerra.
@@ -371,8 +373,8 @@
                 p.mb-3 Aunque el modelo OSI es universalmente reconocido, el estándar histórica y técnicamente reconocido para Internet es el modelo TCP/IP (Protocolo de Control de Transferencia / Protocolo de Internet).
 
                 p Define cuatro categorías de funciones que deben existir para que las comunicaciones sean exitosas. La arquitectura de la suite de protocolos TCP/IP sigue la estructura de este modelo. Por esto, es común que al modelo de Internet se le conozca como modelo TCP/IP.
-      
-      p.my-5 El modelo consta de cuatro capas como se observa en la figura a continuación:
+      br
+      p.mb-5 El modelo consta de cuatro capas como se observa en la figura a continuación:
       
       .row.justify-content-center
         .col-lg-6
@@ -518,7 +520,7 @@
                 img.mb-0(src='@/assets/curso/images/tema2/line_4.svg' alt='' , style="width:700px")
                 h3.m-2  Puertos 
                   .row.mb-3
-                    .col-8.col-lg-3
+                    .col-8.col-lg-4
                       h3.bg-color-6.text-white  físicos
                   p.text-small Los productos de capa de enlace de datos describen los métodos para intercambiar tramas de datos entre dispositivos en un medio común.
                     figure
