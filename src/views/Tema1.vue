@@ -121,11 +121,11 @@
           .col.btn.mb-5.mbtn-4
             a(href="#6", title="Medios de transmisión") 
               figure
-                img(src='@/assets/curso/images/tema1/ico_11.svg' alt='1', style="width:130px; display:block; margin:0 auto;")
+                img(src='@/assets/curso/images/tema1/ico_11.svg' alt='1', style="width:130px; display:block; margin:0 65px;")
           #1.col.btn.mb-5.mbtn-4
             a(href="#7", title="Recursos compartidos") 
               figure
-                img(src='@/assets/curso/images/tema1/ico_12.svg' alt='1', style="width:130px; display:block; margin:0 auto;").mb-4
+                img(src='@/assets/curso/images/tema1/ico_12.svg' alt='1', style="width:130px; display:block; margin:0 70px;").mb-4
               .indicador--click(v-if="mostrarIndicador")  
         
       .pRelative
@@ -213,81 +213,84 @@
                   p.mb-0 Los modelos de referencia se basan en la definición de una serie de capas las cuales tienen cada una sus propias funciones y características que se encargan de resolver un problema diferente en la comunicación, tienen como propósito asistir en la comprensión más clara y sencilla de las funciones y los procesos involucrados en la interconexión de los diferentes dispositivos de red, para ello se establecen una serie de capas con un orden específico y cada una se sustenta en la capa anterior, y más que entrar en los detalles de las especificaciones técnicas requeridas en cada una de ellas, el modelo de referencia ayuda en la comprensión de lo que sucede, ayudándonos a lograr un mejor entendimiento de las funciones y procesos involucrados.
 
       p.mb-0 <b>El modelo de referencia para las redes de comunicaciones es #[span.highlight el modelo OSI -Interconexión de Sistemas Abiertos,] el cual se explica a continuación, veamos:</b>
-
-      .row.mb-3
-        .col-lg-12
-          ImagenInfografica.color-secundario
+  .container.bg-white.p-4.p-md-5.fondo-19
+      .row.justify-content-center.align-items-center.mb-3.aling-17
+        .col-12.col-md-8.col-lg-6.col-xl-6.mb-4 
+          ImagenInfografica.color-secundario.mb-5
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/images/tema1/back_piramide.svg')
+                img.m-3(src='@/assets/curso/images/tema1/img_6.svg')
             
-            .tarjeta.p-3.tarjeta-blanca(x="25.3%" y="24.5%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="52.5%" y="12%" numero="")
               h3.bg-color-2.text-white Física - Señalización y transmisión binaria
               h3.mb-5 Transmisión binaria: cables, conectores, voltajes, velocidades de datos
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-5.text-small.aling-16 Los protocolos de capa física describen los medios mecánicos, eléctricos,  funcionales y de procedimiento para activar, mantener y desactivar conexiones físicas para la transmisión de <i>bits</i> hacia un dispositivo de red y desde el.
+                p.mt-5.text-small Los protocolos de capa física describen los medios mecánicos, eléctricos,  funcionales y de procedimiento para activar, mantener y desactivar conexiones físicas para la transmisión de <i>bits</i> hacia un dispositivo de red y desde el.
 
-            .tarjeta.p-3.tarjeta-blanca(x="25.3%" y="32.5%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="52.5%" y="25%" numero="")
               h3.bg-color-2.text-white Enlace de datos - Direccionamiento físico
               h3.mb-5 Acceso a los medios
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-5.text-small.aling-16  Los productos de capa de enlace de datos describen los métodos para intercambiar tramas de datos entre dispositivos en un medio común.
+                p.text-alinear.mt-5.text-small Los productos de capa de enlace de datos describen los métodos para intercambiar tramas de datos entre dispositivos en un medio común.
 
               
-            .tarjeta.p-3.tarjeta-blanca(x="25.3%" y="39.3%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="52.5%" y="37%" numero="")
               h3.bg-color-2.text-white Red - Determinación de ruta y direccionamiento lógico
               h3.mb-5 Direccionamiento y mejor ruta
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-5.aling-6.text-small  La capa de red, proporciona servicios para intercambiar los datos individuales en la red entre dispositivos finales identificados.
+                p.text-alinear.mt-5.text-small La capa de red, proporciona servicios para intercambiar los datos individuales en la red entre dispositivos finales identificados.
               
 
-            .tarjeta.p-3.tarjeta-blanca(x="25.3%" y="46.5%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="52.5%" y="48%" numero="")
               h3.bg-color-2.text-white Transporte - Conexión de extremo a extremo y confiabiidad
               h3.mb-5  Conexiones de extremo a extremo
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-5.text-small  La capa de transporte, define los servicios para segmentar, transferir y rearmar los datos para las comunicaciones individuales entre dispositivos finales.
+                p.text-alinear.mt-5.text-small  La capa de transporte, define los servicios para segmentar, transferir y rearmar los datos para las comunicaciones individuales entre dispositivos finales.
 
-            .tarjeta.p-3.tarjeta-blanca(x="25.3%" y="54%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="52.5%" y="60%" numero="")
               h3.bg-color-2.text-white Sesión - Comunicación entre dispositivos de red
               h3.mb-5 Comunicación entre <i>hosts</i>
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-5.text-small  La capa de sesión, proporciona servicios a la capa de presentación para organizar su diálogo y administrar el intercambio de datos.
+                p.text-alinear.mt-5.text-small a capa de sesión, proporciona servicios a la capa de presentación para organizar su diálogo y administrar el intercambio de datos.
 
               
-            .tarjeta.p-3.tarjeta-blanca(x="25.3%" y="62.3%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="52.5%" y="75%" numero="")
               h3.bg-color-2.text-white Presentación - Representación de datos y encriptación
               h3.mb-5 Representación de datos
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-5.text-small  La capa de red, proporciona una representación común de los datos transferidos entre los servicios de la capa de aplicación.
+                p.text-alinear.mt-5.text-small La capa de red, proporciona una representación común de los datos transferidos entre los servicios de la capa de aplicación.
 
-            .tarjeta.p-3.tarjeta-blanca(x="25.3%" y="73%" numero="")
+            .tarjeta.p-3.tarjeta-blanca(x="52.5%" y="91%" numero="")
               h3.bg-color-2.text-white Aplicación - Servicios de red a aplicaciones
               h3.mb-5  Procesos de red a aplicaciones
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.mt-5.text-small  La capa de red, proporciona los medios para la conectividad de extremo a extremo entre individuos de la red humana mediante redes de datos.
-
-        
+                p.text-alinear.mt-5.text-small La capa de red, proporciona los medios para la conectividad de extremo a extremo entre individuos de la red humana mediante redes de datos.
+          
+        .col-12.col-md-4.col-lg-3.col-xl-3.mb-5
+          img(src="@/assets/curso/images/tema1/img_7.svg" alt="AvatarTop", style="width:180px; display:block; margin: 2rem 10rem;")
+  .container.bg-white.p-4.p-md-5.container-bottom
+      
       p Para que los paquetes de datos puedan viajar desde el origen hasta su destino, cada capa del modelo OSI en el origen debe comunicarse con su capa igual de el lugar de destino. Esta forma de comunicación se conoce como comunicaciones de par-a-par en cada uno de estas capas la información cambia de nombre es decir usa un PDU (<i>Protocol Data Unit</i>).
 
       .row.justify-content-center

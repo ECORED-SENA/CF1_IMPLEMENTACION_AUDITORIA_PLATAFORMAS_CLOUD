@@ -58,7 +58,7 @@ export default {
 
   .tarjeta
     background-color: $color-banner-fondo
-    background-size: 110%
+    background-size: conver
     background-position: center
     height: 29rem
     border-top-right-radius: 2rem
