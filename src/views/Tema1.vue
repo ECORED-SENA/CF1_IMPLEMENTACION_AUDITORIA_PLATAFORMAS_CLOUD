@@ -23,17 +23,27 @@
     #t_1_1.titulo-segundo
       .h4 1.1	Conceptos, términos y definiciones
 
-    .col-lg-11.mx-auto
+    .col-lg-11.mx-auto.d-none.d-lg-block
       .tarjeta.fcs
         .row
           .col-lg-2 
             img.my-4(src='@/assets/curso/images/tema1/ico_1.svg' alt='' , style="width:115px; display:block; margin:0 auto;").mx-3
           .col-lg-9
-            img(src='@/assets/curso/images/tema1/comillasCAC.svg' alt='Cita' style='width:65px;margin: 0 -2rem').mb-2
-            h5.aling-14 <b><i>“La computación en la nube es el modelo que permite el acceso a una red bajo demanda de un conjunto #[br] de servicios informáticos configurables tales como infraestructura, aplicaciones y almacenamiento.”</i></b>
+            img(src='@/assets/curso/images/tema1/comillasCAC.svg' alt='Cita' style='width:65px;margin: 0 -1rem').mb-2
+            h5.aling-14 <b><i>“La computación en la nube es el modelo que permite el acceso a una red bajo demanda de un conjunto de servicios informáticos configurables tales como infraestructura, aplicaciones y almacenamiento.”</i></b>
             .floatRight
               h6.aling-15   Del Vecchio, J. F., Paternina, F. J., & Henriquez Miranda, C. (2015) 
                 i.fas.fa-square.cac
+      
+    .jumbotrom.d-block.d-lg-none
+      .row.p-4
+        .col-lg-2 
+          img(src='@/assets/curso/images/tema1/ico_1.svg' alt='' , style="width:115px; display:block; margin:0 auto;").mx-3
+        .col-lg-9
+          h5 <b><i>“La computación en la nube es el modelo que permite el acceso a una red bajo demanda de un conjunto de servicios informáticos configurables tales como infraestructura, aplicaciones y almacenamiento.”</i></b>
+          .floatRight
+            h6 Del Vecchio, J. F., Paternina, F. J., & Henriquez Miranda, C. (2015) 
+              i.fas.fa-square.cac
 
   .container.bg-white.p-4.p-md-5.fondo-2.mg-top-1
 
@@ -90,7 +100,7 @@
               .row.justify-content-center.p-4
                 .col-auto
                   p.aling-8.mb-4 Si bien en la mayoría de las ocasiones no es fácil identificar todas las opciones posibles, cuantas más alternativas se generen es más probable obtener una que resulte significativamente satisfactoria.
-   
+
         .flex-container
           <div class="caja">
             caja 

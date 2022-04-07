@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[sena.github.io/CF1_IMPLEMENTACION_AUDITORIA_PLATAFORMAS_CLOUD/](sena.github.io/CF1_IMPLEMENTACION_AUDITORIA_PLATAFORMAS_CLOUD/)
 
 #
 

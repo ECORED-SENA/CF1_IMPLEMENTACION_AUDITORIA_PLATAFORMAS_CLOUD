@@ -51,14 +51,21 @@ export default {
   width: 100%
 .banner-principal__info
   margin-right: 25rem
+  margin-top: 2rem
   z-index: 3
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
     color: $color-banner-text
 
-  .tarjeta_1
+  .tarjeta
     background-color: $color-banner-fondo
     background-size: cover
+    border-top-left-radius: 10px
+    border-top-right-radius: 10px
+    border-bottom-right-radius: 10px
+    border-bottom-left-radius: 10px
+    height: 28rem
+.tarjeta-blanca-2
 
 
   &__info
