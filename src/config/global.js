@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'La computación en la nube es una tecnología cada vez con mayor uso e impacto en el despliegue y acceso a servicios toda vez que facilita el acceso remoto desde cualquier parte del mundo a través  de tecnologías de internet a procesamiento y almacenamiento de datos, en el presente componente formativo hablaremos de sus características, generalidades y conceptos más importantes.',
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.svg'),
     fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
   },
   menuPrincipal: {

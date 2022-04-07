@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import mixins from '../components/plantillaMixins'
+import mixins from './plantillaMixins'
 export default {
   name: 'BannerPrincipal2',
   mixins: [mixins],
@@ -56,15 +56,10 @@ export default {
   p, h1, h2, h3, h4, h5, h6
     color: $color-banner-text
 
-  .tarjeta
+  .tarjeta_1
     background-color: $color-banner-fondo
-    background-size: conver
-    background-position: center
-    height: 29rem
-    border-top-right-radius: 2rem
-    border-bottom-right-radius: 2rem
-    border-top-left-radius: 2rem
-    border-bottom-left-radius: 2rem
+    background-size: cover
+
 
   &__info
     display: flex
