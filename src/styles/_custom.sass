@@ -66,11 +66,11 @@
   bottom: 0%
 .contenedor-text
   position: absolute
-  bottom: 10%
+  bottom: -5%
   left: 50%
   transform: translateX(-50%) translateY(-50%)
   width: 95%
-  height: 100px
+  height: 140px
   background-repeat: no-repeat
   background-size: cover
   background-image: url('../assets/curso/images/tema1/back_intro.svg')
@@ -111,7 +111,7 @@
   left: 50%
   transform: translateX(-50%) translateY(-50%)
   width: 92%
-  height: 138px
+  height: 184px
   background-repeat: no-repeat
   background-size: cover
   background-image: url('../assets/curso/images/tema1/back_intro.svg')
@@ -180,6 +180,10 @@
   background-size: cover
   background-repeat: no-repeat
   padding: 1.5rem
+  width: 100% 
+  z-index: 1
+  margin-top: -60px
+  border-radius: 50px
 .fondo-11
   background-image: url('../assets/curso/images/tema1/back_1.svg')
   background-size: cover
@@ -199,10 +203,7 @@
   margin-inline-start: -30px !important
   padding: 1.5rem
 .fondo-14
-  background-image: url('../assets/curso/images/tema1/back_5.svg')
-  background-size: cover
-  background-repeat: no-repeat
-  padding: 1.0rem
+  background: linear-gradient(180deg, rgba(246,246,246,1) 25%, rgba(239,237,237,1) 100%);
 .fondo-15
   background-image: url('../assets/curso/images/tema1/back_1.png')
   background-size: cover
@@ -307,7 +308,7 @@
   background-size: cover
   background-repeat: no-repeat 
   margin-inline-start: -30px  !important
-  padding: 2.5rem
+  //padding: 2.5rem
   margin-top: 1rem
 .fondo-25
   background-image: url('../assets/curso/images/tema1/back_5.svg')
@@ -409,10 +410,7 @@ i.cac
 		background-color: #12263F 
 .linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
     background-color: #F7F2DE
-.linea-tiempo-d__item__content__title
-		background-color: #F7F2DE
-.linea-tiempo-d__item__content
-  background-color: #F7F2DE
+
 .bloque-texto-a.color-secundario 
   background-color: #F6F6F6
 .tp
@@ -422,18 +420,17 @@ i.cac
   border-color: #727997
   opacity: 1
 .tarjeta--sencilla
-  border-radius: 50px
+  border-radius: 35px
   position: relative
   width: 300px
-  background: rgb(77,208,225)
+  background: linear-gradient(180deg, rgba(77,208,225,1) 25%, rgba(3,155,229,1) 100%)
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1)
 //CARD TOP LINE
 .crd
   padding: 1rem
 
-.crd--topLine   
-  min-height: 290px !important
-  max-width: 219px 
+.crd--topLine 
+  //max-width: 219px 
   background-color: white  
   //border-top-right-radius: 12px
   //border-top-left-radius: 12px  
@@ -444,8 +441,7 @@ i.cac
 .crd--topLine_green
   border-bottom: 7px solid #4DD0E1
 .crd--topLine 
-  min-height: 290px !important
-  max-width: 419px
+  //max-width: 419px
   background-color: white
   border-bottom: 7px solid #4DD0E1
 //end CARD TOP LINE
@@ -483,12 +479,22 @@ i.cac
   border-top-right-radius: 10px
   border-bottom-right-radius: 10px
   border-bottom-left-radius: 10px
+.tarjeta--azul_1
+  background-color: #2A81A5
+  border-top-left-radius: 10px
+  border-top-right-radius: 10px
+  border-bottom-right-radius: 10px
+  border-bottom-left-radius: 10px
+  width: 450px
+  margin-top: -250px !important
 .tarjeta-violeta
   background-color: #FF2C9C !important
   border-top-left-radius: 10px
   border-top-right-radius: 10px
   border-bottom-right-radius: 10px
   border-bottom-left-radius: 10px
+  width: 450px
+  margin-top: -280px !important
 .tarjeta-violeta-1
   background-color: #FF2C9C !important
   border-top-left-radius: 10px
@@ -502,16 +508,19 @@ i.cac
   width: 75%
 .tarjeta-blanca
   background-color: #FFF !important
-  border-top-left-radius: 10px
-  border-top-right-radius: 10px
-  border-bottom-right-radius: 10px
-  border-bottom-left-radius: 10px
+  border-top-left-radius: 15px
+  border-top-right-radius: 15px
+  border-bottom-right-radius: 15px
+  border-bottom-left-radius: 15px
+  width: auto
+  top: 50px !important
+
 .tarjeta-blanca-2
   background-color: #FFF !important
-  border-top-left-radius: 10px
-  border-top-right-radius: 10px
-  border-bottom-right-radius: 10px
-  border-bottom-left-radius: 10px
+  border-top-left-radius: 15px
+  border-top-right-radius: 15px
+  border-bottom-right-radius: 15px
+  border-bottom-left-radius: 15px
 .tarjeta-blanca-3
   background-color: #FFF !important
   border-top-left-radius: 10px
@@ -764,7 +773,75 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
   width: 94%
   margin: 0 auto
 
+.tarjeta_white
+  background-color: white
+  border: 1px solid #707070 !important
+  box-shadow: 3px 3px #ccc
 
+.linea-tiempo-d__item__content__title
+  font-size: 20px !important
 
+.text_1
+  font-size: 24px !important
 
+.text_2
+  font-size: 20px !important
+
+.text_3
+  font-size: 28px !important
+
+.head_tar
+  background: linear-gradient(180deg, rgba(3,155,229,1) 25%, rgba(2,127,188,1) 100%)
+  border-top-left-radius: 15px
+  border-top-right-radius: 15px
+
+.text_re
+  background: linear-gradient(180deg, rgba(3,155,229,1) 25%, rgba(2,127,188,1) 100%)
+  color: white
+  padding: 1px
+
+.tarjeta--gris
+  background-color: #F6F6F6 !important
+
+.linea-tiempo-d__item--selected  
+  .linea-tiempo-d__item__content__slot
+    background: #F7F2DE !important;
+  .tarjeta--gris    
+    background: #F7F2DE !important;
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background: #E2C140 !important
+
+.img-a 
+  display: block 
+  margin: auto   
+  width: auto
+  height: auto
+
+.text_gr
+  font-size: 140px
+  color: #8A96A5
+  margin-bottom: 0.5rem
+
+.v-line
+  border-right: 8px solid #12263F
+  height: 100%
+  margin-left: 129px
+
+.lin
+  height: 336px
+
+.lin_1
+  height: 480px
+
+.slyder-a__bullets
+  bottom: 0px !important
   
+.banner-interno__titulo__icono i 
+  color: #2a81a5 !important
+
+.img_b
+  margin-left: 635px !important
+
+.tex-ali
+  margin-top: -462px

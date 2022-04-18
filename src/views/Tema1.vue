@@ -21,7 +21,7 @@
     Separador 
 
     #t_1_1.titulo-segundo
-      .h4 1.1	Conceptos, términos y definiciones
+      .h2 1.1	Conceptos, términos y definiciones
 
     .col-lg-11.mx-auto.d-none.d-lg-block
       .tarjeta.fcs
@@ -56,13 +56,13 @@
               figure
                 img(src='@/assets/curso/images/tema1/infogra.svg')
 
-            .tarjeta.color-primario.p-3.tarjeta--azul(x="4%" y="50%" numero="")
+            .tarjeta.color-primario.p-3.tarjeta--azul_1(x="4%" y="50%" numero="")
               h3.mb-5 Servicios de infraestructura
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/numero1.svg' alt='' , style="width:100px; display:block; margin:2.5rem 1rem;")
-              p.text-alinear Los servicios de infraestructura en la Nube, conocido como LaaS por sus siglas en inglés; se presentan como aplicaciones de autoservicio creadas para el acceso, control y gestión de infraestructuras remotas.
+              p.text-alinear.mb-0.text-small Los servicios de infraestructura en la Nube, conocido como LaaS por sus siglas en inglés; se presentan como aplicaciones de autoservicio creadas para el acceso, control y gestión de infraestructuras remotas.
 
 
             .tarjeta.color-primario.p-3.tarjeta-violeta(x="28%" y="50%" numero="")
@@ -71,16 +71,16 @@
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/numero2.svg' alt='' , style="width:100px; display:block; margin:2.5rem 0.5rem;")
-              p.text-alinear Las Plataformas en la Nube son tan flexibles y versátiles que se usan para desarrollar aplicaciones y sistemas complejos para impulsar los entornos virtuales. De hecho; los sistemas PaaS proporcionan marcos virtuales donde los especialistas desarrollan y personalizan sus sistemas los propietario y las aplicaciones.
+              p.text-alinear.mb-0.text-small Las Plataformas en la Nube son tan flexibles y versátiles que se usan para desarrollar aplicaciones y sistemas complejos para impulsar los entornos virtuales. De hecho; los sistemas PaaS proporcionan marcos virtuales donde los especialistas desarrollan y personalizan sus sistemas los propietario y las aplicaciones.
 
               
-            .tarjeta.color-primario.p-3.tarjeta--azul(x="51.7%" y="50%" numero="")
+            .tarjeta.color-primario.p-3.tarjeta--azul_1(x="51.7%" y="50%" numero="")
               h3.mb-5 <i>Software</i> como servicio
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/numero3.svg' alt='' , style="width:100px; display:block; margin:2.5rem 0.5rem;")
-              p.text-alinear Los Servicios de Aplicaciones en la Nube, o mejor conocidos como <i>Software</i> como Servicio(SaaS) se enfocan en el uso de la web para entregar aplicaciones para todo y todos. Esta es la razón por la cual los SaaS representan el mayor mercado de servicios y sistemas en la Nube.
+              p.text-alinear.mb-0.text-small Los Servicios de Aplicaciones en la Nube, o mejor conocidos como <i>Software</i> como Servicio(SaaS) se enfocan en el uso de la web para entregar aplicaciones para todo y todos. Esta es la razón por la cual los SaaS representan el mayor mercado de servicios y sistemas en la Nube.
               
 
             .tarjeta.color-primario.p-3.tarjeta-violeta(x="76%" y="50%" numero="")
@@ -89,7 +89,7 @@
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/numero4.svg' alt='' , style="width:100px; display:block; margin:0.7rem 0;")
-              p.text-alinear Los LaaS están pensados para ingenieros de sistemas, PaaS para desarrolladores web y SaaS para los consumidores directos.
+              p.text-alinear.mb-0.text-small Los LaaS están pensados para ingenieros de sistemas, PaaS para desarrolladores web y SaaS para los consumidores directos.
       br
       #menu1.row.justify-content-center
         .col-lg-12
@@ -157,7 +157,7 @@
 
     .row.justify-content-center.align-items-center.d-block.d-lg-none
       .col-12.col-md-8.col-lg-5.col-xl-5
-        img.my-3(src="@/assets/curso/images/tema1/img_3.svg" alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
+        img.my-3.img-a(src="@/assets/curso/images/tema1/img_3.svg" alt='Volver arriba' )
       .col-12.col-md-4.col-lg-7.col-xl-7
         p Las redes de datos tienen por función potenciar e incrementar la productividad de las organizaciones al permitir que todos los dispositivos que se encuentran conectados puedan acceder a los recursos que se encuentran compartidos, en los últimos años la tecnología ha entrado a jugar un papel preponderante en el desarrollo y evolución de las organizaciones cada vez está más inmersa en todos los procesos y actividades empresariales, personales y cotidianas.
         .cajon.color-custom.p-3
@@ -171,17 +171,37 @@
         .cajon.color-custom.p-3
             p.mb-0 Las redes han permitido que los servicios y el acceso a estos recursos sea cada vez más necesario ya que se requiere tener en todo momento trabajo en equipo, colaborativo y la integración entre los diferentes recursos tecnológicos, esto es lo que conocemos como el <i>Networking,</i> . Para que dichas redes pueden interconectarse y trabajar en red se requiere de una serie de componentes desde el punto de vista físico y lógico dentro de los cuales destacamos los siguientes:
     br
-    .row.justify-content-center-cols-5.mt-5.mx-0
-      .col
-          img(src='@/assets/curso/images/tema1/ico_13.svg'  alt='')
-      .col
-          img(src='@/assets/curso/images/tema1/ico_14.svg' alt='')
-      #2.col
-          img(src='@/assets/curso/images/tema1/ico_15.svg' alt='')
-      .col
-          img(src='@/assets/curso/images/tema1/ico_16.svg' alt='')
-      .col
-          img(src='@/assets/curso/images/tema1/ico_17.svg' alt='')
+    .row.justify-content-center.cols-5.mt-5.mx-0.align-items-center.mb-5
+      .col-lg-2
+        .tarjeta.tarjeta_white.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/images/tema1/ico_13.svg' alt='AvatarTop')
+          h6.text-center.mb-0 Modelos de referencia
+      .col-lg-2
+        .tarjeta.tarjeta_white.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/images/tema1/ico_14.svg' alt='AvatarTop')
+          h6.text-center.mb-0 Protocolos de comunicación
+      .col-lg-2
+        .tarjeta.tarjeta_white.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/images/tema1/ico_15.svg' alt='AvatarTop')
+          h6.text-center.mb-0 Puertos de comunicación
+      .col-lg-2
+        .tarjeta.tarjeta_white.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/images/tema1/ico_16.svg' alt='AvatarTop')
+          h6.text-center.mb-0 Medios de transmisión
+      .col-lg-2
+        .tarjeta.tarjeta_white.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/images/tema1/ico_17.svg' alt='AvatarTop')
+          h6.text-center.mb-0 Recursos compartidos 
     hr
     br
     .pRelative
@@ -202,7 +222,7 @@
       .col-12.col-md-8.col-lg-7.col-xl-7
         p.aling-11.mb-3 Esto llevó a la necesidad de estandarizar de manera que se permita la interconexión de una amplia gama de dispositivos sin importar fabricante o tipo se <i>software</i>, para que el intercambio de información sea posible se requiere el establecimiento de una serie de estándares.
         p.mb-3 Estos estándares son construidos por una serie de organizaciones que son las siguientes:
-        LineaTiempoD.color-acento-contenido
+        LineaTiempoD.color-acento-contenido.mb-5
             p(numero="1" titulo="ISO (Organización Internacional de Normas)") ISO definió un modelo de referencia como estándar para posibilitar las comunicaciones electrónicas a nivel global, conocido como el modelo OSI (Interconexión de Sistemas Abiertos).
 
             p(numero="2" titulo="IEEE (Instituto de Ingenieros Electrónicos y Eléctricos)") Este organismo es encargado de fijar los estándares para los elementos físicos de una red, cables, conectores e interfaces.
@@ -216,7 +236,7 @@
             p(numero="6" titulo="ANSI (UIT Unión Internacional de Comunicaciones)") La Unión Internacional de Telecomunicaciones es el organismo especializado en telecomunicaciones de la Organización de las Naciones Unidas, encargado de regular las telecomunicaciones a nivel internacional entre las distintas administraciones y empresas operadoras. Su sede se encuentra en la ciudad de Ginebra.
         
       .col-12.col-md-4.col-lg-5.col-xl-5.mb-5
-        img(src="@/assets/curso/images/tema1/img_4.png")
+        img.img-a(src="@/assets/curso/images/tema1/img_4.png")
     
       .col-lg-12.mx-auto.mb-4
         .tema1-1 
@@ -226,94 +246,93 @@
                 figure
                   img(src='@/assets/curso/images/tema1/img_5.png' alt='Volver arriba' style="width:350px; display:block; margin:0 auto;")
               .col-lg-8
-                .bloque-texto-a__texto.p-3
-                  p.mb-0 Los modelos de referencia se basan en la definición de una serie de capas las cuales tienen cada una sus propias funciones y características que se encargan de resolver un problema diferente en la comunicación, tienen como propósito asistir en la comprensión más clara y sencilla de las funciones y los procesos involucrados en la interconexión de los diferentes dispositivos de red, para ello se establecen una serie de capas con un orden específico y cada una se sustenta en la capa anterior, y más que entrar en los detalles de las especificaciones técnicas requeridas en cada una de ellas, el modelo de referencia ayuda en la comprensión de lo que sucede, ayudándonos a lograr un mejor entendimiento de las funciones y procesos involucrados.
+                .bloque-texto-a__texto
+                  p.mb-0.p-3 #[b Los modelos de referencia se basan en la definición de una serie de capas las cuales tienen cada una sus propias funciones y características que se encargan de resolver un problema diferente en la comunicación, tienen como propósito asistir en la comprensión más clara y sencilla de las funciones y los procesos involucrados en la interconexión de los diferentes dispositivos de red, para ello se establecen una serie de capas con un orden específico y cada una se sustenta en la capa anterior, y más que entrar en los detalles de las especificaciones técnicas requeridas en cada una de ellas, el modelo de referencia ayuda en la comprensión de lo que sucede, ayudándonos a lograr un mejor entendimiento de las funciones y procesos involucrados.]
 
-      p.mb-0 <b>El modelo de referencia para las redes de comunicaciones es #[span.highlight el modelo OSI -Interconexión de Sistemas Abiertos,] el cual se explica a continuación, veamos:</b>
-      br
-      br
+      
   .container.bg-white.p-4.p-md-5.fondo-19.mg-top-1
+    h2.mb-3 El modelo de referencia para las redes de comunicaciones es#[span.highlight.text_1  el modelo OSI -Interconexión de Sistemas Abiertos], el cual se explica a continuación, veamos:
       .row.justify-content-center.align-items-center.mb-3
-        .col-12.col-md-8.col-lg-6.col-xl-6
+        .col-12.col-md-6.col-lg-6.col-xl-6
           ImagenInfografica.color-secundario.mb-5
             template(v-slot:imagen)
               figure
                 img.m-3(src='@/assets/curso/images/tema1/img_6.svg')
             
-            .tarjeta.p-3.tarjeta-blanca.info-card-width(x="52.5%" y="12%" numero="")
-              h3.bg-color-2.text-white Física - Señalización y transmisión binaria
-              h3.mb-5 Transmisión binaria: cables, conectores, voltajes, velocidades de datos
+            .tarjeta.p-3.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="12%" numero="")
+              h5.bg-color-2.text-white Física - Señalización y transmisión binaria
+              h5.mb-5 Transmisión binaria: cables, conectores, voltajes, velocidades de datos
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.aling-19.mt-5.text-small Los protocolos de capa física describen los medios mecánicos, eléctricos,  funcionales y de procedimiento para activar, mantener y desactivar conexiones físicas para la transmisión de <i>bits</i> hacia un dispositivo de red y desde el.
+              p.aling-19.mt-5.text-small.mb-0 Los protocolos de capa física describen los medios mecánicos, eléctricos,  funcionales y de procedimiento para activar, mantener y desactivar conexiones físicas para la transmisión de <i>bits</i> hacia un dispositivo de red y desde el.
 
-            .tarjeta.p-3.tarjeta-blanca.info-card-width(x="52.5%" y="25%" numero="")
-              h3.bg-color-2.text-white Enlace de datos - Direccionamiento físico
-              h3.mb-5 Acceso a los medios
+            .tarjeta.p-3.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="25%" numero="")
+              h5.bg-color-2.text-white Enlace de datos - Direccionamiento físico
+              h5.mb-5 Acceso a los medios
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.aling-19.mt-5.text-small Los productos de capa de enlace de datos describen los métodos para intercambiar tramas de datos entre dispositivos en un medio común.
-
-              
-            .tarjeta.p-3.tarjeta-blanca.info-card-width(x="52.5%" y="37%" numero="")
-              h3.bg-color-2.text-white Red - Determinación de ruta y direccionamiento lógico
-              h3.mb-5 Direccionamiento y mejor ruta
-                .pRelative_1
-                  .backtoTop_1
-                    figure
-                      img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.aling-19.mt-5.text-small La capa de red, proporciona servicios para intercambiar los datos individuales en la red entre dispositivos finales identificados.
-              
-
-            .tarjeta.p-3.tarjeta-blanca.info-card-width(x="52.5%" y="48%" numero="")
-              h3.bg-color-2.text-white Transporte - Conexión de extremo a extremo y confiabiidad
-              h3.mb-5  Conexiones de extremo a extremo
-                .pRelative_1
-                  .backtoTop_1
-                    figure
-                      img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.aling-19.mt-5.text-small  La capa de transporte, define los servicios para segmentar, transferir y rearmar los datos para las comunicaciones individuales entre dispositivos finales.
-
-            .tarjeta.p-3.tarjeta-blanca.info-card-width(x="52.5%" y="60%" numero="")
-              h3.bg-color-2.text-white Sesión - Comunicación entre dispositivos de red
-              h3.mb-5 Comunicación entre <i>hosts</i>
-                .pRelative_1
-                  .backtoTop_1
-                    figure
-                      img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.aling-19.mt-5.text-small La capa de sesión, proporciona servicios a la capa de presentación para organizar su diálogo y administrar el intercambio de datos.
+              p.aling-19.mt-5.text-small.mb-0 Los productos de capa de enlace de datos describen los métodos para intercambiar tramas de datos entre dispositivos en un medio común.
 
               
-            .tarjeta.p-3.tarjeta-blanca.info-card-width(x="52.5%" y="75%" numero="")
-              h3.bg-color-2.text-white Presentación - Representación de datos y encriptación
-              h3.mb-5 Representación de datos
+            .tarjeta.p-3.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="37%" numero="")
+              h5.bg-color-2.text-white Red - Determinación de ruta y direccionamiento lógico
+              h5.mb-5 Direccionamiento y mejor ruta
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.aling-19.mt-5.text-small La capa de red, proporciona una representación común de los datos transferidos entre los servicios de la capa de aplicación.
+              p.aling-19.mt-5.text-small La capa de red, proporciona servicios para intercambiar los datos individuales en la red entre dispositivos finales identificados.
+              
 
-            .tarjeta.p-3.tarjeta-blanca.info-card-width(x="52.5%" y="91%" numero="")
-              h3.bg-color-2.text-white Aplicación - Servicios de red a aplicaciones
-              h3.mb-5  Procesos de red a aplicaciones
+            .tarjeta.p-3.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="48%" numero="")
+              h5.bg-color-2.text-white Transporte - Conexión de extremo a extremo y confiabiidad
+              h5.mb-5  Conexiones de extremo a extremo
                 .pRelative_1
                   .backtoTop_1
                     figure
                       img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-                p.aling-19.mt-5.text-small La capa de red, proporciona los medios para la conectividad de extremo a extremo entre individuos de la red humana mediante redes de datos.
+              p.aling-19.mt-5.text-small  La capa de transporte, define los servicios para segmentar, transferir y rearmar los datos para las comunicaciones individuales entre dispositivos finales.
+
+            .tarjeta.p-3.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="60%" numero="")
+              h5.bg-color-2.text-white Sesión - Comunicación entre dispositivos de red
+              h5.mb-5 Comunicación entre <i>hosts</i>
+                .pRelative_1
+                  .backtoTop_1
+                    figure
+                      img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
+              p.aling-19.mt-5.text-small La capa de sesión, proporciona servicios a la capa de presentación para organizar su diálogo y administrar el intercambio de datos.
+
+              
+            .tarjeta.p-3.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="75%" numero="")
+              h5.bg-color-2.text-white Presentación - Representación de datos y encriptación
+              h5.mb-5 Representación de datos
+                .pRelative_1
+                  .backtoTop_1
+                    figure
+                      img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
+              p.aling-19.mt-5.text-small La capa de red, proporciona una representación común de los datos transferidos entre los servicios de la capa de aplicación.
+
+            .tarjeta.p-3.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="91%" numero="")
+              h5.bg-color-2.text-white Aplicación - Servicios de red a aplicaciones
+              h5.mb-5  Procesos de red a aplicaciones
+                .pRelative_1
+                  .backtoTop_1
+                    figure
+                      img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
+              p.aling-19.mt-5.text-small La capa de red, proporciona los medios para la conectividad de extremo a extremo entre individuos de la red humana mediante redes de datos.
           
         .col-12.col-md-4.col-lg-3.col-xl-3
           img(src="@/assets/curso/images/tema1/img_7.svg" alt="AvatarTop", style="width:180px; display:block; margin: 2rem 10rem;")
   .container.bg-white.p-4.p-md-5.container-bottom
       
-      p Para que los paquetes de datos puedan viajar desde el origen hasta su destino, cada capa del modelo OSI en el origen debe comunicarse con su capa igual en el lugar de destino. Esta forma de comunicación se conoce como comunicaciones de par-a-par en cada uno de estas capas la información cambia de nombre es decir usa un PDU (<i>Protocol Data Unit</i>).
+      p.mb-5 Para que los paquetes de datos puedan viajar desde el origen hasta su destino, cada capa del modelo OSI en el origen debe comunicarse con su capa igual en el lugar de destino. Esta forma de comunicación se conoce como comunicaciones de par-a-par en cada uno de estas capas la información cambia de nombre es decir usa un PDU (<i>Protocol Data Unit</i>).
 
       .row.justify-content-center
-        .col-lg-5
+        .col-lg-8
           .titulo-sexto.color-acento-contenido
             h5 Tabla 1 
             span Unidades de datos de protocolo por capa
@@ -322,9 +341,9 @@
             table(style="min-width:200px;")
               thead
                 tr
-                  th.text-center.text <b>Capa Número</b>
-                  th.text-center.text <b>Nombre de Capa</b>
-                  th.text-center.text <b>PDU</b>
+                  th.text-center.text_2 <b>Capa Número</b>
+                  th.text-center.text_2 <b>Nombre de Capa</b>
+                  th.text-center.text_2 <b>PDU</b>
               tbody
                 tr
                   td.text-center 7
@@ -356,9 +375,9 @@
                   td.text-center Datos
 
       #3.row.justify-content-center.align-items-center
-        .col-lg-10
+        .col-lg-12
           .cajon.color-custom.p-4
-            p.mb-0 El modelo OSI es el modelo de referencia de <i>internetwork</i> más conocido. Es utilizado para el diseño de redes de datos, especificaciones de funcionamiento y la resolución de problemas ya que permite ir descartando en cada capa el posible problema. 
+            p.mb-0 El modelo #[b OSI] es el modelo de referencia de <i>internetwork</i> más conocido. Es utilizado para el diseño de redes de datos, especificaciones de funcionamiento y la resolución de problemas ya que permite ir descartando en cada capa el posible problema. 
                 
       hr
 
@@ -371,7 +390,7 @@
           .col-8.col-lg-4.bg-color
             h3.mb-0.text-white Modelo de referencia TCP /IP
 
-        .row.justify-content-center.align-items-center.mb-5.fondo-26
+        .row.justify-content-center.align-items-end.mb-5.fondo-26
           .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
             img.m-img-1(src="@/assets/curso/images/tema1/img_8.svg")
           .col-12.col-md-4.col-lg-7.col-xl-7.my-3
@@ -402,8 +421,9 @@
             span  Modelo de referencia TCP/IP
       .row.justify-content-center
         .col-lg-6.mb-4
-            img(src="@/assets/curso/images/tema1/fig_1.svg" alt="AvatarTop", style="width:600px; display:block; margin:auto 0;")
-            figcaption Nota. Adaptado de https://bit.ly/32BgN6J
+            img.mb-3(src="@/assets/curso/images/tema1/fig_1.svg" alt="AvatarTop", style="width:600px; display:block; margin:auto 0;")
+            figcaption 
+              p.mb-0 #[b Nota.] Adaptado de https://bit.ly/32BgN6J
 
       hr 
 
@@ -412,17 +432,17 @@
           a(href="#menu1", title="Protocolos de comunicación") 
             img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
     
-  .container.bg-white.p-4.p-md-5.fondo-2.mg-top
-    .row.mb-5.ps-3
+  .container.bg-white.px-5.py-2.fondo-2.mg-top.mb-0
+    .row.mb-5.ps-3.mb-0
       .col-8.col-lg-4.bg-color-3
         .h3.mb-0.text-white Protocolos de comunicación
 
       p.mt-5 Las comunicaciones en general requieren de una serie de elementos y actores que intervienen dentro de los cuales podemos encontrar:
 
       .row.justify-content-center.align-items-center
-        .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
-          img.m-1(src="@/assets/curso/images/tema1/img_9.svg").mb-4
-        .col-12.col-md-4.col-lg-6.col-xl-6.my-3
+        .col-12.col-md-8.col-lg-6.col-xl-6.mb-0
+          img.img-a.m-1(src="@/assets/curso/images/tema1/img_9.svg").mb-4
+        .col-12.col-md-4.col-lg-6.col-xl-6.my-3.mb-5
           .row.justify-content-center.align-items-center
             .col-7
               SlyderA(columnas="col-12")
@@ -459,21 +479,20 @@
   
           .cajon.color-custom.p-3.mt-5
             p.mb-3 Como se evidencia en la figura, toda comunicación requiere contar con un emisor un mensaje a enviar y un código que permite que el mensaje viaje por un canal, para que ambos actores puedan interactuar requieren contar con un código o lenguaje común, que permita que puedan entenderse, ese estándar o lenguaje común es lo que conocemos como un protocolo de comunicaciones, el cual es un conjunto de normas que están obligadas a cumplir todos los dispositivos, <i>hardware</i> y <i>software</i> que intervienen en una comunicación de datos entre computadoras y demás dispositivos, sin estas reglas o estándares la comunicación resultaría caótica y por tanto imposible.
+
+      .tema1-1.mb-0 
+        .bloque-texto-a.color-custom-1.p-md-4
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-9
+              .bloque-texto-a__texto.p-4
+                p #[b Dependiendo de los servicios a los cuales accedemos a través de las redes de computadores será el protocolo de comunicación que se deberá emplear en la comunicación entre el usuario que solicita y accede al servicio y el dispositivo quien se lo entrega, en general en la transmisión y recepción de los datos podemos encontrar dos grandes familias de protocolos que se resumen en:]
+            .col-lg-3.mb-4.mb-lg-0
+              figure
+                img(src='@/assets/curso/images/tema1/img_10.png')
   
-  .container.bg-white.p-4.p-md-5.container-bottom
-      .col-lg-12.mx-auto.mb-4
-        .tema1-1 
-          .bloque-texto-a.color-custom-1.p-md-4
-            .row.m-0.align-items-center.justify-content-between
-              .col-lg-9
-                .bloque-texto-a__texto.p-4
-                  p Dependiendo de los servicios a los cuales accedemos a través de las redes de computadores será el protocolo de comunicación que se deberá emplear en la comunicación entre el usuario que solicita y accede al servicio y el dispositivo quien se lo entrega, en general en la transmisión y recepción de los datos podemos encontrar dos grandes familias de protocolos que se resumen en:
-              .col-lg-3.mb-4.mb-lg-0
-                figure
-                  img(src='@/assets/curso/images/tema1/img_10.png')
-      
-      .row.justify-content-center
-        .col-lg-12.d-none.d-lg-block.mb-4
+  .container.bg-white.p-5.container-bottom.mt-0      
+      .row.justify-content-center.mt-0
+        .col-lg-12.d-none.d-lg-block.mb-4.mt-0
           #carouselExampleIndicators.carousel.slide(data-bs-ride='carousel')
             .carousel-indicators
               button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
@@ -509,12 +528,13 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-md-8.col-lg-6.col-xl-6
           img(src="@/assets/curso/images/tema1/fig_2.svg" alt="AvatarTop", style="width:470px; display:block; margin:auto 0;")
-        .col-12.col-md-4.col-lg-6.col-xl-6
+        .col-12.col-md-4.col-lg-6.col-xl-6.mb-5
           p.mb-3 Suite de protocolos según el modelo de referencia.
-          img(src="@/assets/curso/images/tema1/fig_2_1.svg" alt="AvatarTop", style="width:470px; display:block; margin:auto 0;")
-          figcaption Nota. https://interpolados.files.wordpress.com/2017/03/17.png 
+          img.mb-3(src="@/assets/curso/images/tema1/fig_2_1.svg" alt="AvatarTop", style="; display:block; margin:auto 0;")
+          figcaption 
+            p.mb-0 #[b Nota.] https://interpolados.files.wordpress.com/2017/03/17.png 
 
-      hr 
+      hr.mb-5 
 
       #5.pRelative
         .backtoTop-5
@@ -593,13 +613,33 @@
           p.mb-3 Los medios guiados conducen (guían) las señales a través de un camino físico, tal como se muestra en la figura 3, dentro de los cuales podemos encontrar:
     
     .row.justify-content-center.align-items-center.mb-5.fondo-20
-      .col-12.col-md-8.col-lg-5.col-xl-5
-        img(src="@/assets/curso/images/tema1/img_16.svg")
-      .col-12.col-md-4.col-lg-7.col-xl-7
+      .col-12.col-md-9.col-lg-7.col-xl-5
+        .row.justify-content-evenly
+          .col-lg-5.col-xl-5.tarjeta.tarjeta_white.px-0
+            .head_tar.mt-0.p-2
+            .row.mb-3.p-3.justify-content-start.align-items-center.mb-0
+              .col-lg-6.justify-content-start.mb-3
+                h4.text-center.mb-0 
+                  strong Fibra #[br]#[.text_re óptica]
+              .col-lg-4.justify-content-start.mb-3
+                img(src='@/assets/curso/images/tema1/icon_1.svg' alt='AvatarTop')
+              p.text-small.mb-0 Las señales que transportan la fibra óptica corresponden a pulsos de luz, no eléctricos.
+              
+          .col-lg-5.col-xl-5.tarjeta.tarjeta_white.px-0
+            .head_tar.mt-0.p-2
+            .row.mb-3.p-3.align-items-center
+              .col-lg-8.mb-4
+                h4.text-center.mb-0 
+                  strong Cobre #[br]#[.text_re (Trenzado]o coaxial)
+              .col-lg-4.mb-3
+                img(src='@/assets/curso/images/tema1/icon_2.svg' alt='AvatarTop')
+              p.text-small.mb-0 Las señales que transportan el cobre son impulsos eléctricos.
+        
+      .col-12.col-md-3.col-lg-5.col-xl-7
         .cajon-b.color-primario.p-3.mt-5.mb-5
           p.mb-0  Los medios de transmisión no guiados son aquellos sin cable, transportan ondas electromagnéticas sin usar un conductor físico, sino que se radian a través del aire, por lo que están disponibles para cualquiera que tenga un dispositivo capaz de aceptarlas.
 
-      .row.justify-content-center
+      .row.justify-content-center.mt-5
         .col-lg-12
           .titulo-sexto.color-acento-contenido
             h5 Figura 3.
@@ -680,15 +720,15 @@
       Separador
 
       #t_1_2.titulo-segundo
-        .h4 1.2 Servicios propietarios
+        .h2 1.2 Servicios propietarios
   
-      .row.align-items-center.mb-5.fondo-30
-        .col-12.col-md-8.col-lg-4.col-xl-4 
+      .row.justify-content-center.align-items-center.mb-5.fondo-30.py-2
+        .col-lg-4
           img(src="@/assets/curso/images/tema1/img_pc_2.svg" alt="AvatarTop", style="width:400px; display:block; margin:-3rem -2rem;").mb-3
-        .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
+        .col-lg-6
           p.aling-9.text-white Antes de la llegada de la computación en la nube, los servicios, infraestructura, plataformas y en general los recursos de TI debían ser instalados, configurados y administrados en su totalidad por la empresa lo que conlleva varios inconvenientes entre los cuales se pueden mencionar los siguientes:
 
-      .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-28.mb-5.mb-4
+      .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-28.mb-5.mb-4.py-5
         .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
           img.my-3(src="@/assets/curso/images/tema1/img_pc_2.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem -1rem;")
         .col-12.col-md-4.col-lg-6.col-xl-7.mb-3
@@ -697,7 +737,7 @@
   .container.bg-white.p-md-5.fondo-5
     .row.justify-content-center.align-items-center
       .col-12.col-md-8.col-lg-7.col-xl-7.mb-4 
-        LineaTiempoD.color-acento-contenido.mt-5
+        LineaTiempoD.linea-tiempo-d.mt-5
             p(numero="1" titulo="Paso 1") El almacenamiento de los datos se hace de manera local en dispositivos como discos duros y servidores locales, este trae consigo el problema de que si llegase a fallar el servidor se corre el riesgo de la pérdida de información o pérdida de acceso a los servicios.
 
             p(numero="2" titulo="Paso 2") La administración de los recursos, que se relaciona con: el suministro de energía, aire acondicionado, sistemas de protección UPS y el mantenimiento preventivo y/o correctivo de los dispositivos, sin mencionar el hecho de que la tecnología en cuanto a infraestructura, va perdiendo su valor y se va devaluando rápidamente debido al constante desarrollo y evolución.
@@ -713,70 +753,89 @@
       Separador
 
       #t_1_3.titulo-segundo
-        .h4 1.3 La evolución de la informática en la nube
+        .h2 1.3 La evolución de la informática en la nube
   
   .container.bg-white.p-md-5.fondo-3.mg-top
     .row.justify-content-center.align-items-center.my-5
       .col-12.col-md-8.col-lg-4.col-xl-4.mb-4
-        img(src="@/assets/curso/images/tema1/img_26.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem 0;").mb-3
+        img.img-a(src="@/assets/curso/images/tema1/img_26.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem 0;").mb-3
       .col-12.col-md-4.col-lg-8.col-xl-8.my-3
         p Si bien la computación en la nube es un término que se popularizó como un nuevo paradigma en el acceso a servicios e infraestructura en los años 2008 y 2009, desde la década del 60 ya se hablaba de este paradigma y, es a John McCarthy a quien se le atribuye la definición y el concepto tanto de cómputo en la nube como el de inteligencia artificial.
         .cajon.color-custom.p-3.mt-5
           p.mb-3 Posteriormente surgen nuevos autores como Joseph Carl Robnett Licklider, quien en sus conceptos siempre hablo de contar con una tecnología que permitiera que todo el mundo estuviera interconectado y que de esta manera  pudiera acceder a la información desde cualquier lugar sin límites de distancias ni fronteras, este sueño dio origen a la computación en la nube, la cual se crea con el propósito de poder descentralizar los recursos de cómputo y almacenamiento para distribuirlos alrededor del mundo y facilitar el acceso a la información cada vez a más personas.
   .container.bg-white.p-4.p-md-5.container-bottom 
-      .col-lg-12.mx-auto.mb-4
+      .col-lg-12.mx-auto.mb-5
         .tema1-1 
-          .bloque-texto-a.color-custom-1.p-4.p-md-3
+          .bloque-texto-a.color-custom-1.px-4.py-2
             .row.m-0.align-items-center.justify-content-between
               .col-lg-8
-                .bloque-texto-a__texto.p-5
-                  p.mb-0 Los orígenes del término “nube”, comúnmente se asocian al término que se derivó de una metáfora que tomaba como base al dibujo de nubes que se utilizaban en el pasado para representar a la red telefónica, y que posteriormente algunos comenzaron a representar al Internet.
+                .bloque-texto-a__texto.p-4
+                  p.mb-3
+                    strong Los orígenes del término “nube”, comúnmente se asocian al término que se derivó de una metáfora que tomaba como base al dibujo de nubes que se utilizaban en el pasado para representar a la red telefónica, y que posteriormente algunos comenzaron a representar al Internet.
 
-                  p Podemos resumir la evolución en las siguientes fases:
-              .col-lg-4.mb-4.mb-lg-0
+                  p 
+                    strong Podemos resumir la evolución en las siguientes fases:
+              .col-lg-4.mb-0.mb-lg-0.mt-0
                 figure
-                  img(src='@/assets/curso/images/tema1/img_10.png' alt='Volver arriba' style="width:300px; display:block; margin:0 auto;")
+                  img.img-a(src='@/assets/curso/images/tema1/img_10.png' alt='Volver arriba')
   
-      .row.justify-content-center.align-items-center.mb-3.fondo-6
-        .col-12.col-md-8.col-lg-2.col-xl-2.mb-4
-          img(src="@/assets/curso/images/tema1/ico_27.svg" alt="AvatarTop", style="width:100px")
-        .col-12.col-md-8.col-lg-4.col-xl-4.mb-4
+      .row.justify-content-evenly.align-items-start.mb-3.fondo-6.mt-5.p-5
+        .col-lg-2.mb-0
+          .row
+            .col-lg-2
+              p.text_gr 
+                strong 01
+            .col-lg-2.d-none.d-lg-block
+              .v-line
+        .col-lg-3.mb-0
           h3.mb-3 Primera Etapa- Década de los 60
           img(src="@/assets/curso/images/tema1/img_28.png" alt="AvatarTop", style="width:250px")
-        .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
+        .col-lg-6.mb-0
           p Joseph Carl Robnett Licklider informático estadunidense, conceptualiza por primera vez la idea y concepto de la computación en la nube.
 
-      .row.justify-content-center.align-items-center.mb-3.fondo-7
-        .col-12.col-md-8.col-lg-2.col-xl-2.mb-4
-          img(src="@/assets/curso/images/tema1/ico_28.svg" alt="AvatarTop", style="width:100px")
-        .col-12.col-md-8.col-lg-7.col-xl-7.mb-4
-          h3.mb-2 Segunda Etapa- Inicia sobre los 90 y va hasta 2006
-          p Empieza y se desarrolla el proceso de masificación del acceso a internet, pasando a ser una tecnología exclusiva, costosa y de acceso limitado para pocos, posteriormente se popularizó, facilitando el acceso cada vez, a más empresas, este mecanismo permitió que a través de internet se originara lo que hoy conocemos con el término de aplicaciones como servicio.
-          .cajon.color-custom.p-4.mt-5
-            p.mb-0 Dentro de esta etapa podemos destacar como uno de los mayores avances computacionales cuando se afianzó el concepto de virtualización a finales de esa década, nace Salesforce empresa que desarrolla la primera ola de nube cuando propone ofrecer aplicaciones empresariales a través de un acceso web sencillo y simple.
+      .row.justify-content-evenly.align-items-start.mb-3.fondo-7.p-5
+        .col-lg-2 
+          .row
+            .col-lg-2
+              p.text_gr 
+                strong 02
+            .col-lg-2.d-none.d-lg-block
+              .v-line.lin_1
+        .col-12.col-md-7.col-lg-9.col-xl-9.mb-4
+          .row
+            .col-12.col-md-8.col-lg-7.col-xl-7.mb-4
+              h3.mb-2 Segunda Etapa- Inicia sobre los 90 y va hasta 2006
+              p Empieza y se desarrolla el proceso de masificación del acceso a internet, pasando a ser una tecnología exclusiva, costosa y de acceso limitado para pocos, posteriormente se popularizó, facilitando el acceso cada vez, a más empresas, este mecanismo permitió que a través de internet se originara lo que hoy conocemos con el término de aplicaciones como servicio.
+              .cajon.color-custom.p-4.mt-3
+                p.mb-0 Dentro de esta etapa podemos destacar como uno de los mayores avances computacionales cuando se afianzó el concepto de virtualización a finales de esa década, nace #[b Salesforce] empresa que desarrolla la primera ola de nube cuando propone ofrecer aplicaciones empresariales a través de un acceso web sencillo y simple.
 
-        .col-12.col-md-8.col-lg-3.col-xl-3.mb-4
-          img.mt-5(src="@/assets/curso/images/tema1/img_29.png" alt="AvatarTop", style="width:200px")
-        p Si bien en esta etapa no se había consolidado la computación en la nube, la infraestructura, tecnologías y desarrollo tecnológico propio del internet fue fundamental para el crecimiento y evolución a lo que hoy conocemos como computación en la nube.
+            .col-12.col-md-8.col-lg-3.col-xl-5.mb-4
+              img.img-a.mt-5(src="@/assets/curso/images/tema1/img_29.png" alt="AvatarTop", )
+          p.mb-0 Si bien en esta etapa no se había consolidado la computación en la nube, la infraestructura, tecnologías y desarrollo tecnológico propio del internet fue fundamental para el crecimiento y evolución a lo que hoy conocemos como computación en la nube.
 
-      .row.justify-content-center.mb-5.fondo-8
-        .col-12.col-md-8.col-lg-2.col-xl-2.mb-4
-          img(src="@/assets/curso/images/tema1/ico_29.svg" alt="AvatarTop", style="width:100px")
-        .col-12.col-md-8.col-lg-10.col-xl-10.mb-0
+      .row.justify-content-evenly.fondo-8.align-items-start.p-5
+        .col-12.col-md-8.col-lg-2.col-xl-2
+          .row.align-items-start
+            .col-lg-2
+              p.text_gr 
+                strong 03
+            .col-lg-2.mb-0.d-none.d-lg-block
+              .v-line.lin
+        .col-12.col-md-8.col-lg-9.col-xl-9.mb-0
           h3.mb-3 Tercera Etapa – Reconocida históricamente en el 2007
           p.mb-3 Se desarrolla la tecnología de poner “línea” (internet) en toda la plataforma e infraestructura tecnológica requerida por una empresa, incluyendo <i>hardware</i>, <i>software</i> e <i>internetworking.</i>
           .row  
-            .col-12.col-md-4.col-lg-3.col-xl-3.mb-4
-              img(src="@/assets/curso/images/tema1/img_30.png" alt="AvatarTop", style="width:300px").mx-3
+            .col-12.col-md-4.col-lg-3.col-xl-4.mb-4
+              img.img-a(src="@/assets/curso/images/tema1/img_30.png" alt="AvatarTop", ).mx-3
             .col-12.col-md-8.col-lg-8.col-xl-8.mb-4
               .cajon.color-custom.p-4.mb-2
                 p Nacen las grandes empresas como Google,  Amazon AWS, Apple Cloud, Microsoft Azure, Alibaba <i>Cloud</i>, que trabajan a partir del uso de internet y de servidores centralizados, con facilidades de acceso a servicios e infraestructura de manera remota, descentralizada y por demanda.
-              p.mb-3 La computación en la nube en la última década pasó de ser el servicio que grandes empresas de tecnologías ofrecían como una alternativa tecnológica a sus clientes, para convertirse en un factor preponderante en la transformación digital y adopción de buenas prácticas que toda empresa necesita, la cuarta revolución industrial, la popularización y cada vez más necesaria adopción de tecnologías como IoT, IA, <i>Big Data, Machine Learning </i>entre otros hace necesario que se migre y se adopten estos servicios en la nube, ya no solo desde los servicios tradicionales si no que a medida que se van adoptando estas tecnologías irán surgiendo y desarrollando una nueva oferta de servicios que transforman y mejoran los procesos de negocio.
+              p.mb-0 La computación en la nube en la última década pasó de ser el servicio que grandes empresas de tecnologías ofrecían como una alternativa tecnológica a sus clientes, para convertirse en un factor preponderante en la transformación digital y adopción de buenas prácticas que toda empresa necesita, la cuarta revolución industrial, la popularización y cada vez más necesaria adopción de tecnologías como IoT, IA, <i>Big Data, Machine Learning </i>entre otros hace necesario que se migre y se adopten estos servicios en la nube, ya no solo desde los servicios tradicionales si no que a medida que se van adoptando estas tecnologías irán surgiendo y desarrollando una nueva oferta de servicios que transforman y mejoran los procesos de negocio.
 
       Separador
 
       #t_1_4.titulo-segundo
-        .h4 1.4 Bloques de creación en la nube
+        .h2 1.4 Bloques de creación en la nube
         
       .row.justify-content-center.align-items-center.fondo-9.mb-3
         .col-12.col-md-4.col-lg-7.col-xl-7.my-3
@@ -793,7 +852,7 @@
 
       p.mb-5 En general los bloques de creación en la nube los podemos catalogar en 4 niveles que son:
       
-      .row.justify-content-center.align-items-center.fondo-10.mb-5
+      .row.justify-content-center.align-items-center.fondo-10.mb-5.mt-5
         SlyderA(tipo="b")
           .row.justify-content-center.align-items-center.p-3
             .col-11.col-lg-5.col-md-5.mb-4.mb-md-0
@@ -829,7 +888,7 @@
               ul.lista-ul--color
                 li 
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | <i>software</i>
+                  | <i>Software</i>
                 li 
                   i.fas.fa-caret-right(style="color: #FF2C9C")
                   | Red  
@@ -849,13 +908,17 @@
               h4.mb-4 Plataformas de desarrollo
               p.mb-5 Esta capa permite a los desarrolladores de <i>software</i> construir aplicaciones a través de las interfaces de programación de aplicaciones (API), esto suministrado por el proveedor de servicios en la nube, a través de las API, el desarrollador puede acceder a servicios de:
             
-              ol.lista-ol--fa-solid-fa-caret-right
+              ul.lista-ul--color
                 li 
                   i.fas.fa-caret-right(style="color: #FF2C9C")
                   | Autenticación
                 li 
                   i.fas.fa-caret-right(style="color: #FF2C9C")
                   | Bases de datos 
+
+                li 
+                  i.fas.fa-caret-right(style="color: #FF2C9C")
+                  | Almacenamiento
                 li 
                   i.fas.fa-caret-right(style="color: #FF2C9C")
                   | Otros módulos o servicios disponibles.
@@ -880,7 +943,7 @@
     Separador
 
     #t_1_5.titulo-segundo
-      .h4 1.5 Tipos de nubes
+      .h2 1.5 Tipos de nubes
     
     p.mb-3 Para acceder a los servicios de computación en la nube existen varios modelos de entrega o despliegue de la nube los cuales pueden ser, veamos:
 
@@ -917,13 +980,13 @@
         Separador
 
       #t_1_6.titulo-segundo
-        .h4 1.6 Principales proveedores de servicios en la nube  
+        .h2 1.6 Principales proveedores de servicios en la nube  
 
       .contenedor-total.mb-0
         figure
           img(src='@/assets/curso/images/tema1/img_39.png' alt='Imagen ambiental' style='')
         .contenedor-text
-          .row.justify-content-center.p-4
+          .row.justify-content-center.p-5
             .col-auto
               p.mb-0 Debido a la masificación y cada vez mayor adopción de tecnologías de <i>cloud computing</i>, han sido muchos los nuevos proveedores que han ido surgiendo y posicionando sus ofertas de servicios, sin embargo, en el mundo occidental podemos mencionar los siguientes como los más grandes y más importantes proveedores de servicios en la nube.
 
@@ -990,14 +1053,14 @@
         div(titulo="Microsoft Azure")
           .col-lg-12.mx-auto.mb-4
             .tema1-1 
-              .bloque-texto-a.color-custom-4.p-3.p-md-5
+              .bloque-texto-a.color-custom-4.p-3.p-md-2
                 .row.m-0.align-items-center.justify-content-between
                   .col-lg-4.mb-4.mb-lg-0
                     figure
-                      img(src='@/assets/curso/images/tema1/img_42.png' alt='Volver arriba' style="width:300px; display:block; margin:0 auto;")
+                      img.img-a(src='@/assets/curso/images/tema1/img_42.png' alt='Volver arriba')
                   .col-lg-8
-                    .bloque-texto-a__texto.p-5
-                      p.mb-0 <b>Es la nube de la empresa Microsoft, Azure </b> es quizá la plataforma con crecimiento más rápido en el mercado de Cloud, tiene más de 50 centros de datos distribuidos alrededor de más de 140 países (figura 8) a través de servicios como Azure Stack permite que una organización pueda crear su nube privada y posteriormente integrar a la nube pública de Azure y de esta manera poder interactuar con todas las bondades, características y servicios de Azure.
+                    .bloque-texto-a__texto.p-4
+                      p.mb-0 <b>Es la nube de la empresa Microsoft, Azure </b> es quizá la plataforma con crecimiento más rápido en el mercado de <i>Cloud</i>, tiene más de 50 centros de datos distribuidos alrededor de más de 140 países (figura 8) a través de servicios como Azure Stack permite que una organización pueda crear su nube privada y posteriormente integrar a la nube pública de Azure y de esta manera poder interactuar con todas las bondades, características y servicios de Azure.
                   
           .row.justify-content-center
               .col-lg-12
@@ -1093,7 +1156,7 @@
                       img(src='@/assets/curso/images/tema1/img_google_pla.png' alt='Volver arriba' style="width:300px; display:block; margin:0 auto;")
                   .col-lg-8
                     .bloque-texto-a__texto.p-5
-                      p.mb-0 Google <i> Cloud Platform </i> (GCP) es una plataforma que ha ido evolucionando en su oferta de servicios como respuesta al crecimiento de sus competidores, Google cuenta con aproximadamente 60 centros de Datos en más de 20 regiones alrededor del mundo, como puede observarse en la figura 9
+                      p.mb-0 Google <i> Cloud Platform </i> (GCP) es una plataforma que ha ido evolucionando en su oferta de servicios como respuesta al crecimiento de sus competidores, Google cuenta con aproximadamente 60 centros de Datos en más de 20 regiones alrededor del mundo, como puede observarse en la figura 9.
           .row.justify-content-center.mb-4
               .col-lg-12
                 .titulo-sexto.color-acento-contenido
@@ -1183,12 +1246,9 @@
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
     // variables de vue
   }),

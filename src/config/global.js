@@ -5,7 +5,6 @@ export default {
       'La computación en la nube es una tecnología cada vez con mayor uso e impacto en el despliegue y acceso a servicios toda vez que facilita el acceso remoto desde cualquier parte del mundo a través  de tecnologías de internet a procesamiento y almacenamiento de datos, en el presente componente formativo hablaremos de sus características, generalidades y conceptos más importantes.',
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.svg'),
-    fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -115,7 +114,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -158,13 +157,13 @@ export default {
     },
     {
       referencia:
-        'Giraldo, L. A. (2021, November 11). ¿Cómo ha evolucionado la computación en la nube a través del tiempo? Retrieved from',
+        'Giraldo, L. A. (2021, November 11). ¿Cómo ha evolucionado la computación en la nube a través del tiempo? Retrieved from.',
       link:
         'https://www.pragma.com.co/blog/como-ha-evolucionado-la-computacion-en-la-nube-a-traves-del-tiempo',
     },
     {
       referencia:
-        'Padilla Aguilar, J. J., & Pinzón Castellanos, J. (2015). Estándares para Cloud Computing: estado del arte y análisis de protocolos para varias nubes.',
+        'Padilla Aguilar, J. J., & Pinzón Castellanos, J. (2015). Estándares para <em>Cloud Computing</em>: estado del arte y análisis de protocolos para varias nubes.',
     },
     {
       referencia:
@@ -172,7 +171,7 @@ export default {
     },
     {
       referencia:
-        'Softchris. (2021, November 16). Definición de informática en la nube - Learn. Retrieved from ',
+        'Softchris. (2021, November 16). Definición de informática en la nube - Learn. Retrieved from. ',
       link:
         'https://docs.microsoft.com/es-es/learn/modules/cmu-cloud-admin-overview/01-define-cloud-computing',
     },
@@ -188,12 +187,12 @@ export default {
   glosario: [
     {
       termino: 'Azure',
-      significado: 'Servicios de computación en la nube de Microsoft',
+      significado: 'Servicios de computación en la nube de Microsoft.',
     },
     {
       termino: 'AWS',
       significado:
-        '<i>Amazon Web Services</i>: servicios de cloud ofrecidos por Amazon .',
+        '<i>Amazon Web Services</i>: servicios de  <em>cloud</em> ofrecidos por Amazon .',
     },
     {
       termino: 'CapEx',
@@ -206,7 +205,7 @@ export default {
     },
     {
       termino: 'ISO',
-      significado: 'Organización de estándares internacionales',
+      significado: 'Organización de estándares internacionales.',
     },
     {
       termino: 'Medio de transmisión',
@@ -214,9 +213,9 @@ export default {
         'Para que la comunicación entre un emisor y un receptor se realice se requiere de un medio que facilite la conexión entre ambos extremos el cual es conocido como el medio de transmisión, este constituye el soporte físico a través del cual emisor y receptor pueden comunicarse en un sistema de transmisión de datos.',
     },
     {
-      termino: '<i>Networking</i>',
+      termino: '<em>Networking</em>',
       significado:
-        'Trabajo en equipo, colaborativo y la integración entre los diferentes recursos tecnológicos que permiten potenciar y maximizar el potencial de las redes de datos',
+        'Trabajo en equipo, colaborativo y la integración entre los diferentes recursos tecnológicos que permiten potenciar y maximizar el potencial de las redes de datos.',
     },
     {
       termino: 'OpEx',
@@ -230,16 +229,16 @@ export default {
     {
       termino: 'Protocolo',
       significado:
-        'Estándar o lenguaje común, el cual es un conjunto de normas que están obligadas a cumplir todos los dispositivos, hardware y software que intervienen en una comunicación de datos entre computadoras y demás dispositivos, sin estas reglas o estándares la comunicación resultaría caótica y por tanto imposible.',
+        'Estándar o lenguaje común, el cual es un conjunto de normas que están obligadas a cumplir todos los dispositivos, <em>hardware</em> y <em>software</em> que intervienen en una comunicación de datos entre computadoras y demás dispositivos, sin estas reglas o estándares la comunicación resultaría caótica y por tanto imposible.',
     },
     {
       termino: 'Redes de Datos',
       significado:
-        'Conjunto equipos (computadoras y dispositivos) conectados por medio de cables, señales, ondas o cualquier otro método de transporte de datos, para compartir información (archivos) recursos (discos, impresoras, programas, etc.) y servicios (acceso a una base de datos, internet, correo electrónico, chat, juegos, etc.)',
+        'Conjunto equipos (computadoras y dispositivos) conectados por medio de cables, señales, ondas o cualquier otro método de transporte de datos, para compartir información (archivos) recursos (discos, impresoras, programas, etc.) y servicios (acceso a una base de datos, internet, correo electrónico, chat, juegos, etc.).',
     },
     {
       termino: 'TCP/IP',
-      significado: 'Protocolo de control de transmisión/ Protocolo IP',
+      significado: 'Protocolo de control de transmisión/ Protocolo IP.',
     },
   ],
   complementario: [

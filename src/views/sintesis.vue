@@ -1,17 +1,36 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno
+  BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-contenido
       h1  Síntesis
+
+
+    .row.mb-5
+      .col-lg-12.mb-5
+        .row.mb-5
+          .col-lg-5.d-none.d-lg-block 
+            img.mb-5.img-a.img_b(src='@/assets/curso/images/tema3/img_1.png', alt='Texto que describa la imagen')
+
+        .row.align-items-center.fondo-14.p-3.tex-ali.mb-5
+          .col-lg-12.mb-4.mb-lg-0.mb-5.d-none.d-lg-block 
+            .row
+              .col-lg-6
     
-    .row.justify-content-center.align-items-center.fondo-14.p-3.mb-5
-      .col-12.col-md-8.col-lg-6.col-xl-6
-        p.mb-4 La computación en la nube permite que los consumidores y las empresas gestionen archivos y utilicen aplicaciones sin necesidad de instalarlas, lo cual puede hacerse en cualquier computadora con acceso a internet.
-        .cajon.color-custom.p-3
-          p.mb-0 Además, es útil como modelo de negocio, puesto que el <i>software</i> reduce los costos mediante servidores centralizados en internet, en lugar de servidores locales, al eliminar gastos de mantenimiento, licencias y <i>hardware</i> necesario para mantener los servidores, permite que las empresas puedan ejecutar aplicaciones fluida y eficientemente.
-      .col-12.col-md-4.col-lg-6.col-xl-6
-        img(src="@/assets/curso/images/tema3/img_1.png" alt='AvatarTop', style="width:500px; display:block; margin:-12px 1rem;")
+                p.mb-4 La computación en la nube permite que los consumidores y las empresas gestionen archivos y utilicen aplicaciones sin necesidad de instalarlas, lo cual puede hacerse en cualquier computadora con acceso a internet.
+                .cajon.color-custom.p-3.mb-0
+                  p.mb-0 Además, es útil como modelo de negocio, puesto que el <i>software</i> reduce los costos mediante servidores centralizados en internet, en lugar de servidores locales, al eliminar gastos de mantenimiento, licencias y <i>hardware</i> necesario para mantener los servidores, permite que las empresas puedan ejecutar aplicaciones fluida y eficientemente.
+      
+      .row.align-items-center.fondo-14.p-5.d-block.d-lg-none.mb-5
+        .col-lg-12.mb-4.mb-lg-0
+          p.mb-4 La computación en la nube permite que los consumidores y las empresas gestionen archivos y utilicen aplicaciones sin necesidad de instalarlas, lo cual puede hacerse en cualquier computadora con acceso a internet.
+          .cajon.color-custom.p-3.mb-0
+            p.mb-0 Además, es útil como modelo de negocio, puesto que el <i>software</i> reduce los costos mediante servidores centralizados en internet, en lugar de servidores locales, al eliminar gastos de mantenimiento, licencias y <i>hardware</i> necesario para mantener los servidores, permite que las empresas puedan ejecutar aplicaciones fluida y eficientemente.
+
+      .row.align-items-center.p-5.d-block.d-lg-none.mb-5
+        .col-lg-12.mb-4.mb-lg-0
+          img.mb-5.img-a(src='@/assets/curso/images/tema3/img_1.png', alt='Texto que describa la imagen')
+
 
     .row.align-items-center.fondo-29.mb-5
       .col-12.col-md-8.col-lg-3.col-xl-3

@@ -50,7 +50,7 @@ export default {
   height: 100%
   width: 100%
 .banner-principal__info
-  margin-right: 25rem
+  margin-right: 35rem
   margin-top: 2rem
   z-index: 3
 .banner-principal
