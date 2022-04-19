@@ -7,7 +7,7 @@
         span 2
       h1  Rentabilidad de la nube
 
-    .contenedor-total.mb-4
+    .contenedor-total.mb-0(data-aos="fade")
       figure
         img.mx-auto(src='@/assets/curso/images/tema2/img_1.png' alt='Imagen ambiental' style='')
       .contenedor-text-2
@@ -17,13 +17,13 @@
 
             p.mb-0 Como se indica a continuación, hay varias características que hacen apreciable el almacenamiento en la nube, estas son:
     Separador
-    #t_2_1.ma.titulo-segundo
+    #t_2_1.ma.titulo-segundo.mt-3
       .h2 2.1 Ventajas y desventajas de la informática en la nube
     br
     .row.align-items-start.fondo-30.mb-5
-      .col-12.col-md-8.col-lg-4.col-xl-4 
+      .col-12.col-md-8.col-lg-4.col-xl-4(data-aos="fade-right") 
         img.img-a(src="@/assets/curso/images/tema2/img_2.svg" alt="AvatarTop", style="width:400px; display:block; margin:-7rem -2rem;").mb-3
-      .col-12.col-md-4.col-lg-7.col-xl-7
+      .col-12.col-md-4.col-lg-7.col-xl-7(data-aos="fade-left")
         p.text-white.mb-5 Son muchas las ventajas que ofrece la computación en la nube de ahí la importancia y popularidad que ha venido logrando, podemos hablar de una mejora económica, la simplificación o disminución de la complejidad en la administración de los recursos de TI, la escalabilidad, la flexibilidad, y el alto impacto en la conservación del planeta por el uso mejorado y la reducción de la huella de carbono, a continuación, se mencionan de manera muy general estas ventajas:
 
     .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-28.mb-5
@@ -33,7 +33,7 @@
         p.text-white Son muchas las ventajas que ofrece la computación en la nube de ahí la importancia y popularidad que ha venido logrando, podemos hablar de una mejora económica, la simplificación o disminución de la complejidad en la administración de los recursos de TI, la escalabilidad, la flexibilidad, y el alto impacto en la conservación del planeta por el uso mejorado y la reducción de la huella de carbono, a continuación, se mencionan de manera muy general estas ventajas:
       
     .row.justify-content-center.align-items-center.ma-1
-      .col-12.col-md-8.col-lg-10.col-xl-10.mb-4 
+      .col-12.col-md-8.col-lg-10.col-xl-10.mb-4(data-aos="fade")
         LineaTiempoD.color-acento-contenido
             p.text-small.color.line(numero="1" titulo="Mejor economía") 
               ul.lista-ul--color
@@ -76,7 +76,7 @@
         .h2 2.2 Rentabilidad de la informática en la nube para los usuarios
 
       .row.justify-content-center.align-items-center.mb-3
-        .col-12.col-md-8.col-lg-8.col-xl-8.mb-4 
+        .col-12.col-md-8.col-lg-8.col-xl-8.mb-4(data-aos="fade")
           ImagenInfografica.color-secundario.mb-5
             template(v-slot:imagen)
               figure
@@ -110,7 +110,7 @@
     p.mb-3 Desde el plano económico la computación en la nube beneficia a las empresas, como ya se indicó a nivel de las ventajas que ofrece el <i>cloud computing,</i>  en primera instancia está el hecho de no requerir una gran inversión en TI de larga duración, reemplazando los gastos de capital por gastos operativos, esto significa que para la organización es más favorable tener una inversión a corto plazo, pagando por los servicios solicitados y utilizados, posibilitando que las organizaciones puedan aprovechar e invertir en otro tipo de necesidades.
 
     .row.justify-content-center.align-items-center
-      .col-12.col-md-8.col-lg-12.col-xl-12.mb-4        
+      .col-12.col-md-8.col-lg-12.col-xl-12.mb-4(data-aos="fade")       
         .cajon.color-custom.p-3
           p La informática en la nube nos lleva a lograr tener una transición del modelo de negocio en cuanto a TI se refiere pasando de CapEx o OpEx para el primer término significa que pasamos de destinar una gran cantidad de dinero para una sola inversión en tecnología a largo plazo a un concepto llamado OpEx, que son inversiones o gastos recurrentes a corto plazo, lo que permite a las organizaciones agilidad para usar esos recursos financieros haciendo inversiones mucho más rentables. 
 
@@ -120,9 +120,9 @@
       .h2 2.3 Rentabilidad para los proveedores de servicios en la nube
     
     .row.justify-content-center.align-items-center.fondo-12
-      .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
+      .col-12.col-md-8.col-lg-5.col-xl-5.mb-4(data-aos="fade-right")
         img.img-a(src="@/assets/curso/images/tema2/img_4.svg" alt="AvatarTop")
-      .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
+      .col-12.col-md-4.col-lg-7.col-xl-7.mb-3(data-aos="fade-left")
         p.aling-2 En el caso de los proveedores de servicios de #[i cloud] sucede lo contrario que con el cliente, ellos requieren más CapEx toda vez que deben de hacer grandes inversiones en infraestructura creando y dotando más Centros de Datos con tecnologías confiables, de alta disponibilidad y a unos costos que puedan ser amortizados o administrados a partir de tener más usuarios utilizando su infraestructura.
         .cajon.color-custom.p-4.mt-5
             p.mb-0 Para el proveedor el camino es crear grandes centros de datos dotados con todas las características y bondades de la computación en la nube a fin de poder entregar y ofrecer un gran volumen de clientes nuevos que hagan rentable la inversión.
@@ -136,15 +136,15 @@
       .tema1-1.p-4 
         .bloque-texto-a.color-custom-1.p-3
           .row.m-0.align-items-center.justify-content-between
-            .col-lg-9
+            .col-lg-9(data-aos="fade-right")
               .bloque-texto-a__texto.p-4
                 p.mb-0 
                   strong Se mencionó en un apartado anterior la necesidad de contar con acuerdos de nivel de servicios entre el cliente y el proveedor que entrega el servicio, para lograr esto al momento de planear la migración de servicios de computación tradicional a computación en la nube las organizaciones deben de responder una serie de preguntas que ayudarán a definir los objetivos del nivel del servicio, los interrogantes son:
-            .col-lg-3.mb-4.mb-lg-0
+            .col-lg-3.mb-4.mb-lg-0(data-aos="fade-left")
               figure
                 img.img-a(src='@/assets/curso/images/tema2/img_5.png' alt='Volver arriba')
 
-      .row.justify-content-center.ma-1
+      .row.justify-content-center.ma-1(data-aos="fade")
         .col-3.mb-4.d-flex
           .tarjeta--sencilla.p-4
             .row.justify-content-center.mb-3
@@ -171,9 +171,9 @@
             p.mb-0.text-center ¿Cómo la organización puede validar la calidad en el servicio ofrecido por el proveedor?
       .p-3
         .row.justify-content-center.align-items-center.fondo-5.p-2
-          .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
+          .col-12.col-md-8.col-lg-5.col-xl-5.mb-4(data-aos="fade-right")
             img(src="@/assets/curso/images/tema2/img_6.png" alt="AvatarTop",)
-          .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
+          .col-12.col-md-4.col-lg-7.col-xl-7.mb-3(data-aos="fade-left")
             .cajon.color-custom.p-4.mb-5
               p.mb-0 La respuesta a estas preguntas es lo que permite determinar los objetivos del acuerdo de nivel de servicios o SLA donde se establece un contrato entre el proveedor (externo o interno) y el cliente donde se establecen los servicios y las características de los mismos que el cliente espera de su proveedor.
             p.mb-3 Un acuerdo de nivel de servicio puede contar entre otras con las siguientes características:
@@ -207,87 +207,85 @@
       .h2 2.5 Amenazas de seguridad en la nube
     
     .row.justify-content-center.align-items-center.fondo-13
-      .col-12.col-md-8.col-lg-4.col-xl-4.mb-4
+      .col-12.col-md-8.col-lg-4.col-xl-4.mb-4(data-aos="fade-right")
         img.img-a(src="@/assets/curso/images/tema2/img_7.svg" alt="AvatarTop",)
-      .col-12.col-md-4.col-lg-8.col-xl-8.mb-3
-          p.text-white.mb-3 Las organizaciones en el desarrollo de su actividad o <i>core</i>  de negocio reciben, generan, procesan o conservan información considerada como activos de la organización y tienen una afectación desde el plano económico o de negocio, de conocimiento o de propiedad intelectual en el momento de estar expuesta a posibles amenazas que puedan afectar lo antes mencionado.
+      .col-12.col-md-4.col-lg-8.col-xl-8.mb-3(data-aos="fade-left")
+        p.text-white.mb-3 Las organizaciones en el desarrollo de su actividad o <i>core</i>  de negocio reciben, generan, procesan o conservan información considerada como activos de la organización y tienen una afectación desde el plano económico o de negocio, de conocimiento o de propiedad intelectual en el momento de estar expuesta a posibles amenazas que puedan afectar lo antes mencionado.
 
-          p.text-white.mb-3 Las amenazas a la seguridad en la computación en la nube van a depender de varios factores:
-          p.text-white.mb-3 En términos generales son varias las amenazas que afectan la computación en la nube como podemos ver en el siguiente recurso educativo:
-
-          .tarjeta.tarjeta-blanca-2.mb-5
-            .head_tar.mt-0.p-2
-            .p-3
-              h2.p-2.mb-2 Amenaza #[BR]#[span.highlight-1 de la seguridad]
-              p.text-alinear El tipo de servicio contratado según los SLA previamente establecidos entre proveedor y cliente donde se determinan las responsabilidades de cada parte. El tipo de despliegue o puesta en producción de los servicios contratados.
+        p.text-white.mb-3 Las amenazas a la seguridad en la computación en la nube van a depender de varios factores:
+        p.text-white.mb-3 En términos generales son varias las amenazas que afectan la computación en la nube como podemos ver en el siguiente recurso educativo:
+        .tarjeta.tarjeta-blanca-4.mb-5
+          .head_tar.mt-0.p-2
+          .p-3
+            h2.p-2.mb-2 Amenaza #[BR]#[span.highlight-1 de la seguridad]
+            p.text-alinear El tipo de servicio contratado según los SLA previamente establecidos entre proveedor y cliente donde se determinan las responsabilidades de cada parte. El tipo de despliegue o puesta en producción de los servicios contratados.
     
-
-    .row.justify-content-center.fondo-10.mb-5.p-5
-      .col-lg-10
+    .row.justify-content-center.fondo-10.my-5.p-5
+      .col-lg-10(data-aos="fade")
         SlyderA(tipo="b")
           .row.justify-content-center.align-items-center
-            .col-12.col-lg-6.col-md-5.mb-4.mb-md-0
+            .col-12.col-lg-5.col-md-5.mb-4.mb-md-0
               h4.mb-4 Accesos no autorizados
               p La gran mayoría de los servicios contratados regularmente están en nubes públicas lo que requiere un trabajo conjunto entre el proveedor y el cliente definido y adoptando todas las medidas necesarias para evitar el acceso de personas distintas a la organización a la información sensible.
-            .col-12.col-lg-6.col-md-5
+            .col-12.col-lg-7.col-md-5
               figure
                 img.img-a(src='@/assets/curso/images/tema2/img_9.svg', alt='', )
             
 
           .row.justify-content-center.align-items-center
-            .col-11.col-lg-6.col-md-5.mb-4.mb-md-0
+            .col-12.col-lg-7.col-md-5.mb-4.mb-md-0
               figure
                 img.img-a.mb-3(src='@/assets/curso/images/tema2/img_10.svg', alt='')
-            .col-10.col-lg-6.col-md-5
+            .col-12.col-lg-5.col-md-5
               h4.mb-4 Ataques o amenazas internas
               p Esto puede presentarse en las nubes privadas con exempleados o usuarios insatisfechos, quienes pueden ocasionar o provocar situaciones de riesgo por falta de gestión y administración de los permisos, roles y privilegios que deben estar disponibles para el recurso de #[i cloud].
           
           .row.justify-content-center.align-items-center
-            .col-11.col-lg-6.col-md-5.mb-4.mb-md-0
+            .col-12.col-lg-5.col-md-5.mb-4.mb-md-0
               h4.mb-4 Interfaces NO seguras
               p Dependerá de las interfaces de acceso a los recursos y servicios de nube entregados y soportados por el proveedor, o a las aplicaciones desarrolladas y desplegadas en la nube. 
-            .col-10.col-lg-6.col-md-5
+            .col-10.col-lg-7.col-md-5
               figure
                 img.img-a(src='@/assets/curso/images/tema2/img_11.svg', alt='')
                 
           .row.justify-content-center.align-items-center
-            .col-11.col-lg-6.col-md-5.mb-4.mb-md-0
+            .col-12.col-lg-7.col-md-5.mb-4.mb-md-0
               figure
                 img.img-a.mb-3(src='@/assets/curso/images/tema2/img_12.svg', alt='')
-            .col-10.col-lg-6.col-md-5
+            .col-10.col-lg-5.col-md-5
               h4.mb-4 Problemas generados por el uso de tecnologías compartidas
               p.mb-0 Como ya mencionamos los proveedores de servicio hacen grandes inversiones de tipo CapEx a fin de lograr contar con una arquitectura que permita atraer y cada vez lograr prestar los servicios a más usuarios, ahora todos los usuarios comparten los mismos recursos tecnológicos lo que facilita el hecho de que si se tiene una falla de seguridad o una mala configuración en algún cliente pueda ocasionar que clientes de otras empresas puedan acceder a los recursos donde se presente la falla.
             
           .row.justify-content-center.align-items-center
-            .col-11.col-lg-6.col-md-5.mb-4.mb-md-0
+            .col-12.col-lg-5.col-md-5.mb-4.mb-md-0
               h4.mb-4 Fuga o robo de información
               p Esta se puede presentar por varias razones entre las cuales se pueden encontrar una mala configuración de seguridad como no cifrar o proteger las comunicaciones, uso de malware o de ingeniería social por parte de un delincuente, esto podría ser utilizado para conseguir información confidencial que pueda ser empleado por cualquier cliente o miembro de la organización con servicios en la nube.
-            .col-10.col-lg-6.col-md-5
+            .col-10.col-lg-7.col-md-5
               figure
                 img.img-a(src='@/assets/curso/images/tema2/img_13.svg', alt='')
 
           .row.justify-content-center.align-items-center
-            .col-11.col-lg-6.col-md-5.mb-4.mb-md-0
+            .col-12.col-lg-7.col-md-5.mb-4.mb-md-0
               figure
                 img.img-a(src='@/assets/curso/images/tema2/img_14.svg', alt='')
-            .col-10.col-lg-6.col-md-5
+            .col-12.col-lg-5.col-md-5
               h4.mb-4 Suplantación de identidad
               p Esta puede ser provocada por el descuido en el manejo de las credenciales de un usuario, por ataques de fuerza bruta, de ingeniería social lo que permitirá que un delincuente o extraño pueda ingresar suplantando a un usuario real y manipule o robe  información confidencial.
 
           .row.justify-content-center.align-items-center
-            .col-11.col-lg-6.col-md-5.mb-4.mb-md-0
+            .col-12.col-lg-5.col-md-5.mb-4.mb-md-0
               h4.mb-4 Desconocimiento de tecnologias #[i cloud]
               p Al momento de hacer despliegue y configuración de servicios se requiere que la persona encargada de este proceso tenga el suficiente conocimiento y preparación en el entorno o proveedor en el cual se adquirieron los servicios de lo contrario puede llevar a q se configure políticas de seguridad y protección no eficaces.
   
-            .col-10.col-lg-6.col-md-5
+            .col-12.col-lg-7.col-md-5
               figure
                 img.img-a(src='@/assets/curso/images/tema2/img_15.svg', alt='')
                 
           .row.justify-content-center.align-items-center
-            .col-11.col-lg-6.col-md-5.mb-4.mb-md-0
+            .col-12.col-lg-7.col-md-5.mb-4.mb-md-0
               figure
                 img.img-a(src='@/assets/curso/images/tema2/img_16.svg', alt='')
-            .col-10.col-lg-6.col-md-5
+            .col-12.col-lg-5.col-md-5
               h4.mb-4 #[i Hacking] a través de diferentes tipos de ataques
               p Esta es una amenaza que siempre estará presente ya que habrá delincuentes generando ataques en búsqueda de debilidades y accesos no protegidos a los recursos dispuestos en la nube.
     
@@ -299,16 +297,16 @@
     p.mb-5 Si bien la computación en la nube nos brinda numerosas ventajas, uno de los desafíos principales es garantizar y comprobar la confiabilidad de los servicios en la nube. Esta confiabilidad debe ser evaluada tanto por el proveedor como por el cliente, como ya se mencionó en una temática anterior siempre se deben de firmar unos acuerdos de nivel de servicios que permita lograr medir esa confiabilidad el tema es cómo podemos medir esos niveles de acuerdo y de esta manera poder validar la confiabilidad requerida o contratada.
     
     .row.justify-content-center.align-items-center.fondo-12.mb-5
-      .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
+      .col-12.col-md-8.col-lg-5.col-xl-5.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/images/tema2/img_17.svg" alt='', style="width:340px; display:block; margin:0 auto;",)
-      .col-12.col-md-4.col-lg-6.col-xl-6.mb-3
+      .col-12.col-md-4.col-lg-6.col-xl-6.mb-3(data-aos="fade-left")
         p Usualmente los grandes proveedores de servicios de computación en la nube, como Amazon, Microsoft y Google, contratan auditores externos para que supervisen y hagan las auditorías a sus plataformas en busca de disponibilidad y otros factores, como la seguridad y la confidencialidad de los datos.
         .cajon.color-custom.p-4.mt-5
             p.mb-0 Los auditores externos o empresas contratadas generan informes de tipo SOC (Auditoría de los Controles de Servicio) el cual es un estándar internacional que permite evaluar los controles de seguridad de un proveedor y las amenazas de ciberseguridad.
 
     p.mb-5 Estos informes se dividen en diferentes niveles:   
 
-    .row.justify-content-center.mb-4.fondo-5.d-flex.aling-items-stretch
+    .row.justify-content-center.mb-4.fondo-5.d-flex.aling-items-stretch(data-aos="fade")
       .col-lg-4.mb-4.d-flex
         .crd.crd--topLine.m-1
           img.img-a(src="@/assets/curso/images/tema2/ico_4.svg", alt="alt").m-auto.mb-2

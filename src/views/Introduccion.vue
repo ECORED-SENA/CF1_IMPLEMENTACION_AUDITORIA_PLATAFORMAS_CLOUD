@@ -8,8 +8,17 @@
         span
           i.fas.fa-info
       h1 Introducción 
+    
+    .contenedor-total.d-block.d-lg-none
+      figure
+        img.mx-auto(src='@/assets/curso/images/tema1/intro_movil.png' alt='Imagen ambiental' style='')
+      .contenedor-text.mg-top
+        .row.justify-content-center
+          .col-auto.p-4
+            p.mb-0 Le damos la bienvenida al componente formativo <b>“Generalidades de computación en la nube”</b>. Para comenzar el recorrido por el mismo, visite el recurso didáctico que se muestra a continuación:
+  
 
-    .contenedor-total
+    .contenedor-total.d-none.d-lg-block
       figure
         img.mx-auto(src='@/assets/curso/images/tema1/intro.png' alt='Imagen ambiental' style='')
       .contenedor-text
