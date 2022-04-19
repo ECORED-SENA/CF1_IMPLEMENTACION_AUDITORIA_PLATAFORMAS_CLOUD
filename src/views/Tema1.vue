@@ -96,41 +96,91 @@
           .contenedor-total
             figure
               img(src='@/assets/curso/images/tema1/img_2.png')
-            .contenedor-text-1.mb-2
+            .contenedor-text-1.mb-0
               .row.justify-content-center.p-4
                 .col-auto
                   p.aling-8.mb-4 Si bien en la mayoría de las ocasiones no es fácil identificar todas las opciones posibles, cuantas más alternativas se generen es más probable obtener una que resulte significativamente satisfactoria.
-
-        .flex-container
-          a.caja.indicador__container(href="#1", title="Redes de datos" @mouseover="mostrarIndicador = false") 
-            img.my-3(src='@/assets/curso/images/tema1/ico_1_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-            <b>Redes de datos</b>
-            .indicador--click(v-if="mostrarIndicador")
-          .caja 
-            img.my-3(src='@/assets/curso/images/tema1/ico_2_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-            a(href="#2", title="Modelos de referencia") <b>Modelos de referencia</b>
-            .indicador--click(v-if="mostrarIndicador")   
-          .caja 
-            img.my-3(src='@/assets/curso/images/tema1/ico_3_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-            a(href="#3", title="Modelo de referencia TCP /IP") <b>Modelo de referencia TCP /IP</b>
-            .indicador--click(v-if="mostrarIndicador")   
-          .caja 
-            img.my-3(src='@/assets/curso/images/tema1/ico_4_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-            a(href="#4", title="Protocolos de comunicación") <b>Protocolos de comunicación</b>
-            .indicador--click(v-if="mostrarIndicador")   
-          .caja 
-            img.my-3(src='@/assets/curso/images/tema1/ico_5_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-            a(href="#5", title="Puertos de comunicación") <b>Puertos de comunicación</b>
-            .indicador--click(v-if="mostrarIndicador") 
-          .caja 
-            img.my-3(src='@/assets/curso/images/tema1/ico_6_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-            a(href="#6", title="Medios de transmisión") <b>Medios de transmisión</b>
-            .indicador--click(v-if="mostrarIndicador") 
-          .caja 
-            img.my-3(src='@/assets/curso/images/tema1/ico_7_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-            a(href="#7", title="Recursos compartidos") <b>Recursos compartidos</b>
-            .indicador--click(v-if="mostrarIndicador") 
-
+        .row.d-none.d-lg-block
+          .flex-container
+            a.caja.indicador__container(href="#1", title="Redes de datos" @mouseover="mostrarIndicador = false") 
+              img.my-3(src='@/assets/curso/images/tema1/ico_1_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
+              <b>Redes de datos</b>
+              .indicador--click(v-if="mostrarIndicador")
+            .caja 
+              img.my-3(src='@/assets/curso/images/tema1/ico_2_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
+              a(href="#2", title="Modelos de referencia") <b>Modelos de referencia</b>
+              .indicador--click(v-if="mostrarIndicador")   
+            .caja 
+              img.my-3(src='@/assets/curso/images/tema1/ico_3_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
+              a(href="#3", title="Modelo de referencia TCP /IP") <b>Modelo de referencia TCP /IP</b>
+              .indicador--click(v-if="mostrarIndicador")   
+            .caja 
+              img.my-3(src='@/assets/curso/images/tema1/ico_4_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
+              a(href="#4", title="Protocolos de comunicación") <b>Protocolos de comunicación</b>
+              .indicador--click(v-if="mostrarIndicador")   
+            .caja 
+              img.my-3(src='@/assets/curso/images/tema1/ico_5_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
+              a(href="#5", title="Puertos de comunicación") <b>Puertos de comunicación</b>
+              .indicador--click(v-if="mostrarIndicador") 
+            .caja 
+              img.my-3(src='@/assets/curso/images/tema1/ico_6_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
+              a(href="#6", title="Medios de transmisión") <b>Medios de transmisión</b>
+              .indicador--click(v-if="mostrarIndicador") 
+            .caja 
+              img.my-3(src='@/assets/curso/images/tema1/ico_7_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
+              a(href="#7", title="Recursos compartidos") <b>Recursos compartidos</b>
+              .indicador--click(v-if="mostrarIndicador") 
+        
+        .row.justify-content-center.cols-5.mt-5.mx-0.align-items-center.mb-5.d-block.d-lg-none
+          .col-lg-2
+            .tarjeta.tarjeta_white.p-4
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/curso/images/tema1/ico_1_menu.svg' alt='AvatarTop')
+              a(href="#1", title="Redes de datos") <b>Redes de datos</b>
+              .indicador--click(v-if="mostrarIndicador")  
+          .col-lg-2
+            .tarjeta.tarjeta_white.p-4
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/curso/images/tema1/ico_2_menu.svg' alt='AvatarTop')
+              a(href="#2", title="Modelos de referencia") <b>Modelos de referencia</b>
+              .indicador--click(v-if="mostrarIndicador")
+          .col-lg-2
+            .tarjeta.tarjeta_white.p-4
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/curso/images/tema1/ico_3_menu.svg' alt='AvatarTop')
+              a(href="#3", title="Modelo de referencia TCP /IP") <b>Modelo de referencia TCP /IP</b>
+              .indicador--click(v-if="mostrarIndicador") 
+          .col-lg-2
+            .tarjeta.tarjeta_white.p-4
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/curso/images/tema1/ico_4_menu.svg' alt='AvatarTop')
+              a(href="#4", title="Protocolos de comunicación") <b>Protocolos de comunicación</b>
+              .indicador--click(v-if="mostrarIndicador") 
+          .col-lg-2
+            .tarjeta.tarjeta_white.p-4
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/curso/images/tema1/ico_5_menu.svg' alt='AvatarTop')
+              a(href="#5", title="Puertos de comunicación") <b>Puertos de comunicación</b>
+              .indicador--click(v-if="mostrarIndicador") 
+          .col-lg-2
+            .tarjeta.tarjeta_white.p-4
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/curso/images/tema1/ico_6_menu.svg' alt='AvatarTop')
+              a(href="#6", title="Medios de transmisión") <b>Medios de transmisión</b>
+              .indicador--click(v-if="mostrarIndicador") 
+          .col-lg-2
+            .tarjeta.tarjeta_white.p-4
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/curso/images/tema1/ico_7_menu.svg' alt='AvatarTop')
+              a(href="#7", title="Recursos compartidos") <b>Recursos compartidos</b>
+              .indicador--click(v-if="mostrarIndicador") 
         
       #1.pRelative
         .backtoTop-6
@@ -189,6 +239,7 @@
             .col-8
               img(src='@/assets/curso/images/tema1/ico_17.svg' alt='AvatarTop')
           h6.text-center.mb-0 Recursos compartidos 
+      
     hr
     br
     #2.pRelative
