@@ -10,7 +10,7 @@
     .contenedor-total.mb-0(data-aos="fade")
       figure
         img.mx-auto(src='@/assets/curso/images/tema2/img_1.png' alt='Imagen ambiental' style='')
-      .contenedor-text-2
+      .contenedor-text-2.mb-0
         .row.justify-content-center.p-5
           .col-auto
             p.mb-2 El entorno #[i Cloud], brinda grandes oportunidades para el crecimiento del negocio. Una vez se migra la empresa a este, se debe asegurar que su arquitectura se base en pilares bien definidos, además este entorno, ofrece herramientas que permiten determinar el coste de cualquier recurso desplegado con base a su uso real.
@@ -144,8 +144,8 @@
               figure
                 img.img-a(src='@/assets/curso/images/tema2/img_5.png' alt='Volver arriba')
 
-      .row.justify-content-center.ma-1(data-aos="fade")
-        .col-3.mb-4.d-flex
+      .row.justify-content-center.ma-1.mx-0(data-aos="fade")
+        .col-7.col-md-6.col-lg-4.p-4.d-flex
           .tarjeta--sencilla.p-4
             .row.justify-content-center.mb-3
               .col-7
@@ -153,7 +153,7 @@
             h3.text-center.mb-3 Interrogante 1
             p.mb-2.text-center ¿Cuáles y en qué cantidad son los servicios a contratar?
                 
-        .col-3.mb-4.d-flex
+        .col-7.col-md-6.col-lg-4.p-4.d-flex
           .tarjeta--sencilla.p-4
             .row.justify-content-center.mb-3
               .col-7
@@ -161,7 +161,7 @@
                   img.my-0.img-a(src='@/assets/curso/images/tema2/ico_2.svg', alt="alt").m-auto.mb-2
             h3.text-center.mb-3 Interrogante 2
             p.mb-0.text-center ¿Qué nivel de soporte y respuesta a incidentes esperan por parte del proveedor?
-        .col-3.mb-4.d-flex
+        .col-7.col-md-6.col-lg-4.p-4.d-flex
           .tarjeta--sencilla.p-4
             .row.justify-content-center.mb-3
               .col-7
@@ -306,18 +306,18 @@
 
     p.mb-5 Estos informes se dividen en diferentes niveles:   
 
-    .row.justify-content-center.mb-4.fondo-5.d-flex.aling-items-stretch(data-aos="fade")
-      .col-lg-4.mb-4.d-flex
+    .row.justify-content-center.mb-4.fondo-5.mx-0(data-aos="fade")
+      .col-7.col-md-6.col-lg-4.p-4.d-flex
         .crd.crd--topLine.m-1
           img.img-a(src="@/assets/curso/images/tema2/ico_4.svg", alt="alt").m-auto.mb-2
           h4.text-center SOC 1
           p.text-center.mb-0 Que cubren los informes financieros.
-      .col-lg-4.mb-4.d-flex
+      .col-7.col-md-6.col-lg-4.p-4.d-flex
         .crd.crd--topLine.m-1
           img.img-a(src="@/assets/curso/images/tema2/ico_5.svg", alt="alt").m-auto.mb-2
           h4.text-center SOC 2
           p.text-center.mb-0 Que cubren la seguridad, la disponibilidad y la privacidad.
-      .col-lg-4.mb-4.d-flex   
+      .col-7.col-md-6.col-lg-4.p-4.d-flex 
         .crd.crd--topLine.m-1
           img.img-a(src="@/assets/curso/images/tema2/ico_6.svg", alt="alt").m-auto.mb-2
           h4.text-center SOC 3

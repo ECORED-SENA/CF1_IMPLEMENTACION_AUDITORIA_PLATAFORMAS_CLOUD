@@ -131,54 +131,54 @@
               a(href="#7", title="Recursos compartidos") <b>Recursos compartidos</b>
               .indicador--click(v-if="mostrarIndicador") 
         
-        .row.justify-content-center.cols-5.mt-5.mx-0.align-items-center.mb-5.d-block.d-lg-none
-          .col-lg-2
-            .tarjeta.tarjeta_white.p-4
+        .row.justify-content-center.mb-5.d-block.d-lg-none
+          .col-7.col-md-6.col-lg-4.p-4.d-flex
+            .tarjeta.tarjeta_white-1.p-4.aling-21
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src='@/assets/curso/images/tema1/ico_1_menu.svg' alt='AvatarTop')
+                  img.mb-4(src='@/assets/curso/images/tema1/ico_1_menu.svg' alt='AvatarTop', style="width:160px; display:block; margin:auto 0;")
               a(href="#1", title="Redes de datos") <b>Redes de datos</b>
               .indicador--click(v-if="mostrarIndicador")  
-          .col-lg-2
-            .tarjeta.tarjeta_white.p-4
+          .col-7.col-md-6.col-lg-4.p-4.d-flex
+            .tarjeta.tarjeta_white-1.p-4.aling-21
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src='@/assets/curso/images/tema1/ico_2_menu.svg' alt='AvatarTop')
+                  img.mb-2(src='@/assets/curso/images/tema1/ico_2_menu.svg' alt='AvatarTop')
               a(href="#2", title="Modelos de referencia") <b>Modelos de referencia</b>
               .indicador--click(v-if="mostrarIndicador")
-          .col-lg-2
-            .tarjeta.tarjeta_white.p-4
+          .col-7.col-md-6.col-lg-4.p-4.d-flex
+            .tarjeta.tarjeta_white-1.p-4.aling-21
               .row.justify-content-center.mb-3
                 .col-8
                   img(src='@/assets/curso/images/tema1/ico_3_menu.svg' alt='AvatarTop')
               a(href="#3", title="Modelo de referencia TCP /IP") <b>Modelo de referencia TCP /IP</b>
               .indicador--click(v-if="mostrarIndicador") 
-          .col-lg-2
-            .tarjeta.tarjeta_white.p-4
+          .col-7.col-md-6.col-lg-4.p-4.d-flex
+            .tarjeta.tarjeta_white-1.p-3.aling-21
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src='@/assets/curso/images/tema1/ico_4_menu.svg' alt='AvatarTop')
+                  img.mb-3(src='@/assets/curso/images/tema1/ico_4_menu.svg' alt='AvatarTop')
               a(href="#4", title="Protocolos de comunicación") <b>Protocolos de comunicación</b>
               .indicador--click(v-if="mostrarIndicador") 
-          .col-lg-2
-            .tarjeta.tarjeta_white.p-4
+          .col-7.col-md-6.col-lg-4.p-4.d-flex
+            .tarjeta.tarjeta_white-1.p-3.aling-21
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src='@/assets/curso/images/tema1/ico_5_menu.svg' alt='AvatarTop')
+                  img.mb-3(src='@/assets/curso/images/tema1/ico_5_menu.svg' alt='AvatarTop')
               a(href="#5", title="Puertos de comunicación") <b>Puertos de comunicación</b>
               .indicador--click(v-if="mostrarIndicador") 
-          .col-lg-2
-            .tarjeta.tarjeta_white.p-4
+          .col-7.col-md-6.col-lg-4.p-4.d-flex
+            .tarjeta.tarjeta_white-1.p-4.aling-21
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src='@/assets/curso/images/tema1/ico_6_menu.svg' alt='AvatarTop')
+                  img.mb-3(src='@/assets/curso/images/tema1/ico_6_menu.svg' alt='AvatarTop')
               a(href="#6", title="Medios de transmisión") <b>Medios de transmisión</b>
               .indicador--click(v-if="mostrarIndicador") 
-          .col-lg-2
-            .tarjeta.tarjeta_white.p-4
+          .col-7.col-md-6.col-lg-4.p-4.d-flex
+            .tarjeta.tarjeta_white-1.p-3.aling-21
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src='@/assets/curso/images/tema1/ico_7_menu.svg' alt='AvatarTop')
+                  img.mb-3(src='@/assets/curso/images/tema1/ico_7_menu.svg' alt='AvatarTop')
               a(href="#7", title="Recursos compartidos") <b>Recursos compartidos</b>
               .indicador--click(v-if="mostrarIndicador") 
         
@@ -208,32 +208,32 @@
         .cajon.color-custom.p-3
             p.mb-0 Las redes han permitido que los servicios y el acceso a estos recursos sea cada vez más necesario ya que se requiere tener en todo momento trabajo en equipo, colaborativo y la integración entre los diferentes recursos tecnológicos, esto es lo que conocemos como el <i>Networking,</i> . Para que dichas redes pueden interconectarse y trabajar en red se requiere de una serie de componentes desde el punto de vista físico y lógico dentro de los cuales destacamos los siguientes:
     br
-    .row.justify-content-center.cols-5.mt-5.mx-0.align-items-center.mb-5(data-aos="fade")
-      .col-lg-2
+    .row.justify-content-center.mt-5.mx-0.align-items-center.mb-5(data-aos="fade")
+      .col-7.col-md-6.col-lg-2.p-4.d-flex
         .tarjeta.tarjeta_white.p-4
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/images/tema1/ico_13.svg' alt='AvatarTop')
           h6.text-center.mb-0 Modelos de referencia
-      .col-lg-2
-        .tarjeta.tarjeta_white.p-4
+      .col-7.col-md-6.col-lg-2.p-4.d-flex
+        .tarjeta.tarjeta_white.p-3
           .row.justify-content-center.mb-3
             .col-8
-              img(src='@/assets/curso/images/tema1/ico_14.svg' alt='AvatarTop')
+              img(src='@/assets/curso/images/tema1/ico_14.svg')
           h6.text-center.mb-0 Protocolos de comunicación
-      .col-lg-2
-        .tarjeta.tarjeta_white.p-4
+      .col-7.col-md-6.col-lg-2.p-4.d-flex
+        .tarjeta.tarjeta_white.p-3
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/images/tema1/ico_15.svg' alt='AvatarTop')
           h6.text-center.mb-0 Puertos de comunicación
-      .col-lg-2
+      .col-7.col-md-6.col-lg-2.p-4.d-flex
         .tarjeta.tarjeta_white.p-4
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/images/tema1/ico_16.svg' alt='AvatarTop')
           h6.text-center.mb-0 Medios de transmisión
-      .col-lg-2
+      .col-7.col-md-6.col-lg-2.p-4.d-flex
         .tarjeta.tarjeta_white.p-4
           .row.justify-content-center.mb-3
             .col-8
@@ -593,14 +593,6 @@
             template(v-slot:imagen)
               figure
                 img(src="@/assets/curso/images/tema1/img_12.svg")
-
-            .tarjeta.color-primario.p-3.tarjeta--azul_1(x="4%" y="50%" numero="")
-              h3.mb-5 Servicios de infraestructura
-                .pRelative_1
-                  .backtoTop_1
-                    figure
-                      img(src='@/assets/curso/images/tema1/numero1.svg' alt='' , style="width:100px; display:block; margin:2.5rem 1rem;")
-              p.text-alinear.mb-0.text-small Los servicios de infraestructura en la Nube, conocido como LaaS por sus siglas en inglés; se presentan como aplicaciones de autoservicio creadas para el acceso, control y gestión de infraestructuras remotas.
               
             .tarjeta.p-4.tarjeta-blanca-2(x="90.5%" y="65.5%" numero="")
               figure
@@ -998,28 +990,28 @@
 
       .row.justify-content-center.align-items-center.fondo-23
         .col-12.col-md-8.col-lg-7.col-xl-7.mb-4(data-aos="fade-right")
-          img(src="@/assets/curso/images/tema1/img_38.svg" alt="AvatarTop", style="width:390px; display:block; margin:0 auto")
+          img(src="@/assets/curso/images/tema1/img_38.svg" alt="AvatarTop", style="width:390px; display:block; margin:0 auto").m-auto
         .col-12.col-md-4.col-lg-4.col-xl-4.my-3(data-aos="fade-left")
-          SlyderA(columnas="col-12")
-            .tarjeta.tarjeta--blanca.boxShadow.p-5
+          SlyderA.aling-2
+            .tarjeta.tarjeta--blanca-5.boxShadow.p-5
               .row.justify-content-center.mb-3
                 .col
                   img(src='@/assets/curso/images/tema1/ico_35.svg' alt='imagen relacionada' style='width:105px').mx-auto
               h3.text-center.mb-3  Nube pública
               p.text-center Los servicios e infraestructura son gestionados por un proveedor de tecnológico el cual ofrece estos servicios al público en general. 
-            .tarjeta.tarjeta--blanca.boxShadow.p-5
+            .tarjeta.tarjeta--blanca-5.boxShadow.p-5
               .row.justify-content-center.mb-3
                 .col
                   img(src='@/assets/curso/images/tema1/ico_36.svg' alt='imagen relacionada' style='width:105px').mx-auto
               h3.text-center.mb-3  Nube privada
               p.text-center En este tipo de nube los servicios y la infraestructura es gestionada específicamente por una organización y no se ofrecen estos servicios al público en general.
-            .tarjeta.tarjeta--blanca.boxShadow.p-5
+            .tarjeta.tarjeta--blanca-5.boxShadow.p-5
               .row.justify-content-center.mb-3
                 .col
                   img(src='@/assets/curso/images/tema1/ico_37.svg' alt='imagen relacionada' style='width:105px').mx-auto
               h3.text-center.mb-3  Nube híbrida
               p.text-center Son nubes que combinan las características de dos nubes privadas, las nubes públicas o compartidas, se caracterizan por que permiten el poder compartir servicios e infraestructura entre ambas nubes.
-            .tarjeta.tarjeta--blanca.boxShadow.p-5
+            .tarjeta.tarjeta--blanca-5.boxShadow.p-5
               .row.justify-content-center.mb-3
                 .col
                   img(src='@/assets/curso/images/tema1/ico_38.svg' alt='imagen relacionada' style='width:105px').mx-auto
@@ -1118,12 +1110,12 @@
                   h5 Figura 8
                   span  Regiones con Centros de Datos Microsoft Azure
           .row.justify-content-center
-            .col-lg-12.mb-4(data-aos="fade")
+            .col-lg-12.mb-4
                 img(src="@/assets/curso/images/tema1/map_azure.svg" alt="AvatarTop")
 
             .row.justify-content-center.align-items-center.fondo-16
               .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
-              .col-12.col-md-4.col-lg-5.col-xl-5(data-aos="fade-right")
+              .col-12.col-md-4.col-lg-5.col-xl-5
                 SlyderA(columnas="col-12")
                   .tarjeta.tarjeta--blanca.boxShadow.p-5
                     .row.justify-content-center.mb-3
@@ -1160,9 +1152,9 @@
           .row.justify-content-center.d-block.d-lg-none.mb-4 
             .col-lg-12
               img(src="@/assets/curso/images/tema1/back_17.png" alt="AvatarTop")
-            .col-lg-6
+            .col-lg-4
               SlyderA(columnas="col-12")
-                  .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .tarjeta.tarjeta--blanca-5.boxShadow.p-5
                     .row.justify-content-center.mb-3
                     h3.text-center.mb-3.bg-color-1.text-white Servicios de procesamiento
                     p En este servicio Azure ofrece: 
@@ -1174,7 +1166,7 @@
                           i.fas.fa-caret-right(style="color: #FF2C9C")
                           p #[i Azure Storage]
 
-                  .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .tarjeta.tarjeta--blanca-5.boxShadow.p-5
                     .row.justify-content-center.mb-3
                     h3.text-center.mb-3.bg-color-1.text-white  Servicios de almacenamiento
                     p El servicio es conocido como <i>Azure Storage</i> este servicio incluye:
@@ -1189,7 +1181,7 @@
                           i.fas.fa-caret-right(style="color: #FF2C9C")
                           | <i> Azure Files</i> que son servicios de almacenamiento compatibles con Windows (SMB), al igual que ofrece todos los servicios de almacenamiento de bases de datos relacionales a través de Azure SQL Database.
 
-                  .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .tarjeta.tarjeta--blanca-5.boxShadow.p-5
                     .row.justify-content-center.mb-3
                     h3.text-center.mb-3.bg-color-1.text-white  Servicios de redes
                     p.text-center A través del servicio de <i>Azure virtual network</i> ofrece redes privadas virtuales, ofrece el servicio de <i>Azure Traffic Manager</i> para enrutar y administrar la conectividad y acceso a sus instancias y redes externas.
@@ -1251,12 +1243,12 @@
               img(src="@/assets/curso/images/tema1/back_16.png" alt="AvatarTop")
             .col-lg-6
               SlyderA(columnas="col-12")
-                  .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .tarjeta.tarjeta--blanca-5.boxShadow.p-5
                     .row.justify-content-center.mb-3
                     h3.text-center.mb-3.bg-color-1.text-white Servicios de procesamiento
                     p A través de su servicio Google <i>Compute Engine</i> (GCE), ofrece máquinas virtuales e instancias de diferentes tipos con sistema operativo Linux.
 
-                  .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .tarjeta.tarjeta--blanca-5.boxShadow.p-5
                     .row.justify-content-center.mb-3
                     h3.text-center.mb-3.bg-color-1.text-white  Servicios de almacenamiento
                     p Google <i>Cloud</i> cuenta con tres servicios de almacenamiento principales: 
@@ -1271,7 +1263,7 @@
                           i.fas.fa-caret-right(style="color: #FF2C9C")
                           p <i>Cloud</i> SQL servicio que proporciona el almacenamiento de bases de datos tradicionales SQL.
 
-                  .tarjeta.tarjeta--blanca.boxShadow.p-5
+                  .tarjeta.tarjeta--blanca-5.boxShadow.p-5
                     .row.justify-content-center.mb-3
                     h3.text-center.mb-3.bg-color-1.text-white  Servicios de redes
                     p Google ofrece varios productos de red para administrar las conexiones entre los servicios en la nube de Google y el mundo exterior, es decir, el equilibrio de carga, la interconexión y los servicios DNS. Toda la infraestructura de Google es neutral en carbono y sus centros de datos consumen un 50% menos de energía que los centros de datos habituales.
