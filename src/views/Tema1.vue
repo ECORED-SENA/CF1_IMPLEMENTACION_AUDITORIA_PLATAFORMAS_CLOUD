@@ -7,17 +7,16 @@
         span 1
       h1  Fundamentos de los servicios de TI en la nube
 
-    .row.align-items-center.fondo-18.mb-5
-      .col-12.col-md-8.col-lg-4.col-xl-4(data-aos="fade-right")
-        img(src="@/assets/curso/images/tema1/img_1.svg" alt="AvatarTop", style="width:370px; display:block; margin:-3rem 10rem;").mb-3
-      .col-12.col-md-4.col-lg-7.col-xl-7
-        p.aling-10.text-white La nube o <i>cloud computing</i>, es una de las soluciones tecnológicas de servicio más  completa, pues, ofrece una alternativa informática basada en internet por medio de un intercambio de servicios. Este servicio en la nube se ha extendido a todos  los sectores, tanto en empresas como en usuarios individuales.
+    
+    .row.bg-tema-1.mb-5.mb-md-0
+      .col-lg-12.px-lg-2.px-4.py-4.pb-md-5(data-aos="fade-right")
+        .row.align-items-center.justify-content-evenly
+          .col-lg-4.col-md-4-col-10.mb-md-0.mb-4.mb-lg-0(data-aos="fade-right")
+            img(src='@/assets/curso/images/tema1/img_1.svg' alt='Imagen decorativa')
+          .col-lg-7.col-md-7.text-white.p-3(data-aos="fade-left")
+            p La nube o <i>cloud computing</i>, es una de las soluciones tecnológicas de servicio más  completa, pues, ofrece una alternativa informática basada en internet por medio de un intercambio de servicios. Este servicio en la nube se ha extendido a todos  los sectores, tanto en empresas como en usuarios individuales.
 
-    .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-28.mb-5.mb-4
-      .col-12.col-md-8.col-lg-6.col-xl-5
-        img.my-3(src="@/assets/curso/images/tema1/img_1.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem -1rem;")
-      .col-12.col-md-4.col-lg-6.col-xl-7
-         p.text-white La nube o <i>cloud computing</i>, es una de las soluciones tecnológicas de servicio más  completa, pues, ofrece una alternativa informática basada en internet por medio de un intercambio de servicios. Este servicio en la nube se ha extendido a todos  los sectores, tanto en empresas como en usuarios individuales.
+ 
     Separador 
 
     #t_1_1.titulo-segundo
@@ -762,19 +761,15 @@
 
       #t_1_2.titulo-segundo
         .h2 1.2 Servicios propietarios
-  
-      .row.justify-content-center.align-items-center.mb-5.fondo-30.py-2
-        .col-lg-4(data-aos="fade-right")
-          img(src="@/assets/curso/images/tema1/img_pc_2.svg" alt="AvatarTop", style="width:400px; display:block; margin:-3rem -2rem;").mb-3
-        .col-lg-6(data-aos="fade-left")
-          p.aling-9.text-white Antes de la llegada de la computación en la nube, los servicios, infraestructura, plataformas y en general los recursos de TI debían ser instalados, configurados y administrados en su totalidad por la empresa lo que conlleva varios inconvenientes entre los cuales se pueden mencionar los siguientes:
 
-      .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-28.mb-5.mb-4.py-5
-        .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
-          img.my-3(src="@/assets/curso/images/tema1/img_pc_2.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem -1rem;")
-        .col-12.col-md-4.col-lg-6.col-xl-7.mb-3
-          p.text-white Antes de la llegada de la computación en la nube, los servicios, infraestructura, plataformas y en general los recursos de TI debían ser instalados, configurados y administrados en su totalidad por la empresa lo que conlleva varios inconvenientes entre los cuales se pueden mencionar los siguientes:
-
+      .row.bg-tema-1-2.mb-5.mb-md-0
+        .col-lg-12.px-lg-2.px-4.py-4.pb-md-5(data-aos="fade-right")
+          .row.align-items-center.justify-content-evenly
+            .col-lg-4.col-md-4-col-10.mb-md-0.mb-4.mb-lg-0(data-aos="fade-right")
+              img(src='@/assets/curso/images/tema1/img_pc_2.svg' alt='Imagen decorativa')
+            .col-lg-7.col-md-7.text-white.p-3(data-aos="fade-left")
+              p Antes de la llegada de la computación en la nube, los servicios, infraestructura, plataformas y en general los recursos de TI debían ser instalados, configurados y administrados en su totalidad por la empresa lo que conlleva varios inconvenientes entre los cuales se pueden mencionar los siguientes:
+      
   .container.bg-white.p-md-5.fondo-5
     .row.justify-content-center.align-items-center
       .col-12.col-md-8.col-lg-7.col-xl-7.mb-4(data-aos="fade-right") 
