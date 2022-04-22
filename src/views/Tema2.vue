@@ -7,15 +7,25 @@
         span 2
       h1  Rentabilidad de la nube
 
-    .contenedor-total.mb-0(data-aos="fade")
+    .contenedor-total.d-block.d-lg-none
       figure
         img.mx-auto(src='@/assets/curso/images/tema2/img_1.png' alt='Imagen ambiental' style='')
-      .contenedor-text-2.mb-0
-        .row.justify-content-center.p-5
-          .col-auto
-            p.mb-2 El entorno #[i Cloud], brinda grandes oportunidades para el crecimiento del negocio. Una vez se migra la empresa a este, se debe asegurar que su arquitectura se base en pilares bien definidos, además este entorno, ofrece herramientas que permiten determinar el coste de cualquier recurso desplegado con base a su uso real.
+      .contenedor-text.mg-top
+        .row.justify-content-center
+          .col-auto.p-4
+            p.aling-12.mb-3 El entorno #[i Cloud], brinda grandes oportunidades para el crecimiento del negocio. Una vez se migra la empresa a este, se debe asegurar que su arquitectura se base en pilares bien definidos, además este entorno, ofrece herramientas que permiten determinar el coste de cualquier recurso desplegado con base a su uso real.
+            p.aling-12.mb-0 Como se indica a continuación, hay varias características que hacen apreciable el almacenamiento en la nube, estas son:
+  
 
-            p.mb-0 Como se indica a continuación, hay varias características que hacen apreciable el almacenamiento en la nube, estas son:
+    .contenedor-total.d-none.d-lg-block(data-aos="fade")
+      figure
+        img.mx-auto(src='@/assets/curso/images/tema2/img_1.png' alt='Imagen ambiental' style='')
+      .contenedor-text
+        .row.justify-content-center.p-4
+          .col-auto
+            p.aling-12.mb-0 El entorno #[i Cloud], brinda grandes oportunidades para el crecimiento del negocio. Una vez se migra la empresa a este, se debe asegurar que su arquitectura se base en pilares bien definidos, además este entorno, ofrece herramientas que permiten determinar el coste de cualquier recurso desplegado con base a su uso real.
+            p.aling-12.mb-3 Como se indica a continuación, hay varias características que hacen apreciable el almacenamiento en la nube, estas son:
+    
     Separador
     #t_2_1.ma.titulo-segundo.mt-3
       .h2 2.1 Ventajas y desventajas de la informática en la nube
@@ -128,8 +138,8 @@
 
     #t_2_4.titulo-segundo
       .h2 2.4 Contratos y objetivos de nivel de servicio
-
-    .col-lg-12.mx-auto.mb-5.fondo-24
+  .container.bg-white.px-5.py-2.fondo-24.mg-top.mb-0
+    .col-lg-12.mx-auto.mb-5
       .tema1-1.p-4 
         .bloque-texto-a.color-custom-1.p-3
           .row.m-0.align-items-center.justify-content-between
@@ -163,11 +173,12 @@
             .row.justify-content-center.mb-3
               .col-7
                 figure
-                  img.img-a(src='@/assets/curso/images/tema2/ico_3.svg',alt="alt").m-auto.mb-2
+                  img.my-0.img-a(src='@/assets/curso/images/tema2/ico_3.svg',alt="alt").m-auto.mb-2
             h3.text-center.mb-3 Interrogante 3
             p.mb-0.text-center ¿Cómo la organización puede validar la calidad en el servicio ofrecido por el proveedor?
       .p-3
-        .row.justify-content-center.align-items-center.fondo-5.p-2
+  .container.bg-white.px-5.py-2.fondo-5.mg-top.mb-0
+        .row.justify-content-center.align-items-center.p-2
           .col-12.col-md-8.col-lg-5.col-xl-5.mb-4(data-aos="fade-right")
             img(src="@/assets/curso/images/tema2/img_6.png" alt="AvatarTop",)
           .col-12.col-md-4.col-lg-7.col-xl-7.mb-3(data-aos="fade-left")
@@ -197,7 +208,7 @@
               li 
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Proceso y directivas con respecto a la terminación del contrato.
-    
+  .container.bg-white.p-5.container-bottom.mt-0.cs  
     Separador
 
     #t_2_5.titulo-segundo
@@ -206,16 +217,18 @@
     .row.justify-content-center.align-items-center.fondo-13
       .col-12.col-md-8.col-lg-4.col-xl-4.mb-4(data-aos="fade-right")
         img.img-a(src="@/assets/curso/images/tema2/img_7.svg" alt="AvatarTop",)
-      .col-12.col-md-4.col-lg-8.col-xl-8.mb-3(data-aos="fade-left")
+      .col-12.col-md-4.col-lg-8.col-xl-8.mb-3.p-3(data-aos="fade-left")
         p.text-white.mb-3 Las organizaciones en el desarrollo de su actividad o <i>core</i>  de negocio reciben, generan, procesan o conservan información considerada como activos de la organización y tienen una afectación desde el plano económico o de negocio, de conocimiento o de propiedad intelectual en el momento de estar expuesta a posibles amenazas que puedan afectar lo antes mencionado.
 
         p.text-white.mb-3 Las amenazas a la seguridad en la computación en la nube van a depender de varios factores:
         p.text-white.mb-3 En términos generales son varias las amenazas que afectan la computación en la nube como podemos ver en el siguiente recurso educativo:
-        .tarjeta.tarjeta-blanca-4.mb-5
-          .head_tar.mt-0.p-2
-          .p-3
-            h2.p-2.mb-2 Amenaza #[BR]#[span.highlight-1 de la seguridad]
-            p.text-alinear El tipo de servicio contratado según los SLA previamente establecidos entre proveedor y cliente donde se determinan las responsabilidades de cada parte. El tipo de despliegue o puesta en producción de los servicios contratados.
+  
+        .col-8
+          .tarjeta.tarjeta-blanca-4.mb-5
+            .head_tar.mt-0.p-2
+            .p-3
+              h2.p-2.mb-2 Amenaza #[BR]#[span.highlight-1 de la seguridad]
+              p.text-alinear El tipo de servicio contratado según los SLA previamente establecidos entre proveedor y cliente donde se determinan las responsabilidades de cada parte. El tipo de despliegue o puesta en producción de los servicios contratados.
     
     .row.justify-content-center.fondo-10.my-5.p-5
       .col-lg-10(data-aos="fade")

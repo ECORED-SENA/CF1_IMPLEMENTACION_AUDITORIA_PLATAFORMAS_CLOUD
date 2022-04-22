@@ -39,147 +39,147 @@
         .col-lg-2 
           img(src='@/assets/curso/images/tema1/ico_1.svg' alt='' , style="width:115px; display:block; margin:0 auto;").mx-3
         .col-lg-9
-          h5 <b><i>“La computación en la nube es el modelo que permite el acceso a una red bajo demanda de un conjunto de servicios informáticos configurables tales como infraestructura, aplicaciones y almacenamiento.”</i></b>
+          h5.mt-3 <b><i>“La computación en la nube es el modelo que permite el acceso a una red bajo demanda de un conjunto de servicios informáticos configurables tales como infraestructura, aplicaciones y almacenamiento.”</i></b>
           .floatRight
             h6 Del Vecchio, J. F., Paternina, F. J., & Henriquez Miranda, C. (2015) 
               i.fas.fa-square.cac
 
   .container.bg-white.p-4.p-md-5.fondo-2.mg-top-1.cs
 
-      p.mb-3.p-4 Este tipo de tecnología durante los últimos años ha permitido que las empresas logren tener presencia corporativa en la web y, la adquisición de recursos tecnológicos informáticos en una inversión económica muy cómoda o razonable a manera de pago por servicios, sin la necesidad de adquirir físicamente equipos o infraestructura como antes era requerido por parte de las organizaciones, administración y mantenimiento, como se detalla a continuación:
-      
-      .row.justify-content-center.mb-3
-        .col-lg-10(data-aos="fade")
-          ImagenInfografica.color-secundario
-            template(v-slot:imagen)
-              figure
-                img(src='@/assets/curso/images/tema1/infogra.svg')
-
-            .tarjeta.color-primario.p-3.tarjeta--azul_1(x="4%" y="50%" numero="")
-              .row.space-between.align-items-center.mb-0
-                .col-10
-                  h3 Servicios de infraestructura
-                .col-2
-                  h2.numeroTarjeta.mb-0 01
-              p.text-alinear.mb-0.text-small Los servicios de infraestructura en la Nube, conocido como LaaS por sus siglas en inglés; se presentan como aplicaciones de autoservicio creadas para el acceso, control y gestión de infraestructuras remotas.
-
-
-            .tarjeta.color-primario.p-3.tarjeta-violeta(x="28%" y="50%" numero="")
-              .row.space-between.align-items-center.mb-0
-                .col-10
-                  h3  Plataformas en la nube
-                .col-2
-                  h2.numeroTarjeta.mb-0 02
-              p.text-alinear.mb-0.text-small Las Plataformas en la Nube son tan flexibles y versátiles que se usan para desarrollar aplicaciones y sistemas complejos para impulsar los entornos virtuales. De hecho; los sistemas PaaS proporcionan marcos virtuales donde los especialistas desarrollan y personalizan sus sistemas los propietario y las aplicaciones.
-
-              
-            .tarjeta.color-primario.p-3.tarjeta--azul_1(x="51.7%" y="50%" numero="")
-              .row.space-between.align-items-center.mb-0
-                .col-10
-                  h3 <i>Software</i> como servicio
-                .col-2
-                  h2.numeroTarjeta.mb-0 03
-              p.text-alinear.mb-0.text-small Los Servicios de Aplicaciones en la Nube, o mejor conocidos como <i>Software</i> como Servicio(SaaS) se enfocan en el uso de la web para entregar aplicaciones para todo y todos. Esta es la razón por la cual los SaaS representan el mayor mercado de servicios y sistemas en la Nube.
-              
-
-            .tarjeta.color-primario.p-3.tarjeta-violeta(x="76%" y="50%" numero="")
-              .row.space-between.align-items-center.mb-0
-                .col-10
-                  h3 ¿Para quienes?
-                .col-2
-                  h2.numeroTarjeta.mb-0 04
-              p.text-alinear.mb-0.text-small Los LaaS están pensados para ingenieros de sistemas, PaaS para desarrolladores web y SaaS para los consumidores directos.
-      br
-      #menu1.row.justify-content-center
-        .col-lg-12(data-aos="fade")
-          .contenedor-total
+    p.mb-3.p-4 Este tipo de tecnología durante los últimos años ha permitido que las empresas logren tener presencia corporativa en la web y, la adquisición de recursos tecnológicos informáticos en una inversión económica muy cómoda o razonable a manera de pago por servicios, sin la necesidad de adquirir físicamente equipos o infraestructura como antes era requerido por parte de las organizaciones, administración y mantenimiento, como se detalla a continuación:
+    
+    .row.justify-content-center.mb-3
+      .col-lg-10(data-aos="fade")
+        ImagenInfografica.color-secundario
+          template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/images/tema1/img_2.png')
-            .contenedor-text-1.mb-0
-              .row.justify-content-center.p-4
-                .col-auto
-                  p.aling-8.mb-4 Si bien en la mayoría de las ocasiones no es fácil identificar todas las opciones posibles, cuantas más alternativas se generen es más probable obtener una que resulte significativamente satisfactoria.
-        .row.d-none.d-lg-block
-          .flex-container
-            a.caja.indicador__container(href="#1", title="Redes de datos" @mouseover="mostrarIndicador = false") 
-              img.my-3(src='@/assets/curso/images/tema1/ico_1_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-              <b>Redes de datos</b>
-              .indicador--click(v-if="mostrarIndicador")
-            .caja 
-              img.my-3(src='@/assets/curso/images/tema1/ico_2_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-              a(href="#2", title="Modelos de referencia") <b>Modelos de referencia</b>
-              .indicador--click(v-if="mostrarIndicador")   
-            .caja 
-              img.my-3(src='@/assets/curso/images/tema1/ico_3_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-              a(href="#3", title="Modelo de referencia TCP /IP") <b>Modelo de referencia TCP /IP</b>
-              .indicador--click(v-if="mostrarIndicador")   
-            .caja 
-              img.my-3(src='@/assets/curso/images/tema1/ico_4_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-              a(href="#4", title="Protocolos de comunicación") <b>Protocolos de comunicación</b>
-              .indicador--click(v-if="mostrarIndicador")   
-            .caja 
-              img.my-3(src='@/assets/curso/images/tema1/ico_5_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-              a(href="#5", title="Puertos de comunicación") <b>Puertos de comunicación</b>
-              .indicador--click(v-if="mostrarIndicador") 
-            .caja 
-              img.my-3(src='@/assets/curso/images/tema1/ico_6_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-              a(href="#6", title="Medios de transmisión") <b>Medios de transmisión</b>
-              .indicador--click(v-if="mostrarIndicador") 
-            .caja 
-              img.my-3(src='@/assets/curso/images/tema1/ico_7_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-              a(href="#7", title="Recursos compartidos") <b>Recursos compartidos</b>
-              .indicador--click(v-if="mostrarIndicador") 
+              img(src='@/assets/curso/images/tema1/infogra.svg')
+
+          .tarjeta.color-primario.p-3.tarjeta--azul_1(x="4%" y="50%" numero="")
+            .row.space-between.align-items-center.mb-0
+              .col-10
+                h3 Servicios de infraestructura
+              .col-2
+                h2.numeroTarjeta.mb-0 01
+            p.text-alinear.mb-0.text-small Los servicios de infraestructura en la Nube, conocido como LaaS por sus siglas en inglés; se presentan como aplicaciones de autoservicio creadas para el acceso, control y gestión de infraestructuras remotas.
+
+
+          .tarjeta.color-primario.p-3.tarjeta-violeta(x="28%" y="50%" numero="")
+            .row.space-between.align-items-center.mb-0
+              .col-10
+                h3  Plataformas en la nube
+              .col-2
+                h2.numeroTarjeta.mb-0 02
+            p.text-alinear.mb-0.text-small Las Plataformas en la Nube son tan flexibles y versátiles que se usan para desarrollar aplicaciones y sistemas complejos para impulsar los entornos virtuales. De hecho; los sistemas PaaS proporcionan marcos virtuales donde los especialistas desarrollan y personalizan sus sistemas los propietario y las aplicaciones.
+
+            
+          .tarjeta.color-primario.p-3.tarjeta--azul_1(x="51.7%" y="50%" numero="")
+            .row.space-between.align-items-center.mb-0
+              .col-10
+                h3 <i>Software</i> como servicio
+              .col-2
+                h2.numeroTarjeta.mb-0 03
+            p.text-alinear.mb-0.text-small Los Servicios de Aplicaciones en la Nube, o mejor conocidos como <i>Software</i> como Servicio(SaaS) se enfocan en el uso de la web para entregar aplicaciones para todo y todos. Esta es la razón por la cual los SaaS representan el mayor mercado de servicios y sistemas en la Nube.
+            
+
+          .tarjeta.color-primario.p-3.tarjeta-violeta(x="76%" y="50%" numero="")
+            .row.space-between.align-items-center.mb-0
+              .col-10
+                h3 ¿Para quienes?
+              .col-2
+                h2.numeroTarjeta.mb-0 04
+            p.text-alinear.mb-0.text-small Los LaaS están pensados para ingenieros de sistemas, PaaS para desarrolladores web y SaaS para los consumidores directos.
+  
+    #menu1.row.justify-content-center
+      .col-lg-12(data-aos="fade")
+        .contenedor-total
+          figure
+            img(src='@/assets/curso/images/tema1/img_2.png')
+          .contenedor-text-1.mb-0
+            .row.justify-content-center.p-4
+              .col-auto
+                p.aling-8.mb-4 Si bien en la mayoría de las ocasiones no es fácil identificar todas las opciones posibles, cuantas más alternativas se generen es más probable obtener una que resulte significativamente satisfactoria.
+      .row.d-none.d-lg-block
+        .flex-container
+          .caja 
+            img.my-3(src='@/assets/curso/images/tema1/ico_1_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
+            a(href="#1", title="Redes de datos") <b>Redes de datos</b>
+            .indicador--click(v-if="mostrarIndicador")   
+          a.caja.indicador__container(href="#2", title="Modelos de referencia" @mouseover="mostrarIndicador = false") 
+            img.my-3(src='@/assets/curso/images/tema1/ico_2_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
+            <b>Modelos de referencia</b>
+            .indicador--click(v-if="mostrarIndicador")
+          .caja 
+            img.my-3(src='@/assets/curso/images/tema1/ico_3_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
+            a(href="#3", title="Modelo de referencia TCP /IP") <b>Modelo de referencia TCP /IP</b>
+            .indicador--click(v-if="mostrarIndicador")   
+          .caja 
+            img.my-3(src='@/assets/curso/images/tema1/ico_4_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
+            a(href="#4", title="Protocolos de comunicación") <b>Protocolos de comunicación</b>
+            .indicador--click(v-if="mostrarIndicador")   
+          .caja 
+            img.my-3(src='@/assets/curso/images/tema1/ico_5_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
+            a(href="#5", title="Puertos de comunicación") <b>Puertos de comunicación</b>
+            .indicador--click(v-if="mostrarIndicador") 
+          .caja 
+            img.my-3(src='@/assets/curso/images/tema1/ico_6_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
+            a(href="#6", title="Medios de transmisión") <b>Medios de transmisión</b>
+            .indicador--click(v-if="mostrarIndicador") 
+          .caja 
+            img.my-3(src='@/assets/curso/images/tema1/ico_7_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
+            a(href="#7", title="Recursos compartidos") <b>Recursos compartidos</b>
+            .indicador--click(v-if="mostrarIndicador") 
         
-        .row.justify-content-center.mb-5.d-block.d-lg-none
-          .col-7.col-md-6.col-lg-4.p-4.d-flex
-            .tarjeta.tarjeta_white-1.p-4.aling-21
-              .row.justify-content-center.mb-3
-                .col-8
-                  img.mb-4(src='@/assets/curso/images/tema1/ico_1_menu.svg' alt='AvatarTop', style="width:160px; display:block; margin:auto 0;")
-              a(href="#1", title="Redes de datos") <b>Redes de datos</b>
-              .indicador--click(v-if="mostrarIndicador")  
-          .col-7.col-md-6.col-lg-4.p-4.d-flex
-            .tarjeta.tarjeta_white-1.p-4.aling-21
-              .row.justify-content-center.mb-3
-                .col-8
-                  img.mb-2(src='@/assets/curso/images/tema1/ico_2_menu.svg' alt='AvatarTop')
-              a(href="#2", title="Modelos de referencia") <b>Modelos de referencia</b>
-              .indicador--click(v-if="mostrarIndicador")
-          .col-7.col-md-6.col-lg-4.p-4.d-flex
-            .tarjeta.tarjeta_white-1.p-4.aling-21
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(src='@/assets/curso/images/tema1/ico_3_menu.svg' alt='AvatarTop')
-              a(href="#3", title="Modelo de referencia TCP /IP") <b>Modelo de referencia TCP /IP</b>
-              .indicador--click(v-if="mostrarIndicador") 
-          .col-7.col-md-6.col-lg-4.p-4.d-flex
-            .tarjeta.tarjeta_white-1.p-3.aling-21
-              .row.justify-content-center.mb-3
-                .col-8
-                  img.mb-3(src='@/assets/curso/images/tema1/ico_4_menu.svg' alt='AvatarTop')
-              a(href="#4", title="Protocolos de comunicación") <b>Protocolos de comunicación</b>
-              .indicador--click(v-if="mostrarIndicador") 
-          .col-7.col-md-6.col-lg-4.p-4.d-flex
-            .tarjeta.tarjeta_white-1.p-3.aling-21
-              .row.justify-content-center.mb-3
-                .col-8
-                  img.mb-3(src='@/assets/curso/images/tema1/ico_5_menu.svg' alt='AvatarTop')
-              a(href="#5", title="Puertos de comunicación") <b>Puertos de comunicación</b>
-              .indicador--click(v-if="mostrarIndicador") 
-          .col-7.col-md-6.col-lg-4.p-4.d-flex
-            .tarjeta.tarjeta_white-1.p-4.aling-21
-              .row.justify-content-center.mb-3
-                .col-8
-                  img.mb-3(src='@/assets/curso/images/tema1/ico_6_menu.svg' alt='AvatarTop')
-              a(href="#6", title="Medios de transmisión") <b>Medios de transmisión</b>
-              .indicador--click(v-if="mostrarIndicador") 
-          .col-7.col-md-6.col-lg-4.p-4.d-flex
-            .tarjeta.tarjeta_white-1.p-3.aling-21
-              .row.justify-content-center.mb-3
-                .col-8
-                  img.mb-3(src='@/assets/curso/images/tema1/ico_7_menu.svg' alt='AvatarTop')
-              a(href="#7", title="Recursos compartidos") <b>Recursos compartidos</b>
-              .indicador--click(v-if="mostrarIndicador") 
+      .row.justify-content-center.mb-5.d-block.d-lg-none
+        .col-7.col-md-6.col-lg-4.p-4.d-flex
+          .tarjeta.tarjeta_white-1.p-4.aling-21
+            .row.justify-content-center.mb-3
+              .col-8
+                img.mb-4(src='@/assets/curso/images/tema1/ico_1_menu.svg' alt='AvatarTop', style="width:160px; display:block; margin:auto 0;")
+            a(href="#1", title="Redes de datos") <b>Redes de datos</b>
+            .indicador--click(v-if="mostrarIndicador")  
+        .col-7.col-md-6.col-lg-4.p-4.d-flex
+          .tarjeta.tarjeta_white-1.p-4.aling-21
+            .row.justify-content-center.mb-3
+              .col-8
+                img.mb-2(src='@/assets/curso/images/tema1/ico_2_menu.svg' alt='AvatarTop')
+            a(href="#2", title="Modelos de referencia") <b>Modelos de referencia</b>
+            .indicador--click(v-if="mostrarIndicador")
+        .col-7.col-md-6.col-lg-4.p-4.d-flex
+          .tarjeta.tarjeta_white-1.p-4.aling-21
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/images/tema1/ico_3_menu.svg' alt='AvatarTop')
+            a(href="#3", title="Modelo de referencia TCP /IP") <b>Modelo de referencia TCP /IP</b>
+            .indicador--click(v-if="mostrarIndicador") 
+        .col-7.col-md-6.col-lg-4.p-4.d-flex
+          .tarjeta.tarjeta_white-1.p-3.aling-21
+            .row.justify-content-center.mb-3
+              .col-8
+                img.mb-3(src='@/assets/curso/images/tema1/ico_4_menu.svg' alt='AvatarTop')
+            a(href="#4", title="Protocolos de comunicación") <b>Protocolos de comunicación</b>
+            .indicador--click(v-if="mostrarIndicador") 
+        .col-7.col-md-6.col-lg-4.p-4.d-flex
+          .tarjeta.tarjeta_white-1.p-3.aling-21
+            .row.justify-content-center.mb-3
+              .col-8
+                img.mb-3(src='@/assets/curso/images/tema1/ico_5_menu.svg' alt='AvatarTop')
+            a(href="#5", title="Puertos de comunicación") <b>Puertos de comunicación</b>
+            .indicador--click(v-if="mostrarIndicador") 
+        .col-7.col-md-6.col-lg-4.p-4.d-flex
+          .tarjeta.tarjeta_white-1.p-4.aling-21
+            .row.justify-content-center.mb-3
+              .col-8
+                img.mb-3(src='@/assets/curso/images/tema1/ico_6_menu.svg' alt='AvatarTop')
+            a(href="#6", title="Medios de transmisión") <b>Medios de transmisión</b>
+            .indicador--click(v-if="mostrarIndicador") 
+        .col-7.col-md-6.col-lg-4.p-4.d-flex
+          .tarjeta.tarjeta_white-1.p-3.aling-21
+            .row.justify-content-center.mb-3
+              .col-8
+                img.mb-3(src='@/assets/curso/images/tema1/ico_7_menu.svg' alt='AvatarTop')
+            a(href="#7", title="Recursos compartidos") <b>Recursos compartidos</b>
+            .indicador--click(v-if="mostrarIndicador") 
         
       #1.pRelative
         .backtoTop-6
@@ -215,11 +215,11 @@
               img(src='@/assets/curso/images/tema1/ico_13.svg' alt='AvatarTop')
           h6.text-center.mb-0 Modelos de referencia
       .col-7.col-md-6.col-lg-2.p-4.d-flex
-        .tarjeta.tarjeta_white.p-3
+        .tarjeta.tarjeta_white.p-2
           .row.justify-content-center.mb-3
             .col-8
-              img(src='@/assets/curso/images/tema1/ico_14.svg')
-          h6.text-center.mb-0 Protocolos de comunicación
+              img(src='@/assets/curso/images/tema1/ico_14.svg' alt='AvatarTop' style="width:80px; display:block; margin:0 auto;")
+          h6.text-center.mb-3 Protocolos de comunicación
       .col-7.col-md-6.col-lg-2.p-4.d-flex
         .tarjeta.tarjeta_white.p-3
           .row.justify-content-center.mb-3
@@ -482,7 +482,7 @@
         .col-12.col-md-4.col-lg-6.col-xl-6.my-3.mb-5(data-aos="fade-left")
 
           .row.justify-content-center.align-items-center
-            .col-7
+            .col-12.col-md-4.col-lg-7.col-xl-7.my-3
               SlyderA.tarjeta_white-1(columnas="col-6")
                 .row.justify-content-center
                   .col-md-10.mb-4.mb-md-2.p-0
@@ -538,12 +538,26 @@
               button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
             .carousel-inner
               .carousel-item.active
-                figure
-                  img(src='@/assets/curso/images/tema1/img_slyder_pro_1.png', alt='Texto que describa la imagen')
-                
+                .row.justify-content-center.align-items-center.fondo-slyder-pro
+                  .col-12.col-md-8.col-lg-6.col-xl-6.mb-0
+                    img(src='@/assets/curso/images/tema1/img_banner_pro.png',  alt='imagen relacionada' style='width:1020px')
+                  .col-12.col-md-8.col-lg-6.col-xl-6.mb-0
+                    h4.mt-3
+                      strong Protocolos orientados #[br]#[.text_re a la conexión]
+                    p.mb-3 Estos requieren un modo de comunicación de redes donde se debe establecer una conexión antes de transferir datos. Se identifica el flujo de tráfico con un identificador de conexión en lugar de utilizar explícitamente las direcciones de la fuente y el destino.
+
+                    p Se dice que un servicio de comunicación entre dos dispositivos es orientado a conexión cuando antes de iniciar la comunicación se valida el cumplimiento de ciertas variables como (disponibilidad, alcance, origen, destino, etc.) entre estos dispositivos y se negocian unas credenciales para hacer esta conexión más segura y eficiente.
+                    img(src='@/assets/curso/images/tema1/img_conexion.svg',  alt='imagen relacionada' style='width:505px')
               .carousel-item
-                figure
-                  img(src='@/assets/curso/images/tema1/img_slyder_pro_2.png', alt='Texto que describa la imagen')
+                .row.justify-content-center.align-items-center.fondo-slyder-pro
+                  .col-12.col-md-8.col-lg-6.col-xl-6.mb-0
+                    img(src='@/assets/curso/images/tema1/img_banner_pro.png',  alt='imagen relacionada' style='width:820px')
+                  .col-12.col-md-8.col-lg-6.col-xl-6.mb-0.mt-3
+                    h4.mt-3
+                      strong Protocolos no orientados #[br]#[.text_re a la conexión]
+                    p.mb-3 Sucede cuando una comunicación entre dos puntos finales de una red en los que un mensaje puede ser enviado desde un punto inicial o de origen a otro punto o dispositivo de la red sin acuerdo previo. El dispositivo en un extremo de la comunicación transmite los datos al otro, sin tener que asegurarse de que el receptor esté disponible y listo para recibir los datos. El emisor simplemente envía un mensaje dirigido al receptor.
+                    img(src='@/assets/curso/images/tema1/img_no_conexion.svg',  alt='imagen relacionada' style='width:505px')
+
             button.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')
               span.carousel-control-prev-icon(aria-hidden='true')
               span.visually-hidden Previous
@@ -592,31 +606,24 @@
             template(v-slot:imagen)
               figure
                 img(src="@/assets/curso/images/tema1/img_12.svg")
+            
+            .tarjeta.tarjeta-blanca(x="59.5%" y="65.5%" numero="")
+              .head_tar.mt-0.p-2
+              .p-3
+                h2.mb-3 Puertos  #[BR]#[span.highlight-1 lógicos]
+                p.text-alinear.mb-0 Los puertos lógicos son aquellos que utilizan un espacio de la memoria principal del dispositivo (RAM) que se asocia con un puerto físico o un canal de comunicación, y que proporciona un espacio para el almacenamiento temporal de la información que se va a transferir entre la localización de memoria y el canal de comunicación.
+                  figure
+                    img(src='@/assets/curso/images/tema1/p2.svg' alt='' , style="width:350px")
+
+            .tarjeta.tarjeta-blanca(x="90.5%" y="65.5%" numero="")
+              .head_tar.mt-0.p-2
+              .p-3
+                h2.mb-3 Puertos  #[BR]#[span.highlight-1 físicos]
+                p.text-alinear.mb-0 Los productos de capa de enlace de datos describen los métodos para intercambiar tramas de datos entre dispositivos en un medio común.
+                  figure
+                    img(src='@/assets/curso/images/tema1/p1.svg' alt='' , style="width:350px")
               
-            .tarjeta.p-4.tarjeta-blanca-2(x="90.5%" y="65.5%" numero="")
-              figure
-                img.mb-0(src='@/assets/curso/images/tema2/line_4.svg' alt='' , style="width:700px")
-                h3.m-2  Puertos 
-                  .row.mb-3
-                    .col-8.col-lg-4
-                      h3.bg-color-6.text-white  físicos
-                  p.text-small Los productos de capa de enlace de datos describen los métodos para intercambiar tramas de datos entre dispositivos en un medio común.
-                    figure
-                        img(src='@/assets/curso/images/tema1/p1.svg' alt='' , style="width:350px")
-
-            .tarjeta.p-4.tarjeta-blanca-2(x="59.5%" y="65.5%" numero="")
-              figure
-                img.mb-0(src='@/assets/curso/images/tema2/line_4.svg' alt='' , style="width:700px")
-                h3.m-2  Puertos 
-                  .row.mb-3
-                    .col-8.col-lg-4
-                      h3.bg-color-7.text-white  lógicos
-                  p.text-small Los puertos lógicos son aquellos que utilizan un espacio de la memoria principal del dispositivo (RAM) que se asocia con un puerto físico o un canal de comunicación, y que proporciona un espacio para el almacenamiento temporal de la información que se va a transferir entre la localización de memoria y el canal de comunicación.
-                    figure
-                        img(src='@/assets/curso/images/tema1/p2.svg' alt='' , style="width:350px")
             
-            
-
       .row.justify-content-center.align-items-center
         .col-lg-10.mb-4(data-aos="fade")
           .cajon.color-custom.p-4

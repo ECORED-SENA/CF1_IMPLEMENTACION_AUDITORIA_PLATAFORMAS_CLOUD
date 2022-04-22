@@ -31,7 +31,7 @@
 .backtoTop
   width: 65px
   position: relative
-  top: 3rem
+  top: 1rem
   float: right
   z-index: 1
 .backtoTop-1
@@ -71,7 +71,7 @@
 .backtoTop-6
   width: 75px
   position: relative
-  top: 3rem
+  top: 1rem
   float: right
   z-index: 1
 .floatRight
@@ -91,7 +91,7 @@
   height: 140px
   background-repeat: no-repeat
   background-size: cover
-  background-image: url('../assets/curso/images/tema1/back_intro.svg')
+  background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%)
   //filter: drop-shadow(2px 4px 6px grey)
   display: flex
   align-items: center
@@ -112,7 +112,7 @@
   height: 150px
   background-repeat: no-repeat
   background-size: cover
-  background-image: url('../assets/curso/images/tema1/back_intro.svg')
+  background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%)
   //filter: drop-shadow(2px 4px 6px grey)
   display: flex
   align-items: center
@@ -132,7 +132,7 @@
   height: 184px
   background-repeat: no-repeat
   background-size: cover
-  background-image: url('../assets/curso/images/tema1/back_intro.svg')
+  background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%)
   //filter: drop-shadow(2px 4px 6px grey)
   display: flex
   align-items: center
@@ -218,7 +218,11 @@
   background-image: url('../assets/curso/images/tema2/back_13.svg')
   background-size: cover
   background-repeat: no-repeat
-  margin-inline-start: -30px !important
+  margin-inline-start: -47px !important
+  margin-inline-end: -50px !important
+@media screen and (max-width: 992px)
+  margin-inline-start: 0px !important
+  margin-inline-end: 0px !important
   padding: 1.5rem
 .fondo-14
   background: linear-gradient(180deg, rgba(246,246,246,1) 25%, rgba(239,237,237,1) 100%)
@@ -345,8 +349,7 @@
   background-image: url('../assets/curso/images/tema2/back_24.svg')
   background-size: cover
   background-repeat: no-repeat 
-  margin-inline-start: -30px  !important
-  //padding: 2.5rem
+.fondo-15
   margin-top: 1rem
 .fondo-25
   background-image: url('../assets/curso/images/tema1/back_5.svg')
@@ -425,6 +428,10 @@
     left: 50%
     height: auto
     transform: translateX(1000rem) translateY(0%)
+.fondo-slyder-pro
+  background-image: url('../assets/curso/images/tema1/back_slyder_pro_4.png')
+  background-size: cover
+  background-repeat: no-repeat 
 .bg-tema-1-2
   background-image: url('../assets/curso/images/tema1/back_b.svg')
   background-position: 50% 38%
@@ -453,7 +460,7 @@ i.cac
   border-left-color: #E2C140
   background-color: #e8e8e8
 .color-custom
-	background: linear-gradient(180deg, rgba(239,221,173,1) 49%, rgba(239,221,173,0.7035013834635417) 100%) !important
+	background-color: #F5EABF !important
 	&::before
 		background-color: #E2C140
 .color-custom-1
@@ -560,6 +567,7 @@ i.cac
   border-bottom-left-radius: 10px
   width: 450px
   margin-top: -280px !important
+  margin-left: 25rem
 .tarjeta-violeta-1
   background-color: #FF2C9C !important
   border-top-left-radius: 10px
@@ -578,7 +586,7 @@ i.cac
   border-bottom-right-radius: 15px
   border-bottom-left-radius: 15px
   width: 450px
-  margin-top: -250px !important
+  margin-top: -200px !important
 .tarjeta-blanca-2
   background-color: #FFF !important
   border-top-left-radius: 15px
@@ -700,7 +708,7 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
   margin-top: -2rem
 .aling-12
   text-align: left  !important
-  margin-top: 1rem
+  margin-top: 0.5rem
   margin-left: 1rem
 .aling-13
   text-align: left  !important
@@ -896,7 +904,7 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
   border-bottom-left-radius: 10px
   border-bottom-right-radius: 10px
   border: 1px solid #707070 !important
-  box-shadow: 3px 3px #ccc
+  box-shadow: 5px 5px #ccc
   z-index: 1
 .flex-container
   display: flex
@@ -913,7 +921,6 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
   z-index: 1
   width: 94%
   margin: 0 auto
-
 
 .tarjeta_white-1
   background-color: white
@@ -952,6 +959,7 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
   background: linear-gradient(180deg, rgba(3,155,229,1) 25%, rgba(2,127,188,1) 100%)
   color: white
   padding: 1px
+  max-width: 110px !important
 
 .tarjeta--gris
   background-color: #F6F6F6 !important
@@ -1020,3 +1028,6 @@ h2.numeroTarjeta
   background-image: url('../assets/curso/images/tema1/esquina.png')    
   background-repeat: no-repeat
   background-position: bottom left
+
+.linea-tiempo-d__item__content__title 
+  font-size: 14px !important
