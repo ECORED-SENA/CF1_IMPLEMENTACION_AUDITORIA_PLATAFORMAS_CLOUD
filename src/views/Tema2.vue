@@ -214,7 +214,7 @@
     #t_2_5.titulo-segundo
       .h2 2.5 Amenazas de seguridad en la nube
     
-    .row.justify-content-center.align-items-center.fondo-13
+    .row.justify-content-center.align-items-center.fondo-13.mb-3
       .col-12.col-md-8.col-lg-4.col-xl-4.mb-4(data-aos="fade-right")
         img.img-a(src="@/assets/curso/images/tema2/img_7.svg" alt="AvatarTop",)
       .col-12.col-md-4.col-lg-8.col-xl-8.mb-3.p-3(data-aos="fade-left")
@@ -230,7 +230,7 @@
               h2.p-2.mb-2 Amenaza #[BR]#[span.highlight-1 de la seguridad]
               p.text-alinear El tipo de servicio contratado según los SLA previamente establecidos entre proveedor y cliente donde se determinan las responsabilidades de cada parte. El tipo de despliegue o puesta en producción de los servicios contratados.
     
-    .row.justify-content-center.fondo-10.my-5.p-5
+    .row.justify-content-center.fondo-10.p-5
       .col-lg-10(data-aos="fade")
         SlyderA(tipo="b")
           .row.justify-content-center.align-items-center

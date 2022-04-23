@@ -55,7 +55,7 @@
             figure
               img(src='@/assets/curso/images/tema1/infogra.svg')
 
-          .tarjeta.color-primario.p-3.tarjeta--azul_1(x="4%" y="50%" numero="")
+          .tarjeta.color-primario.p-3.tarjeta--azul_1-1(x="4%" y="50%" numero="")
             .row.space-between.align-items-center.mb-0
               .col-10
                 h3 Servicios de infraestructura
@@ -64,7 +64,7 @@
             p.text-alinear.mb-0.text-small Los servicios de infraestructura en la Nube, conocido como LaaS por sus siglas en inglés; se presentan como aplicaciones de autoservicio creadas para el acceso, control y gestión de infraestructuras remotas.
 
 
-          .tarjeta.color-primario.p-3.tarjeta-violeta(x="28%" y="50%" numero="")
+          .tarjeta.color-primario.p-3.tarjeta-violeta1(x="28%" y="50%" numero="")
             .row.space-between.align-items-center.mb-0
               .col-10
                 h3  Plataformas en la nube
@@ -73,7 +73,7 @@
             p.text-alinear.mb-0.text-small Las Plataformas en la Nube son tan flexibles y versátiles que se usan para desarrollar aplicaciones y sistemas complejos para impulsar los entornos virtuales. De hecho; los sistemas PaaS proporcionan marcos virtuales donde los especialistas desarrollan y personalizan sus sistemas los propietario y las aplicaciones.
 
             
-          .tarjeta.color-primario.p-3.tarjeta--azul_1(x="51.7%" y="50%" numero="")
+          .tarjeta.color-primario.p-3.tarjeta--azul_1-2(x="51.7%" y="50%" numero="")
             .row.space-between.align-items-center.mb-0
               .col-10
                 h3 <i>Software</i> como servicio
@@ -82,7 +82,7 @@
             p.text-alinear.mb-0.text-small Los Servicios de Aplicaciones en la Nube, o mejor conocidos como <i>Software</i> como Servicio(SaaS) se enfocan en el uso de la web para entregar aplicaciones para todo y todos. Esta es la razón por la cual los SaaS representan el mayor mercado de servicios y sistemas en la Nube.
             
 
-          .tarjeta.color-primario.p-3.tarjeta-violeta(x="76%" y="50%" numero="")
+          .tarjeta.color-primario.p-3.tarjeta-violeta2(x="76%" y="50%" numero="")
             .row.space-between.align-items-center.mb-0
               .col-10
                 h3 ¿Para quienes?
@@ -92,43 +92,38 @@
   
     #menu1.row.justify-content-center
       .col-lg-12(data-aos="fade")
-        .contenedor-total
+        .contenedor-total2
           figure
             img(src='@/assets/curso/images/tema1/img_2.png')
           .contenedor-text-1.mb-0
-            .row.justify-content-center.p-4
+            .row.justify-content-center.px-2.py-2.p-md-4
               .col-auto
-                p.aling-8.mb-4 Si bien en la mayoría de las ocasiones no es fácil identificar todas las opciones posibles, cuantas más alternativas se generen es más probable obtener una que resulte significativamente satisfactoria.
+                p.aling-8.mb-md-4.mb-0 Si bien en la mayoría de las ocasiones no es fácil identificar todas las opciones posibles, cuantas más alternativas se generen es más probable obtener una que resulte significativamente satisfactoria.
       .row.d-none.d-lg-block
         .flex-container
           .caja 
             img.my-3(src='@/assets/curso/images/tema1/ico_1_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-            a(href="#1", title="Redes de datos") <b>Redes de datos</b>
-            .indicador--click(v-if="mostrarIndicador")   
+            a(href="#1", title="Redes de datos") <b>Redes de datos</b> 
           a.caja.indicador__container(href="#2", title="Modelos de referencia" @mouseover="mostrarIndicador = false") 
             img.my-3(src='@/assets/curso/images/tema1/ico_2_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
             <b>Modelos de referencia</b>
             .indicador--click(v-if="mostrarIndicador")
           .caja 
             img.my-3(src='@/assets/curso/images/tema1/ico_3_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-            a(href="#3", title="Modelo de referencia TCP /IP") <b>Modelo de referencia TCP /IP</b>
-            .indicador--click(v-if="mostrarIndicador")   
+            a(href="#3", title="Modelo de referencia TCP /IP") <b>Modelo de referencia TCP /IP</b>  
           .caja 
             img.my-3(src='@/assets/curso/images/tema1/ico_4_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-            a(href="#4", title="Protocolos de comunicación") <b>Protocolos de comunicación</b>
-            .indicador--click(v-if="mostrarIndicador")   
+            a(href="#4", title="Protocolos de comunicación") <b>Protocolos de comunicación</b> 
           .caja 
             img.my-3(src='@/assets/curso/images/tema1/ico_5_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
             a(href="#5", title="Puertos de comunicación") <b>Puertos de comunicación</b>
-            .indicador--click(v-if="mostrarIndicador") 
           .caja 
             img.my-3(src='@/assets/curso/images/tema1/ico_6_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
             a(href="#6", title="Medios de transmisión") <b>Medios de transmisión</b>
-            .indicador--click(v-if="mostrarIndicador") 
           .caja 
             img.my-3(src='@/assets/curso/images/tema1/ico_7_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
             a(href="#7", title="Recursos compartidos") <b>Recursos compartidos</b>
-            .indicador--click(v-if="mostrarIndicador") 
+
         
       .row.justify-content-center.mb-5.d-block.d-lg-none
         .col-7.col-md-6.col-lg-4.p-4.d-flex
@@ -296,74 +291,79 @@
               figure
                 img.m-3(src='@/assets/curso/images/tema1/img_6.svg')
             
-            .tarjeta.p-3.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="12%" numero="")
+            .tarjeta.tarjeta-blanca.info-card-width.text-small.infog1-perso(x="52.5%" y="12%" numero="")
               h5.bg-color-2.text-white Física - Señalización y transmisión binaria
-              h5.mb-5 Transmisión binaria: cables, conectores, voltajes, velocidades de datos
-                .pRelative_1
-                  .backtoTop_1
-                    figure
-                      img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-              p.aling-19.mt-5.text-small.mb-0 Los protocolos de capa física describen los medios mecánicos, eléctricos,  funcionales y de procedimiento para activar, mantener y desactivar conexiones físicas para la transmisión de <i>bits</i> hacia un dispositivo de red y desde el.
+              .px-3
+                h5.mb-5 Transmisión binaria: cables, conectores, voltajes, velocidades de datos
+                  .pRelative_1
+                    .backtoTop_1
+                      figure
+                        img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
+                p.aling-19.mt-5.text-small.mb-0 Los protocolos de capa física describen los medios mecánicos, eléctricos,  funcionales y de procedimiento para activar, mantener y desactivar conexiones físicas para la transmisión de <i>bits</i> hacia un dispositivo de red y desde el.
 
-            .tarjeta.p-3.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="25%" numero="")
+            .tarjeta.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="25%" numero="")
               h5.bg-color-2.text-white Enlace de datos - Direccionamiento físico
-              h5.mb-5 Acceso a los medios
-                .pRelative_1
-                  .backtoTop_1
-                    figure
-                      img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-              p.aling-19.mt-5.text-small.mb-0 Los productos de capa de enlace de datos describen los métodos para intercambiar tramas de datos entre dispositivos en un medio común.
-
+              .px-3
+                h5.mb-5 Acceso a los medios
+                  .pRelative_1
+                    .backtoTop_1
+                      figure
+                        img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:2.5rem 6.4rem; height: 140px;")
+                p.aling-19.mt-5.text-small.mb-0 Los productos de capa de enlace de datos describen los métodos para intercambiar tramas de datos entre dispositivos en un medio común.
               
-            .tarjeta.p-3.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="37%" numero="")
+            .tarjeta.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="37%" numero="")
               h5.bg-color-2.text-white Red - Determinación de ruta y direccionamiento lógico
-              h5.mb-5 Direccionamiento y mejor ruta
-                .pRelative_1
-                  .backtoTop_1
-                    figure
-                      img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-              p.aling-19.mt-5.text-small La capa de red, proporciona servicios para intercambiar los datos individuales en la red entre dispositivos finales identificados.
+              .px-3  
+                h5.mb-5 Direccionamiento y mejor ruta
+                  .pRelative_1
+                    .backtoTop_1
+                      figure
+                        img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:2.5rem 6.4rem; height: 140px;")
+                p.aling-19.mt-5.text-small La capa de red, proporciona servicios para intercambiar los datos individuales en la red entre dispositivos finales identificados.
               
-
-            .tarjeta.p-3.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="48%" numero="")
+            .tarjeta.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="48%" numero="")
               h5.bg-color-2.text-white Transporte - Conexión de extremo a extremo y confiabiidad
-              h5.mb-5  Conexiones de extremo a extremo
-                .pRelative_1
-                  .backtoTop_1
-                    figure
-                      img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-              p.aling-19.mt-5.text-small  La capa de transporte, define los servicios para segmentar, transferir y rearmar los datos para las comunicaciones individuales entre dispositivos finales.
+              .px-3  
+                h5.mb-5  Conexiones de extremo a extremo
+                  .pRelative_1
+                    .backtoTop_1
+                      figure
+                        img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:2.5rem 6.4rem; height: 140px;")
+                p.aling-19.mt-5.text-small  La capa de transporte, define los servicios para segmentar, transferir y rearmar los datos para las comunicaciones individuales entre dispositivos finales.
 
-            .tarjeta.p-3.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="60%" numero="")
+            .tarjeta.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="60%" numero="")
               h5.bg-color-2.text-white Sesión - Comunicación entre dispositivos de red
-              h5.mb-5 Comunicación entre <i>hosts</i>
-                .pRelative_1
-                  .backtoTop_1
-                    figure
-                      img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-              p.aling-19.mt-5.text-small La capa de sesión, proporciona servicios a la capa de presentación para organizar su diálogo y administrar el intercambio de datos.
-
+              .px-3  
+                h5.mb-5 Comunicación entre <i>hosts</i>
+                  .pRelative_1
+                    .backtoTop_1
+                      figure
+                        img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:2.5rem 6.4rem; height: 140px;")
+                p.aling-19.mt-5.text-small La capa de sesión, proporciona servicios a la capa de presentación para organizar su diálogo y administrar el intercambio de datos.
               
-            .tarjeta.p-3.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="75%" numero="")
+            .tarjeta.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="75%" numero="")
               h5.bg-color-2.text-white Presentación - Representación de datos y encriptación
-              h5.mb-5 Representación de datos
-                .pRelative_1
-                  .backtoTop_1
-                    figure
-                      img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-              p.aling-19.mt-5.text-small La capa de red, proporciona una representación común de los datos transferidos entre los servicios de la capa de aplicación.
+              .px-3  
+                h5.mb-5 Representación de datos
+                  .pRelative_1
+                    .backtoTop_1
+                      figure
+                        img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:2.5rem 6.4rem; height: 140px;")
+                p.aling-19.mt-5.text-small La capa de red, proporciona una representación común de los datos transferidos entre los servicios de la capa de aplicación.
 
-            .tarjeta.p-3.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="91%" numero="")
+            .tarjeta.tarjeta-blanca.info-card-width.text-small(x="52.5%" y="91%" numero="")
               h5.bg-color-2.text-white Aplicación - Servicios de red a aplicaciones
-              h5.mb-5  Procesos de red a aplicaciones
-                .pRelative_1
-                  .backtoTop_1
-                    figure
-                      img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:1rem 6.4rem;")
-              p.aling-19.mt-5.text-small La capa de red, proporciona los medios para la conectividad de extremo a extremo entre individuos de la red humana mediante redes de datos.
+              .px-3  
+                h5.mb-5  Procesos de red a aplicaciones
+                  .pRelative_1
+                    .backtoTop_1
+                      figure
+                        img(src='@/assets/curso/images/tema1/line.svg' alt='' , style="width:7px; display:block; margin:2.5rem 6.4rem; height: 140px;")
+                p.aling-19.mt-5.text-small La capa de red, proporciona los medios para la conectividad de extremo a extremo entre individuos de la red humana mediante redes de datos.
           
         .col-12.col-md-4.col-lg-3.col-xl-3(data-aos="fade-left")
           img(src="@/assets/curso/images/tema1/img_7.svg" alt="AvatarTop", style="width:180px; display:block; margin: 2rem 10rem;")
+ 
   .container.bg-white.p-4.p-md-5.container-bottom.cs
       
       p.mb-5 Para que los paquetes de datos puedan viajar desde el origen hasta su destino, cada capa del modelo OSI en el origen debe comunicarse con su capa igual en el lugar de destino. Esta forma de comunicación se conoce como comunicaciones de par-a-par en cada uno de estas capas la información cambia de nombre es decir usa un PDU (<i>Protocol Data Unit</i>).
@@ -773,7 +773,7 @@
         .col-lg-12.px-lg-2.px-4.py-4.pb-md-5(data-aos="fade-right")
           .row.align-items-center.justify-content-evenly
             .col-lg-4.col-md-4-col-10.mb-md-0.mb-4.mb-lg-0(data-aos="fade-right")
-              img(src='@/assets/curso/images/tema1/img_pc_2.svg' alt='Imagen decorativa')
+              img(src='@/assets/curso/images/tema1/img_pc_2-1.svg' alt='Imagen decorativa')
             .col-lg-7.col-md-7.text-white.p-3(data-aos="fade-left")
               p Antes de la llegada de la computación en la nube, los servicios, infraestructura, plataformas y en general los recursos de TI debían ser instalados, configurados y administrados en su totalidad por la empresa lo que conlleva varios inconvenientes entre los cuales se pueden mencionar los siguientes:
       
@@ -1028,8 +1028,8 @@
       .contenedor-total.mb-0(data-aos="fade")
         figure
           img(src='@/assets/curso/images/tema1/img_39.png' alt='Imagen ambiental' style='')
-        .contenedor-text
-          .row.justify-content-center.p-5
+        .contenedor-text.neg--top
+          .row.justify-content-center.p-md-5.px-3-py-3
             .col-auto
               p.mb-0 Debido a la masificación y cada vez mayor adopción de tecnologías de <i>cloud computing</i>, han sido muchos los nuevos proveedores que han ido surgiendo y posicionando sus ofertas de servicios, sin embargo, en el mundo occidental podemos mencionar los siguientes como los más grandes y más importantes proveedores de servicios en la nube.
 
