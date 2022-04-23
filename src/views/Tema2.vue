@@ -12,7 +12,7 @@
         img.mx-auto(src='@/assets/curso/images/tema2/img_1.png' alt='Imagen ambiental' style='')
       .contenedor-text.mg-top
         .row.justify-content-center
-          .col-auto.p-4
+          .col-auto.p-md-4.px-2.py-1
             p.aling-12.mb-3 El entorno #[i Cloud], brinda grandes oportunidades para el crecimiento del negocio. Una vez se migra la empresa a este, se debe asegurar que su arquitectura se base en pilares bien definidos, además este entorno, ofrece herramientas que permiten determinar el coste de cualquier recurso desplegado con base a su uso real.
             p.aling-12.mb-0 Como se indica a continuación, hay varias características que hacen apreciable el almacenamiento en la nube, estas son:
   
