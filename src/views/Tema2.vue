@@ -27,7 +27,7 @@
             p.aling-12.mb-3 Como se indica a continuación, hay varias características que hacen apreciable el almacenamiento en la nube, estas son:
     
     Separador
-    #t_2_1.ma.titulo-segundo.mt-3
+    #t_2_1.titulo-segundo.mt-3
       .h2 2.1 Ventajas y desventajas de la informática en la nube
 
     .row.align-items-start.bg-tema-1-2.mb-5.mb-md-0
@@ -42,26 +42,26 @@
     .row.justify-content-center.align-items-center.ma-1
       .col-12.col-md-8.col-lg-10.col-xl-10.mb-4(data-aos="fade")
         LineaTiempoD.color-acento-contenido
-            p.text-small.color.line(numero="1" titulo="Mejor economía") 
+            p.color.line(numero="1" titulo="Mejor economía") 
               ul.lista-ul--color
                 li 
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Un proceso de planeación de una compañía, junto con la infraestructura requerida para dar soporte a sus proceso misionales, requiere de 1 a 5 años.
+                  p.mb-0 Un proceso de planeación de una compañía, junto con la infraestructura requerida para dar soporte a sus proceso misionales, requiere de 1 a 5 años.
                 li
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Durante esta proyección en tiempo e inversión, es posible calcular la adquisición de los recursos planeados.
+                  p.mb-0 Durante esta proyección en tiempo e inversión, es posible calcular la adquisición de los recursos planeados.
                 li
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Se pueden subutilizar o requerir mayores recursos, por falta de proyección, lo que impacta de manera directa la economía de la empresa.
+                  p.mb-0 Se pueden subutilizar o requerir mayores recursos, por falta de proyección, lo que impacta de manera directa la economía de la empresa.
                 li 
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | El modelo económico utilizado por las tecnologías de computación en la nube, requiere un pago solo por lo utilizado, a la vez que facilita iniciar con recursos mínimos, e ir incrementando estos a medida que aumenta su necesidad.
+                  p.mb-0 El modelo económico utilizado por las tecnologías de computación en la nube, requiere un pago solo por lo utilizado, a la vez que facilita iniciar con recursos mínimos, e ir incrementando estos a medida que aumenta su necesidad.
                 li 
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | En la computación en la nube, la inversión inicial no requiere mucho dinero, pues no se necesita adquirir y mantener infraestructuras informáticas costosas, o el pago periódico de administración de la infraestructura como: consumo eléctrico, aire acondicionado, etc.
+                  p.mb-0 En la computación en la nube, la inversión inicial no requiere mucho dinero, pues no se necesita adquirir y mantener infraestructuras informáticas costosas, o el pago periódico de administración de la infraestructura como: consumo eléctrico, aire acondicionado, etc.
                 li 
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | En el caso de las #[i startups] toma mayor importancia porque, al ceder recursos de proceso en concesión, se benefician de reducir el costo inicial y reducir el tiempo de comercialización al crear y poner sus ofertas a disposición del público general.
+                  p.mb-0 En el caso de las #[i startups] toma mayor importancia porque, al ceder recursos de proceso en concesión, se benefician de reducir el costo inicial y reducir el tiempo de comercialización al crear y poner sus ofertas a disposición del público general.
 
             p(numero="2" titulo="Administración simplificada de TI") Esta es una ventaja muy importante ya que no se requiere disponer de tiempo, recursos y personal para configurar, usar y mantener los recursos e infraestructura tecnológica de la organización, estos son funciones que son asumidas por el proveedor de servicios de #[i cloud] y es un factor diferencial en la oferta de valores ofrecidos por los diferentes proveedores al momento de cotizar o adquirir servicios de nube. 
             
@@ -82,8 +82,8 @@
       #t_2_2.titulo-segundo
         .h2 2.2 Rentabilidad de la informática en la nube para los usuarios
 
-      .row.justify-content-center.align-items-center.mb-3
-        .col-12.col-md-8.col-lg-8.col-xl-8.mb-4(data-aos="fade")
+      .row.justify-content-center.align-items-center.mb-3(data-aos="fade")
+        .col-12.col-md-8.col-lg-8.col-xl-8.mb-4
           ImagenInfografica.color-secundario.mb-5
             template(v-slot:imagen)
               figure
@@ -116,8 +116,8 @@
 
     p.mb-3 Desde el plano económico la computación en la nube beneficia a las empresas, como ya se indicó a nivel de las ventajas que ofrece el <i>cloud computing,</i>  en primera instancia está el hecho de no requerir una gran inversión en TI de larga duración, reemplazando los gastos de capital por gastos operativos, esto significa que para la organización es más favorable tener una inversión a corto plazo, pagando por los servicios solicitados y utilizados, posibilitando que las organizaciones puedan aprovechar e invertir en otro tipo de necesidades.
 
-    .row.justify-content-center.align-items-center
-      .col-12.col-md-8.col-lg-12.col-xl-12.mb-4(data-aos="fade")       
+    .row.justify-content-center.align-items-center(data-aos="fade") 
+      .col-12.col-md-8.col-lg-12.col-xl-12.mb-4      
         .cajon.color-custom.p-3
           p La informática en la nube nos lleva a lograr tener una transición del modelo de negocio en cuanto a TI se refiere pasando de CapEx o OpEx para el primer término significa que pasamos de destinar una gran cantidad de dinero para una sola inversión en tecnología a largo plazo a un concepto llamado OpEx, que son inversiones o gastos recurrentes a corto plazo, lo que permite a las organizaciones agilidad para usar esos recursos financieros haciendo inversiones mucho más rentables. 
 
@@ -127,18 +127,18 @@
       .h2 2.3 Rentabilidad para los proveedores de servicios en la nube
     
     .row.justify-content-center.align-items-center.fondo-12
-      .col-12.col-md-8.col-lg-5.col-xl-5.mb-4(data-aos="fade-right")
+      .col-11.col-md-8.col-lg-5.col-xl-5.mb-4(data-aos="fade-right")
         img.img-a(src="@/assets/curso/images/tema2/img_4.svg" alt="AvatarTop")
-      .col-12.col-md-4.col-lg-7.col-xl-7.mb-3(data-aos="fade-left")
+      .col-12.col-md-4.col-lg-7.col-xl-7.mb-1.mb-md-3(data-aos="fade-left")
         p.aling-2 En el caso de los proveedores de servicios de #[i cloud] sucede lo contrario que con el cliente, ellos requieren más CapEx toda vez que deben de hacer grandes inversiones en infraestructura creando y dotando más Centros de Datos con tecnologías confiables, de alta disponibilidad y a unos costos que puedan ser amortizados o administrados a partir de tener más usuarios utilizando su infraestructura.
-        .cajon.color-custom.p-4.mt-5
+        .cajon.color-custom.p-4.mt-3.mt-md-5
             p.mb-0 Para el proveedor el camino es crear grandes centros de datos dotados con todas las características y bondades de la computación en la nube a fin de poder entregar y ofrecer un gran volumen de clientes nuevos que hagan rentable la inversión.
     
     Separador
 
     #t_2_4.titulo-segundo
       .h2 2.4 Contratos y objetivos de nivel de servicio
-  .container.bg-white.px-5.py-2.fondo-24.mg-top.mb-0
+  .container.bg-white.px-1.px-md-5.py-2.fondo-24.mg-top.mb-0
     .col-lg-12.mx-auto.mb-5
       .tema1-1.p-4 
         .bloque-texto-a.color-custom-1.p-3
@@ -151,16 +151,15 @@
               figure
                 img.img-a(src='@/assets/curso/images/tema2/img_5.png' alt='Volver arriba')
 
-      .row.justify-content-center.ma-1.mx-0(data-aos="fade")
-        .col-7.col-md-6.col-lg-4.p-4.d-flex
+      .row.justify-content-center.ma-0.ma-md-1.mx-0(data-aos="fade")
+        .col-6.col-md-6.col-lg-4.p-md-4.p-2.d-flex
           .tarjeta--sencilla.p-4
             .row.justify-content-center.mb-3
               .col-7
                   img.my-0.img-a(src='@/assets/curso/images/tema2/ico_1.svg', alt="alt", ).m-auto.mb-2
             h3.text-center.mb-3 Interrogante 1
-            p.mb-2.text-center ¿Cuáles y en qué cantidad son los servicios a contratar?
-                
-        .col-7.col-md-6.col-lg-4.p-4.d-flex
+            p.mb-2.text-center ¿Cuáles y en qué cantidad son los servicios a contratar?    
+        .col-6.col-md-6.col-lg-4.p-md-4.p-2.d-flex
           .tarjeta--sencilla.p-4
             .row.justify-content-center.mb-3
               .col-7
@@ -168,7 +167,7 @@
                   img.my-0.img-a(src='@/assets/curso/images/tema2/ico_2.svg', alt="alt").m-auto.mb-2
             h3.text-center.mb-3 Interrogante 2
             p.mb-0.text-center ¿Qué nivel de soporte y respuesta a incidentes esperan por parte del proveedor?
-        .col-7.col-md-6.col-lg-4.p-4.d-flex
+        .col-6.col-md-6.col-lg-4.p-md-4.p-2.d-flex
           .tarjeta--sencilla.p-4
             .row.justify-content-center.mb-3
               .col-7
@@ -176,8 +175,9 @@
                   img.my-0.img-a(src='@/assets/curso/images/tema2/ico_3.svg',alt="alt").m-auto.mb-2
             h3.text-center.mb-3 Interrogante 3
             p.mb-0.text-center ¿Cómo la organización puede validar la calidad en el servicio ofrecido por el proveedor?
+      
       .p-3
-  .container.bg-white.px-5.py-2.fondo-5.mg-top.mb-0
+  .container.bg-white.px-md-5.px-3.py-2.fondo-5.mg-top.mb-0
         .row.justify-content-center.align-items-center.p-2
           .col-12.col-md-8.col-lg-5.col-xl-5.mb-4(data-aos="fade-right")
             img(src="@/assets/curso/images/tema2/img_6.png" alt="AvatarTop",)
@@ -208,31 +208,30 @@
               li 
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Proceso y directivas con respecto a la terminación del contrato.
-  .container.bg-white.p-5.container-bottom.mt-0.cs  
+  .container.bg-white.p-md-5.p-3.container-bottom.mt-0.cs  
     Separador
 
     #t_2_5.titulo-segundo
       .h2 2.5 Amenazas de seguridad en la nube
     
     .row.justify-content-center.align-items-center.fondo-13.mb-3
-      .col-12.col-md-8.col-lg-4.col-xl-4.mb-4(data-aos="fade-right")
+      .col-9.col-md-8.col-lg-4.col-xl-4.mb-4.pt-4.pt-md-0(data-aos="fade-right")
         img.img-a(src="@/assets/curso/images/tema2/img_7.svg" alt="AvatarTop",)
-      .col-12.col-md-4.col-lg-8.col-xl-8.mb-3.p-3(data-aos="fade-left")
+      .col-11.col-md-4.col-lg-8.col-xl-8.mb-3.p-md-3.px-5(data-aos="fade-left")
         p.text-white.mb-3 Las organizaciones en el desarrollo de su actividad o <i>core</i>  de negocio reciben, generan, procesan o conservan información considerada como activos de la organización y tienen una afectación desde el plano económico o de negocio, de conocimiento o de propiedad intelectual en el momento de estar expuesta a posibles amenazas que puedan afectar lo antes mencionado.
-
         p.text-white.mb-3 Las amenazas a la seguridad en la computación en la nube van a depender de varios factores:
         p.text-white.mb-3 En términos generales son varias las amenazas que afectan la computación en la nube como podemos ver en el siguiente recurso educativo:
   
-        .col-8
+        .col-md-8.col-12
           .tarjeta.tarjeta-blanca-4.mb-5
             .head_tar.mt-0.p-2
             .p-3
               h2.p-2.mb-2 Amenaza #[BR]#[span.highlight-1 de la seguridad]
               p.text-alinear El tipo de servicio contratado según los SLA previamente establecidos entre proveedor y cliente donde se determinan las responsabilidades de cada parte. El tipo de despliegue o puesta en producción de los servicios contratados.
     
-    .row.justify-content-center.fondo-10.p-5
-      .col-lg-10(data-aos="fade")
-        SlyderA(tipo="b")
+    .row.justify-content-center.fondo-10.p-md-5.p-1(data-aos="fade")
+      .col-lg-10.col-11
+        SlyderA.tema2-5(tipo="b")
           .row.justify-content-center.align-items-center
             .col-12.col-lg-5.col-md-5.mb-4.mb-md-0
               h4.mb-4 Accesos no autorizados
@@ -241,7 +240,6 @@
               figure
                 img.img-a(src='@/assets/curso/images/tema2/img_9.svg', alt='', )
             
-
           .row.justify-content-center.align-items-center
             .col-12.col-lg-7.col-md-5.mb-4.mb-md-0
               figure
@@ -317,17 +315,17 @@
     p.mb-5 Estos informes se dividen en diferentes niveles:   
 
     .row.justify-content-center.mb-4.fondo-5.mx-0(data-aos="fade")
-      .col-7.col-md-6.col-lg-4.p-4.d-flex
+      .col-6.col-md-6.col-lg-4.p-md-4.p-2.d-flex
         .crd.crd--topLine.m-1
           img.img-a(src="@/assets/curso/images/tema2/ico_4.svg", alt="alt").m-auto.mb-2
           h4.text-center SOC 1
           p.text-center.mb-0 Que cubren los informes financieros.
-      .col-7.col-md-6.col-lg-4.p-4.d-flex
+      .col-6.col-md-6.col-lg-4.p-md-4.p-2.d-flex
         .crd.crd--topLine.m-1
           img.img-a(src="@/assets/curso/images/tema2/ico_5.svg", alt="alt").m-auto.mb-2
           h4.text-center SOC 2
           p.text-center.mb-0 Que cubren la seguridad, la disponibilidad y la privacidad.
-      .col-7.col-md-6.col-lg-4.p-4.d-flex 
+      .col-6.col-md-6.col-lg-4.p-md-4.p-2.d-flex.mb-3.mb-md-0
         .crd.crd--topLine.m-1
           img.img-a(src="@/assets/curso/images/tema2/ico_6.svg", alt="alt").m-auto.mb-2
           h4.text-center SOC 3
