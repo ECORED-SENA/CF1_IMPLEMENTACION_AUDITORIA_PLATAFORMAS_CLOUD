@@ -12,7 +12,7 @@
         .titulo-segundo
           h2 Sopa de letras
         p.mb-4 Afianzar algunos de los  conceptos más importantes de los riesgos y la seguridad en servicios <em>cloud</em>.
-        .tarjeta.tarjeta--azul.p-3
+        .actividad.tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Buscar las palabras ocultas en la sopa de letras.
