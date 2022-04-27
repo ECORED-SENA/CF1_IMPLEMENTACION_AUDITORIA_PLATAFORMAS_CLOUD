@@ -7,15 +7,15 @@
       .col-8.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.px-md-3
           figure
-            img(src="@/assets/curso/images/tema2/sopa-letras.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/curso/arrastrar-terminos.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Sopa de letras
-        p.mb-4 Afianzar algunos de los  conceptos más importantes de los riesgos y la seguridad en servicios <em>cloud</em>.
+          h2 Emparejamiento entre término y definición
+        p.mb-4 Afianzar algunos de los  conceptos más importantes de la computación en la nube.
         .actividad.tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Buscar las palabras ocultas en la sopa de letras.
+              p.fw-bold.mb-0 Arrastrar y soltar el término con la definición que corresponde.
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
                 span Realizar
