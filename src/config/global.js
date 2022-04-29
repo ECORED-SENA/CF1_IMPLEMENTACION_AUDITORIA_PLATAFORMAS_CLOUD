@@ -244,7 +244,7 @@ export default {
   complementario: [
     {
       texto:
-        'Amanecer en las redes [video] YouTube. Accedido 19  noviembre  2021',
+        'Como funciona la red [video] YouTube. Accedido 19  noviembre  2021',
       tipo: 'Video',
       link: 'https://youtu.be/D8YG2zfdag0',
     },

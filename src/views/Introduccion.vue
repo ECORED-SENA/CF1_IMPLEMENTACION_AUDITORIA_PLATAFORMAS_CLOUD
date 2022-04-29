@@ -24,7 +24,7 @@
       .contenedor-text
         .row.justify-content-center.p-4
           .col-auto
-            p.aling-12.mb-3 Le damos la bienvenida al componente formativo <b>“Generalidades de computación en la nube”</b>. Para comenzar el recorrido por el mismo, visite el recurso didáctico que se muestra a continuación:
+            p.aling-12.mb-3 Le damos la bienvenida al componente formativo <b>“Generalidades de la computación en la nube”</b>. Para comenzar el recorrido por el mismo, visite el recurso didáctico que se muestra a continuación:
   
     
     figure.mb-5

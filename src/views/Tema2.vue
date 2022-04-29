@@ -31,7 +31,7 @@
       .h2 2.1 Ventajas y desventajas de la informática en la nube
 
     .row.align-items-start.bg-tema-1-2.mb-5.mb-md-0
-      .col-lg-12.px-lg-2.px-4.py-4.pb-md-5(data-aos="fade-right")
+      .col-lg-12.px-lg-2.px-4.py-4(data-aos="fade-right")
         .row.align-items-center.justify-content-evenly
           .col-lg-4.col-md-4-col-10.mb-md-0.mb-4.mb-lg-0(data-aos="fade-right")
             img(src='@/assets/curso/images/tema2/img_2.svg' alt='Imagen decorativa')
@@ -78,10 +78,6 @@
         .cajon.color-custom-3.p-4.mb-3
           p Aunque es conocido que los servicios en la nube facilitan el trabajo remoto y ofrecen ciertos niveles de protección, no se debe desconocer algunas desventajas de <i>cloud computing</i> relacionados principalmente con los siguientes.
 
-      Separador 
-      #t_2_2.titulo-segundo
-        .h2 2.2 Rentabilidad de la informática en la nube para los usuarios
-
       .row.justify-content-center.align-items-center.mb-3(data-aos="fade")
         .col-12.col-md-8.col-lg-8.col-xl-8.mb-4
           ImagenInfografica.color-secundario.mb-5
@@ -113,6 +109,10 @@
                 h2.mb-3 Riesgos de  #[BR]#[span.highlight-1 confiabilidad]
                 p.text-alinear Si bien la informática en la nube obliga a que los proveedores de estos servicios tomen todas las medidas necesarias para garantizar el correcto funcionamiento y la entrega oportuna y con calidad a sus clientes, no están exentos de presentar problemas de confiabilidad que ocasionaron fallas e indisponibilidades que cuando se tienen en la nube nos pueden afectar y dejar sin acceso a los servicios, en la computación tradicional se puede implementar infraestructuras redundantes y con tolerancia a fallos, pero esto implica mayor costos e inversión, en la computación en la nube este tipo de problemas buscan solucionarse a través de acuerdos de nivel de servicio ofrecidos por el proveedor.
 
+
+      Separador 
+      #t_2_2.titulo-segundo
+        .h2 2.2 Rentabilidad de la informática en la nube para los usuarios
 
     p.mb-3 Desde el plano económico la computación en la nube beneficia a las empresas, como ya se indicó a nivel de las ventajas que ofrece el <i>cloud computing,</i>  en primera instancia está el hecho de no requerir una gran inversión en TI de larga duración, reemplazando los gastos de capital por gastos operativos, esto significa que para la organización es más favorable tener una inversión a corto plazo, pagando por los servicios solicitados y utilizados, posibilitando que las organizaciones puedan aprovechar e invertir en otro tipo de necesidades.
 
@@ -204,7 +204,7 @@
                 | Garantías que debe respetar el proveedor de servicios.
               li 
                 i.fas.fa-caret-right(style="color: #FF2C9C")
-                | Procedimientos necesarios para la recuperación ante desastres (continuidad del negocio.
+                | Procedimientos necesarios para la recuperación ante desastres (continuidad del negocio).
               li 
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Proceso y directivas con respecto a la terminación del contrato.

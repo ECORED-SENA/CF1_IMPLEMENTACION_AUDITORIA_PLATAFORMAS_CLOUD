@@ -68,7 +68,7 @@
                 h3  Plataformas en la nube
               .col-md-2.col-3
                 h2.numeroTarjeta.mb-0 02
-            p.text-alinear.mb-0.text-small Las Plataformas en la Nube son tan flexibles y versátiles que se usan para desarrollar aplicaciones y sistemas complejos para impulsar los entornos virtuales. De hecho; los sistemas PaaS proporcionan marcos virtuales donde los especialistas desarrollan y personalizan sus sistemas los propietario y las aplicaciones.
+            p.text-alinear.mb-0.text-small Las Plataformas en la Nube son tan flexibles y versátiles que se usan para desarrollar aplicaciones y sistemas complejos para impulsar los entornos virtuales. De hecho; los sistemas PaaS proporcionan marcos virtuales donde los especialistas desarrollan y personalizan sus sistemas los propietarios y las aplicaciones.
           .tarjeta.color-primario.p-3.tarjeta--azul_1-2(x="51.7%" y="50%" numero="")
             .row.space-between.align-items-center.mb-0
               .col-md-10.col-9
@@ -246,7 +246,7 @@
         
     .row.justify-content-center.align-items-center
       .col-12.col-md-8.col-lg-7.col-xl-7(data-aos="fade-right")
-        p.aling-11.mb-3 Esto llevó a la necesidad de estandarizar de manera que se permita la interconexión de una amplia gama de dispositivos sin importar fabricante o tipo se <i>software</i>, para que el intercambio de información sea posible se requiere el establecimiento de una serie de estándares.
+        p.aling-11.mb-3 Esto llevó a la necesidad de estandarizar de manera que se permita la interconexión de una amplia gama de dispositivos sin importar fabricante o tipo de <i>software</i>, para que el intercambio de información sea posible se requiere el establecimiento de una serie de estándares.
         p.mb-3 Estos estándares son construidos por una serie de organizaciones que son las siguientes:
         LineaTiempoD.color-acento-contenido.mb-5
             p(numero="1" titulo="ISO (Organización Internacional de Normas)") ISO definió un modelo de referencia como estándar para posibilitar las comunicaciones electrónicas a nivel global, conocido como el modelo OSI (Interconexión de Sistemas Abiertos).
@@ -257,9 +257,9 @@
 
             p(numero="4" titulo="EIA (Asociación de Industrias Electrónicas)") Es una organización formada por la asociación de las compañías electrónicas y de alta tecnología de los Estados Unidos, cuya misión es promover el desarrollo de mercado y la competitividad de la industria de alta tecnología de los Estados Unidos con esfuerzos locales e internacionales de la política. 
 
-            p(numero="5" titulo="TIA (Asociación de Industrias Telecomunicaciones)") Es una asociación comercial acreditada por el Instituto Nacional Estadounidense de Estándares (ANSI), con el fin de desarrollar normas industriales, tanto voluntarias como basadas en el consenso, sobre una amplia variedad de productos de las tecnologías de la información y la comunicación (TIC), y actualmente representa a casi 400 empresas. El Departamento de Estándares y Tecnología de TIA opera doce comités de ingeniería, que desarrollan pautas para equipos de radio privados, antenas celulares, terminales de datos, satélites, equipos de terminales telefónicos, accesibilidad, dispositivos VoIP, cableado estructurado, centros de procesamiento de datos, comunicaciones de dispositivos móviles, multidifusión multimedia, telemática vehicular, TIC utilizadas en el cuidado de la salud, comunicaciones M2M y redes de servicios inteligentes.
+            p(numero="5" titulo="TIA (Asociación de la Industria de las Telecomunicaciones)") Es una asociación comercial acreditada por el Instituto Nacional Estadounidense de Estándares (ANSI), con el fin de desarrollar normas industriales, tanto voluntarias como basadas en el consenso, sobre una amplia variedad de productos de las tecnologías de la información y la comunicación (TIC), y actualmente representa a casi 400 empresas. El Departamento de Estándares y Tecnología de TIA opera doce comités de ingeniería, que desarrollan pautas para equipos de radio privados, antenas celulares, terminales de datos, satélites, equipos de terminales telefónicos, accesibilidad, dispositivos VoIP, cableado estructurado, centros de procesamiento de datos, comunicaciones de dispositivos móviles, multidifusión multimedia, telemática vehicular, TIC utilizadas en el cuidado de la salud, comunicaciones M2M y redes de servicios inteligentes.
             
-            p(numero="6" titulo="ANSI (UIT Unión Internacional de Comunicaciones)") La Unión Internacional de Telecomunicaciones es el organismo especializado en telecomunicaciones de la Organización de las Naciones Unidas, encargado de regular las telecomunicaciones a nivel internacional entre las distintas administraciones y empresas operadoras. Su sede se encuentra en la ciudad de Ginebra.
+            p(numero="6" titulo="UIT (Unión Internacional de Telecomunicaciones)") La Unión Internacional de Telecomunicaciones es el organismo especializado en telecomunicaciones de la Organización de las Naciones Unidas, encargado de regular las telecomunicaciones a nivel internacional entre las distintas administraciones y empresas operadoras. Su sede se encuentra en la ciudad de Ginebra.
         
       .col-12.col-md-4.col-lg-5.col-xl-5.mb-5(data-aos="fade-left")
         img.img-a(src="@/assets/curso/images/tema1/img_pc.png")
@@ -714,7 +714,7 @@
   .container.bg-white.p-md-4.fondo-20  
     .row.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
-        p.aling-18.mb-4 Como ya hemos mencionado, las redes de datos facilitan y potencian el trabajo en red entre los diferentes usuarios y dispositivos, de tal manera que se pueda acceder a dispositivos y recursos compartidos, cuando indicamos los recursos, nos referimos a todos esos elementos tanto <i>hardware</i> como <i>software</i> que pueden compartidos y utilizados por los diferentes dispositivos conectados, estos recursos pueden ser desde el punto de vista del <i>hardware</i>:
+        p.aling-18.mb-4 Como ya hemos mencionado, las redes de datos facilitan y potencian el trabajo en red entre los diferentes usuarios y dispositivos, de tal manera que se pueda acceder a dispositivos y recursos compartidos, cuando indicamos los recursos, nos referimos a todos esos elementos tanto <i>hardware</i> como <i>software</i> que pueden ser compartidos y utilizados por los diferentes dispositivos conectados, estos recursos pueden ser desde el punto de vista del <i>hardware</i>:
         .row.justify-content-center
             .col-lg-4
               img(src='@/assets/curso/images/tema1/1.svg'  alt='' style="width:230px; display:block; margin:0 1.5rem;")
@@ -896,12 +896,6 @@
               ul.lista-ul--color.px-md-4
                 li.mb-1
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Se requiere por una NIIF
-                li.mb-1
-                  i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Almacenamiento
-                li.mb-1 
-                  i.fas.fa-caret-right(style="color: #FF2C9C")
                   | Almacenamiento
                 li.mb-1 
                   i.fas.fa-caret-right(style="color: #FF2C9C")
@@ -911,7 +905,7 @@
                   | <i>Networking</i> 
                 li.mb-1
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  p.mb-0 <i>software</i> de administración de la infraestructura.
+                  p.mb-0 <i>Software</i> de administración de la infraestructura.
 
           .row.justify-content-center.align-items-center
             .col-11.col-md-5.mb-4.mb-md-0
@@ -1194,8 +1188,7 @@
                   span  Regiones de Google <i>Cloud</i>
           .row.justify-content-center
             .col-lg-12.mb-4(data-aos="fade")
-
-                img(src="@/assets/curso/images/tema1/img_43.svg" alt="AvatarTop")
+                img(src="@/assets/curso/images/tema1/fig9.png" alt="AvatarTop")
           
           .row.justify-content-center.align-items-center.fondo-17
               .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
